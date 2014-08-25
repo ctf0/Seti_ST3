@@ -21,7 +21,7 @@ Not Yet.
 
 ### Manual
 
-1. Download the .zip file.
+1. [Download the .zip](https://github.com/ctf0/Seti_ST3/archive/master.zip).
 2. Unzip and Copy the folder into `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text.
 3. copy the "fold.png" to ur (default theme folder) to override the "focken default yellow" icon.
 
