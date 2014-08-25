@@ -928,7 +928,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Seti/Seti/regex.png",
+        "layer0.texture": "Theme - Glacier/Glacier/regex.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -946,7 +946,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Seti/Seti/casesens.png",
+        "layer0.texture": "Theme - Glacier/Glacier/casesens.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -964,7 +964,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Seti/Seti/wholeword.png",
+        "layer0.texture": "Theme - Glacier/Glacier/wholeword.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -987,7 +987,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Seti/Seti/context.png",
+        "layer0.texture": "Theme - Glacier/Glacier/context.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1005,7 +1005,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Seti/Seti/buffer.png",
+        "layer0.texture": "Theme - Glacier/Glacier/buffer.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1028,7 +1028,7 @@
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Seti/Seti/reverse.png",
+        "layer0.texture": "Theme - Glacier/Glacier/reverse.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1046,7 +1046,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Seti/Seti/wrap.png",
+        "layer0.texture": "Theme - Glacier/Glacier/wrap.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1064,7 +1064,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Seti/Seti/selection.png",
+        "layer0.texture": "Theme - Glacier/Glacier/selection.png",
         "layer0.tint": [79,91,103],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1087,7 +1087,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Seti/Seti/casesens.png",
+        "layer0.texture": "Theme - Glacier/Glacier/casesens.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1110,7 +1110,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Seti/Seti/highlight.png",
+        "layer0.texture": "Theme - Glacier/Glacier/highlight.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>source.styl</string>
+    <string>source.stylus</string>
     <key>settings</key>
     <dict>
         <key>icon</key>

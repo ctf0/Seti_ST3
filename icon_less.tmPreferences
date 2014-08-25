@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>source.less</string>
+    <string>source.css.less,source.less</string>
     <key>settings</key>
     <dict>
         <key>icon</key>

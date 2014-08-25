@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>source.html.markdown,source.html.markdown.multimarkdown</string>
+    <string>text.html.markdown,text.html.markdown.multimarkdown</string>
     <key>settings</key>
     <dict>
         <key>icon</key>

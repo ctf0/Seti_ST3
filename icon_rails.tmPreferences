@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>source.erb</string>
+    <string>source.erb,source.ruby.rails,source.rails</string>
     <key>settings</key>
     <dict>
         <key>icon</key>

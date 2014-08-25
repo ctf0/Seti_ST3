@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>*.DS_Store ,*.bash, *.gitconfig, *.gitignore, *.tmPreferences, *.sublime-theme, *.tmTheme</string>
+    <string>*.DS_Store ,*.bash, *.gitconfig, *.gitignore</string>
     <key>settings</key>
     <dict>
         <key>icon</key>
