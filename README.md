@@ -23,7 +23,7 @@ Not Yet.
 
 1. [Download the .zip](https://github.com/ctf0/Seti_ST3/archive/master.zip).
 2. Unzip and Copy the folder into `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text.
-3. rename the unzipped fodler to "Theme - Seti"
+3. rename the unzipped folder to "Theme - Seti"
 4. copy the "fold.png" to ur (default theme folder) to override the "focken default yellow" icon.
 
 ## Setup
