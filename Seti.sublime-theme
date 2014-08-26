@@ -39,14 +39,13 @@
     // Tab hover state
     {
         "class": "tab_control",
-        "attributes": ["hover"],
-        // "layer0.opacity": 1
+        "attributes": ["hover"]
     },
     // Tab active state
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Seti/Seti/tab-active.png",
+        "layer0.texture": "Theme - Seti/Seti/tab-active.png"
     },
     // Tab dirty state (close button hidden)
     {
@@ -131,7 +130,7 @@
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "attributes": ["pressed"],
-        "layer0.opacity":0.8
+        "layer0.opacity": 0.8
     },
 
 //========================================================
@@ -141,23 +140,17 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [170,170,170],
-        "shadow_color": [25,25,25],
-        "shadow_offset": [1, 1]
+        "fg": [170,170,170]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "fg": [226,226,226],
-        "shadow_color": [30,30,30],
-        "shadow_offset": [1, 1]
+        "fg": [226,226,226]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["selected"]}],
-        "fg": [223,225,232],
-        "shadow_color": [35,35,35],
-        "shadow_offset": [1, 1]
+        "fg": [223,225,232]
     },
 
 //========================================================
@@ -170,7 +163,7 @@
         "content_margin": [8, 8],
         "layer0.texture": "Theme - Seti/Seti/tabset-list.png",
         "layer0.tint": [180, 183, 185],
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 1.0
     },
     {
         "class": "show_tabs_dropdown_button",
@@ -264,7 +257,7 @@
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.tint":[22,31,39], //auto comp SB
+        "layer0.tint":[22,31,39], //auto complete SB
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
         "content_margin": [6,0],
@@ -333,7 +326,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        // "layer0.tint":[94,235,184]
+        // "layer0.tint":[94,235,184] // Glacier Mod SB
         "layer0.tint":[22,31,39] // Main SB
 
     },
@@ -419,15 +412,11 @@
     {
         "class": "label_control",
         "parents": [{"class": "panel_control"}],
-        "shadow_color": [0,0,0],
-        "shadow_offset": [1,1]
     },
     // Button labels
     {
         "class": "label_control",
-        "parents": [{"class": "button_control"}],
-        "shadow_color": [55,55,55],
-        "shadow_offset": [0,0]
+        "parents": [{"class": "button_control"}]
     },
 
 //========================================================
@@ -468,8 +457,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [170,170,170],
-        "shadow_offset": [0,0]
+        "color": [170,170,170]
     },
 
 //========================================================
@@ -511,22 +499,17 @@
     {
         "class": "sidebar_heading",
         "color": [170,170,170],
-        "font.bold": false,
-        "shadow_color": [0,0,0],
-        "shadow_offset": [1,1]
+        "font.bold": false
     },
     // Sidebar heading selected
     {
         "class": "sidebar_heading",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "shadow_offset": [1,1]
     },
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [170,170,170],
-        "shadow_color": [0,0,0],
-        "shadow_offset": [1,1]
+        "color": [170,170,170]
     },
     // Sidebar folder entry
     {
@@ -555,9 +538,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [219,219,219],
-        "shadow_color": [0,0,0],
-        "shadow_offset": [0,0]
+        "color": [219,219,219]
     },
 
 //========================================================
@@ -741,12 +722,12 @@
         "content_margin": [8, 8],
         "layer0.texture": "Theme - Seti/Seti/text-field-list.png",
         "layer0.tint": [212, 212, 213],
-        "layer0.opacity": 1,
+        "layer0.opacity": 1
     },
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Seti/Seti/text-field-list-hover.png",
+        "layer0.texture": "Theme - Seti/Seti/text-field-list-hover.png"
         // "layer0.tint": [79,153,211]
     },
 
@@ -804,7 +785,8 @@
         "fg": [255,255,255,255],
         "match_fg": [104,81,49,255],
         "selected_fg": [255,255,255,255],
-        "selected_match_fg": [22,31,39,255]
+        // "selected_match_fg": [22,31,39,255]
+        "selected_match_fg": [255,223,0,255]
     },
     {
         "class": "quick_panel_path_label",
@@ -859,7 +841,8 @@
         "fg": [255,255,255],
         "match_fg": [104,81,49,255],
         "selected_fg": [255,255,255,255],
-        "selected_match_fg": [22,31,39,255]
+        // "selected_match_fg": [22,31,39,255]
+        "selected_match_fg": [255,223,0,255]
     },
     {
         "class": "table_row",
@@ -909,7 +892,7 @@
     },
     {
         "class": "icon_button_control",
-        "attributes": ["right","selected"],
+        "attributes": ["right","selected"]
     },
     // Button single
     {
@@ -928,7 +911,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Glacier/Glacier/regex.png",
+        "layer0.texture": "Theme - Seti/Seti/regex.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -946,7 +929,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Glacier/Glacier/casesens.png",
+        "layer0.texture": "Theme - Seti/Seti/casesens.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -964,7 +947,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Glacier/Glacier/wholeword.png",
+        "layer0.texture": "Theme - Seti/Seti/wholeword.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -987,7 +970,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Glacier/Glacier/context.png",
+        "layer0.texture": "Theme - Seti/Seti/context.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1005,7 +988,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Glacier/Glacier/buffer.png",
+        "layer0.texture": "Theme - Seti/Seti/buffer.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1028,7 +1011,7 @@
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Glacier/Glacier/reverse.png",
+        "layer0.texture": "Theme - Seti/Seti/reverse.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1046,7 +1029,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Glacier/Glacier/wrap.png",
+        "layer0.texture": "Theme - Seti/Seti/wrap.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1064,7 +1047,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Glacier/Glacier/selection.png",
+        "layer0.texture": "Theme - Seti/Seti/selection.png",
         "layer0.tint": [79,91,103],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1087,7 +1070,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Glacier/Glacier/casesens.png",
+        "layer0.texture": "Theme - Seti/Seti/casesens.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1110,7 +1093,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Glacier/Glacier/highlight.png",
+        "layer0.texture": "Theme - Seti/Seti/highlight.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
