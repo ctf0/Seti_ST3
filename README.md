@@ -40,7 +40,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 ### Credits
 
-Theme is Originally by [jesseweed](https://github.com/jesseweed/seti-ui) ,Ported based on `Glacier` by [joeyfigaro](https://github.com/joeyfigaro/glacier-theme) among many others ,special thanx for [Anthony Garand](https://github.com/garand) for the widget files (took me 2 days to understand what they actually do O_o and fix the god dame text input thing) ,'ScopeHunter' by [facelessuser](https://github.com/facelessuser) YOU ARE AWESOME ,'ColorSchemeEditor' by [Borislav Peev](https://github.com/bobef).
+Theme is Originally by [jesseweed](https://github.com/jesseweed/seti-ui) ,Ported based on `Glacier` by [joeyfigaro](https://github.com/joeyfigaro/glacier-theme) among many others ,special thanx for [Anthony Garand](https://github.com/garand) for the widget files (took me 2 days to understand what they actually do O_o and fix the god dame text input thing) ,`ScopeHunter` by [facelessuser](https://github.com/facelessuser) YOU ARE AWESOME ,`ColorSchemeEditor` by [Borislav Peev](https://github.com/bobef) , `Neon` by [Matt Morrison](https://github.com/MattDMo/Neon-color-scheme).
 
 
 ### TODO
@@ -54,12 +54,12 @@ Theme is Originally by [jesseweed](https://github.com/jesseweed/seti-ui) ,Ported
 
 ### Differences from the original
 
-- No file icon in the opened tabs.
+- No file icon in the opened tabs, ST lacks this.
 
 - Not as icon rich as the original because ST can't see anything other than Extensions ,and even thou its still hard to use the icon u want.
 
-- Some scopes have different colors in Atom like the (:) ,this is related to the tmLanguage file in ST. (i included an Atom version of the same ColorScheme i made for sublime , install it and test it on the included JS file to see the difference).
+- Some scopes have different colors in Atom like the (:) ,this is related to the tmLanguage file in ST. (i included an Atom version of the same ColorScheme i made for sublime , install it and test it with the included JS file to see the difference).
 
-- Current line number color ,ST lacks this.
+- Current line number color, ST lacks this.
 
 - Everything else is basically the same as the original except for some UI colors.
