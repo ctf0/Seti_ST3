@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>Gruntfile.js</string>
+    <string>Gruntfile.js, Gruntfile.coffee</string>
     <key>settings</key>
     <dict>
         <key>icon</key>

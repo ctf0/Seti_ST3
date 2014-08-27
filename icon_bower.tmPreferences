@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>*.DS_Store ,*.bash, *.gitconfig, *.gitignore</string>
+    <string>bower.json</string>
     <key>settings</key>
     <dict>
         <key>icon</key>
-        <string>file_type_dotfiles</string>
+        <string>file_type_bower</string>
     </dict>
 </dict>
 </plist>

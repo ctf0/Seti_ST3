@@ -40,7 +40,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 ### Credits
 
-Theme is Originally by [jesseweed](https://github.com/jesseweed/seti-ui) ,Ported based on `Glacier` by [joeyfigaro](https://github.com/joeyfigaro/glacier-theme) among many others ,special thanx for [Anthony Garand](https://github.com/garand) for the widget files (took me 2 days to understand what they actually do O_o and fix the god dame text input thing).
+Theme is Originally by [jesseweed](https://github.com/jesseweed/seti-ui) ,Ported based on `Glacier` by [joeyfigaro](https://github.com/joeyfigaro/glacier-theme) among many others ,special thanx for [Anthony Garand](https://github.com/garand) for the widget files (took me 2 days to understand what they actually do O_o and fix the god dame text input thing) ,'ScopeHunter' by [facelessuser](https://github.com/facelessuser) YOU ARE AWESOME ,'ColorSchemeEditor' by [Borislav Peev](https://github.com/bobef).
 
 
 ### TODO

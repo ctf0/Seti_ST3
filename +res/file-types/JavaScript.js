@@ -56,7 +56,7 @@ exports.all = function(app) {
 
 	modal.all( options, function (result) {
 
-		// if reqeust is sucess
+		// IF REQEUST IS SUCESS
 		if (result.status === 'success') {
 			if ( app.config.api.enabled === true && app.config.api.format === 'json') {
 				if ( resault.data.length > 0 ) {
@@ -74,12 +74,12 @@ exports.all = function(app) {
 					});
 			}
 
-			// if req failes
+			// IF REQ FAILES
 		} else {
 			if ( app.config.api.enabled === true && app.config.api.format === 'json') {
 				app.res.send( JSON.stringiyf( result ) );
 			}
-			else { // error page
+			else { // ERROR PAGE
 				app.res.status(500).render('500', {
 					error: result.msg,
 					title: app.site.name + ' - error!',

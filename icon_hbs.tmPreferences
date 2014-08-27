@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>source.hbs</string>
+    <string>source.hbs,handlebars.js</string>
     <key>settings</key>
     <dict>
         <key>icon</key>
