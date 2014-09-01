@@ -326,8 +326,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        // "layer0.tint":[94,235,184] // Glacier Mod SB
-        "layer0.tint":[22,31,39] // Main SB
+        "layer0.tint":[0,91,255] // Main SB
 
     },
     // Overlay light horizontal puck (for dark content)
@@ -335,7 +334,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
-        "layer0.tint":[22,31,39]
+        "layer0.tint":[0,91,255]
     },
 
 //========================================================
@@ -364,12 +363,12 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [13,14,15,150]
+        "viewport_color": [13,14,15,180]
     },
      {
         "class": "minimap_control",
         "attributes": ["hover"],
-        "viewport_color": [13,14,15,100]
+        "viewport_color": [13,14,15,220]
     },
 
 
@@ -599,7 +598,7 @@
      {
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Seti/Seti/folder-closed.png",
+        "layer0.texture": "Theme - Seti/Seti/folder-closed@2x.png",
         "layer0.inner_margin": 0,
         "layer0.tint": [200, 200, 200],
         "layer0.opacity": 1.0
@@ -609,14 +608,14 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Seti/Seti/folder-open.png",
+        "layer0.texture": "Theme - Seti/Seti/folder-open@2x.png",
         // "layer0.tint": [215, 65, 65]
     },
 
     // Sidebar folder closed
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - Seti/icons/folder.png",
+        "layer0.texture": "Theme - Seti/icons/folder@2x.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
@@ -628,7 +627,7 @@
         [
             { "class": "tree_row", "attributes": ["expanded"] }
         ],
-        "layer0.texture": "Theme - Seti/icons/folder_open.png"
+        "layer0.texture": "Theme - Seti/icons/folder_open@2x.png"
     },
 
     //========================================================
@@ -1048,7 +1047,8 @@
     {
         "class": "icon_in_selection",
         "layer0.texture": "Theme - Seti/Seti/selection.png",
-        "layer0.tint": [79,91,103],
+        // "layer0.tint": [79,91,103],
+        "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
     },

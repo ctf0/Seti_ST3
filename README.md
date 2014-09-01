@@ -7,11 +7,11 @@
 
 
 # Notes
-- This is my first of its kind so please if you found any bugs ,please issue a ticket.
+- This is my first of its kind so if you found any bugs ,please issue a ticket.
 
 - The theme is considered in beta-phase till the TODO list is done ,once that happen it will be available on Will Bond's [Sublime Package Control](https://sublime.wbond.net).
 
-- I included a folder with some files types from `jesseweed` and `DanBrooker` to test the icon thing with.
+- I included a folder with some files types from `jesseweed` and `DanBrooker` to test the icons.
 
 - Theme havent been tested on anything other than 'ST3 Build 3062' ,any thing less than that wont get the sidebar icons to work.
 
@@ -38,6 +38,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 {
   "theme": "Seti.sublime-theme",
   "color_scheme": "Packages/Theme - Seti/Seti.tmTheme",
+  "caret_extra_width": 2 // to have a wider/thicker caret as the original Seti theme
 }
 ```
 
