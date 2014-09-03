@@ -471,16 +471,16 @@
         "layer0.inner_margin": [1,5,2,1],
         "content_margin": [0,5,0,0]
     },
-    // Sidebar tree
+    // Sidebar tree || entries
     {
         "class": "sidebar_tree",
         "row_padding": [8,6],
-        "indent":10,
+        "indent": 10,
         "indent_offset": 20,
         "indent_top_level": false,
         "dark_content": true
     },
-    // Sidebar rows
+    // Sidebar rows || selected files
     {
         "class": "tree_row",
         "layer0.texture": null,
@@ -494,38 +494,39 @@
         "attributes": ["selected"],
         "layer0.opacity": 1
     },
+
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [170,170,170],
-        "font.bold": false
+        "color": [55,72,74],
+        "font.bold": true
     },
     // Sidebar heading selected
     {
         "class": "sidebar_heading",
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+        "parents": [{"class": "tree_row","attributes": ["selected"]}]
     },
-    // Sidebar entry
+    // Sidebar files entry
     {
         "class": "sidebar_label",
         "color": [170,170,170]
-    },
-    // Sidebar folder entry
-    {
-        "class": "sidebar_label",
-        "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [255,255,255],
-        "font.bold": true
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "color": [255,255,255]
     },
+    // Sidebar folder entry
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row","attributes": ["expandable"]}],
+        "color": [80,105,108],
+        "font.bold": false
+    },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable","hover"]}],
-        "color": [255,255,255]
+        "color": [107,140,144]
     },
     {
         "class": "sidebar_label",
@@ -533,11 +534,11 @@
         "settings": ["bold_folder_labels"],
         "font.bold": true
     },
-    // Sidebar entry selected
+    // Sidebar open files entry selected
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [219,219,219]
+        "color": [255,255,255]
     },
 
 //========================================================
@@ -547,8 +548,8 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Seti/Seti/circle@2x.png",
-        "layer0.opacity": 0,
+        "layer0.texture": "Theme - Seti/Seti/close@2x.png",
+        "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "content_margin": [8,8]
     },
@@ -568,13 +569,13 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Seti/Seti/close@2x.png"
+        "layer0.texture": "Theme - Seti/Seti/circle@2x.png"
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Theme - Seti/Seti/close@2x.png",
+        "layer0.texture": "Theme - Seti/Seti/circle@2x.png",
         "layer0.opacity": 1
     },
     // Sidebar file close hover
@@ -618,18 +619,15 @@
         "layer0.texture": "Theme - Seti/icons/folder@2x.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "content_margin": [8, 8]
+        "content_margin": [7, 7]
     },
     // Sidebar folder opened
     {
         "class": "icon_folder",
-        "parents":
-        [
-            { "class": "tree_row", "attributes": ["expanded"] }
-        ],
-        "layer0.texture": "Theme - Seti/icons/folder_open@2x.png"
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
+        "layer0.texture": "Theme - Seti/icons/folder_open@2x.png",
+        "content_margin": [8, 8]
     },
-
     //========================================================
     //  ICONS (build 3062+)
     //--------------------------------------------------------
@@ -736,7 +734,7 @@
     // Bottom panel background
     {
         "class": "panel_control",
-        "layer0.inner_margin": [0],
+        "layer0.inner_margin": 0,
         "layer0.opacity": 1,
         "layer0.tint": [16,17,18],
         "content_margin": [0, 0, 0, 1]

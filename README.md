@@ -1,6 +1,6 @@
 # Seti
 
-`SublimeText3 Theme & ColorScheme` Port of Seti_UI & Syntax by [jesseweed](https://github.com/jesseweed/seti-ui)
+`SublimeText 3 Theme & ColorScheme` Port of Seti_UI & Syntax by [jesseweed](https://github.com/jesseweed/seti-ui)
 
 ![Seti Screenshot](screenshot-1.jpg)
 ![Seti Screenshot](screenshot-2.jpg)
@@ -13,7 +13,7 @@
 
 - I included a folder with some files types from `jesseweed` and `DanBrooker` to test the icons.
 
-- Theme havent been tested on anything other than 'ST3 Build 3062' ,any thing less than that wont get the sidebar icons to work.
+- any thing less than 'ST3 Build 3062' wont get the sidebar icons to work.
 
 
 ## Install
@@ -38,7 +38,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 {
   "theme": "Seti.sublime-theme",
   "color_scheme": "Packages/Theme - Seti/Seti.tmTheme",
-  "caret_extra_width": 2 // to have a wider/thicker caret as the original Seti theme
+  "caret_extra_width": 2 // to have a wider/thicker caret
 }
 ```
 
@@ -50,11 +50,11 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 - Special thanx for [Anthony Garand](https://github.com/garand) for the widget files (took me 2 days to understand what they actually do O_o and fix the god dame text input thing).
 
-- `ScopeHunter` by [facelessuser](https://github.com/facelessuser) YOU ARE AWESOME.
+- `ScopeHunter` by [facelessuser](https://github.com/facelessuser) "YOU ROCK".
 
-- `ColorSchemeEditor` by [Borislav Peev](https://github.com/bobef).
+- `ColorSchemeEditor` by [Borislav Peev](https://github.com/bobef) "HOF".
 
-- `Neon` by [Matt Morrison](https://github.com/MattDMo/Neon-color-scheme).
+- `Neon` by [Matt Morrison](https://github.com/MattDMo/Neon-color-scheme) "HOF".
 
 
 ### Differences from the original
