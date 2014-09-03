@@ -326,7 +326,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        "layer0.tint":[0,91,255] // Main SB
+        "layer0.tint":[22,31,39] // Main SB
 
     },
     // Overlay light horizontal puck (for dark content)
@@ -334,7 +334,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
-        "layer0.tint":[0,91,255]
+        "layer0.tint":[22,31,39]
     },
 
 //========================================================
@@ -410,7 +410,7 @@
     // Text field labels
     {
         "class": "label_control",
-        "parents": [{"class": "panel_control"}],
+        "parents": [{"class": "panel_control"}]
     },
     // Button labels
     {
@@ -425,7 +425,7 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.tint": [16,17,18],
+        "layer0.tint": [22,31,39],
         "layer0.inner_margin": [1,1],
         "layer0.opacity": 1.0,
         "content_margin": [10, 8, 10, 8]
@@ -433,7 +433,7 @@
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [121,156,171]
+        "color": [138,177,194]
     },
 
 //========================================================
@@ -686,10 +686,10 @@
     // Default button state
     {
         "class": "button_control",
-        "content_margin": [5,11,5,11],
+        "content_margin": [5,10],
         "min_size": [70,0],
         "layer0.opacity": 1,
-        "layer0.tint": [79,153,211]
+        "layer0.tint": [11,125,212]
     },
     // Hover button state
     {
@@ -701,7 +701,7 @@
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.tint": [79,153,211]
+        "layer0.tint": [51,51,51]
     },
 
 //========================================================
@@ -713,7 +713,7 @@
         "class": "text_line_control",
         "layer0.tint": [39,40,41], // is the same color of BG in widget file
         "layer0.opacity": 1,
-        "content_margin": [3,9,3,9]
+        "content_margin": [5,7]
     },
     // Text input dropdown
     {
@@ -727,7 +727,6 @@
         "class": "dropdown_button_control",
         "attributes": ["hover"],
         "layer0.texture": "Theme - Seti/Seti/text-field-list-hover.png"
-        // "layer0.tint": [79,153,211]
     },
 
 //========================================================
@@ -740,7 +739,7 @@
         "layer0.inner_margin": [0],
         "layer0.opacity": 1,
         "layer0.tint": [16,17,18],
-        "content_margin": [0, 2, 0, 2]
+        "content_margin": [0, 0, 0, 1]
     },
     // Quick panel background
     {
@@ -748,8 +747,7 @@
         "layer0.opacity": 1,
         "layer1.tint": [16, 17, 18],
         "layer1.opacity": 1,
-        "layer1.inner_margin": [0, 0, 0, 0],
-        "content_margin": [0, 0, 0, 0]
+        "content_margin": [0]
     },
 
 //========================================================
@@ -766,7 +764,6 @@
     {
         "class": "quick_panel_row",
         "layer0.tint": [16,17,18],
-        "layer0.inner_margin": 0,
         "layer0.opacity": 1
     },
     {
@@ -784,7 +781,6 @@
         "fg": [255,255,255,255],
         "match_fg": [104,81,49,255],
         "selected_fg": [255,255,255,255],
-        // "selected_match_fg": [22,31,39,255]
         "selected_match_fg": [255,223,0,255]
     },
     {
@@ -840,7 +836,6 @@
         "fg": [255,255,255],
         "match_fg": [104,81,49,255],
         "selected_fg": [255,255,255,255],
-        // "selected_match_fg": [22,31,39,255]
         "selected_match_fg": [255,223,0,255]
     },
     {
@@ -864,8 +859,8 @@
     {
         "class": "icon_button_control",
         "layer0.opacity": 0,
-        "layer0.inner_margin": [6, 6],
-        "content_margin": [7,10]
+        "layer0.inner_margin": [6,6],
+        "content_margin": [5,8]
     },
     {
         "class": "icon_button_control",
@@ -876,8 +871,7 @@
     // Button group left
     {
         "class": "icon_button_control",
-        "attributes": ["left"],
-        // "content_margin": [4, 3, 3, 3]
+        "attributes": ["left"]
     },
     {
         "class": "icon_button_control",
@@ -886,8 +880,7 @@
     // Button group right
     {
         "class": "icon_button_control",
-        "attributes": ["right"],
-        // "content_margin": [3, 3, 4, 3]
+        "attributes": ["right"]
     },
     {
         "class": "icon_button_control",
@@ -918,12 +911,12 @@
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     // Case sensitive search button
     {
@@ -936,12 +929,12 @@
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     // Match whole word search button
     {
@@ -954,12 +947,12 @@
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
 
 //========================================================
@@ -977,12 +970,12 @@
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     // Use search buffer
     {
@@ -995,12 +988,12 @@
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
 
 //========================================================
@@ -1018,12 +1011,12 @@
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     // Search wrap button
     {
@@ -1036,12 +1029,12 @@
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     // Search in selection button
     {
@@ -1055,12 +1048,12 @@
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
 
 //========================================================
@@ -1078,12 +1071,12 @@
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
 
 //========================================================
@@ -1101,11 +1094,11 @@
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint":[205,63,69]
+        "layer0.tint":[11,125,212]
     }
 ]
