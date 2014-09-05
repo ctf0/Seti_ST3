@@ -5,8 +5,7 @@ These icons have been lifted from the [Seti_ST3](https://github.com/ctf0/Seti_ST
 The screenshots below show
 
 ![Seti screenshot](screenshot-1.jpg)
-![Seti screenshot](screenshot-2.jpg)
-![Soda Dark 3 screenshot](screenshot-3.jpg)
+![Soda Dark 3 screenshot](screenshot-3.png)
 
 
 ## Install
