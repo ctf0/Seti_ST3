@@ -146,7 +146,7 @@ String
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#5eebb8</string>
+                    <string>#55B5DB</string>
                 </dict>
             </dict>
 
@@ -349,6 +349,16 @@ Function
                 <dict>
                     <key>foreground</key>
                     <string>#cd3f45</string>
+                </dict>
+            </dict>
+
+             <dict>
+                <key>scope</key>
+                <string>source.js.embedded.html string.quoted.double.html</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#e6cd69</string>
                 </dict>
             </dict>
 
@@ -667,6 +677,49 @@ Html
                 </dict>
             </dict>
 
+            <!-- string -->
+            <dict>
+                <key>scope</key>
+                <string>meta.tag.other.html meta.attribute-with-value.id.html string.quoted.double.html meta.toc-list.id.html, meta.tag.block.any.html string.quoted.double.html, meta.tag.inline.any.html string.quoted.double.html, meta.tag.other.html string.quoted.double.html </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#55B5DB</string>
+                </dict>
+            </dict>
+
+            <!-- "" -->
+            <dict>
+                <key>scope</key>
+                <string>meta.tag.other.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.other.html string.quoted.double.html punctuation.definition.string.end.html, meta.tag.block.any.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.block.any.html string.quoted.double.html punctuation.definition.string.end.html, meta.tag.inline.any.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.inline.any.html string.quoted.double.html punctuation.definition.string.end.html, meta.tag.any.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.any.html string.quoted.double.html punctuation.definition.string.end.html</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#55B5DB</string>
+                </dict>
+            </dict>
+
+            <!-- = -->
+            <dict>
+                <key>scope</key>
+                <string>meta.tag.other.html meta.attribute-with-value.id.html punctuation.separator.key-value.html, meta.tag.block.any.html, meta.tag.inline.any.html, meta.tag.other.html, meta.tag.any.html</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#a074c4</string>
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>meta.tag.any.html string.quoted.double.html constant.character.entity.html, meta.tag.any.html string.quoted.double.html constant.character.entity.html punctuation.definition.entity.html </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#55B5DB</string>
+                </dict>
+            </dict>
+
             <dict>
                 <key>name</key>
                 <string>Attribute name</string>
@@ -874,7 +927,7 @@ Css
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FF950A</string>
+                    <string>#9FCA56</string>
                 </dict>
             </dict>
 
@@ -1066,7 +1119,7 @@ Css
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#ffe792</string>
+                    <string>#cd3f45</string>
                     <key>fontStyle</key>
                     <string> bold</string>
                 </dict>

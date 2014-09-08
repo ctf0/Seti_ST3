@@ -9,9 +9,9 @@
 # Notes
 - This is my first of its kind so if you found any bugs ,please issue a ticket.
 
-- The theme is considered in beta-phase till the TODO list is done ,once that happen it will be available on Will Bond's [Sublime Package Control](https://sublime.wbond.net).
+- The Theme is considered in beta- <strike>phase till the TODO list is done</strike> ish.
 
-- I included a folder with some files types from `jesseweed` and `DanBrooker` to test the icons.
+- I included a folder with some files types from `jesseweed` and `DanBrooker` to test the icons ,you should probably add some of them to the "file_exclude_patterns" as ST wont open them anyway.
 
 - any thing less than 'ST3 Build 3062' wont get the sidebar icons to work.
 
@@ -26,8 +26,8 @@ Not Yet.
 
 1. [Download the .zip](https://github.com/ctf0/Seti_ST3/archive/master.zip).
 2. Unzip and Copy the folder into `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text.
-3. rename the unzipped folder to "Theme - Seti"
-4. copy the "fold.png" to ur (default theme folder) to override the "focken default yellow" icon.
+3. rename the unzipped folder to ```Theme - Seti```
+4. copy the (fold.png) "or edit it to ur liking" to ```Packages/User/Theme - Default``` to override the _focken default yellow icon.
 
 ## Setup
 
@@ -61,9 +61,9 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 - No file icon in the opened tabs, ST lacks this.
 
-- Not as icon rich as the original because ST can't see anything other than Extensions ,and even thou its still hard to use the icon u want.
+- Not as icon rich as the original because ST can't see anything other than Extensions ,and even thou its still hard to make it use the icon you want "thats why some icons are duplicated".
 
-- Some scopes have different colors in Atom like the (:) ,this is related to the tmLanguage file in ST. <strike>(i included an Atom version of the same ColorScheme i made for sublime , install it and test it with the included JS file to see the difference)</strike> ,for some reason Atom sometimes will display a different color than ST ,also i changed some scopes color like (heading in MD files) to make it easir to read.
+- Some scopes have different colors in Atom like the (:) ,this is related to the tmLanguage file in ST. <strike>(i included an Atom version of the same ColorScheme i made for sublime , install it and test it with the included JS file to see the difference)</strike> ,also note that Atom sometimes will display a different color than ST "even if the scope was the same" ,some scopes color like (heading in MD files) was changed to make it easir to read.
 
 - Current line number color, ST lacks this.
 
@@ -72,9 +72,9 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 ### TODO
 
-1. Make the search input field shorter or "slimier" (depend on which side of the earth u r living).
-2. Find a solution for the million file icons which ST lacks out of the box ,or at least get the recognized ones to display their correct icons as expected.
-3. Clean up the "icon_?.tmPreferences" files so they actually do something.
+1. Make the search input field shorter or "slimier" (depend on which side of the earth you are living).
+2. <strike>Find a solution for the million file icons which ST lacks out of the box ,or at least get the recognized ones to display their correct icons as expected.</strike> Done For The Most Part.
+3. <strike>Clean up the "icon_?.tmPreferences" files so they actually do something.</strike> Done For The Most Part.
 4. haven't tested on Retina ,so anyone with Retina Mac plz test and report any found bugs.
 
 <strike>5. Edit the color scheme to have different color for the same scope depends on file ext (js,html,css) ,some scops already have this ability but am looking to extend it even further.</strike>

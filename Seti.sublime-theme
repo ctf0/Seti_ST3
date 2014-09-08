@@ -468,25 +468,23 @@
         "class": "sidebar_container",
         "layer0.opacity": 1,
         "layer0.tint": [16,17,18],
-        "layer0.inner_margin": [1,5,2,1],
         "content_margin": [0,5,0,0]
     },
     // Sidebar tree || entries
     {
         "class": "sidebar_tree",
-        "row_padding": [8,6],
-        "indent": 10,
-        "indent_offset": 20,
-        "indent_top_level": false,
+        "row_padding": [8,7],
+        "indent": 15,
+        "indent_offset": 18,
+        "indent_top_level": true, // which make OpenFiles & Folders expandable
         "dark_content": true
     },
-    // Sidebar rows || selected files
+    // Sidebar rows || selected files bg
     {
         "class": "tree_row",
         "layer0.texture": null,
         "layer0.tint": [27, 28, 29],
-        "layer0.opacity": 0,
-        "layer0.inner_margin": [1,1]
+        "layer0.opacity": 0
     },
     // Sidebar row selected
     {
@@ -494,19 +492,22 @@
         "attributes": ["selected"],
         "layer0.opacity": 1
     },
-
     // Sidebar heading
     {
         "class": "sidebar_heading",
         "color": [55,72,74],
         "font.bold": true
     },
-    // Sidebar heading selected
     {
         "class": "sidebar_heading",
         "parents": [{"class": "tree_row","attributes": ["selected"]}]
     },
-    // Sidebar files entry
+    {
+        "class": "sidebar_heading",
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "color": [2,174,255]
+    },
+    // Sidebar files
     {
         "class": "sidebar_label",
         "color": [170,170,170]
@@ -516,7 +517,7 @@
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "color": [255,255,255]
     },
-    // Sidebar folder entry
+    // Sidebar folder
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
@@ -526,7 +527,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable","hover"]}],
-        "color": [107,140,144]
+        "color": [124,159,174]
     },
     {
         "class": "sidebar_label",
@@ -602,32 +603,33 @@
         "layer0.texture": "Theme - Seti/Seti/folder-closed@2x.png",
         "layer0.inner_margin": 0,
         "layer0.tint": [200, 200, 200],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1
     },
 
     // Sidebar group open
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Seti/Seti/folder-open@2x.png",
-        // "layer0.tint": [215, 65, 65]
+        "layer0.texture": "Theme - Seti/Seti/folder-open@2x.png"
     },
 
     // Sidebar folder closed
     {
         "class": "icon_folder",
         "layer0.texture": "Theme - Seti/icons/folder@2x.png",
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "content_margin": [7, 7]
+        "content_margin": [7,0]
     },
     // Sidebar folder opened
     {
         "class": "icon_folder",
         "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Theme - Seti/icons/folder_open@2x.png",
-        "content_margin": [8, 8]
+        "layer0.inner_margin": -5,
+        "content_margin": [7,0]
     },
+
     //========================================================
     //  ICONS (build 3062+)
     //--------------------------------------------------------
@@ -754,7 +756,7 @@
 
     {
         "class": "quick_panel",
-        "row_padding": 13,
+        "row_padding": 14,
         "layer0.tint": [16,17,18],
         "layer0.opacity": 1,
         "dark_content": true
