@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>source.css</string>
+    <string>source.compassfile</string>
     <key>settings</key>
     <dict>
         <key>icon</key>
-        <string>file_type_css</string>
+        <string>file_type_compass</string>
     </dict>
 </dict>
 </plist>

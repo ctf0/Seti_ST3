@@ -20,13 +20,13 @@
 
 ### Via Package Control
 
-Not Yet.
+Theme is listed as `Seti_ST3` in Will Bond's [Sublime Package Control](https://sublime.wbond.net).
 
 ### Manual
 
 1. [Download the .zip](https://github.com/ctf0/Seti_ST3/archive/master.zip).
-2. Unzip and Copy the folder into `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text.
-3. rename the unzipped folder to ```Theme - Seti```
+2. Unzip and rename the folder to ```Seti_ST3```.
+3. Copy the folder into `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text.
 4. copy the (fold.png) "or edit it to ur liking" to ```Packages/User/Theme - Default``` to override the _focken default yellow icon.
 
 ## Setup

@@ -1,0 +1,21 @@
+v1.0 (9-09-2014)
+-------------------
+Hey there,
+
+
+# Init Release
+==============
+v1.0
+
+
+# Side Notes
+==============
+1- please check the readme for more info.
+
+2- Dont Forget to Rename your downloaded folder to (Seti_ST3) if its not already.
+
+3- Folder Contents
++Res
+|-Ext > copy the content of this folder to your 'Packages/User' folder so files can recognize thier correct language/icons
+|-File-Types > are for testing the icons with ,if you dont need it you can simply remove it
+|-not-working > are icon setting files for some files which i dont currently have any '?-syntax.tmlanguage' for so again if you dont need any of them you can remove it as well.

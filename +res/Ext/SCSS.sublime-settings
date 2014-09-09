@@ -1,0 +1,7 @@
+{
+    "extensions": [
+        "scss.erb",
+        "scss",
+        "scss.liquid"
+    ]
+}
