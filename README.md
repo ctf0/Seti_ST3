@@ -20,7 +20,7 @@
 
 ### Via Package Control
 
-Theme is listed as `Seti_ST3` in Will Bond's [Sublime Package Control](https://sublime.wbond.net).
+Theme is listed as `Seti_UI` in Will Bond's [Sublime Package Control](https://sublime.wbond.net).
 
 ### Manual
 
