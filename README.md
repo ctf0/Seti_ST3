@@ -42,8 +42,6 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 }
 ```
 
-- copy the (fold.png) "or edit it to ur liking" to ```Packages/Theme - Default``` to override the _focken default yellow icon.
-
 
 ## Credits
 
