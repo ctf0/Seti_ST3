@@ -34,12 +34,12 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ```
 {
   "theme": "Seti.sublime-theme",
-  "color_scheme": "Packages/Theme - Seti/Seti.tmTheme",
+  "color_scheme": "Packages/Setu_UI/Seti.tmTheme",
   "caret_extra_width": 2 // to have a wider/thicker caret
 }
 ```
 
-- copy the (fold.png) "or edit it to ur liking" to ```Packages/User/Theme - Default``` to override the _focken default yellow icon.
+- copy the (fold.png) "or edit it to ur liking" to ```Packages/Theme - Default``` to override the _focken default yellow icon.
 
 
 ## Credits

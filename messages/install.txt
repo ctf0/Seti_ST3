@@ -7,11 +7,11 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 -----------------------------
 {
   "theme": "Seti.sublime-theme",
-  "color_scheme": "Packages/Theme - Seti/Seti.tmTheme",
+  "color_scheme": "Packages/Setu_UI/Seti.tmTheme",
   "caret_extra_width": 2 // to have a wider/thicker caret
 }
 
-- copy the (fold.png) "or edit it if you want" to (Packages/User/Theme - Default) to override the _focken default yellow icon.
+- copy the (fold.png) "or edit it if you want" to (Packages/Theme - Default) to override the _focken default yellow icon.
 
 
 
@@ -21,4 +21,4 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 +Res
 |-Ext > copy the content of this folder to your 'Packages/User' folder so (Extensions/Files) can recognize their correct language/icons
 |-File-Types > are for testing the icons with ,if you don't need it you can simply remove it
-|-not-working > are icon setting files for some files which i don't currently have any '?-syntax.tmlanguage' for so again if you don't need any of them you can remove it as well.
+|-not-working > are icon setting files for some files which i don't currently have any '?-syntax.tmlanguage' for, so again if you don't need any of them you can remove it as well.
