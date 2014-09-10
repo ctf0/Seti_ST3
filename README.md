@@ -67,7 +67,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 - Current line number color, ST lacks this.
 
-- Everything else is basically the same as the original except for a couple of UI colors & some scopes color like (heading in MD files) to make it easir to read.
+- Everything else is basically the same as the original except for a couple of UI colors & some scopes color like (heading in MD files) to make it easier to read.
 
 
 ### TODO
