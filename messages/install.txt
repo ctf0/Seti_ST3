@@ -1,0 +1,24 @@
+# Install
+---------------
+
+Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in Sublime Text or get `Schemr` & `Themr` by [Ben Weier](https://github.com/benweier).
+
+## Example settings
+-----------------------------
+{
+  "theme": "Seti.sublime-theme",
+  "color_scheme": "Packages/Theme - Seti/Seti.tmTheme",
+  "caret_extra_width": 2 // to have a wider/thicker caret
+}
+
+- copy the (fold.png) "or edit it if you want" to (Packages/User/Theme - Default) to override the _focken default yellow icon.
+
+
+
+
+## Folder Contents
+
++Res
+|-Ext > copy the content of this folder to your 'Packages/User' folder so (Extensions/Files) can recognize their correct language/icons
+|-File-Types > are for testing the icons with ,if you don't need it you can simply remove it
+|-not-working > are icon setting files for some files which i don't currently have any '?-syntax.tmlanguage' for so again if you don't need any of them you can remove it as well.

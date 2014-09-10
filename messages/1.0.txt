@@ -6,14 +6,3 @@ Hey there,
 # Init Release
 ==============
 v1.0
-
-
-# Side Notes
-==============
-1- please check the readme for more info.
-
-2- Folder Contents
-+Res
-|-Ext > copy the content of this folder to your 'Packages/User' folder so files can recognize their correct language/icons
-|-File-Types > are for testing the icons with ,if you don't need it you can simply remove it
-|-not-working > are icon setting files for some files which i don't currently have any '?-syntax.tmlanguage' for so again if you don't need any of them you can remove it as well.
