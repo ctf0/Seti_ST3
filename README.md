@@ -42,7 +42,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 - copy the (fold.png) "or edit it to ur liking" to ```Packages/User/Theme - Default``` to override the _focken default yellow icon.
 
 
-### Credits
+## Credits
 
 - Theme is Originally by [jesseweed](https://github.com/jesseweed/seti-ui).
 
@@ -57,7 +57,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 - `Neon` by [Matt Morrison](https://github.com/MattDMo/Neon-color-scheme) "HOF".
 
 
-### Differences from the original
+## Differences from the original
 
 - No file icon in the opened tabs, ST lacks this.
 
@@ -70,7 +70,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 - Everything else is basically the same as the original except for a couple of UI colors & some scopes color like (heading in MD files) to make it easier to read.
 
 
-### TODO
+## TODO
 
 1. Make the search input field shorter or "slimier" (depend on which side of the earth you are living).
 2. haven't tested on Retina ,so anyone with Retina Mac plz test and report any found bugs.
