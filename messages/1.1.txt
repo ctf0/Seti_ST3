@@ -1,0 +1,5 @@
+v1.1 (10-09-2014)
+-------------------
+1-No more manual install as its not recommended.
+
+2-Fixed package name + other files so it work as soon as u install it without probs.
