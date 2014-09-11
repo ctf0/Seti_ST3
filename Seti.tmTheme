@@ -656,6 +656,16 @@ Tag Name
 
             <dict>
                 <key>scope</key>
+                <string>entity.name.tag</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#55B5DB</string>
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
                 <string>meta.tag.inline.any.html entity.other.attribute-name</string>
                 <key>settings</key>
                 <dict>
@@ -783,6 +793,18 @@ Html
                 <dict>
                     <key>foreground</key>
                     <string>#d4d7d6</string>
+                </dict>
+            </dict>
+
+             <dict>
+                <key>name</key>
+                <string>slim String</string>
+                <key>scope</key>
+                <string>string.quoted.double.html meta.toc-list.id.html </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#55B5DB</string>
                 </dict>
             </dict>
 
