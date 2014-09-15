@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>source.rs</string>
+    <string>source.rust</string>
     <key>settings</key>
     <dict>
         <key>icon</key>
