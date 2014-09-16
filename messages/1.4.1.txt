@@ -1,0 +1,5 @@
+v1.4.1 (16-09-2014)
+-------------------
+
+1. fixed Rust scope.
+2. changed quick panel row padding to work better with other plugins that use menus.
