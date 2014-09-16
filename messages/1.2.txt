@@ -8,7 +8,6 @@ v1.2 (11-09-2014)
 
 4-added slim to html icon settings file.
 
-5-the html file will look different than the original Atom, I changed the scopes
-  color intentionally for easier reading, please tell me if you want the old one.
+5-the html file will look different than the original Atom, I changed the scopes color intentionally for easier reading, please tell me if you want the old one.
 
 6-looking for a Jade icon, so if you have any ideas message me.
