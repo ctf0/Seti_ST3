@@ -1,0 +1,11 @@
+v1.5 (18-09-2014)
+-------------------
+
+1. Added Seti_orig for those who wants the original scheme.
+
+- you can install it by
+```
+"color_scheme": "Packages/Seti_UI/Seti_orig.tmTheme",
+```
+
+2.if you don't like any of the included schemes ,i feel you & am already working on a much richer/better one so stay tuned.

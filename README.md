@@ -64,11 +64,11 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 - Not as icon rich as the original because ST can't see anything other than Extensions ,and even thou its still hard to make it use the icon you want "thats why some icons are duplicated".
 
-- Some scopes have different colors in Atom like the (:) ,this is related to the tmLanguage file in ST ,also note that Atom sometimes will display a different color than ST "even if the scope was the same".
+- Some scopes have different colors in Atom like the (:) ,this is related to the tmLanguage file in ST ,also note that Atom sometimes will display a different color than ST "even if both editors have the same scope name".
 
 - Current line number color, ST lacks this.
 
-- Everything else is basically the same as the original except for a couple of UI colors & some scopes color like (heading in MD files) to make it easier to read.
+- Everything else is basically the same as the original except for a couple of UI colors.
 
 
 ## TODO
