@@ -1,7 +1,7 @@
 v1.5 (18-09-2014)
 -------------------
 
-1. Added Seti_orig for those who wants the original scheme.
+1. Added Seti_orig for those who wants the original scheme ,keep in mind that some scope still have different colors (St is not Atom)
 
 - you can install it by
 ```
