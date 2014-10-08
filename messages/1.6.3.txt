@@ -1,0 +1,4 @@
+v1.6.3 (08-10-2014)
+-------------------
+
+1. some couldn't get the (Golang & Jade) to work without the setting files so now they are included.
