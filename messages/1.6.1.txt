@@ -1,0 +1,4 @@
+v1.6.1 (08-10-2014)
+-------------------
+
+1. fixed theme showing corrupted graphics.

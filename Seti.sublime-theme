@@ -5,7 +5,7 @@
     // Tab set
     {
         "class": "tabset_control",
-        "layer0.texture": "Theme - Seti/Main/tabset-background.png",
+        "layer0.texture": "Seti_UI/Main/tabset-background.png",
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": 1,
         "content_margin": [0,0,4,4],
@@ -26,7 +26,7 @@
         "max_margin_trim": 0,
         "hit_test_level": 0,
         "content_margin": [12, 3, 12, 3],
-        "layer0.texture": "Theme - Seti/Main/tab-inactive.png",
+        "layer0.texture": "Seti_UI/Main/tab-inactive.png",
         "layer0.inner_margin": [5, 5],
         "layer0.opacity": 1.0
     },
@@ -45,7 +45,7 @@
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Seti/Main/tab-active.png"
+        "layer0.texture": "Seti_UI/Main/tab-active.png"
     },
     // Tab dirty state (close button hidden)
     {
@@ -61,7 +61,7 @@
     // Tab close button
     {
         "class": "tab_close_button",
-        "layer0.texture": "Theme - Seti/Main/close@2x.png",
+        "layer0.texture": "Seti_UI/Main/close@2x.png",
         "layer0.opacity": 1,
         "layer0.tint": [170,170,170]
     },
@@ -86,7 +86,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Seti/Main/circle@2x.png",
+        "layer0.texture": "Seti_UI/Main/circle@2x.png",
         "layer0.tint": [79,153,211],
         "layer0.opacity": 1
     },
@@ -100,7 +100,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
-        "layer0.texture": "Theme - Seti/Main/close.png",
+        "layer0.texture": "Seti_UI/Main/close.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [79,153,211]
     },
@@ -161,14 +161,14 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Seti/Main/tabset-list.png",
+        "layer0.texture": "Seti_UI/Main/tabset-list.png",
         "layer0.tint": [180, 183, 185],
         "layer0.opacity": 1.0
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Seti/Main/tabset-list.png",
+        "layer0.texture": "Seti_UI/Main/tabset-list.png",
         "layer0.tint": [160, 116, 196],
         "layer0.opacity": 1.0
     },
@@ -176,13 +176,13 @@
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - Seti/Main/tabset-left.png",
+        "layer0.texture": "Seti_UI/Main/tabset-left.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Seti/Main/tabset-left-hover.png",
+        "layer0.texture": "Seti_UI/Main/tabset-left-hover.png",
         // "layer0.tint": [160, 116, 196],
         "layer0.opacity": 1.0
     },
@@ -190,13 +190,13 @@
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - Seti/Main/tabset-right.png",
+        "layer0.texture": "Seti_UI/Main/tabset-right.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Seti/Main/tabset-right-hover.png",
+        "layer0.texture": "Seti_UI/Main/tabset-right-hover.png",
         // "layer0.tint": [160, 116, 196],
         "layer0.opacity": 1.0
     },
@@ -207,7 +207,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - Seti/Main/folder-open.png",
+        "layer0.texture": "Seti_UI/Main/folder-open.png",
         "layer0.opacity": 0.45,
         "layer0.inner_margin": 0,
         "content_margin": [8,8]
@@ -220,7 +220,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Seti/Main/folder-closed.png"
+        "layer0.texture": "Seti_UI/Main/folder-closed.png"
     },
     {
         "class": "fold_button_control",
@@ -549,7 +549,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Seti/Main/close@2x.png",
+        "layer0.texture": "Seti_UI/Main/close@2x.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "content_margin": [8,8]
@@ -563,32 +563,32 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Seti/Main/circle@2x.png",
+        "layer0.texture": "Seti_UI/Main/circle@2x.png",
         "layer0.opacity": 1
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Seti/Main/circle@2x.png"
+        "layer0.texture": "Seti_UI/Main/circle@2x.png"
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Theme - Seti/Main/circle@2x.png",
+        "layer0.texture": "Seti_UI/Main/circle@2x.png",
         "layer0.opacity": 1
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Seti/Main/close@2x.png"
+        "layer0.texture": "Seti_UI/Main/close@2x.png"
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
-        "layer0.texture": "Theme - Seti/Main/close@2x.png",
+        "layer0.texture": "Seti_UI/Main/close@2x.png",
         "layer0.opacity": 1
     },
 
@@ -600,7 +600,7 @@
      {
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Seti/Main/folder-closed@2x.png",
+        "layer0.texture": "Seti_UI/Main/folder-closed@2x.png",
         "layer0.inner_margin": 0,
         "layer0.tint": [200, 200, 200],
         "layer0.opacity": 1
@@ -610,13 +610,13 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Seti/Main/folder-open@2x.png"
+        "layer0.texture": "Seti_UI/Main/folder-open@2x.png"
     },
 
     // Sidebar folder closed
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - Seti/icons/folder@2x.png",
+        "layer0.texture": "Seti_UI/icons/folder@2x.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "content_margin": [7,0]
@@ -625,7 +625,7 @@
     {
         "class": "icon_folder",
         "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "Theme - Seti/icons/folder_open@2x.png",
+        "layer0.texture": "Seti_UI/icons/folder_open@2x.png",
         "layer0.inner_margin": -5,
         "content_margin": [7,0]
     },
@@ -663,14 +663,14 @@
         {
             "keyframes":
             [
-                "Theme - Seti/Main/spinner7.png",
-                "Theme - Seti/Main/spinner6.png",
-                "Theme - Seti/Main/spinner5.png",
-                "Theme - Seti/Main/spinner4.png",
-                "Theme - Seti/Main/spinner3.png",
-                "Theme - Seti/Main/spinner2.png",
-                "Theme - Seti/Main/spinner1.png",
-                "Theme - Seti/Main/spinner.png"
+                "Seti_UI/Main/spinner7.png",
+                "Seti_UI/Main/spinner6.png",
+                "Seti_UI/Main/spinner5.png",
+                "Seti_UI/Main/spinner4.png",
+                "Seti_UI/Main/spinner3.png",
+                "Seti_UI/Main/spinner2.png",
+                "Seti_UI/Main/spinner1.png",
+                "Seti_UI/Main/spinner.png"
             ],
             "loop": true,
             "frame_time": 0.075
@@ -719,14 +719,14 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Seti/Main/text-field-list.png",
+        "layer0.texture": "Seti_UI/Main/text-field-list.png",
         "layer0.tint": [212, 212, 213],
         "layer0.opacity": 1
     },
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Seti/Main/text-field-list-hover.png"
+        "layer0.texture": "Seti_UI/Main/text-field-list-hover.png"
     },
 
 //========================================================
@@ -903,7 +903,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Seti/Main/regex.png",
+        "layer0.texture": "Seti_UI/Main/regex.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -921,7 +921,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Seti/Main/casesens.png",
+        "layer0.texture": "Seti_UI/Main/casesens.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -939,7 +939,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Seti/Main/wholeword.png",
+        "layer0.texture": "Seti_UI/Main/wholeword.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -962,7 +962,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Seti/Main/context.png",
+        "layer0.texture": "Seti_UI/Main/context.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -980,7 +980,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Seti/Main/buffer.png",
+        "layer0.texture": "Seti_UI/Main/buffer.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1003,7 +1003,7 @@
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Seti/Main/reverse.png",
+        "layer0.texture": "Seti_UI/Main/reverse.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1021,7 +1021,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Seti/Main/wrap.png",
+        "layer0.texture": "Seti_UI/Main/wrap.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1039,7 +1039,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Seti/Main/selection.png",
+        "layer0.texture": "Seti_UI/Main/selection.png",
         // "layer0.tint": [79,91,103],
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
@@ -1063,7 +1063,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Seti/Main/casesens.png",
+        "layer0.texture": "Seti_UI/Main/casesens.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1086,7 +1086,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Seti/Main/highlight.png",
+        "layer0.texture": "Seti_UI/Main/highlight.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
