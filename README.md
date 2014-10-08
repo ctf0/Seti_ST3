@@ -13,7 +13,7 @@
 
 - I included a folder with some files types from `jesseweed` and `DanBrooker` to test the icons ,you should probably add some of them to the "file_exclude_patterns" as ST wont open them anyway.
 
-- any thing less than 'ST3 Build 3062' wont get the sidebar icons to work.
+- Any thing less than 'ST3 Build 3062' wont get the sidebar icons to work.
 
 
 ## Install
@@ -66,7 +66,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 - Some scopes have different colors in Atom like the (:) ,this is related to the tmLanguage file in ST ,also note that Atom sometimes will display a different color than ST "even if both editors have the same scope name".
 
-- Current line number color, ST lacks this.
+- Current line number highlight color, ST lacks this.
 
 - Everything else is basically the same as the original except for a couple of UI colors.
 

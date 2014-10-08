@@ -1,0 +1,8 @@
+v1.6 (08-10-2014)
+-------------------
+
+1. Golang & Jade icons added
+
+2. Changed the Seti folder name to Main for easier maintenance.
+
+3. Cleaned up more of the un-working file-types & related icons ,which can be found in "not-working" folder.
