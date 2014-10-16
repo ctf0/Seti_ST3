@@ -161,43 +161,39 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [8, 8],
-        "layer0.texture": "Seti_UI/Main/tabset-list.png",
-        "layer0.tint": [180, 183, 185],
+        "layer0.texture": "Seti_UI/Main/tabset-list@2x.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.texture": "Seti_UI/Main/tabset-list.png",
-        "layer0.tint": [160, 116, 196],
+        "layer0.texture": "Seti_UI/Main/tabset-list-hover@2x.png",
         "layer0.opacity": 1.0
     },
     // Tab scroll left
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Seti_UI/Main/tabset-left.png",
+        "layer0.texture": "Seti_UI/Main/tabset-left@2x.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer0.texture": "Seti_UI/Main/tabset-left-hover.png",
-        // "layer0.tint": [160, 116, 196],
+        "layer0.texture": "Seti_UI/Main/tabset-left-hover@2x.png",
         "layer0.opacity": 1.0
     },
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Seti_UI/Main/tabset-right.png",
+        "layer0.texture": "Seti_UI/Main/tabset-right@2x.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer0.texture": "Seti_UI/Main/tabset-right-hover.png",
-        // "layer0.tint": [160, 116, 196],
+        "layer0.texture": "Seti_UI/Main/tabset-right-hover@2x.png",
         "layer0.opacity": 1.0
     },
 

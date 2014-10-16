@@ -1,0 +1,4 @@
+v1.7 (16-10-2014)
+-------------------
+
+1. fixed right & left tabset arrows ,now it should look sharp on Retina's.
