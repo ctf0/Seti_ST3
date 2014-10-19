@@ -1,0 +1,4 @@
+v1.7.1 (19-10-2014)
+-------------------
+
+1. fixed fold arrows orientation.
