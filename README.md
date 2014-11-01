@@ -75,3 +75,10 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 1. Make the search input field shorter or "slimier" (depend on which side of the earth you are living).
 2. haven't tested on Retina ,so anyone with Retina Mac plz test and report any found bugs.
+
+
+## Issue A Ticket
+ 1. what version of ST are you using ? (nothing lower than 3062);
+ 2. have you restarted ST after you installed the theme ?
+ 3. if you still have bad render ,have you removed the cashe folder ? (found right next to the packages folder)
+ 4. have you copied the files from the "Ext" folder to your User folder ?
