@@ -12,8 +12,7 @@
 			        <key>caret</key>
 			        <string>#ffe792</string>
 			        <key>foreground</key>
-			        <!-- <string>#555555</string> -->
-			        <string>#685131</string>
+			        <string>#a5a5a5</string>
 			        <key>invisibles</key>
 			        <string>#F3FFB51A</string>
 			        <key>selection</key>
