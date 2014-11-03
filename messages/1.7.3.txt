@@ -1,0 +1,7 @@
+v1.7.3 (3-11-2014)
+-------------------
+
+1. A new branch created for those who wants to make changes to the main theme ,
+it will contain only the different files to avoid confusion.
+
+2. added diff syntax.
