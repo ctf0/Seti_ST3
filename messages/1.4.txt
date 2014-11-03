@@ -1,5 +1,0 @@
-v1.4 (15-09-2014)
--------------------
-
-1. Added Rust File Icons
-2. fixed theme folder name in readme.
