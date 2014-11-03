@@ -8,7 +8,7 @@
         "layer0.texture": "Seti_UI/Main/tabset-background.png",
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": 1,
-        "content_margin": [0,0,0,0],
+        "content_margin": [0,0,4,4],
         "tab_overlap": 1,
         "tab_width": 190,
         "tab_min_width": 50,
@@ -593,7 +593,7 @@
 //--------------------------------------------------------
 
     // Sidebar group closed
-     {
+    {
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
         "layer0.texture": "Seti_UI/Main/folder-closed@2x.png",
@@ -601,7 +601,6 @@
         "layer0.tint": [200, 200, 200],
         "layer0.opacity": 1
     },
-
     // Sidebar group open
     {
         "class": "disclosure_button_control",
@@ -612,8 +611,8 @@
     // Sidebar folder closed
     {
         "class": "icon_folder",
-        "layer0.texture": "Seti_UI/icons/folder@2x.png",
-        "layer0.opacity": 1,
+        "layer0.texture": "Seti_UI/icons/folder_open@2x.png",
+        "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
         "content_margin": [7,0]
     },
@@ -623,6 +622,7 @@
         "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Seti_UI/icons/folder_open@2x.png",
         "layer0.inner_margin": -5,
+        "layer0.opacity": 1,
         "content_margin": [7,0]
     },
 
