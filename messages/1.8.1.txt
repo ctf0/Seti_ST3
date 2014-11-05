@@ -1,0 +1,6 @@
+v1.8.1 (5-11-2014)
+-------------------
+
+1. fixed wrong icons for Html / Haml.
+2. json still doesnt show its icon "at least on my pc" ,if any found a solution plz advice.
+
