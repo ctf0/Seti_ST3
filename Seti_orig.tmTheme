@@ -1574,7 +1574,7 @@ Find In Files
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#06FF05</string>
+                    <string>#9FCA56</string>
                 </dict>
             </dict>
 
@@ -1586,7 +1586,7 @@ Find In Files
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FFFF00</string>
+                    <string>#cd3f45</string>
                 </dict>
             </dict>
 
@@ -1601,7 +1601,7 @@ diff
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F8F8F8</string>
+                <string>#d4d7d6</string>
             </dict>
         </dict>
         <dict>
@@ -1612,7 +1612,7 @@ diff
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F8F8F8</string>
+                <string>#cd3f45</string>
             </dict>
         </dict>
         <dict>
@@ -1623,7 +1623,7 @@ diff
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F8F8F8</string>
+                <string>#A074C4</string>
             </dict>
         </dict>
         <dict>
@@ -1634,7 +1634,7 @@ diff
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F8F8F8</string>
+                <string>#9FCA56</string>
             </dict>
         </dict>
 

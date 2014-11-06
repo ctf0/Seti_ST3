@@ -1,0 +1,5 @@
+v1.9 (6-11-2014)
+-------------------
+
+1. fixed the diff highlight ,sorry i didnt notice that all scopes had the same color (white).
+2. for those who still uses Monokai ,skechboy (https://github.com/skechboy) have made a port for you so show em some love.
