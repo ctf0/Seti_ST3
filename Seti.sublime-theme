@@ -473,13 +473,14 @@
         "indent": 15,
         "indent_offset": 18,
         "indent_top_level": true, // which make OpenFiles & Folders expandable
-        "dark_content": true
+        "dark_content": true,
+        "layer0.tint": [16, 17, 19]
     },
     // Sidebar rows || selected files bg
     {
         "class": "tree_row",
         "layer0.texture": null,
-        "layer0.tint": [27, 28, 29],
+        "layer0.tint": [27, 28, 30],
         "layer0.opacity": 0
     },
     // Sidebar row selected
@@ -612,7 +613,7 @@
     // Sidebar folder closed
     {
         "class": "icon_folder",
-        "layer0.texture": "Seti_UI/icons/folder@2x.png",
+        "layer0.texture": "Seti_UI/icons/folder_open@2x.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "content_margin": [7,0]
