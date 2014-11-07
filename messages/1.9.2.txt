@@ -1,0 +1,5 @@
+v1.9.2 (6-11-2014)
+-------------------
+
+1. git-gutter is added for those who needs it by Jonathan (https://github.com/jonathanhirz) ,like b4 you know what to do :).
+2. diff 'to & from' now have a different color.
