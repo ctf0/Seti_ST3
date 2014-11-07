@@ -1613,7 +1613,7 @@ diff
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#cd3f45</string>
+                <string>#41535b</string>
             </dict>
         </dict>
 
@@ -1625,7 +1625,7 @@ diff
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#9FCA56</string>
+                <string>#41535b</string>
             </dict>
         </dict>
 
@@ -1663,7 +1663,7 @@ diff
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#A074C4</string>
+                <string>#41535b</string>
             </dict>
         </dict>
 <!-- ====================================
