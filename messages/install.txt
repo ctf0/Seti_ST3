@@ -8,15 +8,15 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ```
 {
   "theme": "Seti.sublime-theme",
-  "color_scheme": "Packages/Seti_UI/Seti.tmTheme",
+  "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
   "caret_extra_width": 2 // to have a wider/thicker caret
 }
 ```
 
 - copy the (fold.png) "or edit it if you want" to (Packages/Theme - Default) to override the _focken default yellow icon.
 
-
 - for better recognition of files types, its recommended to install [Apply​Syntax](https://sublime.wbond.net/packages/ApplySyntax) by facelessuser.
+
 
 ## Folder Contents
 ----------------------

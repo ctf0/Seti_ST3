@@ -2,18 +2,18 @@
 
 `SublimeText 3 Theme & ColorScheme` Port of Seti_UI & Syntax by [jesseweed](https://github.com/jesseweed/seti-ui)
 
-![Seti Screenshot](screenshot-1.jpg)
-![Seti Screenshot](screenshot-2.jpg)
+![Seti Screenshot](screenshot-1.png)
+![Seti Screenshot](screenshot-2.png)
 
 
 # Notes
 - This is my first of its kind so if you found any bugs ,please issue a ticket.
 
-- The Theme is considered in beta-ish.
-
 - I included a folder with some files types from `jesseweed` and `DanBrooker` to test the icons ,you should probably add some of them to the "file_exclude_patterns" as ST wont open them anyway.
 
 - Any thing less than 'ST3 Build 3062' wont get the sidebar icons to work.
+
+- if you used any of the resources in this repo into your own release ,plz appreciate the hard work and mention the original authors.
 
 
 ## Install
@@ -37,7 +37,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ```
 {
   "theme": "Seti.sublime-theme",
-  "color_scheme": "Packages/Seti_UI/Seti.tmTheme",
+  "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
   "caret_extra_width": 2 // to have a wider/thicker caret
 }
 ```

@@ -1,0 +1,6 @@
+v1.10 (10-11-2014)
+-------------------
+
+1. a better folder structure for easier maintainability.
+2. readme and instal updated.
+3. ScreenShots updated.
