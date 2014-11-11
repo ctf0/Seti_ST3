@@ -613,9 +613,9 @@
     {
         "class": "icon_folder",
         "layer0.texture": "Seti_UI/icons/folder@2x.png",
-        "layer0.opacity": 1,
+        "layer0.opacity": 0,
         "layer0.inner_margin": 0,
-        "content_margin": [7,0]
+        "content_margin": [0,0]
     },
     // Sidebar folder opened
     {

@@ -1,0 +1,15 @@
+v1.10.1 (11-11-2014)
+-------------------
+
+1.
+ColdFusion support added.
+
+2.
+i added another icon for the Opened_folder in-case the default one was too distractive for you ,
+you can use either the default or the new ones ,just go to
+(Seti_UI/+res/Open_Folder/dots) , copy the new files and overwrite the old ones @ (Seti_UI/icons)
+
+2.1.
+if you want to remove the Opened_folder icon all together ,
+there is a modified "Seti.sublime-theme" at the same folder (+res/Open_Folder/)
+just overwrite the installed file on the root with this one. (it have everything except the Opened_folder icons)
