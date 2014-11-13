@@ -12,13 +12,30 @@
         "tab_overlap": 1,
         "tab_width": 190,
         "tab_min_width": 50,
-        "tab_height": 44,
+        "tab_height": 45,
         "mouse_wheel_switch": false
+    },
+
+    // options
+    {
+        "class": "tabset_control",
+        "settings": ["Seti_mouse_wheel_tabswitche"],
+        "mouse_wheel_switch": true
     },
     {
         "class": "tabset_control",
-        "settings": ["mouse_wheel_switches_tabs"],
-        "mouse_wheel_switch": true
+        "settings": ["Seti_tabs_small"],
+        "tab_height": 35,
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["Seti_tabs_med"],
+        "tab_height": 40,
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["Seti_no_bar_undertabs"],
+        "content_margin": [0,0,0,0],
     },
     // Tab element
     {
@@ -616,6 +633,24 @@
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "content_margin": [7,0]
+    },
+
+    // options
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_ClosedFolder_same"],
+        "layer0.texture": "Seti_UI/icons/folder_open@2x.png",
+        "layer0.opacity": 0.5,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_ClosedFolder_remove"],
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_ClosedFolder_dots"],
+        "layer0.texture": "Seti_UI/icons/folder-dots@2x.png",
     },
     // Sidebar folder opened
     {
