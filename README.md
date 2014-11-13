@@ -6,9 +6,9 @@
 
 1- different color for search and quick panel [#31](https://github.com/ctf0/Seti_ST3/issues/31#issuecomment-61432947).
 
-2- the small bar under tabs are now removed [#28](https://github.com/ctf0/Seti_ST3/issues/28).
+2- <strike>the small bar under tabs are now removed</strike> [#28](https://github.com/ctf0/Seti_ST3/issues/28) ,added to the main branch.
 
-3- changed closed folder icon [#34](https://github.com/ctf0/Seti_ST3/pull/34).
+3- <strike>changed closed folder icon</strike> [#34](https://github.com/ctf0/Seti_ST3/pull/34) ,added to the main branch.
 
 # install
 download and overwrite your installed files ,
