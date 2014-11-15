@@ -15,4 +15,4 @@ download and overwrite your installed files ,
 
 note that you need to do that with every update but if you are satisfied with what you have then 
 
-add ``` "auto_upgrade_ignore":[Seti_UI] ``` to your user settings.
+add ``` "auto_upgrade_ignore":["Seti_UI"], ``` to your user settings.
