@@ -48,14 +48,16 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ```
 {
   "Seti_mouse_wheel_tabswitche": true,  // allow tab switching with mouse wheel
-  "Seti_tabs_small": true, 				// tabs height = 35
-  "Seti_tabs_med": true,				// tabs height = 40
-  "Seti_no_bar_undertabs": true,		// remove the 4px bar under the tabs
-  
-  // do not add all of them at once
-  "Seti_ClosedFolder_same": true,		// same icon as the Opened_folder icon  
-  "Seti_ClosedFolder_remove": true,		// remove closed_folder icon
-  "Seti_ClosedFolder_dots": true,		// change closed_folder icon to dot
+  "Seti_no_bar_undertabs": true,        // remove the 4px bar under the tabs
+
+  // don't enable both at once
+  "Seti_tabs_small": true,              // tabs height = 35
+  "Seti_tabs_med": true,                // tabs height = 40
+
+  // don't enable all at once
+  "Seti_ClosedFolder_same": true,       // same icon as the Opened_folder icon
+  "Seti_ClosedFolder_remove": true,     // remove closed_folder icon
+  "Seti_ClosedFolder_dots": true,       // change closed_folder icon to dot
 }
 ```
 

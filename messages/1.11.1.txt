@@ -1,0 +1,6 @@
+v1.11.1 (15-11-2014)
+-------------------
+
+1. php & md icons are not a bit bigger.
+2. cfm & cfc icons are changed to the standards.
+3. cleaned the install file & the settings options are now included.
