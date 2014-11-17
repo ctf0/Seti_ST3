@@ -43,7 +43,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ```
 
 #### Options
-`Themr` have an option call ``Themr: Toggle Theme Settings`` to change theme settings on-the-fly without doing that manually but currently it gives an error, so for now just add this options to your ``User/Preferences.sublime-settings`` then use `Themr` to disable/enable any.
+`Themr` have an option call ``Themr: Toggle Theme Settings`` to change theme settings on-the-fly , or manually add what you need.
 
 ```
 {
