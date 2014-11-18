@@ -273,7 +273,7 @@
         "layer0.tint":[22,31,39], //auto complete SB
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
-        "content_margin": [6,0],
+        "content_margin": [3,0],
         "blur": false
     },
     // Standard horizontal scroll puck
@@ -282,7 +282,7 @@
         "attributes": ["horizontal"],
         "layer0.tint":[22,31,39],
         "layer0.inner_margin": [0,0],
-        "content_margin": [12,6],
+        "content_margin": [12,3],
         "blur": false
     },
 

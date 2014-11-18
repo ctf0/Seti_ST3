@@ -1,0 +1,6 @@
+v1.11.3 (18-11-2014)
+-------------------
+
+1. readme updated.
+2. scrollbars are now thinner ,sorry as i just noticed how big & ugly they are on windows.
+3. handlebars are now fully supported.
