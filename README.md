@@ -38,9 +38,9 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 {
   "theme": "Seti.sublime-theme",
   "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
-  "caret_extra_width": 2                                    // to have a wider/thicker caret
-   "overlay_scroll_bars": "enabled",                 //  to show scrollbars only when scrolling
-   "highlight_line": true,                                      //  to highlight the current line
+  "caret_extra_width": 2,                                 //  to have a wider/thicker caret
+   "overlay_scroll_bars": "enabled",                      //  to show scrollbars only when scrolling
+   "highlight_line": true,                                //  to highlight the current line
 }
 ```
 
