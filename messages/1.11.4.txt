@@ -1,0 +1,5 @@
+v1.11.4 (19-11-2014)
+-------------------
+
+1. readme updated.
+2. scrollbars options are added for those who prefer a wider/bigger SB.

@@ -276,6 +276,18 @@
         "content_margin": [3,0],
         "blur": false
     },
+
+    // options
+    {
+        "class": "puck_control",
+        "settings": ["Seti_SB_v_med"],
+        "content_margin": [6,0],
+    },
+    {
+        "class": "puck_control",
+        "settings": ["Seti_SB_v_big"],
+        "content_margin": [10,0],
+    },
     // Standard horizontal scroll puck
     {
         "class": "puck_control",
@@ -284,6 +296,19 @@
         "layer0.inner_margin": [0,0],
         "content_margin": [12,3],
         "blur": false
+    },
+    // options
+    {
+        "class": "puck_control",
+        "settings": ["Seti_SB_h_med"],
+        "attributes": ["horizontal"],
+        "content_margin": [12,6],
+    },
+    {
+        "class": "puck_control",
+        "settings": ["Seti_SB_h_big"],
+        "attributes": ["horizontal"],
+        "content_margin": [12,10],
     },
 
 //========================================================
