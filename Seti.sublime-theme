@@ -19,7 +19,7 @@
     // options
     {
         "class": "tabset_control",
-        "settings": ["Seti_mouse_wheel_tabswitche"],
+        "settings": ["Seti_mouse_wheel_tabswitch"],
         "mouse_wheel_switch": true
     },
     {
@@ -37,6 +37,7 @@
         "settings": ["Seti_no_bar_undertabs"],
         "content_margin": [0,0,0,0],
     },
+
     // Tab element
     {
         "class": "tab_control",
@@ -177,7 +178,7 @@
     // Tab dropdown
     {
         "class": "show_tabs_dropdown_button",
-        "content_margin": [8, 8],
+        "content_margin": [10, 8],
         "layer0.texture": "Seti_UI/Main/tabset-list@2x.png",
         "layer0.opacity": 1.0
     },
@@ -270,23 +271,11 @@
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.tint":[22,31,39], //auto complete SB
+        "layer0.tint":[22,31,39],    //auto complete SB
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
         "content_margin": [3,0],
         "blur": false
-    },
-
-    // options
-    {
-        "class": "puck_control",
-        "settings": ["Seti_SB_v_med"],
-        "content_margin": [6,0],
-    },
-    {
-        "class": "puck_control",
-        "settings": ["Seti_SB_v_big"],
-        "content_margin": [10,0],
     },
     // Standard horizontal scroll puck
     {
@@ -297,16 +286,27 @@
         "content_margin": [12,3],
         "blur": false
     },
+
     // options
     {
         "class": "puck_control",
-        "settings": ["Seti_SB_h_med"],
+        "settings": ["Seti_SB_med"],
+        "content_margin": [6,0],
+    },
+    {
+        "class": "puck_control",
+        "settings": ["Seti_SB_med"],
         "attributes": ["horizontal"],
         "content_margin": [12,6],
     },
     {
         "class": "puck_control",
-        "settings": ["Seti_SB_h_big"],
+        "settings": ["Seti_SB_big"],
+        "content_margin": [10,0],
+    },
+    {
+        "class": "puck_control",
+        "settings": ["Seti_SB_big"],
         "attributes": ["horizontal"],
         "content_margin": [12,10],
     },
@@ -330,7 +330,7 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.tint":[28,31,38],
+        "layer0.tint":[28,31,39],
         "layer0.inner_margin": [0,5],
         "blur": false
     },
@@ -364,8 +364,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        "layer0.tint":[22,31,39] // Main SB
-
+        "layer0.tint":[22,31,39]    // Main SB
     },
     // Overlay light horizontal puck (for dark content)
     {
@@ -373,6 +372,19 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
         "layer0.tint":[22,31,39]
+    },
+
+    // options
+    {
+        "class": "puck_control",
+        "settings": ["Seti_SB_bright"],
+        "layer0.tint":[173,216,230]
+    },
+    {
+        "class": "puck_control",
+        "settings": ["Seti_SB_bright"],
+        "attributes": ["horizontal"],
+        "layer0.tint":[173,216,230]
     },
 
 //========================================================

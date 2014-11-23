@@ -1,0 +1,8 @@
+v1.12 (23-11-2014)
+-------------------
+
+1. fixed the typo in (Seti_mouse_wheel_tabswitche).
+2. readme & install updated.
+3. tabset button is now a bit wider. (those 3 bars on the top right).
+4. new option for scrollbars with brighter color for those who didn't like the default one.
+5. scrollbars option for thickening are more straight forward now.
