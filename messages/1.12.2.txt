@@ -1,0 +1,8 @@
+v1.12.2 (25-11-2014)
+-------------------
+
+1. markdown icon is fixed.
+2. golang icon is changed ,if u want the old one ,msg me.
+3. not-working folder is removed.
+4. install updated.
+5. if u know a tmlang for git files ,msg me.

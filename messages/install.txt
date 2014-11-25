@@ -27,5 +27,3 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   |-Ext         > copy the content of this folder to your 'Packages/User' folder so (Extensions/Files) can recognize their correct language/icons.
 
   |-File_Types  > are for testing the icons with, if you don't need it you can simply remove it.
-
-  |-Not_Working > are icon setting files for some files which i don't currently have any '?-syntax.tmlanguage' for, so again if you don't need any of them you can remove it as well.
