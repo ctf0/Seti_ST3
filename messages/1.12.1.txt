@@ -1,0 +1,6 @@
+v1.12.1 (25-11-2014)
+-------------------
+
+1. cfm icon changed.
+2. markdown icon changed.
+3. readme updated.
