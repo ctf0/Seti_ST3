@@ -15,6 +15,8 @@
 
 - if you used any of the resources in this repo into your own release ,plz appreciate the hard work and mention the original authors.
 
+- A New/Better syntax Highlight released under "Seti_UX".
+
 
 ## Install
 
@@ -98,7 +100,6 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ## TODO
 
 1. Make the search input field shorter or "slimier" (depend on which side of the earth you are living).
-2. Better syntax Highlight. "90% done"
 
 
 ## Issue A Ticket
