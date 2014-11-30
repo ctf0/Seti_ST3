@@ -7,7 +7,6 @@
 
 
 # Notes
-- This is my first of its kind so if you found any bugs ,please issue a ticket.
 
 - I included a folder with some files types from `jesseweed` and `DanBrooker` to test the icons ,you should probably add some of them to the "file_exclude_patterns" as ST wont open them anyway.
 
@@ -15,14 +14,14 @@
 
 - if you used any of the resources in this repo into your own release ,plz appreciate the hard work and mention the original authors.
 
-- A New/Better syntax Highlight released under "Seti_UX".
+- A New/Better syntax Highlight released under [Seti_UX](https://sublime.wbond.net/packages/Seti_UX).
 
 
 ## Install
 
 ### Via Package Control
 
-Theme is listed as `Seti_UI` in Will Bond's [Sublime Package Control](https://sublime.wbond.net).
+Theme is listed as [Seti_UI](https://sublime.wbond.net/packages/Seti_UI) Will Bond's [Sublime Package Control](https://sublime.wbond.net).
 
 ### Manual
 
@@ -95,11 +94,6 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 - Current line number highlight color, ST lacks this.
 
 - Everything else is basically the same as the original except for a couple of UI colors.
-
-
-## TODO
-
-1. Make the search input field shorter or "slimier" (depend on which side of the earth you are living).
 
 
 ## Issue A Ticket
