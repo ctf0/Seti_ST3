@@ -21,7 +21,7 @@
 
 ### Via Package Control
 
-Theme is listed as [Seti_UI](https://sublime.wbond.net/packages/Seti_UI) Will Bond's [Sublime Package Control](https://sublime.wbond.net).
+Theme is listed as [Seti_UI](https://sublime.wbond.net/packages/Seti_UI) on Will Bond's [Sublime Package Control](https://sublime.wbond.net).
 
 ### Manual
 
