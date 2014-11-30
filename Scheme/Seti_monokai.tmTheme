@@ -338,6 +338,18 @@
 
         <dict>
             <key>name</key>
+            <string>JSON Key</string>
+            <key>scope</key>
+            <string>meta.structure.dictionary.json string.quoted.double.json -meta.structure.dictionary.value.json</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A6E22E</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
             <string>diff.header</string>
             <key>scope</key>
             <string>meta.diff, meta.diff.header</string>
