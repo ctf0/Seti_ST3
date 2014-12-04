@@ -9,6 +9,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 {
   "theme": "Seti.sublime-theme",
   "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+  "margin": 4,
 }
 ```
 
@@ -16,7 +17,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 - copy the (fold.png) "or edit it if you want" to (Packages/Theme - Default) to override the _focken default yellow icon.
 
-- for better recognition of files types, its recommended to install [Apply​Syntax](https://sublime.wbond.net/packages/ApplySyntax) by facelessuser.
+- for better recognition of file types, its recommended to install [Apply​Syntax](https://sublime.wbond.net/packages/ApplySyntax) by facelessuser.
 
 
 ## Folder Contents

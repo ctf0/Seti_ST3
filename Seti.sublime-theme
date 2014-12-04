@@ -221,7 +221,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Seti_UI/Main/group-closed.png",
+        "layer0.texture": "Seti_UI/Main/fold-closed.png",
         "layer0.opacity": 0.45,
         "layer0.inner_margin": 0,
         "content_margin": [8,8]
@@ -234,7 +234,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Seti_UI/Main/group-open.png"
+        "layer0.texture": "Seti_UI/Main/fold-open.png"
     },
     {
         "class": "fold_button_control",

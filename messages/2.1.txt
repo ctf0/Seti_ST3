@@ -1,0 +1,5 @@
+v2.1 (4-12-2014)
+-------------------
+
+1. fold icons now have a better placement.
+2. readme and install updated.
