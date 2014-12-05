@@ -1,0 +1,6 @@
+v2.2 (5-12-2014)
+-------------------
+
+1. added option for sidebar entries padding.
+2. theme file cleaned.
+3. readme updated.

@@ -64,6 +64,9 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   "Seti_SB_med": true,                    // scrollbars width / height = 6
   "Seti_SB_big": true,                    // scrollbars width / height = 10
   "Seti_SB_bright": true,                 // brighter color for scrollbars
+
+  "Seti_sb_small_padding": true,          // sidebar entries padding = 3
+  "Seti_sb_big_padding": true,            // sidebar entries padding = 10
 }
 ```
 
