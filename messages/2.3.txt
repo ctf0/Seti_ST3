@@ -1,0 +1,6 @@
+v2.3 (11-12-2014)
+-------------------
+
+1. re-fixed the fold icons align.
+2. install updated.
+3. readme updated.
