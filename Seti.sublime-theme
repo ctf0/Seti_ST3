@@ -755,7 +755,7 @@
     // Default button state
     {
         "class": "button_control",
-        "content_margin": [5,10],
+        "content_margin": [5,10], // the search panel right side buttons height
         "min_size": [70,0],
         "layer0.opacity": 1,
         "layer0.tint": [11,125,212]
@@ -780,9 +780,10 @@
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.tint": [39,40,41], // is the same color of BG in widget file
+        "layer0.tint": [21,23,24], // is the same color of BG in widget file
+        // "layer0.tint": [39,40,41],
         "layer0.opacity": 1,
-        "content_margin": [5,7]
+        "content_margin": [5,3] // control the search panel height , line padding also effects this
     },
     // Text input dropdown
     {
@@ -882,7 +883,6 @@
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        // "layer0.tint": [79, 153, 211]
         "layer0.tint": [60,71,81]
     },
 
