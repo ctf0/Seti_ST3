@@ -26,8 +26,11 @@ Theme is listed as [Seti_UI](https://sublime.wbond.net/packages/Seti_UI) on Will
 ### Manual
 
 1. [Download the .zip](https://github.com/ctf0/Seti_ST3/archive/master.zip).
+
 2. Unzip and rename the folder to ``Seti_UI``.
+
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text.
+
 4. copy the (+res/fold.png) "or edit it to ur liking" to ``Packages/Theme - Default`` to override the _focken default yellow icon.
 
 ## Setup
@@ -35,6 +38,7 @@ Theme is listed as [Seti_UI](https://sublime.wbond.net/packages/Seti_UI) on Will
 Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in Sublime Text or get `Schemr` & `Themr` by [Ben Weier](https://github.com/benweier).
 
 ### Example settings
+
 ```
 {
   "theme": "Seti.sublime-theme",
@@ -43,6 +47,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ```
 
 #### Options
+
 `Themr` have an option call ``Themr: Toggle Theme Settings`` to change theme settings on-the-fly , or manually add what you need from below.
 
 ```
@@ -65,8 +70,6 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   "Seti_sb_big_padding": true,            // sidebar entries padding = 10
 }
 ```
-
-
 
 ## Credits
 
@@ -95,9 +98,12 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 - Everything else is basically the same as the original except for a couple of UI colors.
 
-
 ## Issue A Ticket
- 1. what version of ST are you using ? (nothing lower than 3062);
- 2. have you restarted ST after you installed the theme ?
- 3. if you still have bad render ,have you removed the cache folder ? (found right next to the packages folder)
- 4. have you copied the files from the "Ext" folder to your User folder ?
+
+1. what version of ST are you using ? (nothing lower than 3062).
+
+2. have you restarted ST after you installed the theme ?.
+
+3. if you still have bad render ,have you removed the cache folder ? (found right next to the packages folder).
+
+4. have you copied the files from the "Ext" folder to your User folder ?.
