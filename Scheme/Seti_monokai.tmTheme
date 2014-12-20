@@ -326,28 +326,114 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>JSON String</string>
+            <string>JSON property top</string>
             <key>scope</key>
-            <string>meta.structure.dictionary.json string.quoted.double.json</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#CFCFC2</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>name</key>
-            <string>JSON Key</string>
-            <key>scope</key>
-            <string>meta.structure.dictionary.json string.quoted.double.json -meta.structure.dictionary.value.json</string>
+            <string>meta.structure.dictionary.json string.quoted.double</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <string>#A6E22E</string>
             </dict>
         </dict>
-
+        <dict>
+            <key>name</key>
+            <string>JSON property level 2</string>
+            <key>scope</key>
+            <string>meta.structure meta.structure.dictionary.json string.quoted.double</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A6E22E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON property level 3</string>
+            <key>scope</key>
+            <string>meta.structure meta.structure meta.structure meta.structure.dictionary.json string.quoted.double</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A6E22E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON property level 4</string>
+            <key>scope</key>
+            <string>meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure.dictionary.json string.quoted.double</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A6E22E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON property level 5</string>
+            <key>scope</key>
+            <string>meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure.dictionary.json string.quoted.double</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A6E22E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON value</string>
+            <key>scope</key>
+            <string>meta.structure.dictionary.value.json string.quoted.double</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON value level 2</string>
+            <key>scope</key>
+            <string>meta.structure meta.structure meta.structure.dictionary.value.json string.quoted.double</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON value level 3</string>
+            <key>scope</key>
+            <string>meta.structure meta.structure meta.structure meta.structure meta.structure.dictionary.value.json string.quoted.double</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON value level 4</string>
+            <key>scope</key>
+            <string>meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure.dictionary.value.json string.quoted.double</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON value level 5</string>
+            <key>scope</key>
+            <string>meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure.dictionary.value.json string.quoted.double</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
         <dict>
             <key>name</key>
             <string>diff.header</string>
