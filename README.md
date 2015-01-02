@@ -32,6 +32,7 @@ Theme is listed as [Seti_UI](https://sublime.wbond.net/packages/Seti_UI) on Will
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text.
 
 4. copy the (+res/fold.png) "or edit it to ur liking" to ``Packages/Theme - Default`` to override the _focken default yellow icon.
+5. [Optional] - if `Theme - Default` does NOT exist in your `Packages` Folder, please create it in order to show the icons properly.
 
 ## Setup
 
