@@ -28,7 +28,8 @@
                     <key>gutter</key>
                     <string>#0D1011</string>
                     <key>gutterForeground</key>
-                    <string>#2B3337</string>
+                    <string>#d4d7d670</string>
+                    <!-- <string>#2B3337</string> -->
 
                     <key>selection</key>
                     <string>#4FA5C7</string>
