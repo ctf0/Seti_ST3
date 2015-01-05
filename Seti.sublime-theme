@@ -528,6 +528,18 @@
         "settings": ["Seti_sb_big_padding"],
         "row_padding": [8,10]
     },
+    {
+        "class": "sidebar_tree",
+        "settings": ["Seti_sb_tree_med"],
+        "indent": 15,
+        "indent_offset": 15,
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["Seti_sb_tree_small"],
+        "indent": 15,
+        "indent_offset": 10,
+    },
 
     // Sidebar rows || selected files bg
     {

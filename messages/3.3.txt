@@ -1,0 +1,4 @@
+v3.3 (05-1-2015)
+-------------------
+
+1. add more options to the sidebar tree.
