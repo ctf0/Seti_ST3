@@ -547,6 +547,13 @@
         "row_padding": [3,7],
         "indent_offset": 1,
     },
+    {
+        "class": "sidebar_tree",
+        "settings": ["Seti_sb_tree_miny"],
+        "indent": 5,
+        "row_padding": [5,5],
+        "indent_offset": 15,
+    },
 
     // Sidebar rows || selected files bg
     {
