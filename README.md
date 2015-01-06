@@ -71,6 +71,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
   "Seti_sb_tree_med": true,               // sidebar tree padding = 15
   "Seti_sb_tree_small": true,             // sidebar tree padding = 10
+  "Seti_sb_tree_tiny": true,              // sidebar tree padding = 1 , "OpenFiles & Folders" wont have visible arrows
 }
 ```
 
