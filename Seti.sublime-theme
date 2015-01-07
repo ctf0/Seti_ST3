@@ -15,7 +15,6 @@
         "tab_height": 45,
         "mouse_wheel_switch": false
     },
-
     // options
     {
         "class": "tabset_control",
@@ -35,7 +34,7 @@
     {
         "class": "tabset_control",
         "settings": ["Seti_no_bar_undertabs"],
-        "content_margin": [0,0,0,0],
+        "content_margin": 0,
     },
 
     // Tab element
@@ -45,8 +44,8 @@
         "hit_test_level": 0,
         "content_margin": [12, 3, 12, 3],
         "layer0.texture": "Seti_UI/Main/tab-inactive.png",
-        "layer0.inner_margin": [5, 5],
-        "layer0.opacity": 1.0
+        "layer0.inner_margin": 5,
+        "layer0.opacity": 1
     },
     // Tab close state
     {
@@ -86,7 +85,7 @@
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [8,8]
+        "content_margin": 8
     },
     {
         "class": "tab_close_button",
@@ -112,14 +111,14 @@
         "class": "tab_close_button",
         "settings": ["!show_tab_close_buttons"],
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
-        "content_margin": [8,8],
+        "content_margin": 8,
         "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
         "layer0.texture": "Seti_UI/Main/close.png",
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 1,
         "layer0.tint": [79,153,211]
     },
     {
@@ -148,7 +147,7 @@
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "attributes": ["pressed"],
-        "layer0.opacity": 0.8
+        "layer0.opacity": 0.85
     },
 
 //========================================================
@@ -178,41 +177,41 @@
     // Tab dropdown
     {
         "class": "show_tabs_dropdown_button",
-        "content_margin": [10, 8],
+        "content_margin": 8,
         "layer0.texture": "Seti_UI/Main/tabset-list@2x.png",
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
         "layer0.texture": "Seti_UI/Main/tabset-list-hover@2x.png",
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1
     },
     // Tab scroll left
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [9, 7, 8, 6],
         "layer0.texture": "Seti_UI/Main/tabset-left@2x.png",
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
         "layer0.texture": "Seti_UI/Main/tabset-left-hover@2x.png",
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1
     },
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [9, 7, 8, 6],
         "layer0.texture": "Seti_UI/Main/tabset-right@2x.png",
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
         "layer0.texture": "Seti_UI/Main/tabset-right-hover@2x.png",
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1
     },
 
 //========================================================
@@ -224,12 +223,12 @@
         "layer0.texture": "Seti_UI/Main/fold-closed.png",
         "layer0.opacity": 0.45,
         "layer0.inner_margin": 0,
-        "content_margin": [8,8]
+        "content_margin": 8
     },
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
-        "layer0.opacity": 0.8
+        "layer0.opacity": 0.85
     },
     {
         "class": "fold_button_control",
@@ -248,32 +247,32 @@
     // Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.tint":[11,16,21],
+        "layer0.tint": [11,16,21],
         "layer0.opacity": 1,
-        "layer0.inner_margin": [0,0],
+        "layer0.inner_margin": 0,
         "blur": true
     },
     // Standard horizontal scroll bar
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.tint":[11,16,21],
-        "layer0.inner_margin": [0,0],
+        "layer0.tint": [11,16,21],
+        "layer0.inner_margin": 0,
         "blur": true
     },
     // Standard scroll bar corner
     {
         "class": "scroll_corner_control",
         "layer0.tint":[11,16,21],
-        "layer0.inner_margin": [0,0],
+        "layer0.inner_margin": 0,
         "layer0.opacity": 1
     },
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.tint":[22,31,39],    //auto complete SB
+        "layer0.tint":[22,31,39], // auto complete SB
         "layer0.opacity": 1,
-        "layer0.inner_margin": [0,0],
+        "layer0.inner_margin": 0,
         "content_margin": [3,0],
         "blur": false
     },
@@ -282,11 +281,10 @@
         "class": "puck_control",
         "attributes": ["horizontal"],
         "layer0.tint":[22,31,39],
-        "layer0.inner_margin": [0,0],
+        "layer0.inner_margin": 0,
         "content_margin": [12,3],
         "blur": false
     },
-
     // options
     {
         "class": "puck_control",
@@ -326,11 +324,11 @@
         "settings": ["!overlay_scroll_bars"],
         "overlay": false
     },
-     // Overlay vertical scroll bar
+    // Overlay vertical scroll bar
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.tint":[28,31,38],
+        "layer0.tint":[28,31,38], // Main SB
         "layer0.inner_margin": [0,5],
         "blur": true
     },
@@ -360,7 +358,6 @@
         "content_margin": [16,2],
         "blur": true
     },
-
     // options
     {
         "class": "puck_control",
@@ -390,7 +387,7 @@
 
     {
         "class": "grid_layout_control",
-        "border_size": 1,
+        "border_size": 2,
         "border_color": [16,17,18]
     },
 
@@ -402,7 +399,7 @@
         "class": "minimap_control",
         "viewport_color": [13,14,15,180]
     },
-     {
+    {
         "class": "minimap_control",
         "attributes": ["hover"],
         "viewport_color": [13,14,15,220]
@@ -416,7 +413,7 @@
     {
         "class": "dialog",
         "layer0.tint": [238, 238, 238],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1
     },
 
 //========================================================
@@ -426,12 +423,12 @@
     {
         "class": "progress_bar_control",
         "layer0.tint": [94,235,184],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1
     },
     {
         "class": "progress_gauge_control",
         "layer0.tint": [52, 152, 219],
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 1,
         "content_margin": [0, 6]
     },
 
@@ -463,9 +460,9 @@
     {
         "class": "tool_tip_control",
         "layer0.tint": [22,31,39],
-        "layer0.inner_margin": [1,1],
-        "layer0.opacity": 1.0,
-        "content_margin": [10, 8, 10, 8]
+        "layer0.inner_margin": 1,
+        "layer0.opacity": 1,
+        "content_margin": [10, 8]
     },
     // Tooltip content
     {
@@ -481,8 +478,8 @@
     {
         "class": "status_bar",
         "layer0.tint": [16,17,18],
-        "layer0.opacity": 1.0,
-        "content_margin": [15, 7]
+        "layer0.opacity": 1,
+        "content_margin": [20, 7, 10, 7]
     },
     // Status bar button
     {
@@ -513,8 +510,7 @@
         "row_padding": [8,7],
         "indent": 15,
         "indent_offset": 18,
-        "indent_top_level": true, // which make OpenFiles & Folders expandable
-        "dark_content": true
+        "indent_top_level": true // which make OpenFiles & Folders expandable
     },
 
     // options
@@ -551,7 +547,7 @@
         "class": "sidebar_tree",
         "settings": ["Seti_sb_tree_miny"],
         "indent": 5,
-        "row_padding": [5,5],
+        "row_padding": 5,
         "indent_offset": 15,
     },
 
@@ -628,7 +624,7 @@
         "layer0.texture": "Seti_UI/Main/close@2x.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "content_margin": [8,8]
+        "content_margin": 8
     },
     {
         "class": "close_button",
@@ -675,7 +671,7 @@
     // Sidebar group closed
      {
         "class": "disclosure_button_control",
-        "content_margin": [8, 8],
+        "content_margin": 8,
         "layer0.texture": "Seti_UI/Main/group-closed@2x.png",
         "layer0.inner_margin": 0,
         "layer0.tint": [200, 200, 200],
@@ -698,7 +694,7 @@
         "content_margin": [7,0]
     },
 
-    // options
+    // Options
     {
         "class": "icon_folder",
         "settings": ["Seti_ClosedFolder_same"],
@@ -708,7 +704,7 @@
     {
         "class": "icon_folder",
         "settings": ["Seti_ClosedFolder_remove"],
-        "content_margin": [0,0]
+        "content_margin": 0
     },
     {
         "class": "icon_folder",
@@ -722,7 +718,7 @@
         "layer0.texture": "Seti_UI/icons/folder_open@2x.png",
         "layer0.inner_margin": -5,
         "layer0.opacity": 1,
-        "content_margin": [7,0]
+        "content_margin": [7,0],
     },
 
     //========================================================
@@ -733,7 +729,7 @@
         // layer0.texture is filled in by code with the relevant icon name
         "layer0.tint": [255, 255, 255],
         "layer0.opacity": 1,
-        "content_margin": [8, 8]
+        "content_margin": 8
     },
     {
         "class": "icon_file_type",
@@ -770,8 +766,8 @@
             "loop": true,
             "frame_time": 0.075
         },
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "layer0.opacity": 1,
+        "content_margin": 8
     },
 
 //========================================================
@@ -781,10 +777,10 @@
     // Default button state
     {
         "class": "button_control",
-        "content_margin": [5,10], // the search panel right side buttons height
-        "min_size": [70,0],
         "layer0.opacity": 1,
-        "layer0.tint": [11,125,212]
+        "layer0.tint": [11,125,212],
+        "min_size": [75,0],
+        "content_margin": [5,10] // the search panel right side buttons height
     },
     // Hover button state
     {
@@ -807,14 +803,13 @@
     {
         "class": "text_line_control",
         "layer0.tint": [21,23,24], // is the same color of BG in widget file
-        // "layer0.tint": [39,40,41],
         "layer0.opacity": 1,
-        "content_margin": [5,3] // control the search panel height , line padding also effects this
+        "content_margin": [3,1,5,0] // control the search panel height , line padding also effects this
     },
     // Text input dropdown
     {
         "class": "dropdown_button_control",
-        "content_margin": [8, 8],
+        "content_margin": 8,
         "layer0.texture": "Seti_UI/Main/text-field-list.png",
         "layer0.tint": [212, 212, 213],
         "layer0.opacity": 1
@@ -835,7 +830,7 @@
         "layer0.inner_margin": 0,
         "layer0.opacity": 1,
         "layer0.tint": [16,17,18],
-        "content_margin": [0, 0, 0, 1]
+        "content_margin": 0
     },
     // Quick panel background
     {
@@ -843,7 +838,7 @@
         "layer0.opacity": 1,
         "layer1.tint": [16, 17, 18],
         "layer1.opacity": 1,
-        "content_margin": [0]
+        "content_margin": 0
     },
 
 //========================================================
@@ -852,10 +847,9 @@
 
     {
         "class": "quick_panel",
-        "row_padding": 16,
+        "row_padding": 17,
         "layer0.tint": [16,17,18],
-        "layer0.opacity": 1,
-        "dark_content": true
+        "layer0.opacity": 1
     },
     {
         "class": "quick_panel_row",
@@ -918,13 +912,13 @@
 
     {
         "class": "popup_control",
-        "content_margin": [0,0],
+        "content_margin": 0,
         "layer0.tint": [16,17,18],
         "layer0.opacity": 1
     },
     {
         "class": "auto_complete",
-        "row_padding": [12,10]
+        "row_padding": 10
     },
     {
         "class": "auto_complete_label",
@@ -937,7 +931,7 @@
         "class": "table_row",
         "layer0.tint": [79, 153, 211],
         "layer0.opacity": 0,
-        "layer0.inner_margin": [5,5]
+        "layer0.inner_margin": 5
     },
     {
         "class": "table_row",
@@ -954,8 +948,7 @@
     {
         "class": "icon_button_control",
         "layer0.opacity": 0,
-        "layer0.inner_margin": [6,6],
-        "content_margin": [5,8]
+        "content_margin": [6,8]
     },
     {
         "class": "icon_button_control",
