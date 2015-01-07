@@ -1,0 +1,12 @@
+v4 (07-1-2015)
+-------------------
+
+1. changed search buttons & icons colors.
+2. made the quickpanel & auto-complete rows padding are a bit smaller.
+3. add "Seti_rainbow" , and changed the quickpanel top bar color
+4. the text on the right on the status bar are pushed a bit to the right.
+5. fixed the "wholeword icon" postition.
+6. readme & install updated
+
+.. if u want the old colors use the theme file from the "Mods" branch.
+.. ((d[^_x]b)) Mizar B & Heever - Lost World (Original Mix)
