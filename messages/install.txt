@@ -10,12 +10,8 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   "theme": "Seti.sublime-theme",
   "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
 
-  "line_padding_bottom": 3,               //  should be at least = 3 to align properly with the fold icon & search/quick panel line height
-  "line_padding_top": 3,
-  "margin": 3,
-
   "caret_extra_width": 2,                 //  to have a wider/thicker caret
-  "caret_extra_bottom": 3,                //  to make the caret = to the line height
+  "caret_extra_bottom": 3,                //  to make the caret = to the line height (the theme currently support 0,3,5)
   "caret_extra_top": 3,
 
   "overlay_scroll_bars": "enabled",       //  to show scrollbars only when scrolling
@@ -25,16 +21,13 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 - please check the readme for more theme options.
 
-- copy the (fold.png) "or edit it if you want" to (Packages/Theme - Default) to override the _focken default yellow icon.
+- copy the (+res/fold.png) "or edit it if you want" to (Packages/Theme - Default) to override the _focken default yellow code_folding icon.
 
 - for better recognition of file types, its recommended to install [Apply​Syntax](https://sublime.wbond.net/packages/ApplySyntax) by facelessuser.
 
 
 ## Folder Contents
 ----------------------
-
 +Res
-
   |-Ext         > copy the content of this folder to your 'Packages/User' folder so (Extensions/Files) can recognize their correct language/icons.
-
   |-File_Types  > are for testing the icons with, if you don't need it you can simply remove it.

@@ -220,7 +220,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Seti_UI/Main/fold-closed.png",
+        "layer0.texture": "Seti_UI/Main/fold-closed@2x.png",
         "layer0.opacity": 0.45,
         "layer0.inner_margin": 0,
         "content_margin": 8
@@ -233,7 +233,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Seti_UI/Main/fold-open.png"
+        "layer0.texture": "Seti_UI/Main/fold-open@2x.png"
     },
     {
         "class": "fold_button_control",
@@ -427,8 +427,8 @@
     },
     {
         "class": "progress_gauge_control",
-        "layer0.tint": [52, 152, 219],
         "layer0.opacity": 1,
+        "layer0.tint": [110, 29, 186],
         "content_margin": [0, 6]
     },
 
@@ -780,7 +780,7 @@
         "layer0.opacity": 1,
         "layer0.tint": [69,90,100],
         "min_size": [75,0],
-        "content_margin": [5,11] // the search panel right side buttons height
+        "content_margin": [5,6] // the search panel right side buttons height
     },
     // Hover button state
     {
@@ -804,8 +804,9 @@
         "class": "text_line_control",
         "layer0.tint": [21,23,24], // is the same color of BG in widget file
         "layer0.opacity": 1,
-        "content_margin": [3,3,5,3] // control the search panel height , line padding also effects this
+        "content_margin": [3,1,5,0] // control the search panel height , line padding also effects this
     },
+    // options @ BOTTOM PANEL BUTTONS
     // Text input dropdown
     {
         "class": "dropdown_button_control",
@@ -844,7 +845,7 @@
         "class": "overlay_control",
         "settings": ["Seti_rainbow"],
         "layer1.opacity": 0,
-        "layer0.texture": "Seti_UI/Main/quick_bar1.png",
+        "layer0.texture": "Seti_UI/Main/xyz/quick_bar.png",
         "layer0.opacity": 1
     },
 
@@ -854,7 +855,7 @@
 
     {
         "class": "quick_panel",
-        "row_padding": [10,14],
+        "row_padding": [10,8],
         "layer0.tint": [16,17,18],
         "layer0.opacity": 1
     },
@@ -925,7 +926,7 @@
     },
     {
         "class": "auto_complete",
-        "row_padding": [5,10]
+        "row_padding": [3,2]
     },
     {
         "class": "auto_complete_label",
@@ -953,8 +954,86 @@
     {
         "class": "icon_button_control",
         "layer0.opacity": 0,
+        "content_margin": [6,5]
+    },
+    // options
+    // 5
+    {
+        "class": "text_line_control",
+        "settings": ["Seti_pad_5"],
+        "content_margin": [3,2,5,2]
+    },
+    {
+        "class": "button_control",
+        "settings": ["Seti_pad_5"],
+        "content_margin": [5,11]
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["Seti_pad_5"],
         "content_margin": [6,10]
     },
+    {
+        "class": "quick_panel",
+        "settings": ["Seti_pad_5"],
+        "row_padding": [10,14,10,13],
+    },
+    {
+        "class": "auto_complete",
+        "settings": ["Seti_pad_5"],
+        "row_padding": [5,8]
+    },
+    {
+        "class": "fold_button_control",
+        "settings": ["Seti_pad_5"],
+        "layer0.texture": "Seti_UI/Main/xyz/fold-closed-5@2x.png",
+    },
+    {
+        "class": "fold_button_control",
+        "settings": ["Seti_pad_5"],
+        "attributes": ["expanded"],
+        "layer0.texture": "Seti_UI/Main/xyz/fold-open-5@2x.png",
+    },
+    // 3
+    {
+        "class": "text_line_control",
+        "settings": ["Seti_pad_3"],
+        "content_margin": [3,1,5,0]
+    },
+    {
+        "class": "button_control",
+        "settings": ["Seti_pad_3"],
+        "content_margin": [5,9]
+    },
+    {
+        "class": "icon_button_control",
+        "settings": ["Seti_pad_3"],
+        "content_margin": [6,8]
+    },
+    {
+        "class": "quick_panel",
+        "settings": ["Seti_pad_3"],
+        "row_padding": [10,12,10,11],
+    },
+    {
+        "class": "auto_complete",
+        "settings": ["Seti_pad_3"],
+        "row_padding": [5,5]
+    },
+    {
+        "class": "fold_button_control",
+        "settings": ["Seti_pad_3"],
+        "layer0.texture": "Seti_UI/Main/xyz/fold-closed-3@2x.png",
+    },
+    {
+        "class": "fold_button_control",
+        "settings": ["Seti_pad_3"],
+        "attributes": ["expanded"],
+        "layer0.texture": "Seti_UI/Main/xyz/fold-open-3@2x.png",
+    },
+    //
+
+
     {
         "class": "icon_button_control",
         "attributes": ["selected"],

@@ -1,0 +1,21 @@
+v5 (11-1-2015)
+-------------------
+
+1. add options for different "line_padding" so u r free to use the default '0' and still get the same experience.
+* if u use "0" don't add any of the new "Seti_pad_?" to ur settings.
+* the new options affect (quick_panel, search_panel, gutter_fold_icons, auto_complete_panel.
+* search_panel after setting new options needs to be dragged_up & down to fix its size. (its related to ST not the theme it self)
+ 
+2. for Retina Macs with fold icons wasn't showing ,now its fixed.
+3. readme / install updated.
+4. finally found how to make the search panel slimmer (ITS A NEW DAWN).
+
+
+
+*** try this
+{
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"caret_extra_bottom": 7,
+	"caret_extra_top": 7,
+}
