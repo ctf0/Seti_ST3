@@ -1,0 +1,7 @@
+v5.1 (11-1-2015)
+-------------------
+
+1. changed search panel arrow.
+2. added groovy support.
+3. fixed search panel icons for retina.
+4. updated msgs.

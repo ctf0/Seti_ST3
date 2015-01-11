@@ -1075,7 +1075,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Seti_UI/Main/regex.png",
+        "layer0.texture": "Seti_UI/Main/regex@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1093,7 +1093,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Seti_UI/Main/casesens.png",
+        "layer0.texture": "Seti_UI/Main/casesens@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1111,7 +1111,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Seti_UI/Main/wholeword.png",
+        "layer0.texture": "Seti_UI/Main/wholeword@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1134,7 +1134,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Seti_UI/Main/context.png",
+        "layer0.texture": "Seti_UI/Main/context@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1152,7 +1152,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Seti_UI/Main/buffer.png",
+        "layer0.texture": "Seti_UI/Main/buffer@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1175,7 +1175,7 @@
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "Seti_UI/Main/reverse.png",
+        "layer0.texture": "Seti_UI/Main/reverse@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1193,7 +1193,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Seti_UI/Main/wrap.png",
+        "layer0.texture": "Seti_UI/Main/wrap@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1211,7 +1211,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Seti_UI/Main/selection.png",
+        "layer0.texture": "Seti_UI/Main/selection@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1234,7 +1234,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Seti_UI/Main/casesens.png",
+        "layer0.texture": "Seti_UI/Main/casesens@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1257,7 +1257,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Seti_UI/Main/highlight.png",
+        "layer0.texture": "Seti_UI/Main/highlight@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
