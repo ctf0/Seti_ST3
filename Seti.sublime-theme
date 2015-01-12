@@ -721,32 +721,6 @@
         "content_margin": [7,0],
     },
 
-    //========================================================
-    //  ICONS (build 3062+)
-    //--------------------------------------------------------
-    {
-        "class": "icon_file_type",
-        // layer0.texture is filled in by code with the relevant icon name
-        "layer0.tint": [255, 255, 255],
-        "layer0.opacity": 1,
-        "content_margin": 8
-    },
-    {
-        "class": "icon_file_type",
-        "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.opacity": 1
-    },
-    {
-        "class": "icon_file_type",
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.opacity": 1
-    },
-    {
-        "class": "icon_file_type",
-        "parents": [{"class": "tree_row","attributes": ["selected", "hover"]}],
-        "layer0.opacity": 1
-    },
-
     // Icon folder loading
     {
         "class": "icon_folder_loading",
@@ -810,9 +784,8 @@
     // Text input dropdown
     {
         "class": "dropdown_button_control",
-        "content_margin": 8,
+        "content_margin": 7,
         "layer0.texture": "Seti_UI/Main/text-field-list.png",
-        "layer0.tint": [212, 212, 213],
         "layer0.opacity": 1
     },
     {
