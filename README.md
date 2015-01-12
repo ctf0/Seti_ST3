@@ -3,7 +3,6 @@
 `SublimeText 3 Theme & ColorScheme` Port of Seti_UI & Syntax by [jesseweed](https://github.com/jesseweed/seti-ui)
 
 ![Seti Screenshot](./+res/screenshot-1.png)
-![Seti Screenshot](./+res/screenshot-2.png)
 
 
 # Notes
