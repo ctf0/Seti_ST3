@@ -2,7 +2,7 @@
 
 1- backup for Seti.sublime-theme (7/1).
 
-0- <strike>different color for search and quick panel<strike> [#31](https://github.com/ctf0/Seti_ST3/issues/31#issuecomment-61432947) ,added to the main branch.
+0- <strike>different color for search and quick panel</strike> [#31](https://github.com/ctf0/Seti_ST3/issues/31#issuecomment-61432947) ,added to the main branch.
 
 0- <strike>the small bar under tabs are now removed</strike> [#28](https://github.com/ctf0/Seti_ST3/issues/28) ,added to the main branch.
 
