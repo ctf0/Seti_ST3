@@ -75,6 +75,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   "Seti_sb_tree_tiny": true,              // check (https://github.com/ctf0/Seti_ST3/issues/88)
   "Seti_sb_tree_miny": true,              // check (https://github.com/ctf0/Seti_ST3/issues/88)
 
+  "Seti_sb_wild": true,                   // experiment
   "Seti_rainbow": true,                   // something different
 
   "Seti_pad_5": true                      // use with line_padding_bottom / line_padding_top = 5

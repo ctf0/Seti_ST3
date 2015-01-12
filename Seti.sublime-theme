@@ -677,6 +677,24 @@
         "layer0.tint": [200, 200, 200],
         "layer0.opacity": 1
     },
+     // options
+    {
+        "class": "disclosure_button_control",
+        "settings": ["Seti_sb_wild"],
+        "layer0.opacity": 0 // hide sidebar arrows
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["Seti_sb_wild"],
+        "indent": 15,
+        "row_padding": [3,6],
+        "indent_offset": 2,
+    },
+    {
+        "class": "sidebar_container",
+        "settings": ["Seti_sb_wild"],
+        "content_margin": [0,7,0,0]
+    },
 
     // Sidebar group open
     {
