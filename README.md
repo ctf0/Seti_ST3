@@ -15,6 +15,8 @@
 
 - A New/Better syntax Highlight released under [Seti_UX](https://sublime.wbond.net/packages/Seti_UX).
 
+- [zchee](https://github.com/zchee) made a Port for JetBrains [Seti_JetBrains](https://github.com/zchee/Seti_JetBrains) :tophat:.
+
 
 ## Install
 
