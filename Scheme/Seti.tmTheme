@@ -6,9 +6,9 @@
         <string>Seti_Mod</string>
         <key>settings</key>
         <array>
-<!-- ====================================
-General
-====================================== -->
+            <!-- ====================================
+            General
+            ====================================== -->
             <dict>
                 <key>settings</key>
                 <dict>
@@ -69,9 +69,9 @@ General
                 </dict>
             </dict>
 
-<!-- ====================================
-Comment
-====================================== -->
+            <!-- ====================================
+            Comment
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>comment</string>
@@ -82,9 +82,9 @@ Comment
                 </dict>
             </dict>
 
-<!-- ====================================
-String
-====================================== -->
+            <!-- ====================================
+            String
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>string</string>
@@ -175,9 +175,9 @@ String
                 </dict>
             </dict>
 
-<!-- ====================================
-Number
-====================================== -->
+            <!-- ====================================
+            Number
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>constant.numeric</string>
@@ -189,9 +189,9 @@ Number
             </dict>
 
 
-<!-- ====================================
-Includes
-====================================== -->
+            <!-- ====================================
+            Includes
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>meta.use, support.other.namespace</string>
@@ -202,9 +202,9 @@ Includes
                 </dict>
             </dict>
 
-<!-- ====================================
-Constant
-====================================== -->
+            <!-- ====================================
+            Constant
+            ====================================== -->
             <dict>
                 <key>name</key>
                 <string>Constant</string>
@@ -217,9 +217,9 @@ Constant
                 </dict>
             </dict>
 
-<!-- ====================================
-Storage
-====================================== -->
+            <!-- ====================================
+            Storage
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>storage</string>
@@ -254,10 +254,9 @@ Storage
                 </dict>
             </dict>
 
-
-<!-- ====================================
-Function Name
-====================================== -->
+            <!-- ====================================
+            Function Name
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>entity.name.function</string>
@@ -282,9 +281,9 @@ Function Name
                 </dict>
             </dict>
 
-<!-- ====================================
-Dictionary
-====================================== -->
+            <!-- ====================================
+            Dictionary
+            ====================================== -->
             <dict>
                 <key>name</key>
                 <string>Dict key</string>
@@ -310,9 +309,9 @@ Dictionary
                 </dict>
             </dict>
 
-<!-- ====================================
-Function
-====================================== -->
+            <!-- ====================================
+            Function
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>meta.function-call</string>
@@ -417,9 +416,9 @@ Function
                 </dict>
             </dict>
 
-<!-- ====================================
-External Symbol
-====================================== -->
+            <!-- ====================================
+            External Symbol
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>variable.other.external-symbol</string>
@@ -430,9 +429,9 @@ External Symbol
                 </dict>
             </dict>
 
-<!-- ====================================
-Variable
-====================================== -->
+            <!-- ====================================
+            Variable
+            ====================================== -->
             <dict>
                 <key>name</key>
                 <string>Variable</string>
@@ -493,9 +492,9 @@ Variable
                 </dict>
             </dict>
 
-<!-- ====================================
-Variable Assignment
-====================================== -->
+            <!-- ====================================
+            Variable Assignment
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>variable.parameter, variable.assignment</string>
@@ -516,9 +515,9 @@ Variable Assignment
                 </dict>
             </dict>
 
-<!-- ====================================
-Keyword
-====================================== -->
+            <!-- ====================================
+            Keyword
+            ====================================== -->
             <dict>
                 <key>name</key>
                 <string>Keyword</string>
@@ -563,9 +562,9 @@ Keyword
                 </dict>
             </dict>
 
-<!-- ====================================
-Structure Name
-====================================== -->
+            <!-- ====================================
+            Structure Name
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>entity.name.structure</string>
@@ -576,9 +575,9 @@ Structure Name
                 </dict>
             </dict>
 
-<!-- ====================================
-Type Name
-====================================== -->
+            <!-- ====================================
+            Type Name
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>entity.name.type</string>
@@ -589,9 +588,9 @@ Type Name
                 </dict>
             </dict>
 
-<!-- ====================================
-Class Name
-====================================== -->
+            <!-- ====================================
+            Class Name
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>meta.class, entity.name.class, entity.name.type.class</string>
@@ -602,9 +601,9 @@ Class Name
                 </dict>
             </dict>
 
-<!-- ====================================
-Invalid
-====================================== -->
+            <!-- ====================================
+            Invalid
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>invalid</string>
@@ -629,9 +628,9 @@ Invalid
                 </dict>
             </dict>
 
-<!-- ====================================
-String Embedded-source
-====================================== -->
+            <!-- ====================================
+            String Embedded-source
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>string source</string>
@@ -675,9 +674,9 @@ Tag Name
                 </dict>
             </dict>
 
-<!-- ====================================
-Html
-====================================== -->
+            <!-- ====================================
+            Html
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>meta.tag.structure.any.html entity.name.tag.structure.any.html</string>
@@ -950,9 +949,9 @@ Html
                 </dict>
             </dict>
 
-<!-- ====================================
-Css
-====================================== -->
+            <!-- ====================================
+            Css
+            ====================================== -->
             <dict>
                 <key>name</key>
                 <string>css.string</string>
@@ -1231,9 +1230,9 @@ Css
                 </dict>
             </dict>
 
-<!-- ====================================
-Less
-====================================== -->
+            <!-- ====================================
+            Less
+            ====================================== -->
             <dict>
                 <key>name</key>
                 <string>LESS variables</string>
@@ -1270,9 +1269,9 @@ Less
                 </dict>
             </dict>
 
-<!-- ====================================
-Sass/scss
-====================================== -->
+            <!-- ====================================
+            Sass/scss
+            ====================================== -->
             <dict>
                 <key>name</key>
                 <string>SASS: Block comment</string>
@@ -1357,9 +1356,9 @@ Sass/scss
                 </dict>
             </dict>
 
-<!-- ====================================
-Js
-====================================== -->
+            <!-- ====================================
+            Js
+            ====================================== -->
             <dict>
                 <key>name</key>
                 <string>Property - JavaScriptNext</string>
@@ -1457,9 +1456,9 @@ Js
                 </dict>
             </dict>
 
-<!-- ====================================
-Js In Html Embedded
-====================================== -->
+            <!-- ====================================
+            Js In Html Embedded
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>source.js.embedded.html string.quoted.single.js, source.js.embedded.html string.quoted.single.js punctuation.definition.string.begin.js, source.js.embedded.html string.quoted.single.js punctuation.definition.string.end.js</string>
@@ -1510,9 +1509,9 @@ Js In Html Embedded
                 </dict>
             </dict>
 
-<!-- ====================================
-MarkDown
-====================================== -->
+            <!-- ====================================
+            MarkDown
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>meta.block-level.markdown markup.heading.markdown punctuation.definition.heading.markdown, meta.block-level.markdown markup.heading.markdown entity.name.section.markdown</string>
@@ -1563,9 +1562,9 @@ MarkDown
                 </dict>
             </dict>
 
-<!-- ====================================
-Find In Files
-====================================== -->
+            <!-- ====================================
+            Find In Files
+            ====================================== -->
             <dict>
                 <key>scope</key>
                 <string>text.find-in-files</string>
@@ -1600,143 +1599,144 @@ Find In Files
                 </dict>
             </dict>
 
-<!-- ====================================
-diff
-====================================== -->
-        <dict>
-            <key>name</key>
-            <string>main</string>
-            <key>scope</key>
-            <string>source.diff</string>
-            <key>settings</key>
+            <!-- ====================================
+            diff
+            ====================================== -->
             <dict>
-                <key>foreground</key>
-                <string>#d4d7d6</string>
+                <key>name</key>
+                <string>main</string>
+                <key>scope</key>
+                <string>source.diff</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#d4d7d6</string>
+                </dict>
             </dict>
-        </dict>
 
-        <dict>
-            <key>name</key>
-            <string>diff.header from</string>
-            <key>scope</key>
-            <string>meta.diff.header.from-file, meta.diff.header.from-file punctuation.definition.from-file.diff</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#41535b</string>
+                <key>name</key>
+                <string>diff.header from</string>
+                <key>scope</key>
+                <string>meta.diff.header.from-file, meta.diff.header.from-file punctuation.definition.from-file.diff</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#41535b</string>
+                </dict>
             </dict>
-        </dict>
 
-        <dict>
-            <key>name</key>
-            <string>diff.header to</string>
-            <key>scope</key>
-            <string>meta.diff.header.to-file, meta.diff.header.to-file punctuation.definition.to-file.diff</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#41535b</string>
+                <key>name</key>
+                <string>diff.header to</string>
+                <key>scope</key>
+                <string>meta.diff.header.to-file, meta.diff.header.to-file punctuation.definition.to-file.diff</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#41535b</string>
+                </dict>
             </dict>
-        </dict>
 
-        <dict>
-            <key>name</key>
-            <string>diff.deleted</string>
-            <key>scope</key>
-            <string>markup.deleted.diff, markup.deleted.diff punctuation.definition.inserted.diff</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#cd3f45</string>
+                <key>name</key>
+                <string>diff.deleted</string>
+                <key>scope</key>
+                <string>markup.deleted.diff, markup.deleted.diff punctuation.definition.inserted.diff</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#cd3f45</string>
+                </dict>
             </dict>
-        </dict>
 
-        <dict>
-            <key>name</key>
-            <string>diff.inserted</string>
-            <key>scope</key>
-            <string>markup.inserted.diff, punctuation.definition.inserted.diff</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#9FCA56</string>
+                <key>name</key>
+                <string>diff.inserted</string>
+                <key>scope</key>
+                <string>markup.inserted.diff, punctuation.definition.inserted.diff</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#9FCA56</string>
+                </dict>
             </dict>
-        </dict>
 
-        <dict>
-            <key>name</key>
-            <string>range</string>
-            <key>scope</key>
-            <string>meta.diff.range.unified, meta.diff.range.unified meta.toc-list.line-number.diff, meta.diff.range.unified punctuation.definition.range.diff</string>
-            <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
-                <key>foreground</key>
-                <string>#A074C4</string>
+                <key>name</key>
+                <string>range</string>
+                <key>scope</key>
+                <string>meta.diff.range.unified, meta.diff.range.unified meta.toc-list.line-number.diff, meta.diff.range.unified punctuation.definition.range.diff</string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string>italic</string>
+                    <key>foreground</key>
+                    <string>#A074C4</string>
+                </dict>
             </dict>
-        </dict>
-<!-- ====================================
-Gitgutter colors
-====================================== -->
+            <!-- ====================================
+            Gitgutter colors
+            ====================================== -->
             <dict>
-              <key>name</key>
-              <string>GitGutter deleted</string>
-              <key>scope</key>
-              <string>markup.deleted.git_gutter</string>
-              <key>settings</key>
-              <dict>
-                <key>foreground</key>
-                <string>#F92672</string>
-              </dict>
-            </dict>
-            <dict>
-              <key>name</key>
-              <string>GitGutter inserted</string>
-              <key>scope</key>
-              <string>markup.inserted.git_gutter</string>
-              <key>settings</key>
-              <dict>
-                <key>foreground</key>
-                <string>#A6E22E</string>
-              </dict>
+                <key>name</key>
+                <string>GitGutter deleted</string>
+                <key>scope</key>
+                <string>markup.deleted.git_gutter</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#F92672</string>
+                </dict>
             </dict>
             <dict>
-              <key>name</key>
-              <string>GitGutter changed</string>
-              <key>scope</key>
-              <string>markup.changed.git_gutter</string>
-              <key>settings</key>
-              <dict>
-                <key>foreground</key>
-                <string>#967EFB</string>
-              </dict>
+                <key>name</key>
+                <string>GitGutter inserted</string>
+                <key>scope</key>
+                <string>markup.inserted.git_gutter</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#A6E22E</string>
+                </dict>
             </dict>
             <dict>
-              <key>name</key>
-              <string>GitGutter ignored</string>
-              <key>scope</key>
-              <string>markup.ignored.git_gutter</string>
-              <key>settings</key>
-              <dict>
-                <key>foreground</key>
-                <string>#565656</string>
-              </dict>
+                <key>name</key>
+                <string>GitGutter changed</string>
+                <key>scope</key>
+                <string>markup.changed.git_gutter</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#967EFB</string>
+                </dict>
             </dict>
             <dict>
-              <key>name</key>
-              <string>GitGutter untracked</string>
-              <key>scope</key>
-              <string>markup.untracked.git_gutter</string>
-              <key>settings</key>
-              <dict>
-                <key>foreground</key>
-                <string>#565656</string>
-              </dict>
+                <key>name</key>
+                <string>GitGutter ignored</string>
+                <key>scope</key>
+                <string>markup.ignored.git_gutter</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#565656</string>
+                </dict>
             </dict>
-<!-- ====================================
-Other
-====================================== -->
+            <dict>
+                <key>name</key>
+                <string>GitGutter untracked</string>
+                <key>scope</key>
+                <string>markup.untracked.git_gutter</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#565656</string>
+                </dict>
+            </dict>
+
+            <!-- ====================================
+            Other
+            ====================================== -->
             <!-- {...} -->
             <dict>
                 <key>name</key>
@@ -1805,7 +1805,7 @@ Other
             </dict>
 
             <!-- ; -->
-             <dict>
+            <dict>
                 <key>name</key>
                 <string>punctuation.terminator</string>
                 <key>scope</key>
@@ -1820,7 +1820,7 @@ Other
             </dict>
 
             <!-- . -->
-             <dict>
+            <dict>
                 <key>name</key>
                 <string>meta.delimiter.method.period</string>
                 <key>scope</key>
@@ -1833,11 +1833,6 @@ Other
                     <string>#ffffff</string>
                 </dict>
             </dict>
-
         </array>
-        <key>semanticClass</key>
-        <string>Seti</string>
-        <key>author</key>
-        <string>Ctf0</string>
     </dict>
 </plist>
