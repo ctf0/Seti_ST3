@@ -15,8 +15,7 @@
 
 - A New/Better syntax Highlight released under [Seti_UX](https://sublime.wbond.net/packages/Seti_UX).
 
-- [zchee](https://github.com/zchee) made a Port for JetBrains [Seti_JetBrains](https://github.com/zchee/Seti_JetBrains) :tophat:.
-
+- [Seti_JetBrains](https://github.com/zchee/Seti_JetBrains) by [zchee](https://github.com/zchee) :tophat:.
 
 ## Install
 
@@ -40,7 +39,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 ### Example settings
 
-```
+```json
 {
   "theme": "Seti.sublime-theme",
   "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
@@ -73,14 +72,14 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   "Seti_sb_tree_med": true,               // sidebar tree padding = 15
   "Seti_sb_tree_small": true,             // sidebar tree padding = 10
 
-  "Seti_sb_tree_tiny": true,              // check (https://github.com/ctf0/Seti_ST3/issues/88)
-  "Seti_sb_tree_miny": true,              // check (https://github.com/ctf0/Seti_ST3/issues/88)
+  "Seti_sb_tree_tiny": true,              // check (issues/88)
+  "Seti_sb_tree_miny": true,              // check (issues/88)
 
   "Seti_sb_wild": true,                   // experiment
   "Seti_rainbow": true,                   // something different
 
-  "Seti_pad_5": true                      // use with line_padding_bottom / line_padding_top = 5
-  "Seti_pad_3": true                      // use with line_padding_bottom / line_padding_top = 3
+  "Seti_pad_5": true,                     // use with line_padding_bottom / line_padding_top = 5
+  "Seti_pad_3": true,                     // use with line_padding_bottom / line_padding_top = 3
 }
 ```
 
@@ -97,7 +96,6 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 - `ColorSchemeEditor` by [Borislav Peev](https://github.com/bobef) "HOF".
 
 - `Neon` by [Matt Morrison](https://github.com/MattDMo/Neon-color-scheme) "HOF".
-
 
 ## Differences from the original
 
