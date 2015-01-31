@@ -32,7 +32,6 @@
                     <string>#0D1011</string>
                     <key>gutterForeground</key>
                     <string>#d4d7d670</string>
-                    <!-- <string>#2B3337</string> -->
 
                     <key>selection</key>
                     <string>#4FA5C7</string>
@@ -49,7 +48,7 @@
                     <key>stackGuide</key>
                     <string>#71787c66</string>
                     <key>guide</key>
-                    <string>#1D1F20</string>
+                    <string>#71787c40</string>
                     <key>activeGuide</key>
                     <string>#1b2735</string>
                 </dict>
@@ -1831,6 +1830,43 @@ Tag Name
                     <string>bold</string>
                     <key>foreground</key>
                     <string>#ffffff</string>
+                </dict>
+            </dict>
+
+            <!-- ====================================
+            SublimeLinter
+            ====================================== -->
+            <dict>
+                <key>name</key>
+                <string>SublimeLinter Warning</string>
+                <key>scope</key>
+                <string>sublimelinter.mark.warning</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#DDB700</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SublimeLinter Error</string>
+                <key>scope</key>
+                <string>sublimelinter.mark.error</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#D02000</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SublimeLinter Gutter Mark</string>
+                <key>scope</key>
+                <string>sublimelinter.gutter-mark</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#FFFFFF</string>
                 </dict>
             </dict>
         </array>
