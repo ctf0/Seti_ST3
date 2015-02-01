@@ -97,6 +97,8 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 - `Neon` by [Matt Morrison](https://github.com/MattDMo/Neon-color-scheme) "HOF".
 
+- `Cyanide` by [lefoy](https://github.com/lefoy/cyanide-theme) "HOF".
+
 ## Differences from the original
 
 - No file icon in the opened tabs, ST lacks this.

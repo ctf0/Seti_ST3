@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>text.html.mustache, text.html.hgn, text.html.handlebars</string>
+    <string>text.html.mustache, text.html.hgn, text.html.handlebars, source.mustache, source.handlebars</string>
     <key>settings</key>
     <dict>
         <key>icon</key>
