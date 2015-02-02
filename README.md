@@ -50,8 +50,6 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 ```
 {
-  "Seti_mouse_wheel_tabswitch": true,     // allow tab switching with mouse wheel
-
   "Seti_no_bar_undertabs": true,          // remove the 4px bar under the tabs
   "Seti_tabs_small": true,                // tabs height = 35
   "Seti_tabs_med": true,                  // tabs height = 40
