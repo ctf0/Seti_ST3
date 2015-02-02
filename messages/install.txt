@@ -29,5 +29,4 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ## Folder Contents
 ----------------------
 +Res
-  |-Ext         > copy the content of this folder to your 'Packages/User' folder so (Extensions/Files) can recognize their correct language/icons.
-  |-File_Types  > are for testing the icons with, if you don't need it you can simply remove it.
+  |-Ext  > copy the content of this folder to your 'Packages/User' folder so (Extensions/Files) can recognize their correct language/icons.

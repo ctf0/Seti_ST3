@@ -7,8 +7,6 @@
 
 # Notes
 
-- I included a folder with some files types from `jesseweed` and `DanBrooker` to test the icons ,you should probably add some of them to the "file_exclude_patterns" as ST wont open them anyway.
-
 - Any thing less than 'ST3 Build 3062' wont get the sidebar icons to work.
 
 - if you used any of the resources in this repo into your own release ,plz appreciate the hard work and mention the original authors.
@@ -103,7 +101,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 - No file icon in the opened tabs, ST lacks this.
 
-- Not as icon rich as the original because ST can't see anything other than Extensions ,and even thou its still hard to make it use the icon you want.
+- <strike>Not as icon rich as the original because ST can't see anything other than Extensions ,and even thou its still hard to make it use the icon you want</strike>. (a work around has been added on v7)
 
 - Some scopes have different colors in Atom like the (:) ,this is related to the tmLanguage file in ST ,also note that Atom sometimes will display a different color than ST "even if the scope name matches in both editors".
 

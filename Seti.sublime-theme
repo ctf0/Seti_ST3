@@ -18,7 +18,7 @@
     // options
     {
         "class": "tabset_control",
-        "settings": ["Seti_mouse_wheel_tabswitch"],
+        "settings": ["mouse_wheel_tabswitch"],
         "mouse_wheel_switch": true
     },
     {

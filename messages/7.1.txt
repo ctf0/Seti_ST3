@@ -1,0 +1,8 @@
+v7.1 (2-2-2015)
+-------------------
+
+1. "Seti_mouse_wheel_tabswitch" is now "mouse_wheel_tabswitch" as its a global setting comes with every theme.
+
+2. removed file_types folder as there is no need for it now.
+
+3. added a couple of syntax to (sass,scss,less,rail-slim) ext files to make sure they display the right icon ,so plz install them again.
