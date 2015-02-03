@@ -6,6 +6,7 @@
 	<string>Git</string>
 	<key>fileTypes</key>
 	<array>
+		<string>.git</string>
 		<string>.gitignore</string>
 		<string>.gitconfig</string>
 		<string>.gitblame</string>
