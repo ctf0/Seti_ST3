@@ -381,6 +381,15 @@
         "layer0.opacity": 1
     },
 
+    // options
+    {
+        "class": "sheet_container_control",
+        "settings": ["Seti_in_4_a_treat"],
+        "layer0.opacity": 0,
+        "layer1.texture": "Seti_UI/Main/xyz/Empty.png",
+        "layer1.opacity": 1
+    },
+
 //========================================================
 //  GRID LAYOUT
 //--------------------------------------------------------

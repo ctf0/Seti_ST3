@@ -71,11 +71,12 @@ Activate the `Theme` and `Color-Scheme` by modifying your user preferences file,
   "Seti_sb_tree_tiny": true,              // check (issues/88)
   "Seti_sb_tree_miny": true,              // check (issues/88)
 
-  "Seti_sb_wild": true,                   // experiment
-  "Seti_rainbow": true,                   // something different
-
   "Seti_pad_5": true,                     // use with line_padding_bottom / line_padding_top = 5
   "Seti_pad_3": true,                     // use with line_padding_bottom / line_padding_top = 3
+
+  "Seti_sb_wild": true,                   // experiment for sidebar
+  "Seti_rainbow": true,                   // something different
+  "Seti_in_4_a_treat": true,              // something crazy
 }
 ```
 
