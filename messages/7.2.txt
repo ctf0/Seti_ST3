@@ -1,0 +1,4 @@
+v7.2 (3-2-2015)
+-------------------
+
+1. add support for ".git" ,the HL is handeld by (ShellScript) if u have a better option plz msg me.

@@ -33,7 +33,7 @@ Theme is listed as [Seti_UI](https://sublime.wbond.net/packages/Seti_UI) on Will
 
 ## Setup
 
-Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in Sublime Text or get `Schemr` & `Themr` by [Ben Weier](https://github.com/benweier).
+Activate the `Theme` and `Color-Scheme` by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in Sublime Text or use `Schemr` & `Themr` by [Ben Weier](https://github.com/benweier).
 
 ### Example settings
 
@@ -99,7 +99,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 - No file icon in the opened tabs, ST lacks this.
 
-- <strike>Not as icon rich as the original because ST can't see anything other than Extensions ,and even thou its still hard to make it use the icon you want</strike>. (a work around has been added on v7)
+- <strike>Not as icon rich as the original because ST can't see anything other than Extensions ,and even thou its still hard to make it use the icon you want</strike>. ( A work around has been added on v7 )
 
 - Some scopes have different colors in Atom like the (:) ,this is related to the tmLanguage file in ST ,also note that Atom sometimes will display a different color than ST "even if the scope name matches in both editors".
 
