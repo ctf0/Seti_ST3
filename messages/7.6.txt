@@ -1,0 +1,9 @@
+v7.6 (5-2-2015)
+-------------------
+
+1. add applescript icon.
+2. changed css & html icons. (if u prefer the old one ,plz do tell me).
+3. the slim files now have the old html icon to distinguish them from the normal html.
+4. add support for ".bowerrc" / "dockefile" / ".git".
+5. removed the "Julia.tmLanguage" that was cuzing some issues with some users. (but the pref + icons are still there if u use this language)
+6. for "Gruntfile/Gulpfile" ,if u use a formatter of any kind with this 2 files u may get an error because of the modification made to the language files ,simply use `view > open all with current extension as...` "JS/Coffee" and it should work.
