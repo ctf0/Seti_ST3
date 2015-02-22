@@ -1544,7 +1544,37 @@
             ====================================== -->
             <dict>
                 <key>scope</key>
-                <string>markup.list.numbered.markdown punctuation.definition.list_item.markdown, markup.list.numbered.markdown </string>
+                <string>meta.block-level.markdown markup.heading.markdown punctuation.definition.heading.markdown, meta.block-level.markdown markup.heading.markdown entity.name.section.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#A074C4</string>
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>text.html.markdown markup.list.numbered.markdown meta.paragraph.list.markdown meta.link.inline.markdown markup.underline.link.markdown, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.markdown markup.underline.link.markdown, text.html.markdown meta.paragraph.markdown meta.link.inline.markdown markup.underline.link.markdown, punctuation.definition.metadata.markdown </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#9FCA56</string>
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>text.html.markdown meta.paragraph.markdown meta.image.inline.markdown markup.underline.link.image.markdown, meta.paragraph.markdown meta.image.inline.markdown punctuation.definition.metadata.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#CD4046</string>
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>markup.list.unnumbered.markdown punctuation.definition.list_item.markdown, markup.list.numbered.markdown punctuation.definition.list_item.markdown, markup.list.numbered.markdown </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>

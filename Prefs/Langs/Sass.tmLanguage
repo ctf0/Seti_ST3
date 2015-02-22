@@ -7,8 +7,6 @@
 		<key>fileTypes</key>
 		<array>
 			<string>sass</string>
-			<string>sass.erb</string>
-			<string>sass.liquid</string>
 		</array>
 		<key>patterns</key>
 		<array>

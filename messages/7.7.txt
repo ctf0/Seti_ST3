@@ -1,0 +1,6 @@
+v7.7 (22-2-2015)
+-------------------
+
+1. add support to twig by soniagb89.
+2. more clean-up.
+3. better support for markdown in Seti_orig & Seti_monokai.

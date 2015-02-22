@@ -102,7 +102,7 @@ Activate the `Theme` and `Color-Scheme` by modifying your user preferences file,
 
 - <strike>Not as icon rich as the original because ST can't see anything other than Extensions ,and even thou its still hard to make it use the icon you want</strike>. ( A work around has been added on v7 )
 
-- Some scopes have different colors in Atom like the (:) ,this is related to the tmLanguage file in ST ,also note that Atom sometimes will display a different color than ST "even if the scope name matches in both editors".
+- Some scopes have different colors in Atom like the `:` ,this is related to the tmLanguage file in ST ,also note that Atom sometimes will display a different color than ST "even if the scope name matches in both editors".
 
 - Current line number highlight color, ST lacks this.
 
