@@ -169,6 +169,11 @@
         "parents": [{"class": "tab_control","attributes": ["selected"]}],
         "fg": [223,225,232]
     },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control","attributes": ["transient"]}],
+        "font.italic": true
+    },
 
 //========================================================
 //  TAB SCROLLING
