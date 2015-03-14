@@ -8,6 +8,7 @@
 	<array>
 		<string>.git</string>
 		<string>.gitignore</string>
+		<string>.gitkeep</string>
 		<string>.gitconfig</string>
 		<string>.gitblame</string>
 		<string>.gitcommit</string>
