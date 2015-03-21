@@ -1,0 +1,8 @@
+v8 (22-3-2015)
+-------------------
+
+1. add support to Linden Scripting Language by Builder's Brewery.
+2. add support to Typescript by Lucas Matías Ciruzzi.
+3. fixed update dialog text color by Chris54721.
+4. fixed npm icon ,now its sharper.
+5. Add style to tab_label transient by Fernando Daciuk.
