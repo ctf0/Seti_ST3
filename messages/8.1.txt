@@ -1,0 +1,5 @@
+v8.1 (3-5-2015)
+-------------------
+
+1. lighten the sidebar label colors thanx to  akloeber.
+2. fixed the license lang file thanx to zot24.
