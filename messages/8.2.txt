@@ -1,0 +1,6 @@
+v8.2 (8-5-2015)
+-------------------
+
+1. add 2 more options (Seti_no_blue_bar,Seti_blue_tab_label).
+2. read me updated.
+

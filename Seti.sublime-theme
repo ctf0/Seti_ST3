@@ -71,6 +71,13 @@
 		"attributes": ["dirty"],
 		"content_margin": [12,3,7,3]
 	},
+	// options
+	{
+		"class": "tab_control",
+		"settings": ["Seti_no_blue_bar"],
+		"attributes": ["selected"],
+		"layer0.texture": "Seti_UI/Main/tab-active_basic.png"
+	},
 
 //========================================================
 //  TAB BUTTONS
@@ -173,6 +180,13 @@
 		"class": "tab_label",
 		"parents": [{"class": "tab_control","attributes": ["transient"]}],
 		"font.italic": true
+	},
+	// options
+	{
+		"class": "tab_label",
+		"settings": ["Seti_blue_tab_label"],
+		"parents": [{"class": "tab_control","attributes": ["dirty"]}],
+		"fg": [79,153,211],
 	},
 
 //========================================================
@@ -1036,9 +1050,8 @@
 		"attributes": ["expanded"],
 		"layer0.texture": "Seti_UI/Main/xyz/fold-open-3@2x.png",
 	},
+
 	//
-
-
 	{
 		"class": "icon_button_control",
 		"attributes": ["selected"],
