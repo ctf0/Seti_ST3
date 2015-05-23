@@ -132,6 +132,23 @@
 		"class": "tab_close_button",
 		"parents": [{"class": "tab_control","attributes": ["dirty","selected"]}]
 	},
+	// options
+	{
+		"class": "tab_close_button",
+		"settings": ["Seti_orange_button"],
+		"parents": [{"class": "tab_control","attributes": ["dirty"]}],
+		"layer0.texture": "Seti_UI/Main/circle_orange.png",
+		"layer0.opacity": 1,
+		"layer0.tint": [255,136,1]
+	},
+	{
+		"class": "tab_close_button",
+		"settings": ["Seti_orange_button"],
+		"parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
+		"layer0.texture": "Seti_UI/Main/close_orange.png",
+		"layer0.opacity": 1,
+		"layer0.tint": [255,136,1]
+	},
 	// Tab highlight button
 	{
 		"class": "tab_close_button",
@@ -186,7 +203,13 @@
 		"class": "tab_label",
 		"settings": ["Seti_blue_tab_label"],
 		"parents": [{"class": "tab_control","attributes": ["dirty"]}],
-		"fg": [79,153,211],
+		"fg": [79,153,211]
+	},
+	{
+		"class": "tab_label",
+		"settings": ["Seti_orange_label"],
+		"parents": [{"class": "tab_control","attributes": ["dirty"]}],
+		"fg": [253,136,1]
 	},
 
 //========================================================

@@ -53,6 +53,9 @@ Activate the `Theme` and `Color-Scheme` by modifying your user preferences file,
   "Seti_no_bar_undertabs": true,          // remove the 4px bar under the tabs
   "Seti_no_blue_bar": true,          	  // remove the blue bar under the un-saved tabs
   "Seti_blue_tab_label": true,            // change the un-saved tab label to blue
+  "Seti_orange_label": true,			  // change label color to orange
+  "Seti_orange_button": true,			  // change blue tab buttons to orange
+
   "Seti_tabs_small": true,                // tabs height = 35
   "Seti_tabs_med": true,                  // tabs height = 40
 
