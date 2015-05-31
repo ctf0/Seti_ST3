@@ -597,7 +597,7 @@
 	{
 		"class": "sidebar_tree",
 		"settings": ["Seti_sb_tree_miny"],
-		"indent": 5,
+		"indent": 12,
 		"row_padding": 5,
 		"indent_offset": 15,
 	},
