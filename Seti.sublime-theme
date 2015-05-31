@@ -728,7 +728,13 @@
 		"layer0.tint": [200, 200, 200],
 		"layer0.opacity": 1
 	},
-	 // options
+	// Sidebar group open
+	{
+		"class": "disclosure_button_control",
+		"attributes": ["expanded"],
+		"layer0.texture": "Seti_UI/Main/group-open@2x.png"
+	},
+ 	// options
 	{
 		"class": "disclosure_button_control",
 		"settings": ["Seti_sb_wild"],
@@ -747,13 +753,6 @@
 		"content_margin": [0,7,0,0]
 	},
 
-	// Sidebar group open
-	{
-		"class": "disclosure_button_control",
-		"attributes": ["expanded"],
-		"layer0.texture": "Seti_UI/Main/group-open@2x.png"
-	},
-
 	// Sidebar folder closed
 	{
 		"class": "icon_folder",
@@ -763,6 +762,15 @@
 		"content_margin": [7,0]
 	},
 
+	// Sidebar folder opened
+	{
+		"class": "icon_folder",
+		"parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
+		"layer0.texture": "Seti_UI/Main/folder_open@2x.png",
+		"layer0.inner_margin": -5,
+		"layer0.opacity": 1,
+		"content_margin": [7,0],
+	},
 	// Options
 	{
 		"class": "icon_folder",
@@ -779,15 +787,6 @@
 		"class": "icon_folder",
 		"settings": ["Seti_ClosedFolder_dots"],
 		"layer0.texture": "Seti_UI/Main/xyz/folder-dots@2x.png",
-	},
-	// Sidebar folder opened
-	{
-		"class": "icon_folder",
-		"parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
-		"layer0.texture": "Seti_UI/Main/folder_open@2x.png",
-		"layer0.inner_margin": -5,
-		"layer0.opacity": 1,
-		"content_margin": [7,0],
 	},
 
 	// Icon folder loading
@@ -812,6 +811,28 @@
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
+
+    // remove all sidebar icons
+    {
+       "class": "icon_file_type",
+       "settings": ["Seti_sb_no_icons"],
+       "content_margin": 0
+    },
+    {
+       "class": "icon_file_type",
+       "settings": ["Seti_sb_blank"],
+       "content_margin": 0
+    },
+    {
+       "class": "icon_folder",
+       "settings": ["Seti_sb_blank"],
+       "content_margin": 0
+    },
+    {
+       "class": "icon_folder_loading",
+       "settings": ["Seti_sb_blank"],
+       "content_margin": 0
+    },
 
 //========================================================
 //  STANDARD TEXT BUTTONS

@@ -72,9 +72,11 @@ Activate the `Theme` and `Color-Scheme` by modifying your user preferences file,
 
   "Seti_sb_tree_med": true,               // sidebar tree padding = 15
   "Seti_sb_tree_small": true,             // sidebar tree padding = 10
-
   "Seti_sb_tree_tiny": true,              // check (issues/88)
   "Seti_sb_tree_miny": true,              // check (issues/88)
+
+  "Seti_sb_no_icons": true,               // check (issues/133)
+  "Seti_sb_blank": true,                  // check (issues/133)
 
   "Seti_pad_5": true,                     // use with line_padding_bottom / line_padding_top = 5
   "Seti_pad_3": true,                     // use with line_padding_bottom / line_padding_top = 3

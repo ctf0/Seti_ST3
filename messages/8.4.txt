@@ -1,0 +1,6 @@
+v8.4 (31-5-2015)
+-------------------
+
+1. add 2 more options (Seti_sb_no_icons, Seti_sb_blank).
+2. read me updated.
+
