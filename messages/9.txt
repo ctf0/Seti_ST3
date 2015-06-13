@@ -1,0 +1,9 @@
+v9 (13-06-2015)
+-------------------
+
+1. add a new version of the theme with the original tabs + some other additional visual mods.
+   "now the original theme is named as (Seti_orig) and the new version is just (Seti)",
+   dont forget to restart ST after u apply any of the themes.
+
+2. changed code folding image color.
+3. readme updated.
