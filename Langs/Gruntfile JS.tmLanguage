@@ -7,7 +7,6 @@
 	<key>fileTypes</key>
 	<array>
 		<string>gruntfile.js</string>
-		<string>gruntfile.babel.js</string>
 	</array>
 	<key>patterns</key>
 	<array>

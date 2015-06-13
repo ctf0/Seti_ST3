@@ -7,6 +7,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>gulpfile.js</string>
+		<string>gulpfile.babel.js</string>
 	</array>
 	<key>patterns</key>
 	<array>
