@@ -22,7 +22,7 @@
                     <key>invisibles</key>
                     <string>#F3FFB51A</string>
                     <key>lineHighlight</key>
-                    <string>#101112</string>
+                    <string>#1B1C1D</string>
 
                     <key>findHighlight</key>
                     <string>#4FA5C7</string>
@@ -50,7 +50,7 @@
                     <key>guide</key>
                     <string>#71787c40</string>
                     <key>activeGuide</key>
-                    <string>#1b2735</string>
+                    <string>#fefefe</string>
                 </dict>
             </dict>
 

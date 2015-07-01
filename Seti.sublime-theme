@@ -392,10 +392,10 @@
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.tint":[22,31,39], // auto complete SB
+        "layer0.tint":[100,150,232], // auto complete SB
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "content_margin": [3,0],
+        "content_margin": [2,0],
         "blur": false
     },
     // Standard horizontal scroll puck
@@ -708,7 +708,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [55,72,74],
+        "color": [2,174,255],
         "font.bold": true
     },
     {
@@ -723,18 +723,18 @@
     // Sidebar files
     {
         "class": "sidebar_label",
-        "color": [170,170,170]
+        "color": [255,255,255]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "color": [255,255,255]
+        "color": [124,159,174]
     },
     // Sidebar folder
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [80,105,108],
+        "color": [176,176,185],
         "font.bold": false
     },
     {
