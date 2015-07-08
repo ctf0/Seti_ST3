@@ -9,7 +9,7 @@
             <dict>
                 <key>settings</key>
                 <dict>
-                   <key>background</key>
+                    <key>background</key>
                     <string>#151718</string>
                     <key>foreground</key>
                     <string>#d4d7d6</string>
@@ -47,7 +47,7 @@
                     <key>guide</key>
                     <string>#71787c40</string>
                     <key>activeGuide</key>
-                    <string>#1b2735</string>
+                    <string>#ffd20080</string>
                 </dict>
             </dict>
 

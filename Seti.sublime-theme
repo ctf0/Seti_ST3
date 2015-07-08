@@ -1029,7 +1029,8 @@
     {
         "class": "quick_panel_label",
         "fg": [255,255,255],
-        "match_fg": [104,81,49],
+        "match_fg": [0,138,255],
+        // "match_fg": [104,81,49], old brown
         "selected_fg": [255,255,255],
         "selected_match_fg": [255,223,0]
     },
@@ -1052,18 +1053,18 @@
 
     {
         "class": "mini_quick_panel_row",
-        "layer0.tint": [16,17,18],
+        "layer0.tint": [38,43,49],
         "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["hover"],
-        "layer0.tint": [38, 38, 38]
+        "layer0.tint": [31,34,39]
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.tint": [60,71,81]
+        "layer0.tint": [61,71,81]
     },
 
 //========================================================
