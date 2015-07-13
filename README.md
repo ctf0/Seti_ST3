@@ -11,11 +11,11 @@
 
 # Notes
 
-- Any thing less than 'ST3 Build 3062' wont get the sidebar icons to work.
+- Any version older than 'ST3 Build 3062' won't get the sidebar icons to work.
 
-- if you used any of the resources in this repo into your own release ,plz appreciate the hard work and mention the original authors.
+- If you used any of the resources in this repo into your own release, please appreciate the hard work and mention the original authors.
 
-- A New/Better syntax Highlight released under [Seti_UX](https://sublime.wbond.net/packages/Seti_UX).
+- A new/better syntax highlight released under [Seti_UX](https://sublime.wbond.net/packages/Seti_UX).
 
 - [Seti_JetBrains](https://github.com/zchee/Seti_JetBrains) by [zchee](https://github.com/zchee) :tophat:.
 
@@ -93,11 +93,11 @@ Activate the `Theme` and `Color-Scheme` by modifying your user preferences file,
 
 ## Credits
 
-- Theme is Originally by [jesseweed](https://github.com/jesseweed/seti-ui).
+- Theme is originally by [jesseweed](https://github.com/jesseweed/seti-ui).
 
 - Ported based on `Glacier` by [joeyfigaro](https://github.com/joeyfigaro/glacier-theme) among many others.
 
-- Special thanx for [Anthony Garand](https://github.com/garand) for the widget files (took me 2 days to understand what they actually do O_o and fix the god dame text input thing).
+- Special thanx for [Anthony Garand](https://github.com/garand) for the widget files (took me 2 days to understand what they actually do O_o and fix the god dame text input thing.)
 
 - `ScopeHunter` by [facelessuser](https://github.com/facelessuser) "YOU ROCK".
 
@@ -115,10 +115,10 @@ Activate the `Theme` and `Color-Scheme` by modifying your user preferences file,
 
 ## Issue A Ticket
 
-1. what version of ST are you using ? (nothing lower than 3062).
+1. What version of ST are you using? (nothing older than 3062)
 
-2. have you restarted ST after you installed the theme ?.
+2. Have you restarted ST after you installed the theme?
 
-3. if you still have bad render ,have you removed the cache folder ? (found right next to the packages folder).
+3. If you still have bad render, have you removed the cache folder? (found right next to the packages folder)
 
-4. have you copied the files from the "Ext" folder to your User folder ?.
+4. Have you copied the files from the "Ext" folder to your User folder?
