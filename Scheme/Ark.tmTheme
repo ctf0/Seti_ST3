@@ -12,7 +12,7 @@
                 <key>background</key>
                 <string>#030300</string>
                 <key>caret</key>
-                <string>#31B232</string>
+                <string>#F2E049</string>
                 <key>foreground</key>
                 <string>#efefef</string>
                 <key>invisibles</key>
@@ -30,7 +30,7 @@
                 <key>gutter</key>
                 <string>#000000</string>
                 <key>gutterForeground</key>
-                <string>#222222</string>
+                <string>#343434</string>
                 <key>guide</key>
                 <string>#1a2323</string>
                 <key>activeGuide</key>
