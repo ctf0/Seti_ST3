@@ -5,14 +5,14 @@
 	// Tab set
 	{
 		"class": "tabset_control",
-		"layer0.texture": "Seti_UI/Main/tabset-background.png",
+		"layer0.texture": "Seti_UI/Main/tabset-background_ark.png",
 		"layer0.inner_margin": [1, 7],
 		"layer0.opacity": 1,
 		"content_margin": [0,0,4,4],
 		"tab_overlap": 1,
 		"tab_width": 190,
 		"tab_min_width": 50,
-		"tab_height": 45,
+		"tab_height": 30,
 		"mouse_wheel_switch": false
 	},
 	// options
@@ -43,7 +43,7 @@
 		"max_margin_trim": 0,
 		"hit_test_level": 0,
 		"content_margin": [12, 3],
-		"layer0.texture": "Seti_UI/Main/tab-inactive.png",
+		"layer0.texture": "Seti_UI/Main/tab-inactive_ark.png",
 		"layer0.inner_margin": 5,
 		"layer0.opacity": 1
 	},
