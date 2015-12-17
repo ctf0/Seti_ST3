@@ -14,7 +14,7 @@
                 <key>caret</key>
                 <string>#F2E049</string>
                 <key>foreground</key>
-                <string>#efefef</string>
+                <string>#D8D1BA</string>
                 <key>invisibles</key>
                 <string>#F3FFB5</string>
                 <key>lineHighlight</key>
@@ -138,7 +138,7 @@
                 <key>fontStyle</key>
                 <string> normal</string>
                 <key>foreground</key>
-                <string>#32C4FF</string>
+                <string>#06AFAE</string>
             </dict>
         </dict>
         <dict>
@@ -315,7 +315,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#3cadd7</string>
+                <string>#3CADD7</string>
             </dict>
         </dict>
         <dict>
@@ -326,9 +326,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#6DC138</string>
+                <string>#3CADD7</string>
                 <key>fontStyle</key>
-                <string> normal</string>
+                <string>italic</string>
             </dict>
         </dict>
         <dict>
@@ -339,9 +339,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#13BFAA</string>
+                <string>#06AFAE</string>
                 <key>fontStyle</key>
-                <string> normal</string>
+                <string>italic</string>
             </dict>
         </dict>
         <dict>
@@ -352,7 +352,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#ffffff</string>
+                <string>#D8D1BA</string>
+                <key>fontStyle</key>
+                <string>noraml</string>
             </dict>
         </dict>
         <dict>
@@ -363,9 +365,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#5eebb8</string>
+                <string>#BD4230</string>
                 <key>fontStyle</key>
-                <string> italic</string>
+                <string>italic</string>
             </dict>
         </dict>
         <dict>
@@ -378,7 +380,7 @@
                 <key>foreground</key>
                 <string>#6DC138</string>
                 <key>fontStyle</key>
-                <string> normal</string>
+                <string>normal</string>
             </dict>
         </dict>
         <dict>
@@ -594,7 +596,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#ffffff</string>
+                <string>#BD4230</string>
             </dict>
         </dict>
         <dict>
@@ -605,7 +607,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#ffffff</string>
+                <string>#BD4230</string>
             </dict>
         </dict>
         <dict>
@@ -682,7 +684,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FFFFFF</string>
+                <string>#BD4230</string>
             </dict>
         </dict>
         <dict>
@@ -779,7 +781,7 @@
             <key>scope</key><string>punctuation.definition.string.begin.json - meta.structure.dictionary.value.json, punctuation.definition.string.end.json - meta.structure.dictionary.value.json</string>
             <key>settings</key>
                 <dict>
-                    <key>foreground</key><string>#ffffff</string>
+                    <key>foreground</key><string>#64DD5D</string>
                 </dict>
         </dict>
         <dict>
