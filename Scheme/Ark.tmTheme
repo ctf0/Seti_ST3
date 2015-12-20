@@ -14,7 +14,7 @@
                 <key>caret</key>
                 <string>#F2E049</string>
                 <key>foreground</key>
-                <string>#D8D1BA</string>
+                <string>#E9EAEA</string>
                 <key>invisibles</key>
                 <string>#F3FFB5</string>
                 <key>lineHighlight</key>
@@ -352,7 +352,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D8D1BA</string>
+                <string>#E9EAEA</string>
                 <key>fontStyle</key>
                 <string>noraml</string>
             </dict>
