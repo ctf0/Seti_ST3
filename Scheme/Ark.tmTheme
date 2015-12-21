@@ -14,7 +14,7 @@
                 <key>caret</key>
                 <string>#F2E049</string>
                 <key>foreground</key>
-                <string>#E9EAEA</string>
+                <string>#D1D6B0</string>
                 <key>invisibles</key>
                 <string>#F3FFB5</string>
                 <key>lineHighlight</key>
@@ -74,6 +74,19 @@
                 <string></string>
                 <key>foreground</key>
                 <string>#3cadd7</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function, Special Method, Block Level</string>
+            <key>scope</key>
+            <string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#e8e8e8</string>
             </dict>
         </dict>
         <dict>
