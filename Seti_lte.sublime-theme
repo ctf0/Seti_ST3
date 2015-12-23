@@ -249,7 +249,9 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [0, 0, 0, 255]
+        "fg": [0, 0, 0, 255],
+        "font.italic": false,
+        "font.bold": false
     },
     {
         "class": "tab_label",
@@ -259,7 +261,9 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [0, 0, 0, 255]
+        "fg": [0, 0, 0, 255],
+        "font.italic": true,
+        "font.bold": true
     },
     {
         "class": "tab_label",
