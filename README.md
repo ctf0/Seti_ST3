@@ -7,8 +7,6 @@
 ![Seti Screenshot](./+res/screenshot-1.png)
 ###### Seti_orig.sublime-theme
 ![Seti Screenshot](./+res/screenshot-2.png)
-###### Seti_lte.sublime-theme
-![Seti Screenshot](./+res/screenshot-3.png)
 
 
 # Notes
@@ -47,16 +45,6 @@ Activate the `Theme` and `Color-Scheme` by modifying your user preferences file,
 {
   "theme": "Seti.sublime-theme",
   "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
-}
-```
-
-### For Light theme
-
-```json
-{
-  "theme": "Seti_lte.sublime-theme",
-  "color_scheme": "Packages/Seti_lte/Scheme/PhpStorm.tmTheme",
-  "Seti_SB_bright": true,
 }
 ```
 
