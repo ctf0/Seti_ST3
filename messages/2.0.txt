@@ -1,5 +1,0 @@
-v2.0 (30-11-2014)
--------------------
-
-1. a better syntax HL has been released ,u can find it on PC under "Seti_UX".
-2. readme updated.

@@ -1,4 +1,0 @@
-v1.9.1 (6-11-2014)
--------------------
-
-1. better syntax HL for diff (v1.9 re-fix).

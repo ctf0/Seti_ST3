@@ -1,6 +1,0 @@
-v1.12.3 (27-11-2014)
--------------------
-
-1. fold.png is now moved to +res folder.
-2. MD icon re-pos.
-3. Readme updated.

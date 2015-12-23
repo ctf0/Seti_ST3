@@ -1,6 +1,0 @@
-v3.0 (11-12-2014)
--------------------
-
-1. changed search panel colors ,if u prefer the old one please let me know.
-2. install updated.
-3. if u started to hate the gutter color , open ur fav scheme file and make gutter color = background color.

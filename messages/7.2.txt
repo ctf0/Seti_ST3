@@ -1,6 +1,0 @@
-v7.2 (3-2-2015)
--------------------
-
-1. add support for ".git" ,the HL is handeld by (ShellScript) if u have a better option plz msg me.
-
-** if u use (https://packagecontrol.io/packages/Dotfiles%20Syntax%20Highlighting) ,remove the '.git & dockerfile' extensions from the (Shell-Unix-Generic.sublime-settings) so the new icon can show-up.

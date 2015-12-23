@@ -1,4 +1,0 @@
-v1.3 (12-09-2014)
--------------------
-
-1. Updated HTML definition to include more file types.

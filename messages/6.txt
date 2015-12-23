@@ -1,5 +1,0 @@
-v6 (31-1-2015)
--------------------
-
-1. added support for SublimeLinter.
-2. indent guide are a bit brighter now.

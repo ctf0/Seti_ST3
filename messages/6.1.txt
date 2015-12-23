@@ -1,4 +1,0 @@
-v6.1 (31-1-2015)
--------------------
-
-1. added support for Angular.js template (*.ng.html).
