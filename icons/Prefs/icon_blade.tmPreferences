@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>source.php</string>
+    <string>text.html.laravel-blade, text.blade</string>
     <key>settings</key>
     <dict>
         <key>icon</key>
-        <string>file_type_php</string>
+        <string>file_type_blade</string>
     </dict>
 </dict>
 </plist>

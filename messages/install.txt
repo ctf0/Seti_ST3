@@ -11,7 +11,7 @@ or use
 ```
 {
   "theme": "Seti.sublime-theme",
-  "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+  "color_scheme": "Packages/Seti_UI/Scheme/Seti_monokai.tmTheme",
 
   "caret_extra_width": 2,                 //  to have a wider/thicker caret
   "caret_extra_bottom": 3,                //  to make the caret = to the line height (the theme currently support 0,3,5)
@@ -31,5 +31,6 @@ or use
 
 ## Folder Contents
 ----------------------
-+Res
-  |-Ext  > copy the content of this folder to your 'Packages/User' folder so (Extensions/Files) can recognize their correct language/icons.
+Resource
+  |-Ext   > copy the content of this folder to your 'Packages/User' folder so (Extensions/Files) can recognize their correct language/icons.
+  |-Fonts > install them before applying the sidebar font options.
