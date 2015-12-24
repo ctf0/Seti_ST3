@@ -465,12 +465,12 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [231,76,60,40]
+        "viewport_color": [38,43,49,200]
     },
     {
         "class": "minimap_control",
         "attributes": ["hover"],
-        "viewport_color": [231,76,60,20]
+        "viewport_color": [38,43,49,170]
     },
 
 
