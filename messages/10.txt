@@ -13,6 +13,7 @@ v10 (24-12-2015)
 10. fixed blade icon not showing after the latest updates.
 11. '.env' is now supported (install Generic Config package)
 12. the sidebar group icons are now hidden by default, use "Seti_show_group_arrows" to bring them back.
+13. restructured the theme folders for easier maintainability.
 13. Readme updated.
 
 

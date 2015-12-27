@@ -1,0 +1,11 @@
+v10.1 (27-12-2015)
+-------------------
+
+1. more fixes.
+2. all schemes are removed, if u still want them back u can find em on `Mod` branch.
+3. removed hover color from "all panels / sidebar folder".
+4. changed minimap tint back to default.
+5. "Seti_no_bar_undertabs" options removed & so the 4px tab it self.
+6. Sass & SCSS lang files removed to avoid trouble with the main packages, depends on which package u install the icons will reflect that.
+7. add new option "Seti_panel_nrml" incase u dont like the new quick panel design.
+8. readme updated.

@@ -70,8 +70,14 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Seti_UI/Main/tab_circle@2x.png",
-        "layer0.opacity": 1,
-        "layer1.opacity": 0
+        "layer0.opacity": 1
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["!show_tab_close_buttons"],
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "content_margin": 8,
+        "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
@@ -90,10 +96,10 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["file_light"]}],
         // Normal
-        "layer0.texture": "Seti_UI/Main/tab_x.png",
+        "layer0.texture": "Seti_UI/Main/light_x.png",
         "layer0.opacity": 1,
         // Hover
-        "layer1.texture": "Seti_UI/Main/tab_x_hover.png",
+        "layer1.texture": "Seti_UI/Main/light_x_hover.png",
         "layer1.opacity": 0
     },
     {
@@ -122,10 +128,10 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["file_medium"]}],
         // Normal
-        "layer0.texture": "Seti_UI/Main/tab_x.png",
+        "layer0.texture": "Seti_UI/Main/light_x.png",
         "layer0.opacity": 1,
         // Hover
-        "layer1.texture": "Seti_UI/Main/tab_x_hover.png",
+        "layer1.texture": "Seti_UI/Main/light_x_hover.png",
         "layer1.opacity": 0
     },
     {
@@ -175,6 +181,7 @@
         "class": "tab_label",
         "fade": true,
         "font.size": 11,
+        "font.bold": false,
         "fg": [255, 255, 255, 160]
     },
     {
@@ -185,8 +192,20 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [255, 255, 255, 230],
+        "fg": [255, 255, 255, 200],
         "font.bold": false
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["hover", "selected"]}],
+        "fg": [255, 255, 255],
+        "font.bold": false
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control","attributes": ["selected"]}],
+        "settings": ["Seti_bold_slctdtab_labels"],
+        "font.bold": true
     },
     {
         "class": "tab_label",
@@ -205,12 +224,6 @@
         "settings": ["Seti_orange_label"],
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "fg": [253,136,1]
-    },
-    {
-        "class": "tab_label",
-        "parents": [{"class": "tab_control","attributes": ["selected"]}],
-        "settings": ["Seti_bold_slctdtab_labels"],
-        "font.bold": true
     },
     // for light schemes
     {
@@ -465,12 +478,12 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [38,43,49,200]
+        "viewport_color": [13,14,15,180]
     },
     {
         "class": "minimap_control",
         "attributes": ["hover"],
-        "viewport_color": [38,43,49,170]
+        "viewport_color": [13,14,15,220]
     },
 
 
@@ -632,8 +645,7 @@
     {
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.opacity": { "target": 1.0, "speed": 50.0, "interpolation": "smoothstep" },
-
+        "layer0.opacity": { "target": 1.0, "speed": 50.0, "interpolation": "smoothstep" }
     },
     // Sidebar heading
     {
@@ -906,6 +918,12 @@
        "settings": ["Seti_sb_blank"],
        "content_margin": 0
     },
+    {
+        "class": "icon_folder_dup",
+        "layer0.texture": "Seti_UI/Main/folder_dup.png",
+        "layer0.opacity": 1,
+        "content_margin": 8
+    },
 
 //========================================================
 //  STANDARD TEXT BUTTONS
@@ -941,7 +959,7 @@
         "class": "text_line_control",
         "layer0.tint": [21,23,24], // is the same color of BG in widget file
         "layer0.opacity": 1,
-        "content_margin": [3,1,5,0] // control the search panel height , line padding also effects this
+        "content_margin": [3,3,5,0] // control the search panel height , line padding also effects this
     },
     {
         "class": "text_line_control",
@@ -951,18 +969,14 @@
         "layer0.opacity": 0,
         "layer0.inner_margin": [-10,-1,-10,3],
     },
-    // options @ BOTTOM PANEL BUTTONS
-    // Text input dropdown
     {
-        "class": "dropdown_button_control",
-        "content_margin": [7,6],
-        "layer0.texture": "Seti_UI/Main/text-field-list.png",
-        "layer0.opacity": 1
-    },
-    {
-        "class": "dropdown_button_control",
-        "attributes": ["hover"],
-        "layer0.texture": "Seti_UI/Main/text-field-list-hover.png"
+        "class": "text_line_control",
+        "settings": ["Seti_panel_nrml"],
+        "parents": [{"class": "overlay_control"}],
+        "content_margin": [5,0],
+        "layer0.texture": "Seti_UI/Main/menu/input_field_border--short.png",
+        "layer0.opacity": 0,
+        "layer0.inner_margin": 0,
     },
 
 //========================================================
@@ -976,6 +990,14 @@
         "layer0.inner_margin": [20, 0, 20, 40], // the image
         "layer0.opacity": 1,
         "content_margin": [13, 25, 13, 33] // the txt
+    },
+    {
+        "class": "overlay_control",
+        "settings": ["Seti_panel_nrml"],
+        "layer0.texture": "Seti_UI/Main/menu/overlay-bg.png",
+        "layer0.inner_margin": [20, 0, 20, 40],
+        "layer0.opacity": 1,
+        "content_margin": [13, 10, 13, 33]
     },
     // Bottom panel background
     {
@@ -1102,21 +1124,21 @@
     // 5
     {
         "class": "text_line_control",
-        "settings": ["Seti_pad_5"],
+        "settings": ["Seti_pad_5", "!Seti_panel_nrml"],
         "content_margin": [3,2,5,2]
-	},
-	{
-		"class": "text_line_control",
-		"parents": [{"class": "overlay_control"}],
-		"settings": ["Seti_pad_5"],
-		"content_margin": [10,20,10,15]
-	},
-	{
-		"class": "overlay_control",
-		"settings": ["Seti_pad_5"],
-		"content_margin": [13, 30, 13, 33]
-	},
-	{
+    },
+    {
+        "class": "text_line_control",
+        "settings": ["Seti_pad_5", "!Seti_panel_nrml"],
+        "parents": [{"class": "overlay_control"}],
+        "content_margin": [10,20,10,15]
+    },
+    {
+        "class": "overlay_control",
+        "settings": ["Seti_pad_5", "!Seti_panel_nrml"],
+        "content_margin": [13, 30, 13, 33]
+    },
+    {
         "class": "button_control",
         "settings": ["Seti_pad_5"],
         "content_margin": [5,11]
@@ -1128,7 +1150,7 @@
     },
     {
         "class": "quick_panel",
-        "settings": ["Seti_pad_5"],
+        "settings": ["Seti_pad_5", "!Seti_panel_nrml"],
         "row_padding": [10,14,10,13],
     },
     {
@@ -1150,16 +1172,16 @@
     // 3
     {
         "class": "text_line_control",
-		"parents": [{"class": "overlay_control"}],
-		"settings": ["Seti_pad_3"],
-		"content_margin": [10,10,10,15]
-	},
-	{
-		"class": "overlay_control",
-		"settings": ["Seti_pad_3"],
-		"content_margin": [13, 25, 13, 33]
-	},
-	{
+        "parents": [{"class": "overlay_control"}],
+        "settings": ["Seti_pad_3", "!Seti_panel_nrml"],
+        "content_margin": [10,10,10,15]
+    },
+    {
+        "class": "overlay_control",
+        "settings": ["Seti_pad_3", "!Seti_panel_nrml"],
+        "content_margin": [13, 25, 13, 33]
+    },
+    {
         "class": "button_control",
         "settings": ["Seti_pad_3"],
         "content_margin": [5,9]
@@ -1171,7 +1193,7 @@
     },
     {
         "class": "quick_panel",
-        "settings": ["Seti_pad_3"],
+        "settings": ["Seti_pad_3", "!Seti_panel_nrml"],
         "row_padding": [10,12,10,11],
     },
     {

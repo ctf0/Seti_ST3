@@ -1,6 +1,6 @@
 # Seti
 
-`SublimeText 3 Theme & ColorScheme` Port of Seti_UI & Syntax by [jesseweed](https://github.com/jesseweed/seti-ui)
+`SublimeText 3 Theme` Port of Seti_UI by [jesseweed](https://github.com/jesseweed/seti-ui)
 
 
 ###### Seti.sublime-theme
@@ -37,14 +37,13 @@ Theme is listed as [Seti_UI](https://sublime.wbond.net/packages/Seti_UI) on Will
 
 ## Setup
 
-Activate the `Theme` and `Color-Scheme` by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in Sublime Text or use `Schemr` & `Themr` by [Ben Weier](https://github.com/benweier).
+Activate the `Theme` by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in Sublime Text or use `Schemr` & `Themr` by [Ben Weier](https://github.com/benweier).
 
 ### Example settings
 
 ```json
 {
-  "theme": "Seti.sublime-theme",
-  "color_scheme": "Packages/Seti_UI/Scheme/Seti_monokai.tmTheme",
+  "theme": "Seti.sublime-theme"
 }
 ```
 
@@ -55,7 +54,6 @@ Activate the `Theme` and `Color-Scheme` by modifying your user preferences file,
 ```
 {
 // tabs
-  "Seti_no_bar_undertabs": true,          // remove the 4px bar under the tabs
   "Seti_no_blue_bar": true,               // remove the blue bar under the un-saved tabs
   "Seti_tabs_small": true,                // tabs height = 35
   "Seti_tabs_med": true,                  // tabs height = 40
@@ -101,6 +99,7 @@ Activate the `Theme` and `Color-Scheme` by modifying your user preferences file,
 // view
   "Seti_pad_5": true,                     // use with line_padding_bottom / line_padding_top = 5
   "Seti_pad_3": true,                     // use with line_padding_bottom / line_padding_top = 3
+  "Seti_panel_nrml": true,              // remove the padding top/down from quick panel
 }
 ```
 
