@@ -332,7 +332,15 @@
     // Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.tint": [57,71,79],
+        "layer0.tint": [11,16,21],
+        "layer0.opacity": 1,
+        "layer0.inner_margin": 0,
+        "blur": true
+    },
+    {
+        "class": "scroll_bar_control",
+        "parents": [{"class": "overlay_control"}],
+        "layer0.tint": [11,16,21],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "blur": true
@@ -341,14 +349,23 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.tint": [57,71,79],
+        "layer0.tint": [11,16,21],
+        "layer0.inner_margin": 0,
+        "blur": true
+    },
+    {
+        "class": "scroll_bar_control",
+        "attributes": ["horizontal"],
+        "parents": [{"class": "overlay_control"}],
+        "layer0.tint": [11,16,21],
+        "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "blur": true
     },
     // Standard scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.tint":[57,71,79],
+        "layer0.tint":[11,16,21],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
@@ -413,7 +430,7 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.tint":[57,71,79],
+        "layer0.tint":[11,16,21],
         "layer0.inner_margin": [0,5]
     },
     // Overlay horizontal scroll bar
@@ -421,7 +438,7 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.tint":[57,71,79],
+        "layer0.tint":[11,16,21],
         "layer0.inner_margin": [5,0]
     },
     // Overlay vertical puck
