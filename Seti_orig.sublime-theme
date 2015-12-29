@@ -68,7 +68,7 @@
         "content_margin": 0,
         // Normal
         "layer0.texture": "Seti_UI/Main/tab_x.png",
-        "layer0.opacity": 1,
+        "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
         // Hover
         "layer1.texture": "Seti_UI/Main/tab_x_hover.png",
