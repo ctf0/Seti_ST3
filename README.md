@@ -99,7 +99,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
 // view
   "Seti_pad_5": true,                     // use with line_padding_bottom / line_padding_top = 5
   "Seti_pad_3": true,                     // use with line_padding_bottom / line_padding_top = 3
-  "Seti_panel_nrml": true,              // remove the padding top/down from quick panel
+  "Seti_panel_nrml": true,                // remove the padding top/down from quick panel
 }
 ```
 
