@@ -848,7 +848,6 @@
     {
         "class": "sidebar_tree",
         "settings": ["Seti_show_group_arrows"],
-        "row_padding": [8,7],
         "indent": 15,
         "indent_offset": 18,
     },
