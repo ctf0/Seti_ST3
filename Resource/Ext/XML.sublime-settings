@@ -1,21 +1,18 @@
 {
-	"extensions":
-	[
-		"svg",
-		"xml",
-		"xml.dist",
-		"xsd",
-		"tmPreferences",
-		"tmTheme",
-		"xslt",
-		"sublime-snippet"
-	],
-	"hidden_extensions":
-	[
-		"rss",
-		"vcproj",
-		"tmLanguage",
-		"tmSnippet",
-		"dae"
-	]
+    "extensions": [
+        "xml",
+        "xslt",
+        "xml.dist",
+        "tmTheme",
+        "tmPreferences",
+        "sublime-snippet",
+        "xsd"
+    ],
+    "hidden_extensions": [
+        "rss",
+        "vcproj",
+        "tmLanguage",
+        "tmSnippet",
+        "dae"
+    ]
 }
