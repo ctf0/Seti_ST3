@@ -616,36 +616,36 @@
     // options
     {
         "class": "sidebar_tree",
-        "settings": ["Seti_sb_small_padding", "!Seti_show_group_arrows"],
+        "settings": ["Seti_sb_small_padding"],
         "row_padding": [8,3]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["Seti_sb_big_padding", "!Seti_show_group_arrows"],
+        "settings": ["Seti_sb_big_padding"],
         "row_padding": [8,10]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["Seti_sb_tree_med", "!Seti_show_group_arrows"],
+        "settings": ["Seti_sb_tree_med"],
         "indent": 15,
         "indent_offset": 15,
     },
     {
         "class": "sidebar_tree",
-        "settings": ["Seti_sb_tree_small", "!Seti_show_group_arrows"],
+        "settings": ["Seti_sb_tree_small"],
         "indent": 15,
         "indent_offset": 10,
     },
     {
         "class": "sidebar_tree",
-        "settings": ["Seti_sb_tree_tiny", "!Seti_show_group_arrows"],
+        "settings": ["Seti_sb_tree_tiny"],
         "indent": 15,
         "row_padding": [3,7],
         "indent_offset": 1,
     },
     {
         "class": "sidebar_tree",
-        "settings": ["Seti_sb_tree_miny", "!Seti_show_group_arrows"],
+        "settings": ["Seti_sb_tree_miny"],
         "indent": 12,
         "row_padding": 5,
         "indent_offset": 15,
