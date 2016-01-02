@@ -197,7 +197,7 @@
     },
     {
         "class": "tab_label",
-        "parents": [{"class": "tab_control", "attributes": ["hover", "selected"]}],
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "fg": [255, 255, 255],
         "font.bold": false
     },
