@@ -37,7 +37,7 @@ Theme is listed as [Seti_UI](https://packagecontrol.io/packages/Seti_UI) on Will
 1. [Download the .zip](https://github.com/ctf0/Seti_ST3/archive/master.zip).
 2. Unzip and rename the folder to `Seti_UI`.
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text.
-4. copy the (+res/fold.png) "or edit it to ur liking" to `Packages/Theme - Default` to override the default code folding icon.
+4. copy the (Resource/fold.png) "or edit it to ur liking" to `Packages/Theme - Default` to override the default code folding icon.
 
 ## Setup
 
