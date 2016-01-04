@@ -56,7 +56,6 @@ Activate the `Theme` by modifying your user preferences file, which you can find
 `Themr` have an option call ``Themr: Toggle Theme Settings`` to change theme settings on-the-fly , or manually add what you need from below.
 
 ```json
-{
 // tabs
   "Seti_no_blue_bar": true,               // remove the blue bar under the un-saved tabs
   "Seti_tabs_small": true,                // tabs height = 35
@@ -104,7 +103,6 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_pad_5": true,                     // use with line_padding_bottom / line_padding_top = 5
   "Seti_pad_3": true,                     // use with line_padding_bottom / line_padding_top = 3
   "Seti_panel_nrml": true,                // remove the padding top/down from quick panel
-}
 ```
 
 ## Credits
