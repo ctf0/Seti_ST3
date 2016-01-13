@@ -57,6 +57,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_no_blue_bar": true,               // remove the blue bar under the un-saved tabs
   "Seti_tabs_small": true,                // tabs height = 35
   "Seti_tabs_med": true,                  // tabs height = 40
+  "Seti_tabs_no_min_width": true,         // disable min width for tabs (issues/223)
   "Seti_tab_font_12": true,               // tab font size = 12
   "mouse_wheel_tabswitch": true,          // scroll through opened tabs
   "Seti_no_scroll_icons": true,           // remove the l/r arrows & the drop down button, effective when ("enable_tab_scrolling": true)
