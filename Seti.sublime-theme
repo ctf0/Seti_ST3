@@ -23,6 +23,11 @@
         "settings": ["mouse_wheel_tabswitch"],
         "mouse_wheel_switch": true
     },
+    {
+        "class": "tabset_control",
+        "settings": ["Seti_tabs_no_min_width"],
+        "tab_min_width": 0
+    },
 
     // Tab element
     {
