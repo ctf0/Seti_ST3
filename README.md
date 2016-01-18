@@ -1,11 +1,6 @@
 # Seti
 
 [![Packagecontrol total downloads](https://img.shields.io/packagecontrol/dt/Seti_UI.svg?style=flat-square)](https://packagecontrol.io/packages/Seti_UI/)
-[![GitHub release](https://img.shields.io/github/release/ctf0/Seti_ST3.svg?style=flat-square&label=latest%20release)](https://github.com/ctf0/Seti_ST3/releases/latest/)
-[![GitHub issues](https://img.shields.io/github/issues/ctf0/Seti_ST3.svg?style=flat-square)](https://github.com/ctf0/Seti_ST3/issues?utf8=✓&q=is%3Aissue+is%3Aopen)
-[![GitHub watchers](https://img.shields.io/github/watchers/ctf0/Seti_ST3.svg?style=flat-square)](https://github.com/ctf0/Seti_ST3/watchers/)
-[![GitHub stars](https://img.shields.io/github/stars/ctf0/Seti_ST3.svg?style=flat-square)](https://github.com/ctf0/Seti_ST3/stargazers/)
-[![GitHub forks](https://img.shields.io/github/forks/ctf0/Seti_ST3.svg?style=flat-square)](https://github.com/ctf0/Seti_ST3/network/)
 
 `SublimeText 3 Theme` Port of Seti_UI by [jesseweed](https://github.com/jesseweed/seti-ui)
 
