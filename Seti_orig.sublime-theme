@@ -535,6 +535,13 @@
         "parents": [{"class": "status_bar"}],
         "color": [170,170,170]
     },
+    // panel switcher
+    {
+        "class": "panel_button_control",
+        "layer0.texture": "Seti_UI/Main/panels.png",
+        "layer0.opacity": 0.7,
+        "content_margin": [12, 8]
+    },
 
 //========================================================
 //  SIDEBAR
