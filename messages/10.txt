@@ -1,0 +1,29 @@
+v10 (24-12-2015)
+-------------------
+
+1. fixed php icon not showin on 3095.
+2. "Seti_in_4_a_treat" / "Seti_rainbow" / "Seti_sb_wild" options removed.
+3. many new options added, plz check readme.
+4. you can now remove the tab scrolling arrows & drop down while maintaining the scrolling capability through "Seti_no_scroll_icons".
+5. lots of fixes for both themes + some changes.
+6. changed the "GoTo anything" & "Code Compilation DropDown" panel color to match the quick panel, i overlooked those the first time.
+7. removed the (light/medium/dark) options, so now you will have the same theme color regardless of which tone your scheme have.
+8. tab orange button option now works on Retina.
+9. the Seti Scheme atm is a big mess , so all are removed except "Seti_monokai"
+10. fixed blade icon not showing after the latest updates.
+11. '.env' is now supported (install Generic Config package)
+12. the sidebar group icons are now hidden by default, use "Seti_show_group_arrows" to bring them back.
+13. restructured the theme folders for easier maintainability.
+13. Readme updated.
+
+
+## if your flow got effected 'not in a good way' by the new update, plz let me know.
+
+ ████     ████                                      ██████  ██             ██           ██
+░██░██   ██░██                          ██   ██    ██░░░░██░██            ░░           ░██
+░██░░██ ██ ░██  ██████   ██████ ██████ ░░██ ██    ██    ░░ ░██      ██████ ██  ██████ ██████ ██████████   ██████    ██████
+░██ ░░███  ░██ ░░░░░░██ ░░██░░█░░██░░█  ░░███    ░██       ░██████ ░░██░░█░██ ██░░░░ ░░░██░ ░░██░░██░░██ ░░░░░░██  ██░░░░
+░██  ░░█   ░██  ███████  ░██ ░  ░██ ░    ░██     ░██       ░██░░░██ ░██ ░ ░██░░█████   ░██   ░██ ░██ ░██  ███████ ░░█████
+░██   ░    ░██ ██░░░░██  ░██    ░██      ██      ░░██    ██░██  ░██ ░██   ░██ ░░░░░██  ░██   ░██ ░██ ░██ ██░░░░██  ░░░░░██
+░██        ░██░░████████░███   ░███     ██        ░░██████ ░██  ░██░███   ░██ ██████   ░░██  ███ ░██ ░██░░████████ ██████
+░░         ░░  ░░░░░░░░ ░░░    ░░░     ░░          ░░░░░░  ░░   ░░ ░░░    ░░ ░░░░░░     ░░  ░░░  ░░  ░░  ░░░░░░░░ ░░░░░░

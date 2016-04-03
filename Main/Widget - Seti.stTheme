@@ -19,6 +19,8 @@
 		        <string>#29394060</string>
 		        <key>selectionForeground</key>
                 <string>#506670</string>
+                <key>selectionBorder</key>
+                <string>#29394060</string>
 			</dict>
 		</dict>
 	</array>

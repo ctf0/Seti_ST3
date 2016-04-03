@@ -1,0 +1,8 @@
+v9.1 (08-07-2015)
+-------------------
+
+1. changed the yellow/redish tabset colors to the default dark-blue to avoid the confusing.
+2. changed the quick-panel colors check (https://github.com/ctf0/Seti_ST3/issues/152)
+3. updated readme with the 2 theme versions ,plz stop issuing tickets for that.
+4. Fix comment gulp and grunt snippet (thanx to rodriguezmanu).
+5. changed active-guide color to be more visible.
