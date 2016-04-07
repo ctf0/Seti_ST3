@@ -6,9 +6,9 @@
 		<string>SASS</string>
 		<key>fileTypes</key>
 		<array>
-			<string>sass</string>
-			<string>sass.erb</string>
-			<string>sass.liquid</string>
+			<string>scss</string>
+			<string>scss.erb</string>
+			<string>scss.liquid</string>
 		</array>
 		<key>patterns</key>
 		<array>
@@ -18,6 +18,6 @@
 			</dict>
 		</array>
 		<key>scopeName</key>
-		<string>source.css, source.sass</string>
+		<string>source.css, source.scss</string>
 	</dict>
 </plist>
