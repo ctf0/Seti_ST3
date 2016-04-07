@@ -3,6 +3,7 @@
         "ini",
         "txt",
         "readme",
-        "changelog"
+        "changelog",
+        "log"
     ]
 }
