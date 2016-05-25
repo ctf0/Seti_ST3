@@ -1,0 +1,4 @@
+v11.3 (25-05-2015)
+-------------------
+
+1. updated sidebar & status bar colors to match seti_ux
