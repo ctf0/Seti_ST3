@@ -69,7 +69,8 @@ Activate the `Theme` by modifying your user preferences file, which you can find
 // scrollbar
   "Seti_SB_med": true,                    // scrollbars width / height = 6
   "Seti_SB_big": true,                    // scrollbars width / height = 10
-  "Seti_SB_bright": true,                 // brighter color for scrollbars
+  "Seti_SB_blue": true,                   // scrollbars in blue
+  "Seti_SB_orange": true,                 // scrollbars in orange
 
 // sidebar
   "Seti_ClosedFolder_same": true,         // same icon as the Opened_folder

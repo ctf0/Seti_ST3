@@ -1,0 +1,7 @@
+v11.4 (26-05-2015)
+-------------------
+
+1. changed back the old scrollbar colors + add new setting "Seti_SB_orange".
+2. re-named the 'Seti_SB_bright' > 'Seti_SB_blue' for consistency.
+3. fixed icons scope for gulp/grunt files.
+4. readme updated.

@@ -3,19 +3,19 @@
 <plist version="1.0">
 	<dict>
 		<key>name</key>
-		<string>Gulpfile Coffee</string>
+		<string>Mustache</string>
 		<key>fileTypes</key>
 		<array>
-			<string>gulpfile.coffee</string>
+			<string>mustache</string>
 		</array>
 		<key>patterns</key>
 		<array>
 			<dict>
 				<key>include</key>
-				<string>source.coffee</string>
+				<string>text.html.basic</string>
 			</dict>
 		</array>
 		<key>scopeName</key>
-		<string>source.gulpfile.coffee</string>
+		<string>text.html.mustache</string>
 	</dict>
 </plist>

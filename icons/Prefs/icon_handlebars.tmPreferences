@@ -3,11 +3,11 @@
 <plist version="1.0">
     <dict>
         <key>scope</key>
-        <string>source.gruntfile.js, source.gruntfile.coffee</string>
+        <string>text.html.hgn, text.html.handlebars, source.handlebars</string>
         <key>settings</key>
         <dict>
             <key>icon</key>
-            <string>file_type_gruntfile</string>
+            <string>file_type_mustache</string>
         </dict>
     </dict>
 </plist>
