@@ -631,10 +631,87 @@
     // Sidebar tree || entries
     {
         "class": "sidebar_tree",
-        "row_padding": [8,7],
+        "indent_offset": 18,
         "indent": 15,
-        "indent_offset": 8,
-        "indent_top_level": true // which make OpenFiles & Folders expandable
+        "row_padding": [8,7],
+        "layer0.tint": [13,16,17],
+        "layer0.opacity": 1.0,
+        "indent_top_level": true
+    },
+    // options
+    {
+        "class": "sidebar_container",
+        "settings": ["Seti_top_heading", "!Seti_top_heading_small"],
+        "layer0.tint": [13,16,17],
+        "layer0.inner_margin": [0, 54, 0, 0],
+        "layer1.texture": "Seti_UI/Main/sidebar/sidebar_heading.png",
+        "layer1.opacity": 1.0,
+        "layer1.inner_margin": [120, 54, 0, 0],
+        "content_margin": [0, 50, 0, 0]
+    },
+    // small
+    {
+        "class": "sidebar_container",
+        "settings": ["Seti_top_heading_small", "!Seti_top_heading_anim"],
+        "layer0.tint": [13,16,17],
+        "layer0.inner_margin": [0, 35, 0, 0],
+        "layer1.texture": "Seti_UI/Main/sidebar/sidebar_heading_small.png",
+        "layer1.opacity": 1.0,
+        "layer1.inner_margin": [120, 35, 0, 0],
+        "content_margin": [0, 34, 0, 0]
+    },
+    // anim
+    {
+        "class": "sidebar_container",
+        "settings": ["Seti_top_heading_anim"],
+        "layer0.tint": [13,16,17],
+        "layer0.inner_margin": [0, 54, 0, 0],
+        "layer1.texture": {
+            "keyframes": [
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h8.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h7.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h6.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h5.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h4.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h3.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h2.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h1.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h0.png",
+            ],
+            "loop": false,
+            "frame_time": 0.030
+        },
+        "layer1.opacity": 1.0,
+        "layer1.inner_margin": [120, 54, -120, 0],
+        "content_margin": [0, 50, 0, 0]
+    },
+    {
+        "class": "sidebar_container",
+        "settings": ["Seti_top_heading_anim"],
+        "attributes": ["hover"],
+        "layer1.texture": {
+            "keyframes": [
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h0.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h1.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h2.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h3.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h4.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h5.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h6.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h7.png",
+                "Seti_UI/Main/sidebar/sidebar_heading_alt-h8.png",
+            ],
+            "loop": false,
+            "frame_time": 0.030
+        },
+        "layer1.opacity": 1.0,
+        "layer1.inner_margin": [120, 54, -120, 0],
+        "content_margin": [0, 50, 0, 0]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["Seti_top_heading_anim"],
+        "layer0.opacity": 0.0
     },
 
     // options
