@@ -1,7 +1,5 @@
 # Seti
 
-[![Packagecontrol total downloads](https://img.shields.io/packagecontrol/dt/Seti_UI.svg?style=flat-square)](https://packagecontrol.io/packages/Seti_UI/)
-
 `SublimeText 3 Theme` Port of Seti_UI by [jesseweed](https://github.com/jesseweed/seti-ui)
 
 ## Screenshots
