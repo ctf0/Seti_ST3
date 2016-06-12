@@ -17,6 +17,6 @@
 			</dict>
 		</array>
 		<key>scopeName</key>
-		<string>source.gulpfile.js</string>
+		<string>source.gulpfile.js, source.js</string>
 	</dict>
 </plist>
