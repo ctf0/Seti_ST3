@@ -93,6 +93,9 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_sidebar_font_Source": true,       // check (issues/115)
   "Seti_heading_font_12": true,           // heading font size = 12
   "Seti_bold_heading": true,              // make heading font in bold
+  "Seti_top_heading": true,               // sidebar top header img
+  "Seti_top_heading_small": true,         // sidebar top header img small
+  "Seti_top_heading_anim": true,          // sidebar top header img animate on hover
 
 // view
   "Seti_pad_5": true,                     // use with line_padding_bottom / line_padding_top = 5
