@@ -1,0 +1,9 @@
+v11.5 (20-06-2015)
+-------------------
+
+1. fixed search bar input bg.
+2. fixed quick panel input bg.
+3. changed the l/r tab icons.
+4. added accents + sidebar top header. "this is not a copy of material but surly based upon"
+5. changed closed folder icon + a couple of fixes for the size/shape.
+6. readme updated "make sure to check it for the new settings".

@@ -1,7 +1,7 @@
 [
-//========================================================
-//  TABS (REGULAR)
-//--------------------------------------------------------
+    //========================================================
+    //  TABS (REGULAR)
+    //--------------------------------------------------------
     // Tab set
     {
         "class": "tabset_control",
@@ -51,9 +51,10 @@
         "layer0.texture": "Seti_UI/Main/tab_mask_white.png",
     },
 
-//========================================================
-//  TAB BUTTONS
-//--------------------------------------------------------
+    //========================================================
+    //  TAB BUTTONS
+    //--------------------------------------------------------
+
     // Tab close button
     {
         "class": "tab_close_button",
@@ -178,45 +179,45 @@
         "layer0.tint": [255,136,1]
     },
 
-//========================================================
-//  TAB LABELS
-//--------------------------------------------------------
+    //========================================================
+    //  TAB LABELS
+    //--------------------------------------------------------
 
-{
-    "class": "tab_label",
-    "fade": true,
-    "font.size": 11,
-    "font.bold": false,
-    "fg": [255, 255, 255, 160]
-},
-{
-    "class": "tab_label",
-    "settings": ["Seti_tab_font_12"],
-    "font.size": 12
-},
-{
-    "class": "tab_label",
-    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "fg": [255, 255, 255, 200],
-    "font.bold": false
-},
-{
-    "class": "tab_label",
-    "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-    "fg": [255, 255, 255],
-    "font.bold": false
-},
-{
-    "class": "tab_label",
-    "parents": [{"class": "tab_control","attributes": ["selected"]}],
-    "settings": ["Seti_bold_slctdtab_labels"],
-    "font.bold": true
-},
-{
-    "class": "tab_label",
-    "parents": [{"class": "tab_control", "attributes": ["transient"]}],
-    "font.italic": true
-},
+    {
+        "class": "tab_label",
+        "fade": true,
+        "font.size": 11,
+        "font.bold": false,
+        "fg": [255, 255, 255, 160]
+    },
+    {
+        "class": "tab_label",
+        "settings": ["Seti_tab_font_12"],
+        "font.size": 12
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control","attributes": ["selected"]}],
+        "fg": [255, 255, 255, 200],
+        "font.bold": false
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+        "fg": [255, 255, 255],
+        "font.bold": false
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control","attributes": ["selected"]}],
+        "settings": ["Seti_bold_slctdtab_labels"],
+        "font.bold": true
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["transient"]}],
+        "font.italic": true
+    },
     // options
     {
         "class": "tab_label",
@@ -242,14 +243,14 @@
         "fg": [255, 255, 255]
     },
 
-//========================================================
-//  TAB SCROLLING
-//--------------------------------------------------------
+    //========================================================
+    //  TAB SCROLLING
+    //--------------------------------------------------------
 
     // Tab dropdown
     {
         "class": "show_tabs_dropdown_button",
-        "content_margin": [12,10],
+        "content_margin": [14,11],
         "layer0.texture": "Seti_UI/Main/tabset-list-hover@2x.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": [5,0,5,0]
@@ -263,7 +264,7 @@
     // Tab scroll left
     {
         "class": "scroll_tabs_left_button",
-        "content_margin": [9, 7, 8, 6],
+        "content_margin": [10,10],
         "layer0.texture": "Seti_UI/Main/tabset-left-hover@2x.png",
         "layer0.opacity": 1
     },
@@ -276,7 +277,7 @@
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
-        "content_margin": [9, 7, 8, 6],
+        "content_margin": [10,10],
         "layer0.texture": "Seti_UI/Main/tabset-right-hover@2x.png",
         "layer0.opacity": 1
     },
@@ -304,35 +305,35 @@
         "content_margin": 0
     },
 
-//========================================================
-//  FOLD BUTTONS
-//--------------------------------------------------------
+    //========================================================
+    //  FOLD BUTTONS
+    //--------------------------------------------------------
 
-{
-    "class": "fold_button_control",
-    "layer0.texture": "Seti_UI/Main/fold-closed@2x.png",
-    "layer0.opacity": 0.45,
-    "layer0.inner_margin": 0,
-    "content_margin": 8
-},
-{
-    "class": "fold_button_control",
-    "attributes": ["hover"],
-    "layer0.opacity": 0.85
-},
-{
-    "class": "fold_button_control",
-    "attributes": ["expanded"],
-    "layer0.texture": "Seti_UI/Main/fold-open@2x.png"
-},
-{
-    "class": "fold_button_control",
-    "attributes": ["expanded","hover"]
-},
+    {
+        "class": "fold_button_control",
+        "layer0.texture": "Seti_UI/Main/fold-closed@2x.png",
+        "layer0.opacity": 0.45,
+        "layer0.inner_margin": 0,
+        "content_margin": 8
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["hover"],
+        "layer0.opacity": 0.85
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["expanded"],
+        "layer0.texture": "Seti_UI/Main/fold-open@2x.png"
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["expanded","hover"]
+    },
 
-//========================================================
-//  STANDARD SCROLLBARS
-//--------------------------------------------------------
+    //========================================================
+    //  STANDARD SCROLLBARS
+    //--------------------------------------------------------
 
     // Standard vertical scroll bar
     {
@@ -416,9 +417,9 @@
         "content_margin": [12,10],
     },
 
-//========================================================
-//  OVERLAY SCROLLBARS
-//--------------------------------------------------------
+    //========================================================
+    //  OVERLAY SCROLLBARS
+    //--------------------------------------------------------
 
     // Overlay toggle scroll bar
     {
@@ -486,70 +487,70 @@
         "layer0.tint":[255,191,59]
     },
 
-//========================================================
-//  EMPTY WINDOW BACKGROUND
-//--------------------------------------------------------
+    //========================================================
+    //  EMPTY WINDOW BACKGROUND
+    //--------------------------------------------------------
 
-{
-    "class": "sheet_container_control",
-    "layer0.tint": [21,23,24],
-    "layer0.opacity": 1
-},
+    {
+        "class": "sheet_container_control",
+        "layer0.tint": [21,23,24],
+        "layer0.opacity": 1
+    },
 
-//========================================================
-//  GRID LAYOUT
-//--------------------------------------------------------
+    //========================================================
+    //  GRID LAYOUT
+    //--------------------------------------------------------
 
-{
-    "class": "grid_layout_control",
-    "border_size": 1,
-    "border_color": [13, 16, 17]
-},
+    {
+        "class": "grid_layout_control",
+        "border_size": 1,
+        "border_color": [13, 16, 17]
+    },
 
-//========================================================
-//  MINI MAP
-//--------------------------------------------------------
+    //========================================================
+    //  MINI MAP
+    //--------------------------------------------------------
 
-{
-    "class": "minimap_control",
-    "viewport_color": [13,14,15,180]
-},
-{
-    "class": "minimap_control",
-    "attributes": ["hover"],
-    "viewport_color": [13,14,15,220]
-},
+    {
+        "class": "minimap_control",
+        "viewport_color": [13,14,15,180]
+    },
+    {
+        "class": "minimap_control",
+        "attributes": ["hover"],
+        "viewport_color": [13,14,15,220]
+    },
 
 
-//========================================================
-//  DIALOG
-//--------------------------------------------------------
+    //========================================================
+    //  DIALOG
+    //--------------------------------------------------------
 
-{
-    "class": "dialog",
-    "layer0.tint": [238, 238, 238],
-    "layer0.opacity": 1
-},
+    {
+        "class": "dialog",
+        "layer0.tint": [238, 238, 238],
+        "layer0.opacity": 1
+    },
 
-//========================================================
-//  PROGRESS BAR
-//--------------------------------------------------------
+    //========================================================
+    //  PROGRESS BAR
+    //--------------------------------------------------------
 
-{
-    "class": "progress_bar_control",
-    "layer0.tint": [94,235,184],
-    "layer0.opacity": 1
-},
-{
-    "class": "progress_gauge_control",
-    "layer0.opacity": 1,
-    "layer0.tint": [110, 29, 186],
-    "content_margin": [0, 6]
-},
+    {
+        "class": "progress_bar_control",
+        "layer0.tint": [94,235,184],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "progress_gauge_control",
+        "layer0.opacity": 1,
+        "layer0.tint": [110, 29, 186],
+        "content_margin": [0, 6]
+    },
 
-//========================================================
-//  LABELS
-//--------------------------------------------------------
+    //========================================================
+    //  LABELS
+    //--------------------------------------------------------
 
     // General labels
     {
@@ -567,9 +568,9 @@
         "parents": [{"class": "button_control"}]
     },
 
-//========================================================
-//  TOOLTIP
-//--------------------------------------------------------
+    //========================================================
+    //  TOOLTIP
+    //--------------------------------------------------------
 
     // Tooltip container
     {
@@ -587,9 +588,9 @@
         "font.size": 12
     },
 
-//========================================================
-//  STATUS BAR
-//--------------------------------------------------------
+    //========================================================
+    //  STATUS BAR
+    //--------------------------------------------------------
 
     // Status bar container
     {
@@ -617,9 +618,9 @@
         "content_margin": [12, 8]
     },
 
-//========================================================
-//  SIDEBAR
-//--------------------------------------------------------
+    //========================================================
+    //  SIDEBAR
+    //--------------------------------------------------------
 
     // Sidebar container
     {
@@ -641,23 +642,23 @@
     // options
     {
         "class": "sidebar_container",
-        "settings": ["Seti_top_heading", "!Seti_top_heading_small"],
+        "settings": ["Seti_top_heading_big"],
         "layer0.tint": [13,16,17],
         "layer0.inner_margin": [0, 54, 0, 0],
         "layer1.texture": "Seti_UI/Main/sidebar/sidebar_heading.png",
         "layer1.opacity": 1.0,
         "layer1.inner_margin": [120, 54, 0, 0],
-        "content_margin": [0, 50, 0, 0]
+        "content_margin": [0, 54, 0, 0]
     },
     // small
     {
         "class": "sidebar_container",
-        "settings": ["Seti_top_heading_small", "!Seti_top_heading_anim"],
+        "settings": ["Seti_top_heading_small"],
         "layer0.tint": [13,16,17],
-        "layer0.inner_margin": [0, 35, 0, 0],
+        "layer0.inner_margin": [0, 34, 0, 0],
         "layer1.texture": "Seti_UI/Main/sidebar/sidebar_heading_small.png",
         "layer1.opacity": 1.0,
-        "layer1.inner_margin": [120, 35, 0, 0],
+        "layer1.inner_margin": [120, 34, 0, 0],
         "content_margin": [0, 34, 0, 0]
     },
     // anim
@@ -683,7 +684,7 @@
         },
         "layer1.opacity": 1.0,
         "layer1.inner_margin": [120, 54, -120, 0],
-        "content_margin": [0, 50, 0, 0]
+        "content_margin": [0, 54, 0, 0]
     },
     {
         "class": "sidebar_container",
@@ -706,7 +707,7 @@
         },
         "layer1.opacity": 1.0,
         "layer1.inner_margin": [120, 54, -120, 0],
-        "content_margin": [0, 50, 0, 0]
+        "content_margin": [0, 54, 0, 0]
     },
     {
         "class": "sidebar_tree",
@@ -756,7 +757,7 @@
     {
         "class": "tree_row",
         "layer0.texture": null,
-        "layer0.tint": [27, 28, 29],
+        "layer0.tint": [114, 146, 161, 20],
         "layer0.opacity": { "target": 0.0, "speed": 50.0, "interpolation": "smoothstep" },
     },
     // Sidebar row selected
@@ -807,7 +808,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [80,105,108],
+        "color": [170,170,170],
         "font.bold": false
     },
     {
@@ -819,7 +820,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable","hover"]}],
-        "color": [124,159,174]
+        "color": [255,255,255]
     },
     // Sidebar open files entry selected
     {
@@ -871,9 +872,9 @@
         "font.face": "Source Code Pro"
     },
 
-//========================================================
-//  SIDEBAR - OPEN FILE ICONS
-//--------------------------------------------------------
+    //========================================================
+    //  SIDEBAR - OPEN FILE ICONS
+    //--------------------------------------------------------
 
     // Sidebar file close
     {
@@ -921,9 +922,9 @@
         "layer0.opacity": 1
     },
 
-//========================================================
-//  SIDEBAR - GENERAL FILE ICONS
-//--------------------------------------------------------
+    //========================================================
+    //  SIDEBAR - GENERAL FILE ICONS
+    //--------------------------------------------------------
 
     // Sidebar group closed
     {
@@ -959,7 +960,7 @@
         "layer0.texture": "Seti_UI/Main/folder@2x.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "content_margin": [7,0]
+        "content_margin": [8,8]
     },
     // Options
     {
@@ -977,7 +978,7 @@
         "layer0.texture": "Seti_UI/Main/folder_open@2x.png",
         "layer0.inner_margin": -5,
         "layer0.opacity": 1,
-        "content_margin": [7,0],
+        "content_margin": [8,0],
     },
     // Options
     {
@@ -988,7 +989,7 @@
     {
         "class": "icon_folder",
         "settings": ["Seti_ClosedFolder_dots"],
-        "layer0.texture": "Seti_UI/Main/folder-dots@2x.png",
+        "layer0.texture": "Seti_UI/Main/folder-dots@2x.png"
     },
 
     // Icon folder loading
@@ -1016,29 +1017,29 @@
 
     // remove all sidebar icons
     {
-       "class": "icon_file_type",
-       "settings": ["Seti_sb_no_icons"],
-       "content_margin": 0
-   },
-   {
-       "class": "icon_file_type",
-       "settings": ["Seti_sb_blank"],
-       "content_margin": 0
-   },
-   {
-       "class": "icon_folder",
-       "settings": ["Seti_sb_blank"],
-       "content_margin": 0
-   },
-   {
-       "class": "icon_folder_loading",
-       "settings": ["Seti_sb_blank"],
-       "content_margin": 0
-   },
+        "class": "icon_file_type",
+        "settings": ["Seti_sb_no_icons"],
+        "content_margin": 0
+    },
+    {
+        "class": "icon_file_type",
+        "settings": ["Seti_sb_blank"],
+        "content_margin": 0
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_sb_blank"],
+        "content_margin": 0
+    },
+    {
+        "class": "icon_folder_loading",
+        "settings": ["Seti_sb_blank"],
+        "content_margin": 0
+    },
 
-//========================================================
-//  STANDARD TEXT BUTTONS
-//--------------------------------------------------------
+    //========================================================
+    //  STANDARD TEXT BUTTONS
+    //--------------------------------------------------------
 
     // Default button state
     {
@@ -1047,7 +1048,7 @@
         "layer0.tint": [69,90,100],
         "min_size": [75,0],
         "content_margin": [5,6] // the search panel right side buttons height
-        },
+    },
     // Hover button state
     {
         "class": "button_control",
@@ -1061,76 +1062,75 @@
         "layer0.tint": [255,152,0]
     },
 
-//========================================================
-//  TEXT INPUT FIELD
-//--------------------------------------------------------
+    //========================================================
+    //  TEXT INPUT FIELD
+    //--------------------------------------------------------
 
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.tint": [21,23,24], // is the same color of BG in widget file
-            "layer0.opacity": 1,
-        "content_margin": [3,3,5,0] // control the search panel height , line padding also effects this
-        },
-        {
-            "class": "text_line_control",
-            "parents": [{"class": "overlay_control"}],
+        "layer0.tint": [13,16,17], // is the same color of BG in widget file
+        "layer0.opacity": 1,
+        "content_margin": [3,1,5,0] // control the search panel height , line padding also effects this
+    },
+    {
+        "class": "text_line_control",
+        "parents": [{"class": "overlay_control"}],
         "content_margin": [10,15,10,15], // text area
-            "layer0.texture": "Seti_UI/Main/menu/input_field_border--short.png",
-            "layer0.opacity": 0,
-            "layer0.inner_margin": [-10,-1,-10,3],
-        },
-        {
-            "class": "text_line_control",
-            "settings": ["Seti_panel_nrml"],
-            "parents": [{"class": "overlay_control"}],
-            "content_margin": [5,0],
-            "layer0.texture": "Seti_UI/Main/menu/input_field_border--short.png",
-            "layer0.opacity": 0,
-            "layer0.inner_margin": 0,
-        },
+        "layer0.texture": "Seti_UI/Main/menu/input_field_border--short.png",
+        "layer0.opacity": 0,
+        "layer0.inner_margin": [-10,-1,-10,3],
+    },
+    {
+        "class": "text_line_control",
+        "settings": ["Seti_panel_nrml"],
+        "parents": [{"class": "overlay_control"}],
+        "content_margin": [5,0],
+        "layer0.texture": "Seti_UI/Main/menu/input_field_border--short.png",
+        "layer0.opacity": 0,
+        "layer0.inner_margin": 0,
+    },
 
-//========================================================
-//  PANEL BACKGROUNDS
-//--------------------------------------------------------
+    //========================================================
+    //  PANEL BACKGROUNDS
+    //--------------------------------------------------------
 
     // Quick panel background
     {
         "class": "overlay_control",
         "layer0.texture": "Seti_UI/Main/menu/overlay-bg.png",
         "layer0.inner_margin": [20, 0, 20, 40], // the image
-            "layer0.opacity": 1,
+        "layer0.opacity": 1,
         "content_margin": [13, 25, 13, 33] // the txt
-        },
-        {
-            "class": "overlay_control",
-            "settings": ["Seti_panel_nrml"],
-            "layer0.texture": "Seti_UI/Main/menu/overlay-bg.png",
-            "layer0.inner_margin": [20, 0, 20, 40],
-            "layer0.opacity": 1,
-            "content_margin": [13, 10, 13, 33]
-        },
+    },
+    {
+        "class": "overlay_control",
+        "settings": ["Seti_panel_nrml"],
+        "layer0.texture": "Seti_UI/Main/menu/overlay-bg.png",
+        "layer0.inner_margin": [20, 0, 20, 40],
+        "layer0.opacity": 1,
+        "content_margin": [13, 10, 13, 33]
+    },
     // Bottom panel background
     {
         "class": "panel_control",
         "layer0.opacity": 1,
-        "layer0.tint": [13, 16, 17],
+        "layer0.tint": [15,19,23],
         "content_margin": 0
     },
 
-//========================================================
-//  MINI QUICK PANEL || super+shift+p
-//--------------------------------------------------------
+    //========================================================
+    //  MINI QUICK PANEL || super+shift+p
+    //--------------------------------------------------------
 
-{
-    "class": "mini_quick_panel_row",
-    "layer0.tint": [38,43,49],
-    "layer0.opacity": 1
-},
-{
-    "class": "mini_quick_panel_row",
-    "attributes": ["hover"],
-        // "layer0.tint": [31,34,39]
+    {
+        "class": "mini_quick_panel_row",
+        "layer0.tint": [38,43,49],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["hover"]
     },
     {
         "class": "mini_quick_panel_row",
@@ -1138,31 +1138,30 @@
         "layer0.tint": [61,71,81]
     },
 
-//========================================================
-//  QUICK PANEL || super+p
-//--------------------------------------------------------
+    //========================================================
+    //  QUICK PANEL || super+p
+    //--------------------------------------------------------
 
-{
-    "class": "quick_panel",
-    "row_padding": [10,12,10,11],
-    "layer0.tint": [38,43,49],
-    "layer0.opacity": 1
-},
-{
-    "class": "quick_panel_row",
-    "layer0.tint": [38,43,49],
-    "layer0.opacity": 1
-},
-{
-    "class": "quick_panel_row",
-    "parents": [{"class": "overlay_control"}],
-    "layer0.tint": [38,43,49],
-    "layer0.opacity": 1
-},
-{
-    "class": "quick_panel_row",
-    "attributes": ["hover"],
-        // "layer0.tint": [31,34,39]
+    {
+        "class": "quick_panel",
+        "row_padding": [10,12,10,11],
+        "layer0.tint": [38,43,49],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "quick_panel_row",
+        "layer0.tint": [38,43,49],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "quick_panel_row",
+        "parents": [{"class": "overlay_control"}],
+        "layer0.tint": [38,43,49],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "quick_panel_row",
+        "attributes": ["hover"]
     },
     {
         "class": "quick_panel_row",
@@ -1189,41 +1188,41 @@
         "selected_fg": [255,255,255]
     },
 
-//========================================================
-//  CODE COMPLETION DROPDOWN
-//--------------------------------------------------------
+    //========================================================
+    //  CODE COMPLETION DROPDOWN
+    //--------------------------------------------------------
 
-{
-    "class": "popup_control",
-    "content_margin": 0,
-    "layer0.tint": [38,43,49],
-    "layer0.opacity": 1
-},
-{
-    "class": "auto_complete",
-    "row_padding": [12,6]
-},
-{
-    "class": "auto_complete_label",
-    "fg": [255,255,255],
-    "selected_fg": [255,255,255],
-    "match_fg": [0,138,255],
-    "selected_match_fg": [255,223,0]
-},
-{
-    "class": "table_row",
-    "layer0.opacity": 0
-},
-{
-    "class": "table_row",
-    "attributes": ["selected"],
-    "layer0.opacity": 1,
-    "layer0.tint": [60,71,81]
-},
+    {
+        "class": "popup_control",
+        "content_margin": 0,
+        "layer0.tint": [38,43,49],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "auto_complete",
+        "row_padding": [12,6]
+    },
+    {
+        "class": "auto_complete_label",
+        "fg": [255,255,255],
+        "selected_fg": [255,255,255],
+        "match_fg": [0,138,255],
+        "selected_match_fg": [255,223,0]
+    },
+    {
+        "class": "table_row",
+        "layer0.opacity": 0
+    },
+    {
+        "class": "table_row",
+        "attributes": ["selected"],
+        "layer0.opacity": 1,
+        "layer0.tint": [60,71,81]
+    },
 
-//========================================================
-//  BOTTOM PANEL BUTTONS
-//--------------------------------------------------------
+    //========================================================
+    //  BOTTOM PANEL BUTTONS
+    //--------------------------------------------------------
 
     // Button group middle
     {
@@ -1359,9 +1358,9 @@
         "attributes": ["left","right","selected"]
     },
 
-//========================================================
-//  BOTTOM PANEL ICONS - GROUP 1
-//--------------------------------------------------------
+    //========================================================
+    //  BOTTOM PANEL ICONS - GROUP 1
+    //--------------------------------------------------------
 
     // Regex search button
     {
@@ -1418,9 +1417,9 @@
         "layer0.tint": [148,211,209]
     },
 
-//========================================================
-//  BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
-//--------------------------------------------------------
+    //========================================================
+    //  BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
+    //--------------------------------------------------------
 
     // Show search context button
     {
@@ -1459,9 +1458,9 @@
         "layer0.tint": [148,211,209]
     },
 
-//========================================================
-//  BOTTOM PANEL ICONS - GROUP 2
-//--------------------------------------------------------
+    //========================================================
+    //  BOTTOM PANEL ICONS - GROUP 2
+    //--------------------------------------------------------
 
     // Reverse search direction button (ST2 only)
     {
@@ -1518,9 +1517,9 @@
         "layer0.tint": [148,211,209]
     },
 
-//========================================================
-//  BOTTOM PANEL ICONS - GROUP 3
-//--------------------------------------------------------
+    //========================================================
+    //  BOTTOM PANEL ICONS - GROUP 3
+    //--------------------------------------------------------
 
     // Preserve case button
     {
@@ -1541,9 +1540,9 @@
         "layer0.tint": [148,211,209]
     },
 
-//========================================================
-//  BOTTOM PANEL ICONS - GROUP 4
-//--------------------------------------------------------
+    //========================================================
+    //  BOTTOM PANEL ICONS - GROUP 4
+    //--------------------------------------------------------
 
     // Highlight results button
     {

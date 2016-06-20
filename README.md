@@ -2,13 +2,11 @@
 
 `SublimeText 3 Theme` Port of Seti_UI by [jesseweed](https://github.com/jesseweed/seti-ui)
 
-## Screenshots
-
-### Seti.sublime-theme
+### Seti
 
 ![Seti Screenshot](./Resource/screenshot-1.png)
 
-### Seti_orig.sublime-theme
+### Seti_orig
 
 ![Seti Screenshot](./Resource/screenshot-2.png)
 
@@ -47,60 +45,71 @@ Activate the `Theme` by modifying your user preferences file, which you can find
 #### Options
 
 `Themr` have an option call ``Themr: Toggle Theme Settings`` to change theme settings on-the-fly , or manually add what you need from below.
+* note that not all the settings are available in both themes.
 
 ```json
 // tabs
-  "Seti_no_blue_bar": true,               // remove the blue bar under the un-saved tabs
-  "Seti_tabs_small": true,                // tabs height = 35
-  "Seti_tabs_med": true,                  // tabs height = 40
-  "Seti_tabs_no_min_width": true,         // disable min width for tabs (issues/223)
-  "Seti_tab_font_12": true,               // tab font size = 12
-  "mouse_wheel_tabswitch": true,          // scroll through opened tabs
-  "Seti_no_scroll_icons": true,           // remove the l/r arrows & the drop down button, effective when ("enable_tab_scrolling": true)
-  "Seti_orange_button": true,             // change un-saved blue tab buttons to orange
+  "Seti_no_blue_bar"               // remove the blue bar under the un-saved tabs "not available with the accents"
+  "Seti_tabs_small"                // tabs height = 35
+  "Seti_tabs_med"                  // tabs height = 40
+  "Seti_tabs_big"                  // tabs height = 54
+  "Seti_tabs_no_min_width"         // (issues/223)
+  "Seti_tab_font_12"               // tab font size = 12
+  "mouse_wheel_tabswitch"          // scroll through opened tabs
+  "Seti_no_scroll_icons"           // remove the l/r arrows & the drop down list button, effective when ("enable_tab_scrolling": true)
+  "Seti_orange_button"             // change un-saved blue tab buttons to orange
 
 // tab label
-  "Seti_blue_label": true,                // change the un-saved tab label to blue
-  "Seti_orange_label": true,		      // change un-saved label color to orange
-  "Seti_bold_slctdtab_labels": true,      // make active tab label font in bold
+  "Seti_blue_label"                // change the un-saved tab label to blue
+  "Seti_orange_label"		       // change un-saved label color to orange
+  "Seti_bold_slctdtab_labels"      // make active tab label font in bold
 
 // scrollbar
-  "Seti_SB_med": true,                    // scrollbars width / height = 6
-  "Seti_SB_big": true,                    // scrollbars width / height = 10
-  "Seti_SB_blue": true,                   // scrollbars in blue
-  "Seti_SB_orange": true,                 // scrollbars in orange
+  "Seti_SB_med"                    // scrollbars width / height = 6
+  "Seti_SB_big"                    // scrollbars width / height = 10
+  "Seti_SB_blue"                   // scrollbars in blue
+  "Seti_SB_orange"                 // scrollbars in orange
 
 // sidebar
-  "Seti_ClosedFolder_same": true,         // same icon as the Opened_folder
-  "Seti_ClosedFolder_remove": true,       // remove closed_folder icon
-  "Seti_ClosedFolder_dots": true,         // change closed_folder icon to dot
-  "Seti_sb_small_padding": true,          // sidebar entries padding = 3
-  "Seti_sb_big_padding": true,            // sidebar entries padding = 10
-  "Seti_sb_tree_med": true,               // sidebar tree padding = 15
-  "Seti_sb_tree_small": true,             // sidebar tree padding = 10
-  "Seti_sb_tree_tiny": true,              // check (issues/88)
-  "Seti_sb_tree_miny": true,              // check (issues/88)
-  "Seti_show_group_arrows": true,         // show the folder/group arrows in sidebar
-  "Seti_sb_no_icons": true,               // check (issues/133)
-  "Seti_sb_blank": true,                  // check (issues/133)
-  "Seti_bold_slctdfile_labels": true,     // make the sidebar selected file text in bold
-  "Seti_sidebar_font_size_12": true,      // check (issues/115)
-  "Seti_sidebar_font_size_13": true,      // check (issues/115)
-  "Seti_sidebar_font_size_14": true,      // check (issues/115)
-  "Seti_sidebar_font_Ubuntu": true,       // check (issues/115)
-  "Seti_sidebar_font_Fira": true,         // check (issues/115)
-  "Seti_sidebar_font_Hack": true,         // check (issues/115)
-  "Seti_sidebar_font_Source": true,       // check (issues/115)
-  "Seti_heading_font_12": true,           // heading font size = 12
-  "Seti_bold_heading": true,              // make heading font in bold
-  "Seti_top_heading": true,               // sidebar top header img
-  "Seti_top_heading_small": true,         // sidebar top header img small
-  "Seti_top_heading_anim": true,          // sidebar top header img animate on hover
+  "Seti_ClosedFolder_same"         // same icon as the Opened_folder
+  "Seti_ClosedFolder_remove"       // remove closed_folder icon
+  "Seti_ClosedFolder_dots"         // change closed_folder icon to dot
+  "Seti_sb_small_padding"          // sidebar entries padding = 3
+  "Seti_sb_big_padding"            // sidebar entries padding = 10
+  "Seti_sb_tree_med"               // sidebar tree padding = 15
+  "Seti_sb_tree_small"             // sidebar tree padding = 10
+  "Seti_sb_tree_tiny"              // (issues/88)
+  "Seti_sb_tree_miny"              // (issues/88)
+  "Seti_show_group_arrows"         // show the folder/group arrows in sidebar
+  "Seti_sb_no_icons"               // (issues/133)
+  "Seti_sb_blank"                  // (issues/133)
+  "Seti_bold_slctdfile_labels"     // make the sidebar selected file text in bold
+  "Seti_sidebar_font_size_12"      // (issues/115)
+  "Seti_sidebar_font_size_13"      // (issues/115)
+  "Seti_sidebar_font_size_14"      // (issues/115)
+  "Seti_sidebar_font_Ubuntu"       // (issues/115)
+  "Seti_sidebar_font_Fira"         // (issues/115)
+  "Seti_sidebar_font_Hack"         // (issues/115)
+  "Seti_sidebar_font_Source"       // (issues/115)
+  "Seti_heading_font_12"           // heading font size = 12
+  "Seti_bold_heading"              // make heading font in bold
+  "Seti_top_heading_big"           // sidebar top header img
+  "Seti_top_heading_small"         // sidebar top header img small
+  "Seti_top_heading_anim"          // sidebar top header img animate on hover "not available with the accents"
 
 // view
-  "Seti_pad_5": true,                     // use with line_padding_bottom / line_padding_top = 5
-  "Seti_pad_3": true,                     // use with line_padding_bottom / line_padding_top = 3
-  "Seti_panel_nrml": true,                // remove the padding top/down from quick panel
+  "Seti_pad_5"                     // use with line_padding_bottom / line_padding_top = 5
+  "Seti_pad_3"                     // use with line_padding_bottom / line_padding_top = 3
+  "Seti_panel_nrml"                // remove the padding top/down from quick panel
+
+// accents
+  "Seti_accent"                    // general options for the accents
+  "Seti_accent_yellow"
+  "Seti_accent_red"
+  "Seti_accent_indigo"
+  "Seti_accent_purple"
+  "Seti_accent_teal"
+  "Seti_accent_lime"
 ```
 
 ## Credits
