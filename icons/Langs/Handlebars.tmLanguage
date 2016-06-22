@@ -3,7 +3,7 @@
 <plist version="1.0">
 	<dict>
 		<key>name</key>
-		<string>Mustache</string>
+		<string>Handlebars</string>
 		<key>fileTypes</key>
 		<array>
 			<string>hbs</string>
