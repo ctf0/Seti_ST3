@@ -435,7 +435,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [21,23,24],
+        "layer0.tint": [13,16,17],
         "layer0.opacity": 1
     },
 
@@ -446,7 +446,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [13, 16, 17]
+        "border_color": [13,16,17]
     },
 
     //========================================================
@@ -470,7 +470,7 @@
 
     {
         "class": "dialog",
-        "layer0.tint": [21, 23, 24],
+        "layer0.tint": [13,16,17],
         "layer0.opacity": 1
     },
 
