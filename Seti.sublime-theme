@@ -822,6 +822,12 @@
         "parents": [{"class": "tree_row","attributes": ["expandable","hover"]}],
         "color": [255,255,255]
     },
+    {
+        "class": "icon_folder_dup",
+        "layer0.texture": "Seti_UI/Main/folder_dup@2x.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
     // Sidebar open files entry selected
     {
         "class": "sidebar_label",
