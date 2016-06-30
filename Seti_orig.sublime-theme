@@ -445,7 +445,7 @@
 
     {
         "class": "grid_layout_control",
-        "border_size": 1,
+        "border_size": 2,
         "border_color": [13,16,17]
     },
 
@@ -1536,7 +1536,7 @@
         "class": "grid_layout_control",
         "settings": ["Seti_accent_yellow"],
         "border_size": 2,
-        "border_color": [255, 143, 0]
+        "border_color": [23,28,40]
     },
     {
         "class": "sidebar_container",
@@ -1575,7 +1575,7 @@
         "class": "grid_layout_control",
         "settings": ["Seti_accent_red"],
         "border_size": 2,
-        "border_color": [229, 57, 53]
+        "border_color": [23,28,40]
     },
     {
         "class": "sidebar_container",
@@ -1614,7 +1614,7 @@
         "class": "grid_layout_control",
         "settings": ["Seti_accent_purple"],
         "border_size": 2,
-        "border_color": [156, 39, 176]
+        "border_color": [23,28,40]
     },
     {
         "class": "sidebar_container",
@@ -1653,7 +1653,7 @@
         "class": "grid_layout_control",
         "settings": ["Seti_accent_lime"],
         "border_size": 2,
-        "border_color": [104, 159, 56]
+        "border_color": [23,28,40]
     },
     {
         "class": "sidebar_container",
@@ -1692,7 +1692,7 @@
         "class": "grid_layout_control",
         "settings": ["Seti_accent_indigo"],
         "border_size": 2,
-        "border_color": [67, 73, 171]
+        "border_color": [23,28,40]
     },
     {
         "class": "sidebar_container",
@@ -1731,7 +1731,7 @@
         "class": "grid_layout_control",
         "settings": ["Seti_accent_teal"],
         "border_size": 2,
-        "border_color": [0, 137, 123]
+        "border_color": [23,28,40]
     },
     {
         "class": "sidebar_container",
