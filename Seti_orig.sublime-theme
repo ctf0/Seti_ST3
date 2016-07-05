@@ -1749,12 +1749,22 @@
         "layer0.texture": "Seti_UI/Main/accent/teal/folder@2x.png"
     },
 
-    // general options
+     // general options
     {
         "class": "tab_close_button",
         "settings": ["Seti_accent"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Seti_UI/Main/accent/tab_circle_white@2x.png",
+        "layer0.opacity": 1,
+        // Hover
+        "layer1.texture": "Seti_UI/Main/tab_x@2x.png",
+        "layer1.opacity": 0
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["Seti_accent"],
+        "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
+        "layer0.texture": "Seti_UI/Main/tab_x@2x.png",
         "layer0.opacity": 1
     },
     {
