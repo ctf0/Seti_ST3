@@ -843,6 +843,22 @@
     },
     // options
     {
+        "class": "tree_row",
+        "settings": ["Seti_alt_tree_row"],
+        "layer0.tint": null,
+        "layer0.opacity": 0,
+        "layer1.texture": "Seti_UI/Main/tree_highlight.png",
+        "layer1.opacity": { "target": 0.0, "speed": 3, "interpolation": "smoothstep" },
+        "layer1.inner_margin": [22, 5, 0, 5]
+    },
+    {
+        "class": "tree_row",
+        "settings": ["Seti_alt_tree_row"],
+        "attributes": ["selected"],
+        "layer0.opacity": 0,
+        "layer1.opacity": { "target": 1, "speed": 5, "interpolation": "smoothstep" }
+    },
+    {
         "class": "sidebar_label",
         "settings": ["Seti_sidebar_font_size_12"],
         "font.size": 12

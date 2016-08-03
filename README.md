@@ -96,6 +96,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_top_heading_big"           // sidebar top header img
   "Seti_top_heading_small"         // sidebar top header img small
   "Seti_top_heading_anim"          // sidebar top header img animate on hover "not available with the accents"
+  "Seti_alt_tree_row"              // alternative sidebar row highlight
 
 // view
   "Seti_pad_5"                     // use with line_padding_bottom / line_padding_top = 5

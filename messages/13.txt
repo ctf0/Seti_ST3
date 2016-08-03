@@ -1,0 +1,6 @@
+v13 (3-08-2015)
+-------------------
+
+1. now the search area icons will match the accent color
+2. add new option “Seti_alt_tree_row” to change the sidebar tree row highlighter, works in both default & accent
+3. fixed the tab hover close icon
