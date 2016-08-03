@@ -706,7 +706,7 @@
     {
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.opacity": { "target": 1, "speed": 10, "interpolation": "smoothstep" }
+        "layer0.opacity": { "target": 1.0, "speed": 10, "interpolation": "smoothstep" }
     },
     // Sidebar heading
     {
@@ -798,7 +798,7 @@
         "settings": ["Seti_alt_tree_row"],
         "attributes": ["selected"],
         "layer0.opacity": 0,
-        "layer1.opacity": { "target": 1, "speed": 5, "interpolation": "smoothstep" }
+        "layer1.opacity": { "target": 1.0, "speed": 5, "interpolation": "smoothstep" }
     },
     {
         "class": "sidebar_label",
