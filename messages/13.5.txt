@@ -1,0 +1,5 @@
+v13.5 (8-08-2015)
+-------------------
+
+1. Hbs pref is removed to avoid problems with the original package.
+2- the seti theme now support the accent "folders, search icons, alt sidebar row".

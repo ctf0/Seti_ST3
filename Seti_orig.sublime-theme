@@ -1549,12 +1549,6 @@
         "layer0.texture": "Seti_UI/Main/accent/yellow/tab-active.png"
     },
     {
-        "class": "grid_layout_control",
-        "settings": ["Seti_accent_yellow"],
-        "border_size": 2,
-        "border_color": [23,28,40]
-    },
-    {
         "class": "sidebar_container",
         "settings": ["Seti_accent_yellow", "Seti_top_heading_big"],
         "layer1.texture": "Seti_UI/Main/accent/yellow/sidebar_heading.png"
@@ -1802,12 +1796,6 @@
         "settings": ["Seti_accent_red"],
         "attributes": ["selected"],
         "layer0.texture": "Seti_UI/Main/accent/red/tab-active.png"
-    },
-    {
-        "class": "grid_layout_control",
-        "settings": ["Seti_accent_red"],
-        "border_size": 2,
-        "border_color": [23,28,40]
     },
     {
         "class": "sidebar_container",
@@ -2059,12 +2047,6 @@
         "layer0.texture": "Seti_UI/Main/accent/purple/tab-active.png"
     },
     {
-        "class": "grid_layout_control",
-        "settings": ["Seti_accent_purple"],
-        "border_size": 2,
-        "border_color": [23,28,40]
-    },
-    {
         "class": "sidebar_container",
         "settings": ["Seti_accent_purple", "Seti_top_heading_big"],
         "layer1.texture": "Seti_UI/Main/accent/purple/sidebar_heading.png"
@@ -2312,12 +2294,6 @@
         "settings": ["Seti_accent_lime"],
         "attributes": ["selected"],
         "layer0.texture": "Seti_UI/Main/accent/lime/tab-active.png"
-    },
-    {
-        "class": "grid_layout_control",
-        "settings": ["Seti_accent_lime"],
-        "border_size": 2,
-        "border_color": [23,28,40]
     },
     {
         "class": "sidebar_container",
@@ -2569,12 +2545,6 @@
         "layer0.texture": "Seti_UI/Main/accent/indigo/tab-active.png"
     },
     {
-        "class": "grid_layout_control",
-        "settings": ["Seti_accent_indigo"],
-        "border_size": 2,
-        "border_color": [23,28,40]
-    },
-    {
         "class": "sidebar_container",
         "settings": ["Seti_accent_indigo", "Seti_top_heading_big"],
         "layer1.texture": "Seti_UI/Main/accent/indigo/sidebar_heading.png"
@@ -2822,12 +2792,6 @@
         "settings": ["Seti_accent_teal"],
         "attributes": ["selected"],
         "layer0.texture": "Seti_UI/Main/accent/teal/tab-active.png"
-    },
-    {
-        "class": "grid_layout_control",
-        "settings": ["Seti_accent_teal"],
-        "border_size": 2,
-        "border_color": [23,28,40]
     },
     {
         "class": "sidebar_container",
@@ -3153,5 +3117,11 @@
         "class": "sidebar_container",
         "settings": ["Seti_accent"],
         "content_margin": [0, 64, 0, 0]
-    }
+    },
+    {
+        "class": "grid_layout_control",
+        "settings": ["Seti_accent"],
+        "border_size": 2,
+        "border_color": [23,28,40]
+    },
 ]
