@@ -47,7 +47,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
 `Themr` have an option call ``Themr: Toggle Theme Settings`` to change theme settings on-the-fly , or manually add what you need from below.
 * note that not all the settings are available in both themes.
 
-```json
+```js
 // tabs
   "Seti_no_blue_bar"               // remove the blue bar under the un-saved tabs "not available with the accents"
   "Seti_tabs_small"                // tabs height = 35
