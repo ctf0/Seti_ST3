@@ -504,7 +504,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 2,
-        "border_color": [13,16,17]
+        "border_color": [23,28,40]
     },
 
     //========================================================
@@ -1591,6 +1591,11 @@
 
     // yellow
     {
+        "class": "close_button",
+        "settings": ["Seti_accent_yellow"],
+        "layer0.tint": [255,143,0],
+    },
+    {
         "class": "tree_row",
         "settings": ["Seti_accent_yellow", "Seti_alt_tree_row"],
         "layer0.tint": null,
@@ -1813,6 +1818,11 @@
     },
 
     // red
+     {
+        "class": "close_button",
+        "settings": ["Seti_accent_red"],
+        "layer0.tint": [229,57,53],
+    },
     {
         "class": "tree_row",
         "settings": ["Seti_accent_red", "Seti_alt_tree_row"],
@@ -2037,6 +2047,11 @@
 
     // purple
     {
+        "class": "close_button",
+        "settings": ["Seti_accent_purple"],
+        "layer0.tint": [156,39,176],
+    },
+    {
         "class": "tree_row",
         "settings": ["Seti_accent_purple", "Seti_alt_tree_row"],
         "layer0.tint": null,
@@ -2259,6 +2274,11 @@
     },
 
     // lime
+    {
+        "class": "close_button",
+        "settings": ["Seti_accent_lime"],
+        "layer0.tint": [104,159,56],
+    },
     {
         "class": "tree_row",
         "settings": ["Seti_accent_lime", "Seti_alt_tree_row"],
@@ -2483,6 +2503,11 @@
 
     // indigo
     {
+        "class": "close_button",
+        "settings": ["Seti_accent_indigo"],
+        "layer0.tint": [57,73,171],
+    },
+    {
         "class": "tree_row",
         "settings": ["Seti_accent_indigo", "Seti_alt_tree_row"],
         "layer0.tint": null,
@@ -2705,6 +2730,11 @@
     },
 
     // teal
+    {
+        "class": "close_button",
+        "settings": ["Seti_accent_teal"],
+        "layer0.tint": [0,137,123],
+    },
     {
         "class": "tree_row",
         "settings": ["Seti_accent_teal", "Seti_alt_tree_row"],
@@ -2934,5 +2964,51 @@
         "layer0.inner_margin": -2,
         "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Seti_UI/Main/folder@2x.png"
+    },
+     {
+        "class": "close_button",
+        "settings": ["Seti_accent"],
+        "layer0.texture": "Seti_UI/Main/tab_x@2x.png",
+    },
+    {
+        "class": "close_button",
+        "settings": ["Seti_accent"],
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+    },
+    {
+        "class": "close_button",
+        "settings": ["Seti_accent"],
+        "attributes": ["dirty"],
+        "layer0.texture": "Seti_UI/Main/accent/tab_circle_white@2x.png",
+        "layer0.tint": [255,255,255],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "close_button",
+        "settings": ["Seti_accent"],
+        "attributes": ["dirty"],
+        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+        "layer0.texture": "Seti_UI/Main/accent/tab_circle_white@2x.png"
+    },
+    {
+        "class": "close_button",
+        "settings": ["Seti_accent"],
+        "attributes": ["dirty"],
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "layer0.texture": "Seti_UI/Main/accent/tab_circle_white@2x.png",
+        "layer0.opacity": 1
+    },
+    {
+        "class": "close_button",
+        "settings": ["Seti_accent"],
+        "attributes": ["hover"],
+        "layer0.texture": "Seti_UI/Main/tab_x@2x.png"
+    },
+    {
+        "class": "close_button",
+        "settings": ["Seti_accent"],
+        "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
+        "layer0.texture": "Seti_UI/Main/tab_x@2x.png",
+        "layer0.opacity": 1
     },
 ]
