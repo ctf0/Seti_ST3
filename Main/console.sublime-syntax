@@ -1,0 +1,879 @@
+%YAML 1.2
+---
+name: Console
+scope: source.console
+variables:
+  sql_indicator: \s*(?:SELECT|INSERT|UPDATE|DELETE|CREATE|REPLACE|ALTER)\b
+contexts:
+  main:
+    # -- Kornuz modifications BEGIN --
+    - match: '^(startup(?=, version:))'
+      scope: support.function.builtin.console
+    - match: '^(using gpu)'
+      push:
+        - meta_scope: source.line.console
+        - match: \n
+          pop: true
+    - match: '^(zip path:|working dir:)'
+      push:
+        - meta_content_scope: constant.other.console
+        - meta_scope: source.line.console
+        - match: \n
+          pop: true
+    - match: '^(reloading plugin )'
+      push:
+        - meta_content_scope: keyword.other.console
+        - meta_scope: source.line.console
+        - match: \n
+          pop: true
+
+    - match: '([-_.a-zA-Z][-_.\w]*)?/([-_.\w][-_.\w ]*/)+([-_.\w][-_.\w ]*)?'
+      scope: constant.other.console
+    - match: '\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}'
+      scope: constant.other.console
+    # -- Kornuz modifications END --
+    - match: "#"
+      captures:
+        0: punctuation.definition.comment.console
+      push:
+        - meta_scope: comment.line.number-sign.console
+        - match: \n
+          pop: true
+    - match: \b(?i:(0x\h*)L)
+      scope: constant.numeric.integer.long.hexadecimal.console
+    - match: \b(?i:(0x\h*))
+      scope: constant.numeric.integer.hexadecimal.console
+    - match: '\b(?i:(0[0-7]+)L)'
+      scope: constant.numeric.integer.long.octal.console
+    - match: '\b(0[0-7]+)'
+      scope: constant.numeric.integer.octal.console
+    - match: '\b(?i:(((\d+(\.(?=[^a-zA-Z_])\d*)?|(?<=[^0-9a-zA-Z_])\.\d+)(e[\-\+]?\d+)?))J)'
+      scope: constant.numeric.complex.console
+    - match: '\b(?i:(\d+\.\d*(e[\-\+]?\d+)?))(?=[^a-zA-Z_])'
+      scope: constant.numeric.float.console
+    - match: '(?<=[^0-9a-zA-Z_])(?i:(\.\d+(e[\-\+]?\d+)?))'
+      scope: constant.numeric.float.console
+    - match: '\b(?i:(\d+e[\-\+]?\d+))'
+      scope: constant.numeric.float.console
+    - match: '\b(?i:([1-9]+[0-9]*|0)L)'
+      scope: constant.numeric.integer.long.decimal.console
+    - match: '\b([1-9]+[0-9]*|0)'
+      scope: constant.numeric.integer.decimal.console
+    - match: \b(global)\b
+      captures:
+        1: storage.modifier.global.console
+    - match: \b(nonlocal)\b
+      captures:
+        1: storage.modifier.nonlocal.console
+    - match: \b(?:(import)|(from))\b
+      captures:
+        1: keyword.control.import.console
+        2: keyword.control.import.from.console
+    - match: \b(elif|else|except|finally|for|if|try|while|with|break|continue|pass|raise|return|yield)\b
+      comment: keywords that delimit flow blocks or alter flow from within a block
+      scope: keyword.control.flow.console
+    - match: \b(and|in|is|not|or)\b
+      comment: keyword operators that evaluate to True or False
+      scope: keyword.operator.logical.console
+    - match: \b(as|assert|del|exec|print)\b
+      comment: keywords that haven't fit into other groups (yet).
+      captures:
+        1: keyword.other.console
+    - match: <>
+      scope: invalid.deprecated.operator.console
+    - match: <\=|>\=|\=\=|<|>|\!\=
+      scope: keyword.operator.comparison.console
+    - match: \+\=|-\=|\*\=|/\=|//\=|%\=|&\=|\|\=|\^\=|>>\=|<<\=|\*\*\=
+      scope: keyword.operator.assignment.augmented.console
+    - match: \+|\-|\*|\*\*|/|//|%|<<|>>|&|\||\^|~
+      scope: keyword.operator.arithmetic.console
+    - match: \=
+      scope: keyword.operator.assignment.console
+    - match: '^\s*(class)\s+(?=[a-zA-Z_][a-zA-Z_0-9]*\s*\:)'
+      captures:
+        1: storage.type.class.console
+      push:
+        - meta_scope: meta.class.old-style.console
+        - meta_content_scope: entity.name.type.class.console
+        - match: \s*(:)
+          captures:
+            1: punctuation.section.class.begin.console
+          pop: true
+        - include: entity_name_class
+    - match: '^\s*(class)\s+(?=[a-zA-Z_][a-zA-Z_0-9]*\s*\()'
+      captures:
+        1: storage.type.class.console
+      push:
+        - meta_scope: meta.class.console
+        - match: (\))\s*(?:(\:)|(.*$\n?))
+          captures:
+            1: punctuation.definition.inheritance.end.console
+            2: punctuation.section.class.begin.console
+            3: invalid.illegal.missing-section-begin.console
+          pop: true
+        - match: "(?=[A-Za-z_][A-Za-z0-9_]*)"
+          push:
+            - meta_content_scope: entity.name.type.class.console
+            - match: "(?![A-Za-z0-9_])"
+              pop: true
+            - include: entity_name_class
+        - match: (\()
+          captures:
+            1: punctuation.definition.inheritance.begin.console
+          push:
+            - meta_content_scope: meta.class.inheritance.console
+            - match: (?=\)|:)
+              pop: true
+            - match: (?<=\(|,)\s*
+              push:
+                - meta_content_scope: entity.other.inherited-class.console
+                - match: \s*(?:(,)|(?=\)))
+                  captures:
+                    1: punctuation.separator.inheritance.console
+                  pop: true
+                - include: main
+    - match: '^\s*(class)\s+(?=[a-zA-Z_][a-zA-Z_0-9])'
+      captures:
+        1: storage.type.class.console
+      push:
+        - meta_scope: meta.class.console
+        - match: (\()|(\s*$\n?|#.*$\n?)
+          captures:
+            1: punctuation.definition.inheritance.begin.console
+            2: invalid.illegal.missing-inheritance.console
+          pop: true
+        - match: "(?=[A-Za-z_][A-Za-z0-9_]*)"
+          push:
+            - meta_content_scope: entity.name.type.class.console
+            - match: "(?![A-Za-z0-9_])"
+              pop: true
+            - include: entity_name_function
+    - match: '^\s*(def)\s+(?=[A-Za-z_][A-Za-z0-9_]*\s*\()'
+      captures:
+        1: storage.type.function.console
+      push:
+        - meta_scope: meta.function.console
+        - match: (\))\s*(?:(\:)|(.*$\n?))
+          captures:
+            1: punctuation.definition.parameters.end.console
+            2: punctuation.section.function.begin.console
+            3: invalid.illegal.missing-section-begin.console
+          pop: true
+        - match: "(?=[A-Za-z_][A-Za-z0-9_]*)"
+          push:
+            - meta_content_scope: entity.name.function.console
+            - match: "(?![A-Za-z0-9_])"
+              pop: true
+            - include: entity_name_function
+        - match: (\()
+          captures:
+            1: punctuation.definition.parameters.begin.console
+          push:
+            - meta_content_scope: meta.function.parameters.console
+            - match: (?=\)\s*\:)
+              pop: true
+            - include: keyword_arguments
+            - match: "#"
+              captures:
+                0: punctuation.definition.comment.console
+              push:
+                - meta_scope: comment.line.number-sign.console
+                - match: \n
+                  pop: true
+            - match: '\b([a-zA-Z_][a-zA-Z_0-9]*)\s*(?:(,)|(?=[\n\)]))'
+              captures:
+                1: variable.parameter.function.console
+                2: punctuation.separator.parameters.console
+    - match: '^\s*(def)\s+(?=[A-Za-z_][A-Za-z0-9_]*)'
+      captures:
+        1: storage.type.function.console
+      push:
+        - meta_scope: meta.function.console
+        - match: (\()|\s*($\n?|#.*$\n?)
+          captures:
+            1: punctuation.definition.parameters.begin.console
+            2: invalid.illegal.missing-parameters.console
+          pop: true
+        - match: "(?=[A-Za-z_][A-Za-z0-9_]*)"
+          push:
+            - meta_content_scope: entity.name.function.console
+            - match: "(?![A-Za-z0-9_])"
+              pop: true
+            - include: entity_name_function
+    - match: (lambda)(?=\s+)
+      captures:
+        1: storage.type.function.inline.console
+      push:
+        - meta_scope: meta.function.inline.console
+        - match: (\:)
+          captures:
+            1: punctuation.definition.parameters.end.console
+            2: punctuation.section.function.begin.console
+            3: invalid.illegal.missing-section-begin.console
+          pop: true
+        - match: \s+
+          push:
+            - meta_content_scope: meta.function.inline.parameters.console
+            - match: (?=\:)
+              pop: true
+            - include: keyword_arguments
+            - match: '\b([a-zA-Z_][a-zA-Z_0-9]*)\s*(?:(,)|(?=[\n\)\:]))'
+              captures:
+                1: variable.parameter.function.console
+                2: punctuation.separator.parameters.console
+    - match: '^\s*(?=@\s*[A-Za-z_][A-Za-z0-9_]*(?:\.[a-zA-Z_][a-zA-Z_0-9]*)*\s*\()'
+      comment: a decorator may be a function call which returns a decorator.
+      push:
+        - meta_scope: meta.function.decorator.console
+        - match: (\))
+          captures:
+            1: punctuation.definition.arguments.end.console
+          pop: true
+        - match: '(?=(@)\s*[A-Za-z_][A-Za-z0-9_]*(?:\.[A-Za-z_][A-Za-z0-9_]*)*\s*\()'
+          captures:
+            1: punctuation.definition.decorator.console
+          push:
+            - meta_content_scope: entity.name.function.decorator.console
+            - match: (?=\s*\()
+              pop: true
+            - include: dotted_name
+        - match: (\()
+          captures:
+            1: punctuation.definition.arguments.begin.console
+          push:
+            - meta_content_scope: meta.function.decorator.arguments.console
+            - match: (?=\))
+              pop: true
+            - include: keyword_arguments
+            - include: main
+    - match: '^\s*(?=@\s*[A-Za-z_][A-Za-z0-9_]*(?:\.[a-zA-Z_][a-zA-Z_0-9]*)*)'
+      push:
+        - meta_scope: meta.function.decorator.console
+        - meta_content_scope: entity.name.function.decorator.console
+        - match: (?=\s|$\n?|#)
+          pop: true
+        - match: '(?=(@)\s*[A-Za-z_][A-Za-z0-9_]*(\.[A-Za-z_][A-Za-z0-9_]*)*)'
+          captures:
+            1: punctuation.definition.decorator.console
+          push:
+            - match: (?=\s|$\n?|#)
+              pop: true
+            - include: dotted_name
+    - match: '(?<=\)|\])\s*(\()'
+      captures:
+        1: punctuation.definition.arguments.begin.console
+      push:
+        - meta_scope: meta.function-call.console
+        - meta_content_scope: meta.function-call.arguments.console
+        - match: (\))
+          captures:
+            1: punctuation.definition.arguments.end.console
+          pop: true
+        - include: keyword_arguments
+        - include: main
+    - match: '(?=[A-Za-z_][A-Za-z0-9_]*(?:\.[a-zA-Z_][a-zA-Z_0-9]*)*\s*\()'
+      push:
+        - meta_scope: meta.function-call.console
+        - match: (\))
+          captures:
+            1: punctuation.definition.arguments.end.console
+          pop: true
+        - match: '(?=[A-Za-z_][A-Za-z0-9_]*(?:\.[A-Za-z_][A-Za-z0-9_]*)*\s*\()'
+          push:
+            - match: (?=\s*\()
+              pop: true
+            - include: dotted_name
+        - match: (\()
+          captures:
+            1: punctuation.definition.arguments.begin.console
+          push:
+            - meta_content_scope: meta.function-call.arguments.console
+            - match: (?=\))
+              pop: true
+            - include: keyword_arguments
+            - include: main
+    - match: '(?=[A-Za-z_][A-Za-z0-9_]*(?:\.[a-zA-Z_][a-zA-Z_0-9]*)*\s*\[)'
+      push:
+        - meta_scope: meta.item-access.console
+        - match: '(\])'
+          captures:
+            1: punctuation.definition.arguments.end.console
+          pop: true
+        - match: '(?=[A-Za-z_][A-Za-z0-9_]*(?:\.[A-Za-z_][A-Za-z0-9_]*)*\s*\[)'
+          push:
+            - match: '(?=\s*\[)'
+              pop: true
+            - include: dotted_name
+        - match: '(\[)'
+          captures:
+            1: punctuation.definition.arguments.begin.console
+          push:
+            - meta_content_scope: meta.item-access.arguments.console
+            - match: '(?=\])'
+              pop: true
+            - include: main
+    - match: '(?<=\)|\])\s*(\[)'
+      captures:
+        1: punctuation.definition.arguments.begin.console
+      push:
+        - meta_scope: meta.item-access.console
+        - meta_content_scope: meta.item-access.arguments.console
+        - match: '(\])'
+          captures:
+            1: punctuation.definition.arguments.end.console
+          pop: true
+        - include: main
+    - match: \b(def|lambda)\b
+      captures:
+        1: storage.type.function.console
+    - match: \b(class)\b
+      captures:
+        1: storage.type.class.console
+    - include: line_continuation
+    - include: language_variables
+    - match: \b(None|True|False|Ellipsis|NotImplemented)\b
+      scope: constant.language.console
+    - include: string_quoted_single
+    - include: string_quoted_double
+    - include: dotted_name
+    - match: (\()
+      push:
+        - match: (\))
+          pop: true
+        - include: main
+    - match: \)
+      scope: invalid.illegal.stray.brace.round.console
+    - match: '(\[)(\s*(\]))\b'
+      captures:
+        1: punctuation.definition.list.begin.console
+        2: meta.empty-list.console
+        3: punctuation.definition.list.end.console
+    - match: '(\[)'
+      captures:
+        1: punctuation.definition.list.begin.console
+      push:
+        - meta_scope: meta.structure.list.console
+        - match: '(\])'
+          captures:
+            1: punctuation.definition.list.end.console
+          pop: true
+        - match: '(?<=\[|\,)\s*(?![\],])'
+          push:
+            - meta_content_scope: meta.structure.list.item.console
+            - match: '\s*(?:(,)|(?=\]))'
+              captures:
+                1: punctuation.separator.list.console
+              pop: true
+            - include: main
+    - match: (\()(\s*(\)))
+      scope: meta.structure.tuple.console
+      captures:
+        1: punctuation.definition.tuple.begin.console
+        2: meta.empty-tuple.console
+        3: punctuation.definition.tuple.end.console
+    - match: '(\{)(\s*(\}))'
+      scope: meta.structure.dictionary.console
+      captures:
+        1: punctuation.definition.dictionary.begin.console
+        2: meta.empty-dictionary.console
+        3: punctuation.definition.dictionary.end.console
+    - match: '(\{)'
+      captures:
+        1: punctuation.definition.dictionary.begin.console
+      push:
+        - meta_scope: meta.structure.dictionary.console
+        - match: '(\})'
+          captures:
+            1: punctuation.definition.dictionary.end.console
+          pop: true
+        - match: '(?<=\{|\,|^)\s*(?![\},])'
+          push:
+            - meta_content_scope: meta.structure.dictionary.key.console
+            - match: '\s*(?:(?=\})|(\:))'
+              captures:
+                1: punctuation.separator.valuepair.dictionary.console
+              pop: true
+            - include: main
+        - match: (?<=\:|^)\s*
+          push:
+            - meta_content_scope: meta.structure.dictionary.value.console
+            - match: '\s*(?:(?=\})|(,))'
+              captures:
+                1: punctuation.separator.dictionary.console
+              pop: true
+            - include: main
+  builtin_exceptions:
+    - match: |-
+        (?x)\b(
+          (
+            Arithmetic|Assertion|Attribute|BlockingIO|BrokenPipe|Buffer|ChildProcess|
+            Connection(Aborted|Refused|Reset)?|EOF|Environment|FileExists|
+            FileNotFound|FloatingPoint|Interrupted|IO|IsADirectoryError|
+            Import|Indentation|Index|Key|Lookup|Memory|Name|NotADirectory|
+            NotImplemented|OS|Overflow|Permission|ProcessLookup|Reference|
+            Runtime|Standard|Syntax|System|Tab|Timeout|Type|UnboundLocal|
+            Unicode(Encode|Decode|Translate)?|Value|VMS|Windows|ZeroDivision
+          )Error|
+          ((Pending)?Deprecation|Runtime|Syntax|User|Future|Import|Unicode|Bytes)?Warning|
+          (Base)?Exception|
+          SystemExit|StopIteration|NotImplemented|KeyboardInterrupt|GeneratorExit
+        )\b
+      scope: support.type.exception.console
+  builtin_functions:
+    - match: |-
+        (?x)\b(
+          __import__|all|abs|any|apply|ascii|bin|callable|chr|classmethod|cmp|coerce|
+          compile|delattr|dir|divmod|enumerate|eval|execfile|filter|format|getattr|
+          globals|hasattr|hash|help|hex|id|input|intern|isinstance|issubclass|iter|
+          len|locals|map|max|min|next|oct|open|ord|pow|print|property|range|
+          raw_input|reduce|reload|repr|reversed|round|setattr|sorted|staticmethod|
+          sum|super|type|unichr|vars|zip
+        )\b
+      scope: support.function.builtin.console
+  builtin_types:
+    - match: |-
+        (?x)\b(
+          basestring|bool|buffer|bytearray|bytes|complex|dict|float|frozenset|int|
+          list|long|memoryview|object|range|set|slice|str|tuple|unicode|xrange
+        )\b
+      scope: support.type.console
+  constant_placeholder:
+    - match: '(?i:(%(\([a-z_]+\))?#?0?\-?[ ]?\+?([0-9]*|\*)(\.([0-9]*|\*))?[hL]?[a-z%])|(\{([!\[\].:\w ]+)?\}))'
+      scope: constant.other.placeholder.console
+  docstrings:
+    - match: '^\s*(?=[uU]?[rR]?""")'
+      push:
+        - meta_scope: comment.block.console
+        - match: (?<=""")
+          pop: true
+        - include: string_quoted_double
+    - match: '^\s*(?=[uU]?[rR]?'''''')'
+      push:
+        - meta_scope: comment.block.console
+        - match: (?<=''')
+          pop: true
+        - include: string_quoted_single
+  dotted_name:
+    - match: '(?=[A-Za-z_][A-Za-z0-9_]*(?:\.[A-Za-z_][A-Za-z0-9_]*)*)'
+      push:
+        - match: '(?![A-Za-z0-9_\.])'
+          pop: true
+        - match: '(\.)(?=[A-Za-z_][A-Za-z0-9_]*)'
+          push:
+            - match: "(?![A-Za-z0-9_])"
+              pop: true
+            - include: magic_function_names
+            - include: magic_variable_names
+            - include: illegal_names
+            - include: generic_names
+        - match: '(?<!\.)(?=[A-Za-z_][A-Za-z0-9_]*)'
+          push:
+            - match: "(?![A-Za-z0-9_])"
+              pop: true
+            - include: builtin_functions
+            - include: builtin_types
+            - include: builtin_exceptions
+            - include: illegal_names
+            - include: magic_function_names
+            - include: magic_variable_names
+            - include: language_variables
+            - include: generic_names
+  entity_name_class:
+    - include: illegal_names
+    - include: generic_names
+  entity_name_function:
+    - include: magic_function_names
+    - include: illegal_names
+    - include: generic_names
+  escaped_char:
+    - match: '(\\x[0-9A-F]{2})|(\\[0-7]{3})|(\\\n)|(\\\\)|(\\\")|(\\'')|(\\a)|(\\b)|(\\f)|(\\n)|(\\r)|(\\t)|(\\v)'
+      captures:
+        1: constant.character.escape.hex.console
+        2: constant.character.escape.octal.console
+        3: constant.character.escape.newline.console
+        4: constant.character.escape.backlash.console
+        5: constant.character.escape.double-quote.console
+        6: constant.character.escape.single-quote.console
+        7: constant.character.escape.bell.console
+        8: constant.character.escape.backspace.console
+        9: constant.character.escape.formfeed.console
+        10: constant.character.escape.linefeed.console
+        11: constant.character.escape.return.console
+        12: constant.character.escape.tab.console
+        13: constant.character.escape.vertical-tab.console
+  escaped_unicode_char:
+    - match: '(\\U[0-9A-Fa-f]{8})|(\\u[0-9A-Fa-f]{4})|(\\N\{[a-zA-Z ]+\})'
+      captures:
+        1: constant.character.escape.unicode.16-bit-hex.console
+        2: constant.character.escape.unicode.32-bit-hex.console
+        3: constant.character.escape.unicode.name.console
+  function_name:
+    - include: magic_function_names
+    - include: magic_variable_names
+    - include: builtin_exceptions
+    - include: builtin_functions
+    - include: builtin_types
+    - include: generic_names
+  generic_names:
+    - match: "[A-Za-z_][A-Za-z0-9_]*"
+  illegal_names:
+    - match: \b(and|as|assert|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|not|or|pass|print|raise|return|try|while|with|yield)\b
+      scope: invalid.illegal.name.console
+  keyword_arguments:
+    - match: '\b([a-zA-Z_][a-zA-Z_0-9]*)\s*(=)(?!=)'
+      captures:
+        1: variable.parameter.function.console
+        2: keyword.operator.assignment.console
+      push:
+        - match: '\s*(?:(,)|(?=$\n?|[\)\:]))'
+          captures:
+            1: punctuation.separator.parameters.console
+          pop: true
+        - include: main
+  language_variables:
+    - match: \b(self|cls)\b
+      scope: variable.language.console
+  line_continuation:
+    - match: (\\)(.*)$\n?
+      captures:
+        1: punctuation.separator.continuation.line.console
+        2: invalid.illegal.unexpected-text.console
+  magic_function_names:
+    - match: |-
+        (?x)\b(__(?:
+          abs|add|and|call|cmp|coerce|complex|contains|del|delattr|
+          delete|delitem|delslice|div|divmod|enter|eq|exit|float|
+          floordiv|ge|get|getattr|getattribute|getitem|getslice|gt|
+          hash|hex|iadd|iand|idiv|ifloordiv|ilshift|imod|imul|init|
+          int|invert|ior|ipow|irshift|isub|iter|itruediv|ixor|le|len|
+          long|lshift|lt|mod|mul|ne|neg|new|nonzero|oct|or|pos|pow|
+          radd|rand|rdiv|rdivmod|repr|rfloordiv|rlshift|rmod|rmul|ror|
+          rpow|rrshift|rshift|rsub|rtruediv|rxor|set|setattr|setitem|
+          setslice|str|sub|truediv|unicode|xor
+        )__)\b
+      comment: these methods have magic interpretation by python and are generally called indirectly through syntactic constructs
+      scope: support.function.magic.console
+  magic_variable_names:
+    - match: \b__(all|bases|class|debug|dict|doc|file|members|metaclass|methods|name|slots|weakref)__\b
+      comment: magic variables which a class/module may have.
+      scope: support.variable.magic.console
+
+  string_quoted_double:
+    # Triple-quoted capital R raw string, unicode or not, no syntax embedding
+    - match: '([uU]?R)(""")'
+      captures:
+        1: storage.type.string.console
+        2: punctuation.definition.string.begin.console
+      push:
+        - meta_scope: string.quoted.double.block.console
+        - match: '"""'
+          scope: punctuation.definition.string.end.console
+          pop: true
+        - include: escaped_unicode_char
+    # Triple-quoted raw string, unicode or not, will detect SQL, otherwise regex
+    - match: '([uU]?r)(""")'
+      captures:
+        1: storage.type.string.console
+        2: string.quoted.double.block.console punctuation.definition.string.begin.console
+      push:
+        - match: '(?={{sql_indicator}})'
+          set:
+            - meta_scope: string.quoted.double.block.console
+            - match: '"""'
+              scope: punctuation.definition.string.end.console
+              pop: true
+            - match: ''
+              with_prototype:
+                - match: '(?=""")'
+                  pop: true
+                - include: escaped_unicode_char
+                - include: constant_placeholder
+              push: 'scope:source.sql'
+        - match: '(?=\S)'
+          set:
+            - meta_scope: string.quoted.double.block.console
+            - match: '"""'
+              scope: punctuation.definition.string.end.console
+              pop: true
+            - match: ''
+              with_prototype:
+                - match: '(?=""")'
+                  pop: true
+                - include: escaped_unicode_char
+              push: 'scope:source.regexp.python'
+    # Triple-quoted string, unicode or not, will detect SQL
+    - match: '([uU]?)(""")'
+      captures:
+        1: storage.type.string.console
+        2: string.quoted.double.block.console punctuation.definition.string.begin.console
+      push:
+        - match: '(?={{sql_indicator}})'
+          set:
+            - meta_scope: string.quoted.double.block.console
+            - match: '"""'
+              scope: punctuation.definition.string.end.console
+              pop: true
+            - match: ''
+              with_prototype:
+                - match: '(?=""")'
+                  pop: true
+                - include: escaped_unicode_char
+                - include: escaped_char
+                - include: constant_placeholder
+              push: 'scope:source.sql'
+        - match: '(?=\S)'
+          set:
+            - meta_scope: string.quoted.double.block.console
+            - match: '"""'
+              scope: punctuation.definition.string.end.console
+              pop: true
+            - include: escaped_unicode_char
+            - include: escaped_char
+            - include: constant_placeholder
+    # Single-line capital R raw string, unicode or not, no syntax embedding
+    - match: '([uU]?R)(")'
+      captures:
+        1: storage.type.string.console
+        2: punctuation.definition.string.begin.console
+      push:
+        - meta_scope: string.quoted.double.block.console
+        - match: '(")|(\n)'
+          captures:
+            1: punctuation.definition.string.end.console
+            2: invalid.illegal.unclosed-string.console
+          pop: true
+        - include: escaped_unicode_char
+    # Single-line raw string, unicode or not, starting with a SQL keyword
+    - match: '([uU]?r)(")(?={{sql_indicator}})'
+      captures:
+        1: storage.type.string.console
+        2: punctuation.definition.string.begin.console
+      push:
+        - meta_scope: string.quoted.double.block.console
+        - match: '(")|(\n)'
+          captures:
+            1: punctuation.definition.string.end.console
+            2: invalid.illegal.unclosed-string.console
+          pop: true
+        - match: ''
+          with_prototype:
+            - match: '(?="|\n)'
+              pop: true
+            - include: escaped_unicode_char
+            - include: constant_placeholder
+          push: 'scope:source.sql'
+    # Single-line raw string, unicode or not, treated as regex
+    - match: '([uU]?r)(")'
+      captures:
+        1: storage.type.string.console
+        2: punctuation.definition.string.begin.console
+      push:
+        - meta_scope: string.quoted.double.block.console
+        - match: '(")|(\n)'
+          captures:
+            1: punctuation.definition.string.end.console
+            2: invalid.illegal.unclosed-string.console
+          pop: true
+        - match: ''
+          with_prototype:
+            - match: '(?="|\n)'
+              pop: true
+            - include: escaped_unicode_char
+          push: 'scope:source.regexp.python'
+    # Single-line string, unicode or not, starting with a SQL keyword
+    - match: '([uU]?)(")(?={{sql_indicator}})'
+      captures:
+        1: storage.type.string.console
+        2: punctuation.definition.string.begin.console
+      push:
+        - meta_scope: string.quoted.double.block.console
+        - match: '(")|(\n)'
+          captures:
+            1: punctuation.definition.string.end.console
+            2: invalid.illegal.unclosed-string.console
+          pop: true
+        - match: ''
+          with_prototype:
+            - match: '(?="|\n)'
+              pop: true
+            - include: escaped_unicode_char
+            - include: escaped_char
+            - include: constant_placeholder
+          push: 'scope:source.sql'
+    # Single-line string, unicode or not
+    - match: '([uU]?)(")'
+      captures:
+        1: storage.type.string.console
+        2: punctuation.definition.string.begin.console
+      push:
+        - meta_scope: string.quoted.double.block.console
+        - match: '(")|(\n)'
+          captures:
+            1: punctuation.definition.string.end.console
+            2: invalid.illegal.unclosed-string.console
+          pop: true
+        - include: escaped_unicode_char
+        - include: escaped_char
+        - include: constant_placeholder
+
+  string_quoted_single:
+    # Triple-quoted capital R raw string, unicode or not, no syntax embedding
+    - match: '([uU]?R)('''''')'
+      captures:
+        1: storage.type.string.console
+        2: punctuation.definition.string.begin.console
+      push:
+        - meta_scope: string.quoted.single.block.console
+        - match: ''''''''
+          scope: punctuation.definition.string.end.console
+          pop: true
+        - include: escaped_unicode_char
+    # Triple-quoted raw string, unicode or not, will detect SQL, otherwise regex
+    - match: '([uU]?r)('''''')'
+      captures:
+        1: storage.type.string.console
+        2: string.quoted.single.block.console punctuation.definition.string.begin.console
+      push:
+        - match: '(?={{sql_indicator}})'
+          set:
+            - meta_scope: string.quoted.single.block.console
+            - match: ''''''''
+              scope: punctuation.definition.string.end.console
+              pop: true
+            - match: ''
+              with_prototype:
+                - match: '(?='''''')'
+                  pop: true
+                - include: escaped_unicode_char
+                - include: constant_placeholder
+              push: 'scope:source.sql'
+        - match: '(?=\S)'
+          set:
+            - meta_scope: string.quoted.single.block.console
+            - match: ''''''''
+              scope: punctuation.definition.string.end.console
+              pop: true
+            - match: ''
+              with_prototype:
+                - match: '(?='''''')'
+                  pop: true
+                - include: escaped_unicode_char
+              push: 'scope:source.regexp.python'
+    # Triple-quoted string, unicode or not, will detect SQL
+    - match: '([uU]?)('''''')'
+      captures:
+        1: storage.type.string.console
+        2: string.quoted.single.block.console punctuation.definition.string.begin.console
+      push:
+        - match: '(?={{sql_indicator}})'
+          set:
+            - meta_scope: string.quoted.single.block.console
+            - match: ''''''''
+              scope: punctuation.definition.string.end.console
+              pop: true
+            - match: ''
+              with_prototype:
+                - match: '(?='''''')'
+                  pop: true
+                - include: escaped_unicode_char
+                - include: escaped_char
+                - include: constant_placeholder
+              push: 'scope:source.sql'
+        - match: '(?=\S)'
+          set:
+            - meta_scope: string.quoted.single.block.console
+            - match: ''''''''
+              scope: punctuation.definition.string.end.console
+              pop: true
+            - include: escaped_unicode_char
+            - include: escaped_char
+            - include: constant_placeholder
+    # Single-line capital R raw string, unicode or not, no syntax embedding
+    - match: '([uU]?R)('')'
+      captures:
+        1: storage.type.string.console
+        2: punctuation.definition.string.begin.console
+      push:
+        - meta_scope: string.quoted.single.block.console
+        - match: '('')|(\n)'
+          captures:
+            1: punctuation.definition.string.end.console
+            2: invalid.illegal.unclosed-string.console
+          pop: true
+        - include: escaped_unicode_char
+    # Single-line raw string, unicode or not, starting with a SQL keyword
+    - match: '([uU]?r)('')(?={{sql_indicator}})'
+      captures:
+        1: storage.type.string.console
+        2: punctuation.definition.string.begin.console
+      push:
+        - meta_scope: string.quoted.single.block.console
+        - match: '('')|(\n)'
+          captures:
+            1: punctuation.definition.string.end.console
+            2: invalid.illegal.unclosed-string.console
+          pop: true
+        - match: ''
+          with_prototype:
+            - match: '(?=''|\n)'
+              pop: true
+            - include: escaped_unicode_char
+            - include: constant_placeholder
+          push: 'scope:source.sql'
+    # Single-line raw string, unicode or not, treated as regex
+    - match: '([uU]?r)('')'
+      captures:
+        1: storage.type.string.console
+        2: punctuation.definition.string.begin.console
+      push:
+        - meta_scope: string.quoted.single.block.console
+        - match: '('')|(\n)'
+          captures:
+            1: punctuation.definition.string.end.console
+            2: invalid.illegal.unclosed-string.console
+          pop: true
+        - match: ''
+          with_prototype:
+            - match: '(?=''|\n)'
+              pop: true
+            - include: escaped_unicode_char
+          push: 'scope:source.regexp.python'
+    # Single-line string, unicode or not, starting with a SQL keyword
+    - match: '([uU]?)('')(?={{sql_indicator}})'
+      captures:
+        1: storage.type.string.console
+        2: punctuation.definition.string.begin.console
+      push:
+        - meta_scope: string.quoted.single.block.console
+        - match: '('')|(\n)'
+          captures:
+            1: punctuation.definition.string.end.console
+            2: invalid.illegal.unclosed-string.console
+          pop: true
+        - match: ''
+          with_prototype:
+            - match: '(?=''|\n)'
+              pop: true
+            - include: escaped_unicode_char
+            - include: escaped_char
+            - include: constant_placeholder
+          push: 'scope:source.sql'
+    # Single-line string, unicode or not; tweaked by Kronuz to avoid "can't" and such
+    - match: '(?<!\w)([uU]?)('')(?=.*'')'
+      captures:
+        1: storage.type.string.console
+        2: punctuation.definition.string.begin.console
+      push:
+        - meta_scope: string.quoted.single.block.console
+        - match: '('')|(\n)'
+          captures:
+            1: punctuation.definition.string.end.console
+            2: invalid.illegal.unclosed-string.console
+          pop: true
+        - include: escaped_unicode_char
+        - include: escaped_char
+        - include: escaped_unicode_char
+
+  strings:
+    - include: string_quoted_double
+    - include: string_quoted_single
