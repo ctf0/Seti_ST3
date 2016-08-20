@@ -445,7 +445,7 @@
 
     {
         "class": "grid_layout_control",
-        "border_size": 2,
+        "border_size": 1,
         "border_color": [23,28,40]
     },
 
