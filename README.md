@@ -38,7 +38,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
 
 ```json
 {
-    "theme": "Seti.sublime-theme"
+    "theme": "Seti_orig.sublime-theme"
 }
 ```
 
@@ -74,6 +74,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_ClosedFolder_same"         // same icon as the Opened_folder
   "Seti_ClosedFolder_remove"       // remove closed_folder icon
   "Seti_ClosedFolder_dots"         // change closed_folder icon to dot
+  "Seti_ClosedFolder_anim"         // animate closed_folder icon (available with the accents)
   "Seti_sb_small_padding"          // sidebar entries padding = 3
   "Seti_sb_big_padding"            // sidebar entries padding = 10
   "Seti_sb_tree_med"               // sidebar tree padding = 15
