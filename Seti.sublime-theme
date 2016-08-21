@@ -758,7 +758,7 @@
         "class": "tree_row",
         "layer0.texture": null,
         "layer0.tint": [114, 146, 161, 20],
-        "layer0.opacity": { "target": 0.0, "speed": 10, "interpolation": "smoothstep" },
+        "layer0.opacity": { "target": 0, "speed": 10, "interpolation": "smoothstep" },
     },
     // Sidebar row selected
     {
@@ -848,7 +848,7 @@
         "layer0.tint": null,
         "layer0.opacity": 0,
         "layer1.texture": "Seti_UI/Main/tree_highlight.png",
-        "layer1.opacity": { "target": 0.0, "speed": 3, "interpolation": "smoothstep" },
+        "layer1.opacity": { "target": 0, "speed": 3, "interpolation": "smoothstep" },
         "layer1.inner_margin": [22, 5, 0, 5]
     },
     {
@@ -992,7 +992,6 @@
         "layer0.opacity": 0.5,
         "layer0.inner_margin": -2
     },
-
     // Sidebar folder opened
     {
         "class": "icon_folder",
@@ -1012,6 +1011,77 @@
         "class": "icon_folder",
         "settings": ["Seti_ClosedFolder_dots"],
         "layer0.texture": "Seti_UI/Main/folder-dots@2x.png"
+    },
+    // anim folder icons
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_ClosedFolder_anim"],
+        "content_margin": 8,
+        "layer0.opacity": 0,
+        "layer1.texture": "Seti_UI/Main/folder@2x.png",
+        "layer1.opacity": 1,
+        "layer2.texture": "Seti_UI/Main/folder@2x.png",
+        "layer2.opacity": 0,
+        "layer3.texture": "Seti_UI/Main/folder_opened@2x.png",
+        "layer3.opacity": 0,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
+        "layer2.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": 0,
+        "layer2.opacity": 1,
+        "layer3.opacity": 0,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+        "layer3.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
+        "layer1.texture": "Seti_UI/Main/folder@2x.png",
     },
 
     // Icon folder loading
@@ -1590,6 +1660,7 @@
     //--------------------------------------------------------
 
     // yellow
+    // ////////////////////////////////////////////////////////
     {
         "class": "close_button",
         "settings": ["Seti_accent_yellow"],
@@ -1601,7 +1672,7 @@
         "layer0.tint": null,
         "layer0.opacity": 0,
         "layer1.texture": "Seti_UI/Main/accent/yellow/tree_highlight.png",
-        "layer1.opacity": { "target": 0.0, "speed": 3, "interpolation": "smoothstep" },
+        "layer1.opacity": { "target": 0, "speed": 3, "interpolation": "smoothstep" },
         "layer1.inner_margin": [22, 5, 0, 5]
     },
     {
@@ -1613,10 +1684,83 @@
     },
     {
         "class": "icon_folder",
-        "settings": ["Seti_accent_yellow","!Seti_ClosedFolder_dots"],
+        "settings": ["Seti_accent_yellow", "!Seti_ClosedFolder_dots"],
         "layer0.texture": "Seti_UI/Main/accent/yellow/folder@2x.png"
     },
-        {
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_yellow", "Seti_ClosedFolder_anim"],
+        "content_margin": 8,
+        "layer0.opacity": 0,
+        "layer1.texture": "Seti_UI/Main/accent/yellow/folder@2x.png",
+        "layer1.opacity": 1,
+        "layer2.texture": "Seti_UI/Main/accent/yellow/folder@2x.png",
+        "layer2.opacity": 0,
+        "layer3.texture": "Seti_UI/Main/folder_opened@2x.png",
+        "layer3.opacity": 0,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_yellow", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+        "layer3.tint": [255,160,0],
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_yellow", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
+        "layer2.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": 0,
+        "layer2.opacity": 1,
+        "layer2.tint": [255,160,0],
+        "layer3.opacity": 0,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_yellow", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+        "layer3.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+        "layer3.tint": [255,160,0],
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_yellow", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
+        "layer1.texture": "Seti_UI/Main/folder@2x.png",
+    },
+    {
         "class": "icon_regex",
         "settings": ["Seti_accent_yellow"],
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
@@ -1818,7 +1962,8 @@
     },
 
     // red
-     {
+    // ////////////////////////////////////////////////////////
+    {
         "class": "close_button",
         "settings": ["Seti_accent_red"],
         "layer0.tint": [229,57,53],
@@ -1829,7 +1974,7 @@
         "layer0.tint": null,
         "layer0.opacity": 0,
         "layer1.texture": "Seti_UI/Main/accent/red/tree_highlight.png",
-        "layer1.opacity": { "target": 0.0, "speed": 3, "interpolation": "smoothstep" },
+        "layer1.opacity": { "target": 0, "speed": 3, "interpolation": "smoothstep" },
         "layer1.inner_margin": [22, 5, 0, 5]
     },
     {
@@ -1841,10 +1986,83 @@
     },
     {
         "class": "icon_folder",
-        "settings": ["Seti_accent_red","!Seti_ClosedFolder_dots"],
+        "settings": ["Seti_accent_red", "!Seti_ClosedFolder_dots"],
         "layer0.texture": "Seti_UI/Main/accent/red/folder@2x.png"
     },
-        {
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_red", "Seti_ClosedFolder_anim"],
+        "content_margin": 8,
+        "layer0.opacity": 0,
+        "layer1.texture": "Seti_UI/Main/accent/red/folder@2x.png",
+        "layer1.opacity": 1,
+        "layer2.texture": "Seti_UI/Main/accent/red/folder@2x.png",
+        "layer2.opacity": 0,
+        "layer3.texture": "Seti_UI/Main/folder_opened@2x.png",
+        "layer3.opacity": 0,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_red", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+        "layer3.tint": [229,57,53],
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_red", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
+        "layer2.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": 0,
+        "layer2.opacity": 1,
+        "layer2.tint": [229,57,53],
+        "layer3.opacity": 0,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_red", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+        "layer3.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+        "layer3.tint": [229,57,53],
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_red", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
+        "layer1.texture": "Seti_UI/Main/folder@2x.png",
+    },
+    {
         "class": "icon_regex",
         "settings": ["Seti_accent_red"],
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
@@ -2046,6 +2264,7 @@
     },
 
     // purple
+    // ////////////////////////////////////////////////////////
     {
         "class": "close_button",
         "settings": ["Seti_accent_purple"],
@@ -2057,7 +2276,7 @@
         "layer0.tint": null,
         "layer0.opacity": 0,
         "layer1.texture": "Seti_UI/Main/accent/purple/tree_highlight.png",
-        "layer1.opacity": { "target": 0.0, "speed": 3, "interpolation": "smoothstep" },
+        "layer1.opacity": { "target": 0, "speed": 3, "interpolation": "smoothstep" },
         "layer1.inner_margin": [22, 5, 0, 5]
     },
     {
@@ -2069,10 +2288,83 @@
     },
     {
         "class": "icon_folder",
-        "settings": ["Seti_accent_purple","!Seti_ClosedFolder_dots"],
+        "settings": ["Seti_accent_purple", "!Seti_ClosedFolder_dots"],
         "layer0.texture": "Seti_UI/Main/accent/purple/folder@2x.png"
     },
-        {
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_purple", "Seti_ClosedFolder_anim"],
+        "content_margin": 8,
+        "layer0.opacity": 0,
+        "layer1.texture": "Seti_UI/Main/accent/purple/folder@2x.png",
+        "layer1.opacity": 1,
+        "layer2.texture": "Seti_UI/Main/accent/purple/folder@2x.png",
+        "layer2.opacity": 0,
+        "layer3.texture": "Seti_UI/Main/folder_opened@2x.png",
+        "layer3.opacity": 0,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_purple", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+        "layer3.tint": [156,39,176],
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_purple", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
+        "layer2.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": 0,
+        "layer2.opacity": 1,
+        "layer2.tint": [156,39,176],
+        "layer3.opacity": 0,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_purple", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+        "layer3.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+        "layer3.tint": [156,39,176],
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_purple", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
+        "layer1.texture": "Seti_UI/Main/folder@2x.png",
+    },
+    {
         "class": "icon_regex",
         "settings": ["Seti_accent_purple"],
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
@@ -2274,6 +2566,7 @@
     },
 
     // lime
+    // ////////////////////////////////////////////////////////
     {
         "class": "close_button",
         "settings": ["Seti_accent_lime"],
@@ -2285,7 +2578,7 @@
         "layer0.tint": null,
         "layer0.opacity": 0,
         "layer1.texture": "Seti_UI/Main/accent/lime/tree_highlight.png",
-        "layer1.opacity": { "target": 0.0, "speed": 3, "interpolation": "smoothstep" },
+        "layer1.opacity": { "target": 0, "speed": 3, "interpolation": "smoothstep" },
         "layer1.inner_margin": [22, 5, 0, 5]
     },
     {
@@ -2297,10 +2590,83 @@
     },
     {
         "class": "icon_folder",
-        "settings": ["Seti_accent_lime","!Seti_ClosedFolder_dots"],
+        "settings": ["Seti_accent_lime", "!Seti_ClosedFolder_dots"],
         "layer0.texture": "Seti_UI/Main/accent/lime/folder@2x.png"
     },
-        {
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_lime", "Seti_ClosedFolder_anim"],
+        "content_margin": 8,
+        "layer0.opacity": 0,
+        "layer1.texture": "Seti_UI/Main/accent/lime/folder@2x.png",
+        "layer1.opacity": 1,
+        "layer2.texture": "Seti_UI/Main/accent/lime/folder@2x.png",
+        "layer2.opacity": 0,
+        "layer3.texture": "Seti_UI/Main/folder_opened@2x.png",
+        "layer3.opacity": 0,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_lime", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+        "layer3.tint": [104,159,56],
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_lime", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
+        "layer2.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": 0,
+        "layer2.opacity": 1,
+        "layer2.tint": [104,159,56],
+        "layer3.opacity": 0,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_lime", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+        "layer3.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+        "layer3.tint": [104,159,56],
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_lime", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
+        "layer1.texture": "Seti_UI/Main/folder@2x.png",
+    },
+    {
         "class": "icon_regex",
         "settings": ["Seti_accent_lime"],
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
@@ -2502,6 +2868,7 @@
     },
 
     // indigo
+    // ////////////////////////////////////////////////////////
     {
         "class": "close_button",
         "settings": ["Seti_accent_indigo"],
@@ -2513,7 +2880,7 @@
         "layer0.tint": null,
         "layer0.opacity": 0,
         "layer1.texture": "Seti_UI/Main/accent/indigo/tree_highlight.png",
-        "layer1.opacity": { "target": 0.0, "speed": 3, "interpolation": "smoothstep" },
+        "layer1.opacity": { "target": 0, "speed": 3, "interpolation": "smoothstep" },
         "layer1.inner_margin": [22, 5, 0, 5]
     },
     {
@@ -2525,10 +2892,83 @@
     },
     {
         "class": "icon_folder",
-        "settings": ["Seti_accent_indigo","!Seti_ClosedFolder_dots"],
+        "settings": ["Seti_accent_indigo", "!Seti_ClosedFolder_dots"],
         "layer0.texture": "Seti_UI/Main/accent/indigo/folder@2x.png"
     },
-        {
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_indigo", "Seti_ClosedFolder_anim"],
+        "content_margin": 8,
+        "layer0.opacity": 0,
+        "layer1.texture": "Seti_UI/Main/accent/indigo/folder@2x.png",
+        "layer1.opacity": 1,
+        "layer2.texture": "Seti_UI/Main/accent/indigo/folder@2x.png",
+        "layer2.opacity": 0,
+        "layer3.texture": "Seti_UI/Main/folder_opened@2x.png",
+        "layer3.opacity": 0,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_indigo", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+        "layer3.tint": [57,73,171],
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_indigo", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
+        "layer2.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": 0,
+        "layer2.opacity": 1,
+        "layer2.tint": [57,73,171],
+        "layer3.opacity": 0,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_indigo", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+        "layer3.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+        "layer3.tint": [57,73,171],
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_indigo", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
+        "layer1.texture": "Seti_UI/Main/folder@2x.png",
+    },
+    {
         "class": "icon_regex",
         "settings": ["Seti_accent_indigo"],
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
@@ -2730,6 +3170,7 @@
     },
 
     // teal
+    // ////////////////////////////////////////////////////////
     {
         "class": "close_button",
         "settings": ["Seti_accent_teal"],
@@ -2741,7 +3182,7 @@
         "layer0.tint": null,
         "layer0.opacity": 0,
         "layer1.texture": "Seti_UI/Main/accent/teal/tree_highlight.png",
-        "layer1.opacity": { "target": 0.0, "speed": 3, "interpolation": "smoothstep" },
+        "layer1.opacity": { "target": 0, "speed": 3, "interpolation": "smoothstep" },
         "layer1.inner_margin": [22, 5, 0, 5]
     },
     {
@@ -2753,10 +3194,83 @@
     },
     {
         "class": "icon_folder",
-        "settings": ["Seti_accent_teal","!Seti_ClosedFolder_dots"],
+        "settings": ["Seti_accent_teal", "!Seti_ClosedFolder_dots"],
         "layer0.texture": "Seti_UI/Main/accent/teal/folder@2x.png"
     },
-        {
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_teal", "Seti_ClosedFolder_anim"],
+        "content_margin": 8,
+        "layer0.opacity": 0,
+        "layer1.texture": "Seti_UI/Main/accent/teal/folder@2x.png",
+        "layer1.opacity": 1,
+        "layer2.texture": "Seti_UI/Main/accent/teal/folder@2x.png",
+        "layer2.opacity": 0,
+        "layer3.texture": "Seti_UI/Main/folder_opened@2x.png",
+        "layer3.opacity": 0,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_teal", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+        "layer3.tint": [0,137,123],
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_teal", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
+        "layer2.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": 0,
+        "layer2.opacity": 1,
+        "layer2.tint": [0,137,123],
+        "layer3.opacity": 0,
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_teal", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+        "layer3.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+        "layer3.tint": [0,137,123],
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_teal", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
+        "layer1.texture": "Seti_UI/Main/folder@2x.png",
+    },
+    {
         "class": "icon_regex",
         "settings": ["Seti_accent_teal"],
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
@@ -2958,6 +3472,7 @@
     },
 
     // general options
+    // ////////////////////////////////////////////////////////
     {
         "class": "icon_folder",
         "settings": ["Seti_accent"],
@@ -2965,7 +3480,7 @@
         "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Seti_UI/Main/folder@2x.png"
     },
-     {
+    {
         "class": "close_button",
         "settings": ["Seti_accent"],
         "layer0.texture": "Seti_UI/Main/tab_x@2x.png",
