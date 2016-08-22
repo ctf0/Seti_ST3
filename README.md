@@ -49,7 +49,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
 
 ```js
 // tabs
-  "Seti_no_blue_bar"               // remove the blue bar under the un-saved tabs "not available with the accents"
+  "Seti_no_blue_bar"               // remove the blue bar under the un-saved tabs "not available with accents"
   "Seti_tabs_small"                // tabs height = 35
   "Seti_tabs_med"                  // tabs height = 40
   "Seti_tabs_big"                  // tabs height = 54
@@ -74,7 +74,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_ClosedFolder_same"         // same icon as the Opened_folder
   "Seti_ClosedFolder_remove"       // remove closed_folder icon
   "Seti_ClosedFolder_dots"         // change closed_folder icon to dot
-  "Seti_ClosedFolder_anim"         // animate closed_folder icon (available with the accents)
+  "Seti_ClosedFolder_anim"         // animate closed_folder icon (available with accents)
   "Seti_sb_small_padding"          // sidebar entries padding = 3
   "Seti_sb_big_padding"            // sidebar entries padding = 10
   "Seti_sb_tree_med"               // sidebar tree padding = 15
@@ -96,7 +96,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_bold_heading"              // make heading font in bold
   "Seti_top_heading_big"           // sidebar top header img
   "Seti_top_heading_small"         // sidebar top header img small
-  "Seti_top_heading_anim"          // sidebar top header img animate on hover "not available with the accents"
+  "Seti_top_heading_anim"          // sidebar top header img animate on hover "not available with accents"
   "Seti_alt_tree_row"              // alternative sidebar row highlight
 
 // view
@@ -105,7 +105,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_panel_nrml"                // remove the padding top/down from quick panel
 
 // accents
-  "Seti_accent"                    // general options for the accents
+  "Seti_accent"                    // general options for accents
   "Seti_accent_yellow"
   "Seti_accent_red"
   "Seti_accent_indigo"
