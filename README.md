@@ -12,9 +12,7 @@
 
 ## Notes
 
-* Any thing less than 'ST3 Build 3062' wont get the sidebar icons to work.
-* if you used any of the resources in this repo into your own release ,plz appreciate the hard work and mention the original authors.
-* A New/Better syntax Highlight released under [Seti_UX](https://sublime.wbond.net/packages/Seti_UX).
+* [Seti_UX](https://sublime.wbond.net/packages/Seti_UX) A New/Better syntax Highlight.
 * [Seti_JetBrains](https://github.com/zchee/Seti_JetBrains) by [zchee](https://github.com/zchee) :tophat:.
 
 ## Install
@@ -74,7 +72,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_ClosedFolder_same"         // same icon as the Opened_folder
   "Seti_ClosedFolder_remove"       // remove closed_folder icon
   "Seti_ClosedFolder_dots"         // change closed_folder icon to dot
-  "Seti_ClosedFolder_anim"         // animate closed_folder icon (available with accents)
+  "Seti_ClosedFolder_anim"         // animate sidebar folder icons (available with accents)
   "Seti_sb_small_padding"          // sidebar entries padding = 3
   "Seti_sb_big_padding"            // sidebar entries padding = 10
   "Seti_sb_tree_med"               // sidebar tree padding = 15
@@ -130,7 +128,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
 
 ## Issue A Ticket
 
-1. What version of ST are you using? (nothing lower than 3062).
+1. What version of ST are you using? (nothing lower than 3103).
 2. Have you restarted ST after you installed the theme?
 3. If you still have bad render, have you removed the cache folder (found right next to the packages folder)?
 4. Have you copied the files from the `Ext` folder to your User folder?
