@@ -534,7 +534,18 @@
         "attributes": ["hover"],
         "viewport_color": [13,14,15,220]
     },
-
+    // options
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_red_map"],
+        "viewport_color": [231,76,60,40]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_red_map"],
+        "attributes": ["hover"],
+        "viewport_color": [231,76,60,20]
+    },
 
     //========================================================
     //  DIALOG
