@@ -1,0 +1,15 @@
+v14 (26-08-2015)
+-------------------
+
+1- fix coffeescript icon name.
+2- fix vue icon position.
+3- change default grid line color & made grid border smaller.
+4- better overall accent schemes for both seti.
+5- add fallback bg color for heading img but still needs some tweaking.
+6- add woff2 support to font icon.
+7- add support to console "thanx to Enki".
+8- add folder anim "Seti_ClosedFolder_anim", moved widgets to root
+9- json icon should be fixed incase it was invisible.
+10- tab scroll icon now have smooth animation.
+11- status bar is slightly taller now & panel icon now follow accent.
+12- quickpanel bg is changed to better match the whole thing.
