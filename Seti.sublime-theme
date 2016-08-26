@@ -392,7 +392,7 @@
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.tint":[22,31,39],
+        "layer0.tint":[65,69,50],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "content_margin": [3,0],
@@ -402,7 +402,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.tint":[22,31,39],
+        "layer0.tint":[65,69,50],
         "layer0.inner_margin": 0,
         "content_margin": [12,3],
         "blur": false
