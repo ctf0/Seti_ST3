@@ -110,6 +110,13 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_accent_purple"
   "Seti_accent_teal"
   "Seti_accent_lime"
+
+  "Seti_accent_yellow_map"
+  "Seti_accent_red_map"
+  "Seti_accent_indigo_map"
+  "Seti_accent_purple_map"
+  "Seti_accent_teal_map"
+  "Seti_accent_lime_map"
 ```
 
 ## Credits

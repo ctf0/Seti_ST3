@@ -1,0 +1,4 @@
+v14.2 (31-08-2015)
+-------------------
+
+1- add options for mini map shade, check readme.

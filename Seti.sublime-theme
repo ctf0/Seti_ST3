@@ -534,18 +534,6 @@
         "attributes": ["hover"],
         "viewport_color": [13,14,15,220]
     },
-    // options
-    {
-        "class": "minimap_control",
-        "settings": ["Seti_red_map"],
-        "viewport_color": [231,76,60,40]
-    },
-    {
-        "class": "minimap_control",
-        "settings": ["Seti_red_map"],
-        "attributes": ["hover"],
-        "viewport_color": [231,76,60,20]
-    },
 
     //========================================================
     //  DIALOG
@@ -1800,6 +1788,17 @@
         "layer0.tint": [255,160,0],
     },
     {
+        "class": "minimap_control",
+        "settings": ["Seti_accent_yellow_map"],
+        "viewport_color": [255,160,0,40]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_accent_yellow_map"],
+        "attributes": ["hover"],
+        "viewport_color": [255,160,0,20]
+    },
+    {
         "class": "icon_regex",
         "settings": ["Seti_accent_yellow"],
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
@@ -2105,6 +2104,17 @@
         "class": "panel_button_control",
         "settings": ["Seti_accent_red"],
         "layer0.tint": [244,67,54],
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_accent_red_map"],
+        "viewport_color": [244,67,54,40]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_accent_red_map"],
+        "attributes": ["hover"],
+        "viewport_color": [244,67,54,20]
     },
     {
         "class": "icon_regex",
@@ -2414,6 +2424,17 @@
         "layer0.tint": [171,71,188],
     },
     {
+        "class": "minimap_control",
+        "settings": ["Seti_accent_purple_map"],
+        "viewport_color": [171,71,188,40]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_accent_purple_map"],
+        "attributes": ["hover"],
+        "viewport_color": [171,71,188,20]
+    },
+    {
         "class": "icon_regex",
         "settings": ["Seti_accent_purple"],
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
@@ -2719,6 +2740,17 @@
         "class": "panel_button_control",
         "settings": ["Seti_accent_lime"],
         "layer0.tint": [124,179,76],
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_accent_lime_map"],
+        "viewport_color": [124,179,76,40]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_accent_lime_map"],
+        "attributes": ["hover"],
+        "viewport_color": [124,179,76,20]
     },
     {
         "class": "icon_regex",
@@ -3028,6 +3060,17 @@
         "layer0.tint": [63,81,181],
     },
     {
+        "class": "minimap_control",
+        "settings": ["Seti_accent_indigo_map"],
+        "viewport_color": [63,81,181,40]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_accent_indigo_map"],
+        "attributes": ["hover"],
+        "viewport_color": [63,81,181,20]
+    },
+    {
         "class": "icon_regex",
         "settings": ["Seti_accent_indigo"],
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
@@ -3333,6 +3376,17 @@
         "class": "panel_button_control",
         "settings": ["Seti_accent_teal"],
         "layer0.tint": [0,150,136],
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_accent_teal_map"],
+        "viewport_color": [0,150,136,40]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_accent_teal_map"],
+        "attributes": ["hover"],
+        "viewport_color": [0,150,136,20]
     },
     {
         "class": "icon_regex",
