@@ -7,6 +7,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>Dockerfile</string>
+		<string>docker</string>
 	</array>
 	<key>patterns</key>
 	<array>
