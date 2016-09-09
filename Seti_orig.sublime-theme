@@ -8,8 +8,9 @@
         "layer0.texture": "Seti_UI/Main/tabset-background.png",
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": 1,
-        "content_margin": 0,
+        "content_margin": [4,0,4,0],
         "tab_overlap": 1,
+        "tab_overlap": 0,
         "tab_width": 190,
         "tab_min_width": 95,
         "tab_height": 45,
@@ -60,13 +61,6 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.texture": "Seti_UI/Main/tab-active.png"
-    },
-    // options
-    {
-        "class": "tab_control",
-        "settings": ["Seti_no_under_bar"],
-        "attributes": ["selected"],
-        "layer0.texture": "Seti_UI/Main/tab-active_basic.png"
     },
 
     //========================================================
@@ -3912,5 +3906,23 @@
         "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
         "layer0.texture": "Seti_UI/Main/close@2x.png",
         "layer0.opacity": 1
+    },
+
+    // no_under_bar
+    {
+        "class": "tabset_control",
+        "settings": ["Seti_no_under_bar"],
+        "layer0.texture": "Seti_UI/Main/tabset-background_basic.png",
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_no_under_bar"],
+        "layer0.texture": "Seti_UI/Main/tab-inactive_basic.png",
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_no_under_bar"],
+        "attributes": ["selected"],
+        "layer0.texture": "Seti_UI/Main/tab-active_basic.png"
     },
 ]

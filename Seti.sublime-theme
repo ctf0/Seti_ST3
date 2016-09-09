@@ -10,7 +10,7 @@
         "layer1.texture": "Seti_UI/Main/tabset_background.png",
         "layer1.inner_margin": [2, 6],
         "layer1.opacity": 1,
-        "content_margin": [0,0,0,1],
+        "content_margin": [2,0,2,1],
         "tab_overlap": 17,
         "tab_width": 190,
         "tab_min_width": 100,
