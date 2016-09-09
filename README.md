@@ -47,7 +47,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
 
 ```js
 // tabs
-  "Seti_no_blue_bar"               // remove the blue bar under the un-saved tabs "not available with accents"
+  "Seti_no_under_bar"              // remove the small colored bar under the un-saved tabs "not available with accents"
   "Seti_tabs_small"                // tabs height = 35
   "Seti_tabs_med"                  // tabs height = 40
   "Seti_tabs_big"                  // tabs height = 54
@@ -111,6 +111,15 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_accent_teal"
   "Seti_accent_lime"
 
+  // change the default seti tabs blue bar to
+  "Seti_orig_accent_yellow"
+  "Seti_orig_accent_red"
+  "Seti_orig_accent_indigo"
+  "Seti_orig_accent_purple"
+  "Seti_orig_accent_teal"
+  "Seti_orig_accent_lime"
+
+  // change the default seti map shade to
   "Seti_accent_yellow_map"
   "Seti_accent_red_map"
   "Seti_accent_indigo_map"

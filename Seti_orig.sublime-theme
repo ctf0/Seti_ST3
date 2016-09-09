@@ -64,7 +64,7 @@
     // options
     {
         "class": "tab_control",
-        "settings": ["Seti_no_blue_bar"],
+        "settings": ["Seti_no_under_bar"],
         "attributes": ["selected"],
         "layer0.texture": "Seti_UI/Main/tab-active_basic.png"
     },
@@ -1638,6 +1638,12 @@
         "layer0.texture": "Seti_UI/Main/accent/yellow/tab-active.png"
     },
     {
+        "class": "tab_control",
+        "settings": ["Seti_orig_accent_yellow","!Seti_accent_yellow"],
+        "attributes": ["selected"],
+        "layer0.texture": "Seti_UI/Main/accent/yellow/orig/tab-active.png"
+    },
+    {
         "class": "close_button",
         "settings": ["Seti_accent_yellow"],
         "layer0.tint": [255,143,0],
@@ -1990,6 +1996,12 @@
         "settings": ["Seti_accent_red"],
         "attributes": ["selected"],
         "layer0.texture": "Seti_UI/Main/accent/red/tab-active.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_orig_accent_red","!Seti_accent_red"],
+        "attributes": ["selected"],
+        "layer0.texture": "Seti_UI/Main/accent/red/orig/tab-active.png"
     },
     {
         "class": "close_button",
@@ -2346,6 +2358,12 @@
         "layer0.texture": "Seti_UI/Main/accent/purple/tab-active.png"
     },
     {
+        "class": "tab_control",
+        "settings": ["Seti_orig_accent_purple","!Seti_accent_purple"],
+        "attributes": ["selected"],
+        "layer0.texture": "Seti_UI/Main/accent/purple/orig/tab-active.png"
+    },
+    {
         "class": "close_button",
         "settings": ["Seti_accent_purple"],
         "layer0.tint": [156,39,176],
@@ -2698,6 +2716,12 @@
         "settings": ["Seti_accent_lime"],
         "attributes": ["selected"],
         "layer0.texture": "Seti_UI/Main/accent/lime/tab-active.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_orig_accent_lime","!Seti_accent_lime"],
+        "attributes": ["selected"],
+        "layer0.texture": "Seti_UI/Main/accent/lime/orig/tab-active.png"
     },
     {
         "class": "close_button",
@@ -3054,6 +3078,12 @@
         "layer0.texture": "Seti_UI/Main/accent/indigo/tab-active.png"
     },
     {
+        "class": "tab_control",
+        "settings": ["Seti_orig_accent_indigo","!Seti_accent_indigo"],
+        "attributes": ["selected"],
+        "layer0.texture": "Seti_UI/Main/accent/indigo/orig/tab-active.png"
+    },
+    {
         "class": "close_button",
         "settings": ["Seti_accent_indigo"],
         "layer0.tint": [57,73,171],
@@ -3406,6 +3436,12 @@
         "settings": ["Seti_accent_teal"],
         "attributes": ["selected"],
         "layer0.texture": "Seti_UI/Main/accent/teal/tab-active.png"
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_orig_accent_teal","!Seti_accent_teal"],
+        "attributes": ["selected"],
+        "layer0.texture": "Seti_UI/Main/accent/teal/orig/tab-active.png"
     },
     {
         "class": "close_button",
