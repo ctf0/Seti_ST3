@@ -1075,7 +1075,7 @@
     {
         "class": "button_control",
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "layer0.tint": [69,90,100],
+        "layer0.tint": [77,90,94],
         "min_size": [75,0],
         "content_margin": [5,6] // the search panel right side buttons height
     },
@@ -1083,13 +1083,13 @@
     {
         "class": "button_control",
         "attributes": ["hover"],
-        "layer0.tint": [96,125,139]
+        "layer0.tint": [109,128,134]
     },
     // Pressed button state
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.tint": [255,152,0]
+        "layer0.tint": [79,153,211]
     },
 
     //========================================================
@@ -1396,55 +1396,55 @@
     {
         "class": "icon_regex",
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
-        "layer0.tint": [96,125,139],
+        "layer0.tint": [109,128,134],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "content_margin": 8
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255,51,102]
+        "layer0.tint": [79,153,211]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [148,211,209]
+        "layer0.tint": [255,255,255]
     },
     // Case sensitive search button
     {
         "class": "icon_case",
         "layer0.texture": "Seti_UI/Main/casesens@2x.png",
-        "layer0.tint": [96,125,139],
+        "layer0.tint": [109,128,134],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "content_margin": 8
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255,51,102]
+        "layer0.tint": [79,153,211]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [148,211,209]
+        "layer0.tint": [255,255,255]
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
         "layer0.texture": "Seti_UI/Main/wholeword@2x.png",
-        "layer0.tint": [96,125,139],
+        "layer0.tint": [109,128,134],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "content_margin": 8
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255,51,102]
+        "layer0.tint": [79,153,211]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [148,211,209]
+        "layer0.tint": [255,255,255]
     },
 
     //========================================================
@@ -1455,37 +1455,37 @@
     {
         "class": "icon_context",
         "layer0.texture": "Seti_UI/Main/context@2x.png",
-        "layer0.tint": [96,125,139],
+        "layer0.tint": [109,128,134],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "content_margin": 8
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255,51,102]
+        "layer0.tint": [79,153,211]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [148,211,209]
+        "layer0.tint": [255,255,255]
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
         "layer0.texture": "Seti_UI/Main/buffer@2x.png",
-        "layer0.tint": [96,125,139],
+        "layer0.tint": [109,128,134],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "content_margin": 8
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255,51,102]
+        "layer0.tint": [79,153,211]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [148,211,209]
+        "layer0.tint": [255,255,255]
     },
 
     //========================================================
@@ -1496,55 +1496,55 @@
     {
         "class": "icon_reverse",
         "layer0.texture": "Seti_UI/Main/reverse@2x.png",
-        "layer0.tint": [96,125,139],
+        "layer0.tint": [109,128,134],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "content_margin": 8
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255,51,102]
+        "layer0.tint": [79,153,211]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [148,211,209]
+        "layer0.tint": [255,255,255]
     },
     // Search wrap button
     {
         "class": "icon_wrap",
         "layer0.texture": "Seti_UI/Main/wrap@2x.png",
-        "layer0.tint": [96,125,139],
+        "layer0.tint": [109,128,134],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "content_margin": 8
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255,51,102]
+        "layer0.tint": [79,153,211]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [148,211,209]
+        "layer0.tint": [255,255,255]
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
         "layer0.texture": "Seti_UI/Main/selection@2x.png",
-        "layer0.tint": [96,125,139],
+        "layer0.tint": [109,128,134],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "content_margin": 8
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255,51,102]
+        "layer0.tint": [79,153,211]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [148,211,209]
+        "layer0.tint": [255,255,255]
     },
 
     //========================================================
@@ -1555,19 +1555,19 @@
     {
         "class": "icon_preserve_case",
         "layer0.texture": "Seti_UI/Main/casesens@2x.png",
-        "layer0.tint": [96,125,139],
+        "layer0.tint": [109,128,134],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "content_margin": 8
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255,51,102]
+        "layer0.tint": [79,153,211]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [148,211,209]
+        "layer0.tint": [255,255,255]
     },
 
     //========================================================
@@ -1578,19 +1578,19 @@
     {
         "class": "icon_highlight",
         "layer0.texture": "Seti_UI/Main/highlight@2x.png",
-        "layer0.tint": [96,125,139],
+        "layer0.tint": [109,128,134],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "content_margin": 8
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255,51,102]
+        "layer0.tint": [79,153,211]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [148,211,209]
+        "layer0.tint": [255,255,255]
     },
 
     //========================================================
@@ -1742,50 +1742,14 @@
     {
         "class": "icon_regex",
         "settings": ["Seti_accent_yellow"],
-        "layer0.texture": "Seti_UI/Main/regex@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
-        "class": "icon_regex",
-        "settings": ["Seti_accent_yellow"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255,160,0]
-    },
-    {
-        "class": "icon_regex",
-        "settings": ["Seti_accent_yellow"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_case",
-        "settings": ["Seti_accent_yellow"],
-        "layer0.texture": "Seti_UI/Main/casesens@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
-        "class": "icon_case",
-        "settings": ["Seti_accent_yellow"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [255,160,0]
     },
     {
         "class": "icon_case",
         "settings": ["Seti_accent_yellow"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_whole_word",
-        "settings": ["Seti_accent_yellow"],
-        "layer0.texture": "Seti_UI/Main/wholeword@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [255,160,0]
     },
     {
         "class": "icon_whole_word",
@@ -1794,38 +1758,10 @@
         "layer0.tint": [255,160,0]
     },
     {
-        "class": "icon_whole_word",
-        "settings": ["Seti_accent_yellow"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_context",
-        "settings": ["Seti_accent_yellow"],
-        "layer0.texture": "Seti_UI/Main/context@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_context",
         "settings": ["Seti_accent_yellow"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [255,160,0]
-    },
-    {
-        "class": "icon_context",
-        "settings": ["Seti_accent_yellow"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_use_buffer",
-        "settings": ["Seti_accent_yellow"],
-        "layer0.texture": "Seti_UI/Main/buffer@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_use_buffer",
@@ -1834,38 +1770,10 @@
         "layer0.tint": [255,160,0]
     },
     {
-        "class": "icon_use_buffer",
-        "settings": ["Seti_accent_yellow"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_reverse",
-        "settings": ["Seti_accent_yellow"],
-        "layer0.texture": "Seti_UI/Main/reverse@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_reverse",
         "settings": ["Seti_accent_yellow"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [255,160,0]
-    },
-    {
-        "class": "icon_reverse",
-        "settings": ["Seti_accent_yellow"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_wrap",
-        "settings": ["Seti_accent_yellow"],
-        "layer0.texture": "Seti_UI/Main/wrap@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_wrap",
@@ -1874,38 +1782,10 @@
         "layer0.tint": [255,160,0]
     },
     {
-        "class": "icon_wrap",
-        "settings": ["Seti_accent_yellow"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_in_selection",
-        "settings": ["Seti_accent_yellow"],
-        "layer0.texture": "Seti_UI/Main/selection@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_in_selection",
         "settings": ["Seti_accent_yellow"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [255,160,0]
-    },
-    {
-        "class": "icon_in_selection",
-        "settings": ["Seti_accent_yellow"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_preserve_case",
-        "settings": ["Seti_accent_yellow"],
-        "layer0.texture": "Seti_UI/Main/casesens@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_preserve_case",
@@ -1914,30 +1794,16 @@
         "layer0.tint": [255,160,0]
     },
     {
-        "class": "icon_preserve_case",
-        "settings": ["Seti_accent_yellow"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_highlight",
-        "settings": ["Seti_accent_yellow"],
-        "layer0.texture": "Seti_UI/Main/highlight@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_highlight",
         "settings": ["Seti_accent_yellow"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [255,160,0]
     },
     {
-        "class": "icon_highlight",
+        "class": "button_control",
         "settings": ["Seti_accent_yellow"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
+        "attributes": ["pressed"],
+        "layer0.tint": [255,160,0]
     },
 
     // tabs
@@ -2141,50 +2007,14 @@
     {
         "class": "icon_regex",
         "settings": ["Seti_accent_red"],
-        "layer0.texture": "Seti_UI/Main/regex@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
-        "class": "icon_regex",
-        "settings": ["Seti_accent_red"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [244,67,54]
-    },
-    {
-        "class": "icon_regex",
-        "settings": ["Seti_accent_red"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_case",
-        "settings": ["Seti_accent_red"],
-        "layer0.texture": "Seti_UI/Main/casesens@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
-        "class": "icon_case",
-        "settings": ["Seti_accent_red"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [244,67,54]
     },
     {
         "class": "icon_case",
         "settings": ["Seti_accent_red"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_whole_word",
-        "settings": ["Seti_accent_red"],
-        "layer0.texture": "Seti_UI/Main/wholeword@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [244,67,54]
     },
     {
         "class": "icon_whole_word",
@@ -2193,38 +2023,10 @@
         "layer0.tint": [244,67,54]
     },
     {
-        "class": "icon_whole_word",
-        "settings": ["Seti_accent_red"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_context",
-        "settings": ["Seti_accent_red"],
-        "layer0.texture": "Seti_UI/Main/context@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_context",
         "settings": ["Seti_accent_red"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [244,67,54]
-    },
-    {
-        "class": "icon_context",
-        "settings": ["Seti_accent_red"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_use_buffer",
-        "settings": ["Seti_accent_red"],
-        "layer0.texture": "Seti_UI/Main/buffer@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_use_buffer",
@@ -2233,38 +2035,10 @@
         "layer0.tint": [244,67,54]
     },
     {
-        "class": "icon_use_buffer",
-        "settings": ["Seti_accent_red"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_reverse",
-        "settings": ["Seti_accent_red"],
-        "layer0.texture": "Seti_UI/Main/reverse@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_reverse",
         "settings": ["Seti_accent_red"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [244,67,54]
-    },
-    {
-        "class": "icon_reverse",
-        "settings": ["Seti_accent_red"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_wrap",
-        "settings": ["Seti_accent_red"],
-        "layer0.texture": "Seti_UI/Main/wrap@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_wrap",
@@ -2273,38 +2047,10 @@
         "layer0.tint": [244,67,54]
     },
     {
-        "class": "icon_wrap",
-        "settings": ["Seti_accent_red"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_in_selection",
-        "settings": ["Seti_accent_red"],
-        "layer0.texture": "Seti_UI/Main/selection@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_in_selection",
         "settings": ["Seti_accent_red"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [244,67,54]
-    },
-    {
-        "class": "icon_in_selection",
-        "settings": ["Seti_accent_red"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_preserve_case",
-        "settings": ["Seti_accent_red"],
-        "layer0.texture": "Seti_UI/Main/casesens@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_preserve_case",
@@ -2313,30 +2059,16 @@
         "layer0.tint": [244,67,54]
     },
     {
-        "class": "icon_preserve_case",
-        "settings": ["Seti_accent_red"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_highlight",
-        "settings": ["Seti_accent_red"],
-        "layer0.texture": "Seti_UI/Main/highlight@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_highlight",
         "settings": ["Seti_accent_red"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [244,67,54]
     },
     {
-        "class": "icon_highlight",
+        "class": "button_control",
         "settings": ["Seti_accent_red"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
+        "attributes": ["pressed"],
+        "layer0.tint": [244,67,54]
     },
 
     // tabs
@@ -2540,50 +2272,14 @@
     {
         "class": "icon_regex",
         "settings": ["Seti_accent_purple"],
-        "layer0.texture": "Seti_UI/Main/regex@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
-        "class": "icon_regex",
-        "settings": ["Seti_accent_purple"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [171,71,188]
-    },
-    {
-        "class": "icon_regex",
-        "settings": ["Seti_accent_purple"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_case",
-        "settings": ["Seti_accent_purple"],
-        "layer0.texture": "Seti_UI/Main/casesens@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
-        "class": "icon_case",
-        "settings": ["Seti_accent_purple"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [171,71,188]
     },
     {
         "class": "icon_case",
         "settings": ["Seti_accent_purple"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_whole_word",
-        "settings": ["Seti_accent_purple"],
-        "layer0.texture": "Seti_UI/Main/wholeword@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [171,71,188]
     },
     {
         "class": "icon_whole_word",
@@ -2592,38 +2288,10 @@
         "layer0.tint": [171,71,188]
     },
     {
-        "class": "icon_whole_word",
-        "settings": ["Seti_accent_purple"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_context",
-        "settings": ["Seti_accent_purple"],
-        "layer0.texture": "Seti_UI/Main/context@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_context",
         "settings": ["Seti_accent_purple"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [171,71,188]
-    },
-    {
-        "class": "icon_context",
-        "settings": ["Seti_accent_purple"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_use_buffer",
-        "settings": ["Seti_accent_purple"],
-        "layer0.texture": "Seti_UI/Main/buffer@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_use_buffer",
@@ -2632,38 +2300,10 @@
         "layer0.tint": [171,71,188]
     },
     {
-        "class": "icon_use_buffer",
-        "settings": ["Seti_accent_purple"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_reverse",
-        "settings": ["Seti_accent_purple"],
-        "layer0.texture": "Seti_UI/Main/reverse@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_reverse",
         "settings": ["Seti_accent_purple"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [171,71,188]
-    },
-    {
-        "class": "icon_reverse",
-        "settings": ["Seti_accent_purple"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_wrap",
-        "settings": ["Seti_accent_purple"],
-        "layer0.texture": "Seti_UI/Main/wrap@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_wrap",
@@ -2672,38 +2312,10 @@
         "layer0.tint": [171,71,188]
     },
     {
-        "class": "icon_wrap",
-        "settings": ["Seti_accent_purple"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_in_selection",
-        "settings": ["Seti_accent_purple"],
-        "layer0.texture": "Seti_UI/Main/selection@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_in_selection",
         "settings": ["Seti_accent_purple"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [171,71,188]
-    },
-    {
-        "class": "icon_in_selection",
-        "settings": ["Seti_accent_purple"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_preserve_case",
-        "settings": ["Seti_accent_purple"],
-        "layer0.texture": "Seti_UI/Main/casesens@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_preserve_case",
@@ -2712,30 +2324,16 @@
         "layer0.tint": [171,71,188]
     },
     {
-        "class": "icon_preserve_case",
-        "settings": ["Seti_accent_purple"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_highlight",
-        "settings": ["Seti_accent_purple"],
-        "layer0.texture": "Seti_UI/Main/highlight@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_highlight",
         "settings": ["Seti_accent_purple"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [171,71,188]
     },
     {
-        "class": "icon_highlight",
+        "class": "button_control",
         "settings": ["Seti_accent_purple"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
+        "attributes": ["pressed"],
+        "layer0.tint": [171,71,188]
     },
 
     // tabs
@@ -2939,50 +2537,14 @@
     {
         "class": "icon_regex",
         "settings": ["Seti_accent_lime"],
-        "layer0.texture": "Seti_UI/Main/regex@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
-        "class": "icon_regex",
-        "settings": ["Seti_accent_lime"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [124,179,76]
-    },
-    {
-        "class": "icon_regex",
-        "settings": ["Seti_accent_lime"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_case",
-        "settings": ["Seti_accent_lime"],
-        "layer0.texture": "Seti_UI/Main/casesens@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
-        "class": "icon_case",
-        "settings": ["Seti_accent_lime"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [124,179,76]
     },
     {
         "class": "icon_case",
         "settings": ["Seti_accent_lime"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_whole_word",
-        "settings": ["Seti_accent_lime"],
-        "layer0.texture": "Seti_UI/Main/wholeword@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [124,179,76]
     },
     {
         "class": "icon_whole_word",
@@ -2991,38 +2553,10 @@
         "layer0.tint": [124,179,76]
     },
     {
-        "class": "icon_whole_word",
-        "settings": ["Seti_accent_lime"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_context",
-        "settings": ["Seti_accent_lime"],
-        "layer0.texture": "Seti_UI/Main/context@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_context",
         "settings": ["Seti_accent_lime"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [124,179,76]
-    },
-    {
-        "class": "icon_context",
-        "settings": ["Seti_accent_lime"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_use_buffer",
-        "settings": ["Seti_accent_lime"],
-        "layer0.texture": "Seti_UI/Main/buffer@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_use_buffer",
@@ -3031,38 +2565,10 @@
         "layer0.tint": [124,179,76]
     },
     {
-        "class": "icon_use_buffer",
-        "settings": ["Seti_accent_lime"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_reverse",
-        "settings": ["Seti_accent_lime"],
-        "layer0.texture": "Seti_UI/Main/reverse@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_reverse",
         "settings": ["Seti_accent_lime"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [124,179,76]
-    },
-    {
-        "class": "icon_reverse",
-        "settings": ["Seti_accent_lime"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_wrap",
-        "settings": ["Seti_accent_lime"],
-        "layer0.texture": "Seti_UI/Main/wrap@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_wrap",
@@ -3071,38 +2577,10 @@
         "layer0.tint": [124,179,76]
     },
     {
-        "class": "icon_wrap",
-        "settings": ["Seti_accent_lime"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_in_selection",
-        "settings": ["Seti_accent_lime"],
-        "layer0.texture": "Seti_UI/Main/selection@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_in_selection",
         "settings": ["Seti_accent_lime"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [124,179,76]
-    },
-    {
-        "class": "icon_in_selection",
-        "settings": ["Seti_accent_lime"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_preserve_case",
-        "settings": ["Seti_accent_lime"],
-        "layer0.texture": "Seti_UI/Main/casesens@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_preserve_case",
@@ -3111,30 +2589,16 @@
         "layer0.tint": [124,179,76]
     },
     {
-        "class": "icon_preserve_case",
-        "settings": ["Seti_accent_lime"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_highlight",
-        "settings": ["Seti_accent_lime"],
-        "layer0.texture": "Seti_UI/Main/highlight@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_highlight",
         "settings": ["Seti_accent_lime"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [124,179,76]
     },
     {
-        "class": "icon_highlight",
+        "class": "button_control",
         "settings": ["Seti_accent_lime"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
+        "attributes": ["pressed"],
+        "layer0.tint": [124,179,76]
     },
 
     // tabs
@@ -3338,50 +2802,14 @@
     {
         "class": "icon_regex",
         "settings": ["Seti_accent_indigo"],
-        "layer0.texture": "Seti_UI/Main/regex@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
-        "class": "icon_regex",
-        "settings": ["Seti_accent_indigo"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [63,81,181]
-    },
-    {
-        "class": "icon_regex",
-        "settings": ["Seti_accent_indigo"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_case",
-        "settings": ["Seti_accent_indigo"],
-        "layer0.texture": "Seti_UI/Main/casesens@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
-        "class": "icon_case",
-        "settings": ["Seti_accent_indigo"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [63,81,181]
     },
     {
         "class": "icon_case",
         "settings": ["Seti_accent_indigo"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_whole_word",
-        "settings": ["Seti_accent_indigo"],
-        "layer0.texture": "Seti_UI/Main/wholeword@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [63,81,181]
     },
     {
         "class": "icon_whole_word",
@@ -3390,38 +2818,10 @@
         "layer0.tint": [63,81,181]
     },
     {
-        "class": "icon_whole_word",
-        "settings": ["Seti_accent_indigo"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_context",
-        "settings": ["Seti_accent_indigo"],
-        "layer0.texture": "Seti_UI/Main/context@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_context",
         "settings": ["Seti_accent_indigo"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [63,81,181]
-    },
-    {
-        "class": "icon_context",
-        "settings": ["Seti_accent_indigo"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_use_buffer",
-        "settings": ["Seti_accent_indigo"],
-        "layer0.texture": "Seti_UI/Main/buffer@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_use_buffer",
@@ -3430,38 +2830,10 @@
         "layer0.tint": [63,81,181]
     },
     {
-        "class": "icon_use_buffer",
-        "settings": ["Seti_accent_indigo"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_reverse",
-        "settings": ["Seti_accent_indigo"],
-        "layer0.texture": "Seti_UI/Main/reverse@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_reverse",
         "settings": ["Seti_accent_indigo"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [63,81,181]
-    },
-    {
-        "class": "icon_reverse",
-        "settings": ["Seti_accent_indigo"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_wrap",
-        "settings": ["Seti_accent_indigo"],
-        "layer0.texture": "Seti_UI/Main/wrap@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_wrap",
@@ -3470,38 +2842,10 @@
         "layer0.tint": [63,81,181]
     },
     {
-        "class": "icon_wrap",
-        "settings": ["Seti_accent_indigo"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_in_selection",
-        "settings": ["Seti_accent_indigo"],
-        "layer0.texture": "Seti_UI/Main/selection@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_in_selection",
         "settings": ["Seti_accent_indigo"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [63,81,181]
-    },
-    {
-        "class": "icon_in_selection",
-        "settings": ["Seti_accent_indigo"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_preserve_case",
-        "settings": ["Seti_accent_indigo"],
-        "layer0.texture": "Seti_UI/Main/casesens@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_preserve_case",
@@ -3510,30 +2854,16 @@
         "layer0.tint": [63,81,181]
     },
     {
-        "class": "icon_preserve_case",
-        "settings": ["Seti_accent_indigo"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_highlight",
-        "settings": ["Seti_accent_indigo"],
-        "layer0.texture": "Seti_UI/Main/highlight@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_highlight",
         "settings": ["Seti_accent_indigo"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [63,81,181]
     },
     {
-        "class": "icon_highlight",
+        "class": "button_control",
         "settings": ["Seti_accent_indigo"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
+        "attributes": ["pressed"],
+        "layer0.tint": [63,81,181]
     },
 
     // tabs
@@ -3737,50 +3067,14 @@
     {
         "class": "icon_regex",
         "settings": ["Seti_accent_teal"],
-        "layer0.texture": "Seti_UI/Main/regex@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
-        "class": "icon_regex",
-        "settings": ["Seti_accent_teal"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [0,150,136]
-    },
-    {
-        "class": "icon_regex",
-        "settings": ["Seti_accent_teal"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_case",
-        "settings": ["Seti_accent_teal"],
-        "layer0.texture": "Seti_UI/Main/casesens@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
-        "class": "icon_case",
-        "settings": ["Seti_accent_teal"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [0,150,136]
     },
     {
         "class": "icon_case",
         "settings": ["Seti_accent_teal"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_whole_word",
-        "settings": ["Seti_accent_teal"],
-        "layer0.texture": "Seti_UI/Main/wholeword@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [0,150,136]
     },
     {
         "class": "icon_whole_word",
@@ -3789,38 +3083,10 @@
         "layer0.tint": [0,150,136]
     },
     {
-        "class": "icon_whole_word",
-        "settings": ["Seti_accent_teal"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_context",
-        "settings": ["Seti_accent_teal"],
-        "layer0.texture": "Seti_UI/Main/context@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_context",
         "settings": ["Seti_accent_teal"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [0,150,136]
-    },
-    {
-        "class": "icon_context",
-        "settings": ["Seti_accent_teal"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_use_buffer",
-        "settings": ["Seti_accent_teal"],
-        "layer0.texture": "Seti_UI/Main/buffer@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_use_buffer",
@@ -3829,38 +3095,10 @@
         "layer0.tint": [0,150,136]
     },
     {
-        "class": "icon_use_buffer",
-        "settings": ["Seti_accent_teal"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_reverse",
-        "settings": ["Seti_accent_teal"],
-        "layer0.texture": "Seti_UI/Main/reverse@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_reverse",
         "settings": ["Seti_accent_teal"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [0,150,136]
-    },
-    {
-        "class": "icon_reverse",
-        "settings": ["Seti_accent_teal"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_wrap",
-        "settings": ["Seti_accent_teal"],
-        "layer0.texture": "Seti_UI/Main/wrap@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_wrap",
@@ -3869,38 +3107,10 @@
         "layer0.tint": [0,150,136]
     },
     {
-        "class": "icon_wrap",
-        "settings": ["Seti_accent_teal"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_in_selection",
-        "settings": ["Seti_accent_teal"],
-        "layer0.texture": "Seti_UI/Main/selection@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_in_selection",
         "settings": ["Seti_accent_teal"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [0,150,136]
-    },
-    {
-        "class": "icon_in_selection",
-        "settings": ["Seti_accent_teal"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_preserve_case",
-        "settings": ["Seti_accent_teal"],
-        "layer0.texture": "Seti_UI/Main/casesens@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
     },
     {
         "class": "icon_preserve_case",
@@ -3909,30 +3119,16 @@
         "layer0.tint": [0,150,136]
     },
     {
-        "class": "icon_preserve_case",
-        "settings": ["Seti_accent_teal"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
-    },
-    {
-        "class": "icon_highlight",
-        "settings": ["Seti_accent_teal"],
-        "layer0.texture": "Seti_UI/Main/highlight@2x.png",
-        "layer0.tint": [96,125,139],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": 8
-    },
-    {
         "class": "icon_highlight",
         "settings": ["Seti_accent_teal"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [0,150,136]
     },
     {
-        "class": "icon_highlight",
+        "class": "button_control",
         "settings": ["Seti_accent_teal"],
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [255,255,255]
+        "attributes": ["pressed"],
+        "layer0.tint": [0,150,136]
     },
 
     // tabs
@@ -4111,5 +3307,5 @@
         "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
         "layer0.texture": "Seti_UI/Main/close@2x.png",
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-    }
+    },
 ]
