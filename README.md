@@ -57,7 +57,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_no_under_bar"              // remove the small colored bar under the un-saved tabs "not available with accents"
   "Seti_bold_slctdtab_labels"      // make active tab label font in bold
 
-// tabs underbar bar ("Seti_accent_*": false)
+// tabs unsaved bar ("Seti_accent_*": false)
   "Seti_yellow_tab"
   "Seti_red_tab"
   "Seti_indigo_tab"
