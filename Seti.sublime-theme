@@ -169,23 +169,6 @@
         "layer0.opacity": 0,
         "layer1.opacity": 1
     },
-    // options
-    {
-        "class": "tab_close_button",
-        "settings": ["Seti_orange_button"],
-        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
-        "layer0.texture": "Seti_UI/Main/circle@2x.png",
-        "layer0.opacity": 1,
-        "layer0.tint": [255,136,1]
-    },
-    {
-        "class": "tab_close_button",
-        "settings": ["Seti_orange_button"],
-        "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
-        "layer0.texture": "Seti_UI/Main/close@2x.png",
-        "layer0.opacity": 1,
-        "layer0.tint": [255,136,1]
-    },
 
     //========================================================
     //  TAB LABELS
@@ -232,12 +215,6 @@
         "settings": ["Seti_blue_label"],
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "fg": [79,153,211]
-    },
-    {
-        "class": "tab_label",
-        "settings": ["Seti_orange_label"],
-        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
-        "fg": [253,136,1]
     },
     // for light schemes
     {
@@ -479,26 +456,14 @@
     // options
     {
         "class": "puck_control",
-        "settings": ["Seti_SB_blue"],
+        "settings": ["Seti_blue_scrollbar"],
         "layer0.tint":[0, 159, 255]
     },
     {
         "class": "puck_control",
-        "settings": ["Seti_SB_blue"],
+        "settings": ["Seti_blue_scrollbar"],
         "attributes": ["horizontal"],
         "layer0.tint":[0, 159, 255]
-    },
-
-    {
-        "class": "puck_control",
-        "settings": ["Seti_SB_orange"],
-        "layer0.tint":[255,191,59]
-    },
-    {
-        "class": "puck_control",
-        "settings": ["Seti_SB_orange"],
-        "attributes": ["horizontal"],
-        "layer0.tint":[255,191,59]
     },
 
     //========================================================
@@ -1788,17 +1753,6 @@
         "layer0.tint": [255,160,0],
     },
     {
-        "class": "minimap_control",
-        "settings": ["Seti_accent_yellow_map"],
-        "viewport_color": [255,160,0,40]
-    },
-    {
-        "class": "minimap_control",
-        "settings": ["Seti_accent_yellow_map"],
-        "attributes": ["hover"],
-        "viewport_color": [255,160,0,20]
-    },
-    {
         "class": "icon_regex",
         "settings": ["Seti_accent_yellow"],
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
@@ -1997,6 +1951,55 @@
         "settings": ["Seti_accent_yellow"],
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
         "layer0.tint": [255,255,255]
+    },
+
+    // tab close button
+    {
+        "class": "tab_close_button",
+        "settings": ["Seti_yellow_tabclose"],
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "layer0.texture": "Seti_UI/Main/circle@2x.png",
+        "layer0.opacity": 1,
+        "layer0.tint": [255,160,0]
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["Seti_yellow_tabclose"],
+        "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
+        "layer0.texture": "Seti_UI/Main/close@2x.png",
+        "layer0.opacity": 1,
+        "layer0.tint": [255,160,0]
+    },
+    // tab label
+    {
+        "class": "tab_label",
+        "settings": ["Seti_yellow_label"],
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "fg": [255,160,0]
+    },
+    // map
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_yellow_map"],
+        "viewport_color": [255,160,0,40]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_yellow_map"],
+        "attributes": ["hover"],
+        "viewport_color": [255,160,0,20]
+    },
+    // scrollbar
+    {
+        "class": "puck_control",
+        "settings": ["Seti_yellow_scrollbar"],
+        "layer0.tint":[255,160,0]
+    },
+    {
+        "class": "puck_control",
+        "settings": ["Seti_yellow_scrollbar"],
+        "attributes": ["horizontal"],
+        "layer0.tint":[255,160,0]
     },
 
     // red
@@ -2106,17 +2109,6 @@
         "layer0.tint": [244,67,54],
     },
     {
-        "class": "minimap_control",
-        "settings": ["Seti_accent_red_map"],
-        "viewport_color": [244,67,54,40]
-    },
-    {
-        "class": "minimap_control",
-        "settings": ["Seti_accent_red_map"],
-        "attributes": ["hover"],
-        "viewport_color": [244,67,54,20]
-    },
-    {
         "class": "icon_regex",
         "settings": ["Seti_accent_red"],
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
@@ -2315,6 +2307,55 @@
         "settings": ["Seti_accent_red"],
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
         "layer0.tint": [255,255,255]
+    },
+
+     // tab close button
+    {
+        "class": "tab_close_button",
+        "settings": ["Seti_red_tabclose"],
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "layer0.texture": "Seti_UI/Main/circle@2x.png",
+        "layer0.opacity": 1,
+        "layer0.tint": [244,67,54]
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["Seti_red_tabclose"],
+        "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
+        "layer0.texture": "Seti_UI/Main/close@2x.png",
+        "layer0.opacity": 1,
+        "layer0.tint": [244,67,54]
+    },
+    // tab label
+    {
+        "class": "tab_label",
+        "settings": ["Seti_red_label"],
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "fg": [244,67,54]
+    },
+    // map
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_red_map"],
+        "viewport_color": [244,67,54,40]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_red_map"],
+        "attributes": ["hover"],
+        "viewport_color": [244,67,54,20]
+    },
+    // scrollbar
+    {
+        "class": "puck_control",
+        "settings": ["Seti_red_scrollbar"],
+        "layer0.tint":[244,67,54]
+    },
+    {
+        "class": "puck_control",
+        "settings": ["Seti_red_scrollbar"],
+        "attributes": ["horizontal"],
+        "layer0.tint":[244,67,54]
     },
 
     // purple
@@ -2424,17 +2465,6 @@
         "layer0.tint": [171,71,188],
     },
     {
-        "class": "minimap_control",
-        "settings": ["Seti_accent_purple_map"],
-        "viewport_color": [171,71,188,40]
-    },
-    {
-        "class": "minimap_control",
-        "settings": ["Seti_accent_purple_map"],
-        "attributes": ["hover"],
-        "viewport_color": [171,71,188,20]
-    },
-    {
         "class": "icon_regex",
         "settings": ["Seti_accent_purple"],
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
@@ -2633,6 +2663,55 @@
         "settings": ["Seti_accent_purple"],
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
         "layer0.tint": [255,255,255]
+    },
+
+    // tab close button
+    {
+        "class": "tab_close_button",
+        "settings": ["Seti_purple_tabclose"],
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "layer0.texture": "Seti_UI/Main/circle@2x.png",
+        "layer0.opacity": 1,
+        "layer0.tint": [171,71,188]
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["Seti_purple_tabclose"],
+        "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
+        "layer0.texture": "Seti_UI/Main/close@2x.png",
+        "layer0.opacity": 1,
+        "layer0.tint": [171,71,188]
+    },
+    // tab label
+    {
+        "class": "tab_label",
+        "settings": ["Seti_purple_label"],
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "fg": [171,71,188]
+    },
+    // map
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_purple_map"],
+        "viewport_color": [171,71,188,40]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_purple_map"],
+        "attributes": ["hover"],
+        "viewport_color": [171,71,188,20]
+    },
+    // scrollbar
+    {
+        "class": "puck_control",
+        "settings": ["Seti_purple_scrollbar"],
+        "layer0.tint":[171,71,188]
+    },
+    {
+        "class": "puck_control",
+        "settings": ["Seti_purple_scrollbar"],
+        "attributes": ["horizontal"],
+        "layer0.tint":[171,71,188]
     },
 
     // lime
@@ -2742,17 +2821,6 @@
         "layer0.tint": [124,179,76],
     },
     {
-        "class": "minimap_control",
-        "settings": ["Seti_accent_lime_map"],
-        "viewport_color": [124,179,76,40]
-    },
-    {
-        "class": "minimap_control",
-        "settings": ["Seti_accent_lime_map"],
-        "attributes": ["hover"],
-        "viewport_color": [124,179,76,20]
-    },
-    {
         "class": "icon_regex",
         "settings": ["Seti_accent_lime"],
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
@@ -2951,6 +3019,55 @@
         "settings": ["Seti_accent_lime"],
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
         "layer0.tint": [255,255,255]
+    },
+
+    // tab close button
+    {
+        "class": "tab_close_button",
+        "settings": ["Seti_lime_tabclose"],
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "layer0.texture": "Seti_UI/Main/circle@2x.png",
+        "layer0.opacity": 1,
+        "layer0.tint": [124,179,76]
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["Seti_lime_tabclose"],
+        "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
+        "layer0.texture": "Seti_UI/Main/close@2x.png",
+        "layer0.opacity": 1,
+        "layer0.tint": [124,179,76]
+    },
+    // tab label
+    {
+        "class": "tab_label",
+        "settings": ["Seti_lime_label"],
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "fg": [124,179,76]
+    },
+    // map
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_lime_map"],
+        "viewport_color": [124,179,76,40]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_lime_map"],
+        "attributes": ["hover"],
+        "viewport_color": [124,179,76,20]
+    },
+    // scrollbar
+    {
+        "class": "puck_control",
+        "settings": ["Seti_lime_scrollbar"],
+        "layer0.tint":[124,179,76]
+    },
+    {
+        "class": "puck_control",
+        "settings": ["Seti_lime_scrollbar"],
+        "attributes": ["horizontal"],
+        "layer0.tint":[124,179,76]
     },
 
     // indigo
@@ -3060,17 +3177,6 @@
         "layer0.tint": [63,81,181],
     },
     {
-        "class": "minimap_control",
-        "settings": ["Seti_accent_indigo_map"],
-        "viewport_color": [63,81,181,40]
-    },
-    {
-        "class": "minimap_control",
-        "settings": ["Seti_accent_indigo_map"],
-        "attributes": ["hover"],
-        "viewport_color": [63,81,181,20]
-    },
-    {
         "class": "icon_regex",
         "settings": ["Seti_accent_indigo"],
         "layer0.texture": "Seti_UI/Main/regex@2x.png",
@@ -3271,6 +3377,55 @@
         "layer0.tint": [255,255,255]
     },
 
+    // tab close button
+    {
+        "class": "tab_close_button",
+        "settings": ["Seti_indigo_tabclose"],
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "layer0.texture": "Seti_UI/Main/circle@2x.png",
+        "layer0.opacity": 1,
+        "layer0.tint": [63,81,181]
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["Seti_indigo_tabclose"],
+        "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
+        "layer0.texture": "Seti_UI/Main/close@2x.png",
+        "layer0.opacity": 1,
+        "layer0.tint": [63,81,181]
+    },
+    // tab label
+    {
+        "class": "tab_label",
+        "settings": ["Seti_indigo_label"],
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "fg": [63,81,181]
+    },
+    // map
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_indigo_map"],
+        "viewport_color": [63,81,181,40]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_indigo_map"],
+        "attributes": ["hover"],
+        "viewport_color": [63,81,181,20]
+    },
+    // scrollbar
+    {
+        "class": "puck_control",
+        "settings": ["Seti_indigo_scrollbar"],
+        "layer0.tint":[63,81,181]
+    },
+    {
+        "class": "puck_control",
+        "settings": ["Seti_indigo_scrollbar"],
+        "attributes": ["horizontal"],
+        "layer0.tint":[63,81,181]
+    },
+
     // teal
     // ////////////////////////////////////////////////////////
     {
@@ -3376,17 +3531,6 @@
         "class": "panel_button_control",
         "settings": ["Seti_accent_teal"],
         "layer0.tint": [0,150,136],
-    },
-    {
-        "class": "minimap_control",
-        "settings": ["Seti_accent_teal_map"],
-        "viewport_color": [0,150,136,40]
-    },
-    {
-        "class": "minimap_control",
-        "settings": ["Seti_accent_teal_map"],
-        "attributes": ["hover"],
-        "viewport_color": [0,150,136,20]
     },
     {
         "class": "icon_regex",
@@ -3587,6 +3731,55 @@
         "settings": ["Seti_accent_teal"],
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
         "layer0.tint": [255,255,255]
+    },
+
+    // tab close button
+    {
+        "class": "tab_close_button",
+        "settings": ["Seti_teal_tabclose"],
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "layer0.texture": "Seti_UI/Main/circle@2x.png",
+        "layer0.opacity": 1,
+        "layer0.tint": [0,150,136]
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["Seti_teal_tabclose"],
+        "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
+        "layer0.texture": "Seti_UI/Main/close@2x.png",
+        "layer0.opacity": 1,
+        "layer0.tint": [0,150,136]
+    },
+    // tab label
+    {
+        "class": "tab_label",
+        "settings": ["Seti_teal_label"],
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "fg": [0,150,136]
+    },
+    // map
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_teal_map"],
+        "viewport_color": [0,150,136,40]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_teal_map"],
+        "attributes": ["hover"],
+        "viewport_color": [0,150,136,20]
+    },
+    // scrollbar
+    {
+        "class": "puck_control",
+        "settings": ["Seti_teal_scrollbar"],
+        "layer0.tint":[0,150,136]
+    },
+    {
+        "class": "puck_control",
+        "settings": ["Seti_teal_scrollbar"],
+        "attributes": ["horizontal"],
+        "layer0.tint":[0,150,136]
     },
 
     // general options
