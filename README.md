@@ -47,7 +47,6 @@ Activate the `Theme` by modifying your user preferences file, which you can find
 
 ```js
 // tabs
-  "Seti_no_under_bar"              // remove the small colored bar under the un-saved tabs "not available with accents"
   "Seti_tabs_small"                // tabs height = 35
   "Seti_tabs_med"                  // tabs height = 40
   "Seti_tabs_big"                  // tabs height = 54
@@ -55,18 +54,44 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_tab_font_12"               // tab font size = 12
   "mouse_wheel_tabswitch"          // scroll through opened tabs
   "Seti_no_scroll_icons"           // remove the l/r arrows & the drop down list button, effective when ("enable_tab_scrolling": true)
-  "Seti_orange_button"             // change un-saved blue tab buttons to orange
+
+// tabs underbar bar ("Seti_accent_*": false)
+  "Seti_no_under_bar"              // remove the small colored bar under the un-saved tabs "not available with accents"
+  "Seti_yellow_tab"
+  "Seti_red_tab"
+  "Seti_indigo_tab"
+  "Seti_purple_tab"
+  "Seti_teal_tab"
+  "Seti_lime_tab"
+
+// tab close button ("Seti_accent": false)
+  "Seti_yellow_tabclose"
+  "Seti_red_tabclose"
+  "Seti_indigo_tabclose"
+  "Seti_purple_tabclose"
+  "Seti_teal_tabclose"
+  "Seti_lime_tabclose"
 
 // tab label
-  "Seti_blue_label"                // change the un-saved tab label to blue
-  "Seti_orange_label"		       // change un-saved label color to orange
   "Seti_bold_slctdtab_labels"      // make active tab label font in bold
+  "Seti_blue_label"
+  "Seti_yellow_label"
+  "Seti_red_label"
+  "Seti_indigo_label"
+  "Seti_purple_label"
+  "Seti_teal_label"
+  "Seti_lime_label"
 
 // scrollbar
   "Seti_SB_med"                    // scrollbars width / height = 6
   "Seti_SB_big"                    // scrollbars width / height = 10
-  "Seti_SB_blue"                   // scrollbars in blue
-  "Seti_SB_orange"                 // scrollbars in orange
+  "Seti_blue_scrollbar"
+  "Seti_yellow_scrollbar"
+  "Seti_red_scrollbar"
+  "Seti_indigo_scrollbar"
+  "Seti_purple_scrollbar"
+  "Seti_teal_scrollbar"
+  "Seti_lime_scrollbar"
 
 // sidebar
   "Seti_ClosedFolder_same"         // same icon as the Opened_folder
@@ -92,7 +117,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_sidebar_font_Source"       // (issues/115)
   "Seti_heading_font_12"           // heading font size = 12
   "Seti_bold_heading"              // make heading font in bold
-  "Seti_top_heading_big"           // sidebar top header img
+  "Seti_top_heading_big"           // sidebar top header img big
   "Seti_top_heading_small"         // sidebar top header img small
   "Seti_top_heading_anim"          // sidebar top header img animate on hover "not available with accents"
   "Seti_alt_tree_row"              // alternative sidebar row highlight
@@ -102,6 +127,14 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_pad_3"                     // use with line_padding_bottom / line_padding_top = 3
   "Seti_panel_nrml"                // remove the padding top/down from quick panel
 
+// map shade
+  "Seti_yellow_map"
+  "Seti_red_map"
+  "Seti_indigo_map"
+  "Seti_purple_map"
+  "Seti_teal_map"
+  "Seti_lime_map"
+
 // accents
   "Seti_accent"                    // general options for accents
   "Seti_accent_yellow"
@@ -110,22 +143,6 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_accent_purple"
   "Seti_accent_teal"
   "Seti_accent_lime"
-
-  // change the default seti tabs blue bar to
-  "Seti_orig_accent_yellow"
-  "Seti_orig_accent_red"
-  "Seti_orig_accent_indigo"
-  "Seti_orig_accent_purple"
-  "Seti_orig_accent_teal"
-  "Seti_orig_accent_lime"
-
-  // change the default seti map shade to
-  "Seti_accent_yellow_map"
-  "Seti_accent_red_map"
-  "Seti_accent_indigo_map"
-  "Seti_accent_purple_map"
-  "Seti_accent_teal_map"
-  "Seti_accent_lime_map"
 ```
 
 ## Credits
