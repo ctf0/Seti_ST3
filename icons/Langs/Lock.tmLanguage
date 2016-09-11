@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>lock</string>
+	<key>fileTypes</key>
+	<array>
+		<string>lock</string>
+	</array>
+	<key>scopeName</key>
+	<string>lock</string>
+</dict>
+</plist>
