@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>CoffeScript</string>
+	<string>CoffeeScript</string>
 	<key>fileTypes</key>
 	<array>
 		<string>coffee</string>
