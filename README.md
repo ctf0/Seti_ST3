@@ -135,6 +135,14 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_teal_map"
   "Seti_lime_map"
 
+// status bar
+  "Seti_yellow_statusbar"
+  "Seti_red_statusbar"
+  "Seti_indigo_statusbar"
+  "Seti_purple_statusbar"
+  "Seti_teal_statusbar"
+  "Seti_lime_statusbar"
+
 // accents
   "Seti_accent"                    // general options for accents
   "Seti_accent_yellow"

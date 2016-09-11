@@ -1843,6 +1843,19 @@
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "fg": [255,160,0]
     },
+    // status bar
+    {
+        "class": "label_control",
+        "settings": ["Seti_yellow_statusbar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [255,160,0],
+        "font.bold": false
+    },
+    {
+        "class": "panel_button_control",
+        "settings": ["Seti_yellow_statusbar"],
+        "layer0.tint": [255,160,0],
+    },
     // map
     {
         "class": "minimap_control",
@@ -2064,6 +2077,19 @@
         "settings": ["Seti_red_label"],
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "fg": [244,67,54]
+    },
+    // status bar
+    {
+        "class": "label_control",
+        "settings": ["Seti_red_statusbar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [244,67,54],
+        "font.bold": false
+    },
+    {
+        "class": "panel_button_control",
+        "settings": ["Seti_red_statusbar"],
+        "layer0.tint": [244,67,54],
     },
     // map
     {
@@ -2287,6 +2313,19 @@
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "fg": [171,71,188]
     },
+    // status bar
+    {
+        "class": "label_control",
+        "settings": ["Seti_purple_statusbar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [171,71,188],
+        "font.bold": false
+    },
+    {
+        "class": "panel_button_control",
+        "settings": ["Seti_purple_statusbar"],
+        "layer0.tint": [171,71,188],
+    },
     // map
     {
         "class": "minimap_control",
@@ -2508,6 +2547,19 @@
         "settings": ["Seti_lime_label"],
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "fg": [124,179,76]
+    },
+    // status bar
+    {
+        "class": "label_control",
+        "settings": ["Seti_lime_statusbar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [124,179,76],
+        "font.bold": false
+    },
+    {
+        "class": "panel_button_control",
+        "settings": ["Seti_lime_statusbar"],
+        "layer0.tint": [124,179,76],
     },
     // map
     {
@@ -2731,6 +2783,19 @@
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "fg": [63,81,181]
     },
+    // status bar
+    {
+        "class": "label_control",
+        "settings": ["Seti_indigo_statusbar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [63,81,181],
+        "font.bold": false
+    },
+    {
+        "class": "panel_button_control",
+        "settings": ["Seti_indigo_statusbar"],
+        "layer0.tint": [63,81,181],
+    },
     // map
     {
         "class": "minimap_control",
@@ -2952,6 +3017,19 @@
         "settings": ["Seti_teal_label"],
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "fg": [0,150,136]
+    },
+    // status bar
+    {
+        "class": "label_control",
+        "settings": ["Seti_teal_statusbar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [0,150,136],
+        "font.bold": false
+    },
+    {
+        "class": "panel_button_control",
+        "settings": ["Seti_teal_statusbar"],
+        "layer0.tint": [0,150,136],
     },
     // map
     {

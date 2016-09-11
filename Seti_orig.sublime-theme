@@ -51,7 +51,7 @@
         "content_margin": [12, 3],
         "layer0.texture": "Seti_UI/Main/tab-inactive.png",
         "layer0.inner_margin": 5,
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": 1
     },
     {
         "class": "tab_control",
@@ -88,14 +88,12 @@
     {
         "class": "tab_close_button",
         "content_margin": 0,
-        // Normal
         "layer0.texture": "Seti_UI/Main/close@2x.png",
-        "layer0.opacity": { "target": 0.5, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
-        // Hover
         "layer1.texture": "Seti_UI/Main/close@2x.png",
         "layer1.tint": [138,157,166],
-        "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer1.opacity": 0
     },
     {
         "class": "tab_close_button",
@@ -107,38 +105,37 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Seti_UI/Main/circle@2x.png",
         "layer0.tint": [0,137,244],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
         "settings": ["!show_tab_close_buttons"],
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "content_margin": 8,
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
         "attributes": ["hover"],
-        "layer0.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "layer1.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer0.opacity": 0,
+        "layer1.opacity": 1
     },
     {
         "class": "tab_close_button",
         "attributes": ["hover", "dirty"],
-        "layer0.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "layer1.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer0.opacity": 0,
+        "layer1.opacity": 1
     },
 
     //========================================================
     //  TAB LABELS
     //--------------------------------------------------------
-
     {
         "class": "tab_label",
         "fade": true,
         "font.size": 11,
         "font.bold": false,
-        "fg": [255, 255, 255, 160]
+        "fg": [212,215,214]
     },
     {
         "class": "tab_label",
@@ -1837,6 +1834,19 @@
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "fg": [255,160,0]
     },
+    // status bar
+    {
+        "class": "label_control",
+        "settings": ["Seti_yellow_statusbar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [255,160,0],
+        "font.bold": false
+    },
+    {
+        "class": "panel_button_control",
+        "settings": ["Seti_yellow_statusbar"],
+        "layer0.tint": [255,160,0],
+    },
     // map
     {
         "class": "minimap_control",
@@ -2101,6 +2111,19 @@
         "settings": ["Seti_red_label"],
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "fg": [244,67,54]
+    },
+    // status bar
+    {
+        "class": "label_control",
+        "settings": ["Seti_red_statusbar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [244,67,54],
+        "font.bold": false
+    },
+    {
+        "class": "panel_button_control",
+        "settings": ["Seti_red_statusbar"],
+        "layer0.tint": [244,67,54],
     },
     // map
     {
@@ -2367,6 +2390,19 @@
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "fg": [171,71,188]
     },
+    // status bar
+    {
+        "class": "label_control",
+        "settings": ["Seti_purple_statusbar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [171,71,188],
+        "font.bold": false
+    },
+    {
+        "class": "panel_button_control",
+        "settings": ["Seti_purple_statusbar"],
+        "layer0.tint": [171,71,188],
+    },
     // map
     {
         "class": "minimap_control",
@@ -2631,6 +2667,19 @@
         "settings": ["Seti_lime_label"],
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "fg": [124,179,76]
+    },
+    // status bar
+    {
+        "class": "label_control",
+        "settings": ["Seti_lime_statusbar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [124,179,76],
+        "font.bold": false
+    },
+    {
+        "class": "panel_button_control",
+        "settings": ["Seti_lime_statusbar"],
+        "layer0.tint": [124,179,76],
     },
     // map
     {
@@ -2897,6 +2946,19 @@
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "fg": [63,81,181]
     },
+    // status bar
+    {
+        "class": "label_control",
+        "settings": ["Seti_indigo_statusbar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [63,81,181],
+        "font.bold": false
+    },
+    {
+        "class": "panel_button_control",
+        "settings": ["Seti_indigo_statusbar"],
+        "layer0.tint": [63,81,181],
+    },
     // map
     {
         "class": "minimap_control",
@@ -3162,6 +3224,19 @@
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "fg": [0,150,136]
     },
+    // status bar
+    {
+        "class": "label_control",
+        "settings": ["Seti_teal_statusbar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [0,150,136],
+        "font.bold": false
+    },
+    {
+        "class": "panel_button_control",
+        "settings": ["Seti_teal_statusbar"],
+        "layer0.tint": [0,150,136],
+    },
     // map
     {
         "class": "minimap_control",
@@ -3189,6 +3264,14 @@
 
     // general options
     // ////////////////////////////////////////////////////////
+    {
+        "class": "tab_label",
+        "settings": ["Seti_accent"],
+        "fade": true,
+        "font.size": 11,
+        "font.bold": false,
+        "fg": [255,255,255]
+    },
     {
         "class": "tab_close_button",
         "settings": ["Seti_accent"],
