@@ -3,20 +3,19 @@
 <plist version="1.0">
 	<dict>
 		<key>name</key>
-		<string>Gruntfile JS</string>
+		<string>Gulpfile (Coffee)</string>
 		<key>fileTypes</key>
 		<array>
-			<string>gruntfile.js</string>
-			<string>gruntfile.babel.js</string>
+			<string>gulpfile.coffee</string>
 		</array>
 		<key>patterns</key>
 		<array>
 			<dict>
 				<key>include</key>
-				<string>source.js</string>
+				<string>source.coffee</string>
 			</dict>
 		</array>
 		<key>scopeName</key>
-		<string>source.gruntfile.js</string>
+		<string>source.gulpfile.coffee</string>
 	</dict>
 </plist>

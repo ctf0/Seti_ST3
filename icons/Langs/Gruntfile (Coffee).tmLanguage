@@ -3,10 +3,10 @@
 <plist version="1.0">
 	<dict>
 		<key>name</key>
-		<string>Gulpfile Coffee</string>
+		<string>Gruntfile (Coffee)</string>
 		<key>fileTypes</key>
 		<array>
-			<string>gulpfile.coffee</string>
+			<string>gruntfile.coffee</string>
 		</array>
 		<key>patterns</key>
 		<array>
@@ -16,6 +16,6 @@
 			</dict>
 		</array>
 		<key>scopeName</key>
-		<string>source.gulpfile.coffee</string>
+		<string>source.gruntfile.coffee</string>
 	</dict>
 </plist>

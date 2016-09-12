@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Bower JSON</string>
+	<string>Bower (JSON)</string>
 	<key>fileTypes</key>
 	<array>
 		<string>bower.json</string>

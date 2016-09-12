@@ -33,5 +33,4 @@ or use
 ## Folder Contents
 ----------------------
 Resource
-  |-Ext   > copy the content of this folder to your 'Packages/User' folder so (Extensions/Files) can recognize their correct language/icons.
   |-Fonts > install them before applying the sidebar font options.

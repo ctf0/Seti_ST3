@@ -3,19 +3,20 @@
 <plist version="1.0">
 	<dict>
 		<key>name</key>
-		<string>Mustache</string>
+		<string>Gulpfile (JS)</string>
 		<key>fileTypes</key>
 		<array>
-			<string>mustache</string>
+			<string>gulpfile.js</string>
+			<string>gulpfile.babel.js</string>
 		</array>
 		<key>patterns</key>
 		<array>
 			<dict>
 				<key>include</key>
-				<string>text.html.basic</string>
+				<string>source.js</string>
 			</dict>
 		</array>
 		<key>scopeName</key>
-		<string>text.html.mustache</string>
+		<string>source.gulpfile.js</string>
 	</dict>
 </plist>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>NPM JSON</string>
+	<string>NPM (JSON)</string>
 	<key>fileTypes</key>
 	<array>
 		<string>package.json</string>

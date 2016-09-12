@@ -172,4 +172,3 @@ Activate the `Theme` by modifying your user preferences file, which you can find
 1. What version of ST are you using? (nothing lower than 3103).
 2. Have you restarted ST after you installed the theme?
 3. If you still have bad render, have you removed the cache folder (found right next to the packages folder)?
-4. Have you copied the files from the `Ext` folder to your User folder?
