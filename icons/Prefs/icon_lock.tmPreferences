@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>scope</key>
-        <string>lock</string>
+        <string>source.json.lock</string>
         <key>settings</key>
         <dict>
             <key>icon</key>

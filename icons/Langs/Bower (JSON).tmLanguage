@@ -3,19 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Swift</string>
+	<string>Bower JSON</string>
 	<key>fileTypes</key>
 	<array>
-		<string>swift</string>
+		<string>bower.json</string>
+		<string>.bowerrc</string>
 	</array>
 	<key>patterns</key>
 	<array>
 		<dict>
 			<key>include</key>
-			<string>source.d</string>
+			<string>source.json</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.d, source.swift</string>
+	<string>source.json.bower</string>
 </dict>
 </plist>

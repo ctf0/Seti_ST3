@@ -16,6 +16,6 @@
 			</dict>
 		</array>
 		<key>scopeName</key>
-		<string>source.gruntfile.coffee, source.coffee</string>
+		<string>source.gruntfile.coffee</string>
 	</dict>
 </plist>

@@ -27,6 +27,6 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.shell, source.git</string>
+	<string>source.git</string>
 </dict>
 </plist>

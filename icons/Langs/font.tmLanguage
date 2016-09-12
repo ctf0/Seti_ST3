@@ -12,13 +12,6 @@
 		<string>woff</string>
 		<string>woff2</string>
 	</array>
-	<key>patterns</key>
-	<array>
-		<dict>
-			<key>include</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>scopeName</key>
 	<string>font</string>
 </dict>

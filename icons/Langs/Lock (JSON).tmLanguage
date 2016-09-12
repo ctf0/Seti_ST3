@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Julia</string>
+	<string>lock</string>
 	<key>fileTypes</key>
 	<array>
-		<string>jl</string>
+		<string>lock</string>
 	</array>
-	<key>patterns</key>
-	<array>
-		<dict>
-			<key>include</key>
-			<string>source.jl</string>
-		</dict>
-	</array>
+    <key>patterns</key>
+    <array>
+        <dict>
+            <key>include</key>
+            <string>source.json</string>
+        </dict>
+    </array>
 	<key>scopeName</key>
-	<string>source.jl</string>
+	<string>source.json.lock</string>
 </dict>
 </plist>
