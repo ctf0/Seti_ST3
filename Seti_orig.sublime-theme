@@ -565,10 +565,10 @@
         "class": "sidebar_tree",
         "layer0.tint": [13,16,17],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "indent_offset": 18,
+        "indent_offset": 0,
         "indent": 20,
         "row_padding": [8,7],
-        "indent_top_level": false
+        "indent_top_level": true
     },
     // options
     // big
@@ -729,7 +729,7 @@
     {
         "class": "sidebar_heading",
         "settings": ["Seti_no_heading"],
-        "color": [13,16,17],
+        "color": [13,16,17]
     },
     {
         "class": "sidebar_heading",
@@ -740,9 +740,7 @@
     {
         "class": "sidebar_tree",
         "settings": ["Seti_no_heading"],
-        "indent_offset": 10,
         "indent": 20,
-        "indent_top_level": false
     },
     {
         "class": "sidebar_heading",

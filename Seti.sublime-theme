@@ -617,12 +617,12 @@
     // Sidebar tree || entries
     {
         "class": "sidebar_tree",
-        "indent_offset": 18,
-        "indent": 20,
-        "row_padding": [8,7],
         "layer0.tint": [13,16,17],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "indent_top_level": false
+        "indent_offset": 0,
+        "indent": 20,
+        "row_padding": [8,7],
+        "indent_top_level": true
     },
     // options
     {
@@ -792,9 +792,7 @@
     {
         "class": "sidebar_tree",
         "settings": ["Seti_no_heading"],
-        "indent_offset": 10,
         "indent": 20,
-        "indent_top_level": false
     },
     {
         "class": "sidebar_heading",
