@@ -117,6 +117,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_sidebar_font_Source"       // (issues/115)
   "Seti_heading_font_12"           // heading font size = 12
   "Seti_bold_heading"              // make heading font in bold
+  "Seti_no_heading"                // remove the "folder,group 1,etc.."
   "Seti_top_heading_big"           // sidebar top header img big
   "Seti_top_heading_small"         // sidebar top header img small
   "Seti_top_heading_anim"          // sidebar top header img animate on hover "not available with accents"

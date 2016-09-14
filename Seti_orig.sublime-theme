@@ -225,6 +225,11 @@
     },
     // options
     {
+        "class": "tabset_control",
+        "settings": ["Seti_no_scroll_icons"],
+        "content_margin": 0,
+    },
+    {
         "class": "show_tabs_dropdown_button",
         "settings": ["Seti_no_scroll_icons"],
         "content_margin": 0,
@@ -561,7 +566,7 @@
         "layer0.tint": [13,16,17],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "indent_offset": 18,
-        "indent": 15,
+        "indent": 20,
         "row_padding": [8,7],
         "indent_top_level": false
     },
@@ -641,45 +646,6 @@
         "settings": ["Seti_top_heading_anim"],
         "layer0.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
-
-    // options
-    {
-        "class": "sidebar_tree",
-        "settings": ["Seti_sb_small_padding"],
-        "row_padding": [8,3]
-    },
-    {
-        "class": "sidebar_tree",
-        "settings": ["Seti_sb_big_padding"],
-        "row_padding": [8,10]
-    },
-    {
-        "class": "sidebar_tree",
-        "settings": ["Seti_sb_tree_med"],
-        "indent": 15,
-        "indent_offset": 15,
-    },
-    {
-        "class": "sidebar_tree",
-        "settings": ["Seti_sb_tree_small"],
-        "indent": 15,
-        "indent_offset": 10,
-    },
-    {
-        "class": "sidebar_tree",
-        "settings": ["Seti_sb_tree_tiny"],
-        "indent": 15,
-        "row_padding": [3,7],
-        "indent_offset": 1,
-    },
-    {
-        "class": "sidebar_tree",
-        "settings": ["Seti_sb_tree_miny"],
-        "indent": 12,
-        "row_padding": 5,
-        "indent_offset": 15,
-    },
-
     // Sidebar rows || selected files bg
     {
         "class": "tree_row",
@@ -699,16 +665,6 @@
         "color": [200,200,200],
         "font.bold": false,
         "font.size": 11
-    },
-    {
-        "class": "sidebar_heading",
-        "settings": ["Seti_heading_font_12"],
-        "font.size": 12
-    },
-    {
-        "class": "sidebar_heading",
-        "settings": ["Seti_bold_heading"],
-        "font.bold": true
     },
     {
         "class": "sidebar_heading",
@@ -768,7 +724,72 @@
         "settings": ["Seti_bold_slctdfile_labels"],
         "font.bold": true
     },
+
     // options
+    {
+        "class": "sidebar_heading",
+        "settings": ["Seti_no_heading"],
+        "color": [13,16,17],
+    },
+    {
+        "class": "sidebar_heading",
+        "settings": ["Seti_no_heading"],
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "color": [13,16,17]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["Seti_no_heading"],
+        "indent_offset": 10,
+        "indent": 20,
+        "indent_top_level": false
+    },
+    {
+        "class": "sidebar_heading",
+        "settings": ["Seti_heading_font_12"],
+        "font.size": 12
+    },
+    {
+        "class": "sidebar_heading",
+        "settings": ["Seti_bold_heading"],
+        "font.bold": true
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["Seti_sb_small_padding"],
+        "row_padding": [8,3]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["Seti_sb_big_padding"],
+        "row_padding": [8,10]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["Seti_sb_tree_med"],
+        "indent": 15,
+        "indent_offset": 15,
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["Seti_sb_tree_small"],
+        "indent": 15,
+        "indent_offset": 10,
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["Seti_sb_tree_tiny"],
+        "indent": 15,
+        "row_padding": [3,7],
+        "indent_offset": 1,
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["Seti_sb_tree_miny"],
+        "indent": 12,
+        "row_padding": 5,
+        "indent_offset": 15,
+    },
     {
         "class": "tree_row",
         "settings": ["Seti_alt_tree_row"],
@@ -3390,5 +3411,5 @@
         "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
         "layer0.texture": "Seti_UI/Main/close@2x.png",
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-    },
+    }
 ]
