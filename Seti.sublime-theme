@@ -971,7 +971,7 @@
     {
         "class": "disclosure_button_control",
         "settings": ["Seti_show_group_arrows"],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": 1.0
     },
     {
         "class": "sidebar_tree",
