@@ -64,6 +64,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_purple_tab"
   "Seti_teal_tab"
   "Seti_lime_tab"
+  "Seti_seablue_tab"
 
 // tab close button ("Seti_accent": false)
   "Seti_yellow_tabclose"
@@ -92,6 +93,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_purple_scrollbar"
   "Seti_teal_scrollbar"
   "Seti_lime_scrollbar"
+  "Seti_seablue_scrollbar"
 
 // sidebar
   "Seti_ClosedFolder_same"         // same icon as the Opened_folder
@@ -135,6 +137,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_purple_map"
   "Seti_teal_map"
   "Seti_lime_map"
+  "Seti_seablue_map"
 
 // status bar
   "Seti_yellow_statusbar"
@@ -143,6 +146,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_purple_statusbar"
   "Seti_teal_statusbar"
   "Seti_lime_statusbar"
+  "Seti_seablue_statusbar"
 
 // accents
   "Seti_accent"                    // general options for accents
@@ -152,6 +156,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_accent_purple"
   "Seti_accent_teal"
   "Seti_accent_lime"
+  "Seti_accent_seablue"
 ```
 
 ## Credits

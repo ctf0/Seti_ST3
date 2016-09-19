@@ -3281,6 +3281,260 @@
         "layer0.tint":[0,150,136]
     },
 
+    // seablue
+    // ////////////////////////////////////////////////////////
+    {
+        "class": "tabset_control",
+        "settings": ["Seti_accent_seablue"],
+        "layer0.texture": "Seti_UI/Main/accent/seablue/tabset-background.png",
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_accent_seablue"],
+        "layer0.texture": "Seti_UI/Main/accent/seablue/tab-inactive.png",
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_accent_seablue"],
+        "attributes": ["selected"],
+        "layer0.texture": "Seti_UI/Main/accent/seablue/tab-active.png"
+    },
+    {
+        "class": "close_button",
+        "settings": ["Seti_accent_seablue"],
+        "layer0.tint": [0,113,242],
+    },
+    {
+        "class": "sidebar_container",
+        "settings": ["Seti_accent_seablue", "Seti_top_heading_big"],
+        "layer0.tint": [0,113,242],
+        "layer0.inner_margin": [0, 54, 0, 0],
+        "layer1.texture": "Seti_UI/Main/accent/seablue/sidebar_heading.png",
+        "layer1.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer1.inner_margin": [120, 54, 0, 0],
+        "content_margin": [0, 54, 0, 0]
+    },
+    {
+        "class": "sidebar_container",
+        "settings": ["Seti_accent_seablue", "Seti_top_heading_small"],
+        "layer0.tint": [0,113,242],
+        "layer0.inner_margin": [0, 34, 0, 0],
+        "layer1.texture": "Seti_UI/Main/accent/seablue/sidebar_heading_small.png",
+        "layer1.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer1.inner_margin": [120, 34, 0, 0],
+        "content_margin": [0, 34, 0, 0]
+    },
+    {
+        "class": "tree_row",
+        "settings": ["Seti_accent_seablue", "Seti_alt_tree_row"],
+        "layer0.tint": null,
+        "layer0.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer1.texture": "Seti_UI/Main/accent/seablue/tree_highlight.png",
+        "layer1.opacity": { "target": 0.0, "speed": 3.0, "interpolation": "smoothstep" },
+        "layer1.inner_margin": [22, 5, 0, 5]
+    },
+    {
+        "class": "tree_row",
+        "settings": ["Seti_accent_seablue", "Seti_alt_tree_row"],
+        "attributes": ["selected"],
+        "layer0.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer1.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_seablue", "!Seti_ClosedFolder_dots"],
+        "layer0.texture": "Seti_UI/Main/accent/seablue/folder@2x.png"
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_seablue", "Seti_ClosedFolder_anim"],
+        "content_margin": 8,
+        "layer0.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer1.texture": "Seti_UI/Main/accent/seablue/folder@2x.png",
+        "layer1.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer2.texture": "Seti_UI/Main/accent/seablue/folder@2x.png",
+        "layer2.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.texture": "Seti_UI/Main/folder_opened@2x.png",
+        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_seablue", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
+        "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer2.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.tint": [0,113,242],
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_seablue", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
+        "layer2.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer2.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer2.tint": [0,113,242],
+        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_seablue", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+        "layer3.texture": {
+            "keyframes": [
+                "Seti_UI/Main/folder_opened_hover-7@2x.png",
+                "Seti_UI/Main/folder_opened_hover-6@2x.png",
+                "Seti_UI/Main/folder_opened_hover-5@2x.png",
+                "Seti_UI/Main/folder_opened_hover-4@2x.png",
+                "Seti_UI/Main/folder_opened_hover-3@2x.png",
+                "Seti_UI/Main/folder_opened_hover-2@2x.png",
+                "Seti_UI/Main/folder_opened_hover-1@2x.png",
+                "Seti_UI/Main/folder_opened_hover-0@2x.png",
+            ],
+            "loop": false,
+            "frame_time": 0.015
+        },
+        "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer2.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.tint": [0,113,242],
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["Seti_accent_seablue", "Seti_ClosedFolder_anim"],
+        "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
+        "layer1.texture": "Seti_UI/Main/folder@2x.png",
+    },
+    {
+        "class": "panel_button_control",
+        "settings": ["Seti_accent_seablue"],
+        "layer0.tint": [0,118,255],
+    },
+    {
+        "class": "icon_regex",
+        "settings": ["Seti_accent_seablue"],
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [0,118,255]
+    },
+    {
+        "class": "icon_case",
+        "settings": ["Seti_accent_seablue"],
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [0,118,255]
+    },
+    {
+        "class": "icon_whole_word",
+        "settings": ["Seti_accent_seablue"],
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [0,118,255]
+    },
+    {
+        "class": "icon_context",
+        "settings": ["Seti_accent_seablue"],
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [0,118,255]
+    },
+    {
+        "class": "icon_use_buffer",
+        "settings": ["Seti_accent_seablue"],
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [0,118,255]
+    },
+    {
+        "class": "icon_reverse",
+        "settings": ["Seti_accent_seablue"],
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [0,118,255]
+    },
+    {
+        "class": "icon_wrap",
+        "settings": ["Seti_accent_seablue"],
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [0,118,255]
+    },
+    {
+        "class": "icon_in_selection",
+        "settings": ["Seti_accent_seablue"],
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [0,118,255]
+    },
+    {
+        "class": "icon_preserve_case",
+        "settings": ["Seti_accent_seablue"],
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [0,118,255]
+    },
+    {
+        "class": "icon_highlight",
+        "settings": ["Seti_accent_seablue"],
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [0,118,255]
+    },
+    {
+        "class": "button_control",
+        "settings": ["Seti_accent_seablue"],
+        "attributes": ["pressed"],
+        "layer0.tint": [0,118,255]
+    },
+
+    // tabs
+    {
+        "class": "tab_control",
+        "settings": ["Seti_seablue_tab","!Seti_accent_seablue"],
+        "attributes": ["selected"],
+        "layer0.texture": "Seti_UI/Main/accent/seablue/orig/tab-active.png"
+    },
+    // status bar
+    {
+        "class": "label_control",
+        "settings": ["Seti_seablue_statusbar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [0,118,255],
+        "font.bold": false
+    },
+    {
+        "class": "panel_button_control",
+        "settings": ["Seti_seablue_statusbar"],
+        "layer0.tint": [0,118,255],
+    },
+    // map
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_seablue_map"],
+        "viewport_color": [0,118,255,40]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["Seti_seablue_map"],
+        "attributes": ["hover"],
+        "viewport_color": [0,118,255,20]
+    },
+    // scrollbar
+    {
+        "class": "puck_control",
+        "settings": ["Seti_seablue_scrollbar"],
+        "layer0.tint":[0,118,255]
+    },
+    {
+        "class": "puck_control",
+        "settings": ["Seti_seablue_scrollbar"],
+        "attributes": ["horizontal"],
+        "layer0.tint":[0,118,255]
+    },
+
     // general options
     // ////////////////////////////////////////////////////////
     {
