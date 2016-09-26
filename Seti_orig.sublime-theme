@@ -3676,10 +3676,11 @@
         "settings": ["Seti_accent"],
         "content_margin": 0,
         "layer0.texture": "Seti_UI/Main/close@2x.png",
-        "layer0.opacity": { "target": 0.5, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
         "layer1.texture": "Seti_UI/Main/close@2x.png",
-        "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer1.tint": [255,255,255],
+        "layer1.opacity": 0
     },
     {
         "class": "tab_close_button",
@@ -3693,7 +3694,7 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Seti_UI/Main/circle@2x.png",
         "layer0.tint": [255,255,255],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
@@ -3701,21 +3702,21 @@
         "settings": ["!show_tab_close_buttons"],
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "content_margin": 8,
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
         "settings": ["Seti_accent"],
         "attributes": ["hover"],
-        "layer0.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "layer1.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer0.opacity": 0,
+        "layer1.opacity": 1
     },
     {
         "class": "tab_close_button",
         "settings": ["Seti_accent"],
         "attributes": ["hover", "dirty"],
-        "layer0.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "layer1.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer0.opacity": 0,
+        "layer1.opacity": 1
     },
     {
         "class": "icon_folder",

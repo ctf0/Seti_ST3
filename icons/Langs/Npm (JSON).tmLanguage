@@ -8,6 +8,7 @@
 	<array>
 		<string>package.json</string>
 		<string>.npmignore</string>
+		<string>.npmrc</string>
 	</array>
 	<key>patterns</key>
 	<array>
