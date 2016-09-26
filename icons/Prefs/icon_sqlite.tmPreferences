@@ -7,7 +7,7 @@
         <key>settings</key>
         <dict>
             <key>icon</key>
-            <string>file_type_sql</string>
+            <string>file_type_sqlite</string>
         </dict>
     </dict>
 </plist>
