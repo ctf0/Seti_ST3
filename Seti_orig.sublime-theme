@@ -8,8 +8,7 @@
         "layer0.texture": "Seti_UI/Main/tabset-background.png",
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": [4,0,4,0],
-        "tab_overlap": 1,
+        "content_margin": [4,0],
         "tab_overlap": 0,
         "tab_width": 190,
         "tab_min_width": 95,
@@ -135,7 +134,7 @@
         "fade": true,
         "font.size": 11,
         "font.bold": false,
-        "fg": [212,215,214]
+        "fg": [212,215,214],
     },
     {
         "class": "tab_label",
@@ -1060,7 +1059,6 @@
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "content_margin": 8
     },
-
     // remove all sidebar icons
     {
         "class": "icon_file_type",
