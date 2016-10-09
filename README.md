@@ -117,6 +117,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_sidebar_font_Fira"         // (issues/115)
   "Seti_sidebar_font_Hack"         // (issues/115)
   "Seti_sidebar_font_Source"       // (issues/115)
+  "Seti_sidebar_font_Roboto"
   "Seti_heading_font_12"           // heading font size = 12
   "Seti_bold_heading"              // make heading font in bold
   "Seti_no_heading"                // remove the "folder,group 1,etc.."

@@ -838,6 +838,11 @@
         "settings": ["Seti_sidebar_font_Source"],
         "font.face": "Source Code Pro"
     },
+    {
+        "class": "sidebar_label",
+        "settings": ["Seti_sidebar_font_Roboto"],
+        "font.face": "Roboto mono"
+    },
 
     //========================================================
     //  SIDEBAR - OPEN FILE ICONS
