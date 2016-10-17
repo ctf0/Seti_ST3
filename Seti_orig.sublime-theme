@@ -56,7 +56,7 @@
         "class": "tab_control",
         "attributes": ["hover"],
         "layer0.texture": "Seti_UI/Main/tab-active.png",
-        "layer0.opacity": 0.5
+        "layer0.opacity": 0.75
     },
     {
         "class": "tab_control",
@@ -1636,7 +1636,7 @@
         "settings": ["Seti_accent_yellow"],
         "attributes": ["hover"],
         "layer0.texture": "Seti_UI/Main/accent/yellow/tab-active.png",
-        "layer0.opacity": 0.5
+        "layer0.opacity": 0.75
     },
     {
         "class": "tab_control",
@@ -1864,6 +1864,20 @@
     {
         "class": "tab_control",
         "settings": ["Seti_yellow_tab","!Seti_accent_yellow"],
+        "attributes": ["hover"],
+        "layer0.texture": "Seti_UI/Main/accent/yellow/orig/tab-active.png",
+        "layer0.opacity": 0.75
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_yellow_tab","!Seti_accent_yellow"],
+        "attributes": ["selected","hover"],
+        "layer0.texture": "Seti_UI/Main/accent/yellow/orig/tab-active.png",
+        "layer0.opacity": 1
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_yellow_tab","!Seti_accent_yellow"],
         "attributes": ["selected"],
         "layer0.texture": "Seti_UI/Main/accent/yellow/orig/tab-active.png"
     },
@@ -1946,7 +1960,7 @@
         "settings": ["Seti_accent_red"],
         "attributes": ["hover"],
         "layer0.texture": "Seti_UI/Main/accent/red/tab-active.png",
-        "layer0.opacity": 0.5
+        "layer0.opacity": 0.75
     },
     {
         "class": "tab_control",
@@ -2174,6 +2188,20 @@
     {
         "class": "tab_control",
         "settings": ["Seti_red_tab","!Seti_accent_red"],
+        "attributes": ["hover"],
+        "layer0.texture": "Seti_UI/Main/accent/red/orig/tab-active.png",
+        "layer0.opacity": 0.75
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_red_tab","!Seti_accent_red"],
+        "attributes": ["selected","hover"],
+        "layer0.texture": "Seti_UI/Main/accent/red/orig/tab-active.png",
+        "layer0.opacity": 1
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_red_tab","!Seti_accent_red"],
         "attributes": ["selected"],
         "layer0.texture": "Seti_UI/Main/accent/red/orig/tab-active.png"
     },
@@ -2256,7 +2284,7 @@
         "settings": ["Seti_accent_purple"],
         "attributes": ["hover"],
         "layer0.texture": "Seti_UI/Main/accent/purple/tab-active.png",
-        "layer0.opacity": 0.5
+        "layer0.opacity": 0.75
     },
     {
         "class": "tab_control",
@@ -2484,6 +2512,20 @@
     {
         "class": "tab_control",
         "settings": ["Seti_purple_tab","!Seti_accent_purple"],
+        "attributes": ["hover"],
+        "layer0.texture": "Seti_UI/Main/accent/purple/orig/tab-active.png",
+        "layer0.opacity": 0.75
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_purple_tab","!Seti_accent_purple"],
+        "attributes": ["selected","hover"],
+        "layer0.texture": "Seti_UI/Main/accent/purple/orig/tab-active.png",
+        "layer0.opacity": 1
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_purple_tab","!Seti_accent_purple"],
         "attributes": ["selected"],
         "layer0.texture": "Seti_UI/Main/accent/purple/orig/tab-active.png"
     },
@@ -2566,7 +2608,7 @@
         "settings": ["Seti_accent_lime"],
         "attributes": ["hover"],
         "layer0.texture": "Seti_UI/Main/accent/lime/tab-active.png",
-        "layer0.opacity": 0.5
+        "layer0.opacity": 0.75
     },
     {
         "class": "tab_control",
@@ -2794,6 +2836,20 @@
     {
         "class": "tab_control",
         "settings": ["Seti_lime_tab","!Seti_accent_lime"],
+        "attributes": ["hover"],
+        "layer0.texture": "Seti_UI/Main/accent/lime/orig/tab-active.png",
+        "layer0.opacity": 0.75
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_lime_tab","!Seti_accent_lime"],
+        "attributes": ["selected","hover"],
+        "layer0.texture": "Seti_UI/Main/accent/lime/orig/tab-active.png",
+        "layer0.opacity": 1
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_lime_tab","!Seti_accent_lime"],
         "attributes": ["selected"],
         "layer0.texture": "Seti_UI/Main/accent/lime/orig/tab-active.png"
     },
@@ -2876,7 +2932,7 @@
         "settings": ["Seti_accent_indigo"],
         "attributes": ["hover"],
         "layer0.texture": "Seti_UI/Main/accent/indigo/tab-active.png",
-        "layer0.opacity": 0.5
+        "layer0.opacity": 0.75
     },
     {
         "class": "tab_control",
@@ -3104,6 +3160,20 @@
     {
         "class": "tab_control",
         "settings": ["Seti_indigo_tab","!Seti_accent_indigo"],
+        "attributes": ["hover"],
+        "layer0.texture": "Seti_UI/Main/accent/indigo/orig/tab-active.png",
+        "layer0.opacity": 0.75
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_indigo_tab","!Seti_accent_indigo"],
+        "attributes": ["selected","hover"],
+        "layer0.texture": "Seti_UI/Main/accent/indigo/orig/tab-active.png",
+        "layer0.opacity": 1
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_indigo_tab","!Seti_accent_indigo"],
         "attributes": ["selected"],
         "layer0.texture": "Seti_UI/Main/accent/indigo/orig/tab-active.png"
     },
@@ -3186,7 +3256,7 @@
         "settings": ["Seti_accent_teal"],
         "attributes": ["hover"],
         "layer0.texture": "Seti_UI/Main/accent/teal/tab-active.png",
-        "layer0.opacity": 0.5
+        "layer0.opacity": 0.75
     },
     {
         "class": "tab_control",
@@ -3411,6 +3481,20 @@
     },
 
     // tabs
+    {
+        "class": "tab_control",
+        "settings": ["Seti_teal_tab","!Seti_accent_teal"],
+        "attributes": ["hover"],
+        "layer0.texture": "Seti_UI/Main/accent/teal/orig/tab-active.png",
+        "layer0.opacity": 0.75
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_teal_tab","!Seti_accent_teal"],
+        "attributes": ["selected","hover"],
+        "layer0.texture": "Seti_UI/Main/accent/teal/orig/tab-active.png",
+        "layer0.opacity": 1
+    },
     {
         "class": "tab_control",
         "settings": ["Seti_teal_tab","!Seti_accent_teal"],
@@ -3721,6 +3805,20 @@
     },
 
     // tabs
+    {
+        "class": "tab_control",
+        "settings": ["Seti_seablue_tab","!Seti_accent_seablue"],
+        "attributes": ["hover"],
+        "layer0.texture": "Seti_UI/Main/accent/seablue/orig/tab-active.png",
+        "layer0.opacity": 0.75
+    },
+    {
+        "class": "tab_control",
+        "settings": ["Seti_seablue_tab","!Seti_accent_seablue"],
+        "attributes": ["selected","hover"],
+        "layer0.texture": "Seti_UI/Main/accent/seablue/orig/tab-active.png",
+        "layer0.opacity": 1
+    },
     {
         "class": "tab_control",
         "settings": ["Seti_seablue_tab","!Seti_accent_seablue"],
