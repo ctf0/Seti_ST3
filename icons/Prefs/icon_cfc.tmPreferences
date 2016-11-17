@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>source.cfscript.cfc</string>
+    <string>source.cfscript.cfc, source.cfml.script</string>
     <key>settings</key>
     <dict>
         <key>icon</key>
