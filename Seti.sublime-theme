@@ -984,7 +984,7 @@
     {
         "class": "icon_folder",
         "layer0.texture": "Seti_UI/Main/folder@2x.png",
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "content_margin": [8,8]
     },
@@ -993,7 +993,7 @@
         "class": "icon_folder",
         "settings": ["Seti_ClosedFolder_same"],
         "layer0.texture": "Seti_UI/Main/folder_open@2x.png",
-        "layer0.opacity": { "target": 0.5, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": 0.5,
         "layer0.inner_margin": -2
     },
     // Sidebar folder opened
@@ -1002,7 +1002,7 @@
         "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Seti_UI/Main/folder_open@2x.png",
         "layer0.inner_margin": -5,
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": 1,
         "content_margin": [8,0],
     },
     // Options
