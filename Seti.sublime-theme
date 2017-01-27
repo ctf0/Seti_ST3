@@ -326,6 +326,11 @@
         "class": "fold_button_control",
         "attributes": ["expanded","hover"]
     },
+    {
+        "class": "fold_button_control",
+        "settings": ["Seti_dark_fold_button"],
+        "layer0.tint": [0, 0, 0]
+    },
 
     //========================================================
     //  STANDARD SCROLLBARS
