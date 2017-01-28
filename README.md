@@ -163,10 +163,9 @@ Activate the `Theme` by modifying your user preferences file, which you can find
 ## Credits
 
 * Ported based on `Glacier` by [joeyfigaro](https://github.com/joeyfigaro/glacier-theme) among many others.
-* Special thanx for [Anthony Garand](https://github.com/garand) for the widget files (took me 2 days to understand what they actually do O_o and fix the god dame text input thing).
+* Special thanx for [Anthony Garand](https://github.com/garand) for the widget files (took me 2 days to understand what they actually do :unamused: and fix the god dame text input thing).
 * `ScopeHunter` by [facelessuser](https://github.com/facelessuser) "YOU ROCK".
 * `ColorSchemeEditor` by [Borislav Peev](https://github.com/bobef) "HOF".
-* `Neon` by [Matt Morrison](https://github.com/MattDMo/Neon-color-scheme) "HOF".
 * `Cyanide` by [lefoy](https://github.com/lefoy/cyanide-theme) "HOF".
 
 ## Differences from the original
