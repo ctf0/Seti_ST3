@@ -30,7 +30,7 @@ Theme is listed as [Seti_UI](https://packagecontrol.io/packages/Seti_UI) on Will
 
 ## Setup
 
-Activate the `Theme` by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in Sublime Text or use `Schemr` & `Themr` by [Ben Weier](https://github.com/benweier).
+Activate the `Theme` by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in Sublime Text or use [Schemr](https://packagecontrol.io/packages/Schemr) & [Themr](https://packagecontrol.io/packages/Themr) by **Ben Weier**.
 
 ### Example settings
 
@@ -96,10 +96,10 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_seablue_scrollbar"
 
 // sidebar
-  "Seti_ClosedFolder_same"         // same icon as the Opened_folder
+  "Seti_ClosedFolder_same"         // same icon as the "Opened folder"
   "Seti_ClosedFolder_remove"       // remove closed_folder icon
   "Seti_ClosedFolder_dots"         // change closed_folder icon to dot
-  "Seti_ClosedFolder_anim"         // animate sidebar folder icons (available with accents)
+  "Seti_ClosedFolder_anim"         // animate sidebar folder icons
   "Seti_sb_small_padding"          // sidebar entries padding = 3
   "Seti_sb_big_padding"            // sidebar entries padding = 10
   "Seti_sb_tree_med"               // sidebar tree padding = 15
@@ -129,8 +129,9 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_pad_5"                     // use with line_padding_bottom / line_padding_top = 5
   "Seti_pad_3"                     // use with line_padding_bottom / line_padding_top = 3
   "Seti_panel_nrml"                // remove the padding top/down from quick panel
+  "Seti_dark_fold_button"          // change the fold arrow to black
 
-// map shade
+// map
   "Seti_yellow_map"
   "Seti_red_map"
   "Seti_indigo_map"
