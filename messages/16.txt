@@ -1,0 +1,12 @@
+v16 (19-05-2017)
+-------------------
+
+1- remove 'fold.png' as ST now wont respect it and will use the default instead.
+2- fixed the sidebar closed/opened folder icon size.
+3- fixed tab list icon.
+4- replaced the tabset left/right arrows with the default theme ones because the slim arrows were being pixelated after the latest dev update.
+   also note that enlarging the icons can also cause the same thing, as a temp solution use
+   (
+        "Seti_no_scroll_icons": true,
+        "mouse_wheel_tabswitch": true,
+    )

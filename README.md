@@ -53,7 +53,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_tabs_no_min_width"         // (issues/223)
   "Seti_tab_font_12"               // tab font size = 12
   "mouse_wheel_tabswitch"          // scroll through opened tabs
-  "Seti_no_scroll_icons"           // remove the l/r arrows & the drop down list button, effective when ("enable_tab_scrolling": true)
+  "Seti_no_scroll_icons"           // remove the l/r arrows, effective when ("enable_tab_scrolling": true)
   "Seti_no_under_bar"              // remove the small colored bar under the un-saved tabs "not available with accents"
   "Seti_bold_slctdtab_labels"      // make active tab label font in bold
 
