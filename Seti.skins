@@ -1,0 +1,34 @@
+{
+    "Seti":
+    {
+        "Preferences":
+        {
+            "color_scheme": "Seti.tmTheme",
+            "theme": "Seti.sublime-theme"
+        }
+    },
+    "Seti_orig":
+    {
+        "Preferences":
+        {
+            "color_scheme": "Seti_orig.tmTheme",
+            "theme": "Seti_orig.sublime-theme"
+        }
+    },
+    "Seti_Monokai":
+    {
+        "Preferences":
+        {
+            "color_scheme": "Seti_monokai.tmTheme",
+            "theme": "Seti.sublime-theme"
+        }
+    },
+    "Seti_orig_Monokai":
+    {
+        "Preferences":
+        {
+            "color_scheme": "Seti_monokai.tmTheme",
+            "theme": "Seti_orig.sublime-theme"
+        }
+    }
+}
