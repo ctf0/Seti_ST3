@@ -3335,5 +3335,13 @@
         "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Seti_UI/Main/folder@2x.png",
         "content_margin": 8
-    }
+    },
+
+    // app title bar
+    {
+        "class": "title_bar",
+        "settings": ["!Seti_use_system_title_bar"],
+        "fg": [255, 255, 255],
+        "bg": [24, 29, 34]
+   }
 ]

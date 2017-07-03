@@ -3980,5 +3980,13 @@
         "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
         "layer0.texture": "Seti_UI/Main/close@2x.png",
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-    }
+    },
+
+    // app title bar
+    {
+        "class": "title_bar",
+        "settings": ["!Seti_use_system_title_bar"],
+        "fg": [255, 255, 255],
+        "bg": [24, 29, 34]
+   }
 ]
