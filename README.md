@@ -47,15 +47,16 @@ Activate the `Theme` by modifying your user preferences file, which you can find
 
 ```js
 // tabs
-  "Seti_tabs_small"                // tabs height = 35
-  "Seti_tabs_med"                  // tabs height = 40
-  "Seti_tabs_big"                  // tabs height = 54
-  "Seti_tabs_no_min_width"         // (issues/223)
-  "Seti_tab_font_12"               // tab font size = 12
-  "mouse_wheel_tabswitch"          // scroll through opened tabs
-  "Seti_no_scroll_icons"           // remove the l/r arrows, effective when ("enable_tab_scrolling": true)
-  "Seti_no_under_bar"              // remove the small colored bar under the un-saved tabs "not available with accents"
-  "Seti_bold_slctdtab_labels"      // make active tab label font in bold
+  "Seti_tabs_small"                   // tabs height = 35
+  "Seti_tabs_med"                     // tabs height = 40
+  "Seti_tabs_big"                     // tabs height = 54
+  "Seti_tabs_no_min_width"            // (issues/223)
+  "Seti_tab_font_12"                  // tab font size = 12
+  "mouse_wheel_tabswitch"             // scroll through opened tabs
+  "Seti_no_scroll_icons"              // remove the l/r arrows, effective when ("enable_tab_scrolling": true)
+  "Seti_no_under_bar"                 // remove the small colored bar under the un-saved tabs "not available with accents"
+  "Seti_bold_slctdtab_labels"         // make active tab label font in bold
+  "Seti_use_system_title_bar": false, // use the new tabset feature (>=3127)
 
 // tabs unsaved bar ("Seti_accent_*": false)
   "Seti_yellow_tab"

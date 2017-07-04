@@ -1,0 +1,4 @@
+v17 (04-07-2017)
+-------------------
+
+1- add support to new "title_bar" available after build >=3127. thanx to [fathergoose](https://github.com/fathergoose)

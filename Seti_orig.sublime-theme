@@ -41,6 +41,13 @@
         "settings": ["Seti_tabs_no_min_width"],
         "tab_min_width": 0
     },
+    // app title bar
+    {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar"],
+         "fg": [255, 255, 255],
+         "bg": [13, 16, 17]
+    },
 
     // Tab element
     {
@@ -1632,6 +1639,12 @@
         "layer0.texture": "Seti_UI/Main/accent/yellow/tabset-background.png",
     },
     {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar", "Seti_accent_yellow"],
+         "fg": [255, 255, 255],
+         "bg": [255,143,0]
+    },
+    {
         "class": "tab_control",
         "settings": ["Seti_accent_yellow"],
         "layer0.texture": "Seti_UI/Main/accent/yellow/tab-inactive.png",
@@ -1954,6 +1967,12 @@
         "class": "tabset_control",
         "settings": ["Seti_accent_red"],
         "layer0.texture": "Seti_UI/Main/accent/red/tabset-background.png",
+    },
+    {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar", "Seti_accent_red"],
+         "fg": [255, 255, 255],
+         "bg": [229,57,53]
     },
     {
         "class": "tab_control",
@@ -2280,6 +2299,12 @@
         "layer0.texture": "Seti_UI/Main/accent/purple/tabset-background.png",
     },
     {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar", "Seti_accent_purple"],
+         "fg": [255, 255, 255],
+         "bg": [156,39,176]
+    },
+    {
         "class": "tab_control",
         "settings": ["Seti_accent_purple"],
         "layer0.texture": "Seti_UI/Main/accent/purple/tab-inactive.png",
@@ -2602,6 +2627,12 @@
         "class": "tabset_control",
         "settings": ["Seti_accent_lime"],
         "layer0.texture": "Seti_UI/Main/accent/lime/tabset-background.png",
+    },
+    {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar", "Seti_accent_lime"],
+         "fg": [255, 255, 255],
+         "bg": [104,159,56]
     },
     {
         "class": "tab_control",
@@ -2928,6 +2959,12 @@
         "layer0.texture": "Seti_UI/Main/accent/indigo/tabset-background.png",
     },
     {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar", "Seti_accent_indigo"],
+         "fg": [255, 255, 255],
+         "bg": [57,73,171]
+    },
+    {
         "class": "tab_control",
         "settings": ["Seti_accent_indigo"],
         "layer0.texture": "Seti_UI/Main/accent/indigo/tab-inactive.png",
@@ -3252,6 +3289,12 @@
         "layer0.texture": "Seti_UI/Main/accent/teal/tabset-background.png",
     },
     {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar", "Seti_accent_teal"],
+         "fg": [255, 255, 255],
+         "bg": [0,137,123]
+    },
+    {
         "class": "tab_control",
         "settings": ["Seti_accent_teal"],
         "layer0.texture": "Seti_UI/Main/accent/teal/tab-inactive.png",
@@ -3574,6 +3617,12 @@
         "class": "tabset_control",
         "settings": ["Seti_accent_seablue"],
         "layer0.texture": "Seti_UI/Main/accent/seablue/tabset-background.png",
+    },
+    {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar", "Seti_accent_seablue"],
+         "fg": [255, 255, 255],
+         "bg": [0,113,242]
     },
     {
         "class": "tab_control",
@@ -3981,12 +4030,4 @@
         "layer0.texture": "Seti_UI/Main/close@2x.png",
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
     },
-
-    // app title bar
-    {
-        "class": "title_bar",
-        "settings": ["!Seti_use_system_title_bar"],
-        "fg": [255, 255, 255],
-        "bg": [24, 29, 34]
-   }
 ]

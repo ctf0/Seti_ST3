@@ -28,6 +28,13 @@
         "settings": ["Seti_tabs_no_min_width"],
         "tab_min_width": 0
     },
+    // app title bar
+    {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar"],
+         "fg": [255, 255, 255],
+         "bg": [13, 16, 17]
+    },
 
     // Tab element
     {
@@ -1912,6 +1919,12 @@
         "layer0.tint": [229,57,53],
     },
     {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar", "Seti_accent_red"],
+         "fg": [255, 255, 255],
+         "bg": [229,57,53]
+    },
+    {
         "class": "tree_row",
         "settings": ["Seti_accent_red", "Seti_alt_tree_row"],
         "layer0.tint": null,
@@ -2145,6 +2158,12 @@
         "class": "close_button",
         "settings": ["Seti_accent_purple"],
         "layer0.tint": [156,39,176],
+    },
+     {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar", "Seti_accent_purple"],
+         "fg": [255, 255, 255],
+         "bg": [156,39,176]
     },
     {
         "class": "tree_row",
@@ -2382,6 +2401,12 @@
         "layer0.tint": [104,159,56],
     },
     {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar", "Seti_accent_lime"],
+         "fg": [255, 255, 255],
+         "bg": [104,159,56]
+    },
+    {
         "class": "tree_row",
         "settings": ["Seti_accent_lime", "Seti_alt_tree_row"],
         "layer0.tint": null,
@@ -2615,6 +2640,12 @@
         "class": "close_button",
         "settings": ["Seti_accent_indigo"],
         "layer0.tint": [57,73,171],
+    },
+    {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar", "Seti_accent_indigo"],
+         "fg": [255, 255, 255],
+         "bg": [57,73,171]
     },
     {
         "class": "tree_row",
@@ -2852,6 +2883,12 @@
         "layer0.tint": [0,137,123],
     },
     {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar", "Seti_accent_teal"],
+         "fg": [255, 255, 255],
+         "bg": [0,137,123]
+    },
+    {
         "class": "tree_row",
         "settings": ["Seti_accent_teal", "Seti_alt_tree_row"],
         "layer0.tint": null,
@@ -3085,6 +3122,12 @@
         "class": "tabset_control",
         "settings": ["Seti_accent_seablue"],
         "layer0.texture": "Seti_UI/Main/accent/seablue/tabset-background.png",
+    },
+    {
+         "class": "title_bar",
+         "settings": ["!Seti_use_system_title_bar", "Seti_accent_seablue"],
+         "fg": [255, 255, 255],
+         "bg": [0,113,242]
     },
     {
         "class": "tab_control",
@@ -3335,13 +3378,5 @@
         "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Seti_UI/Main/folder@2x.png",
         "content_margin": 8
-    },
-
-    // app title bar
-    {
-        "class": "title_bar",
-        "settings": ["!Seti_use_system_title_bar"],
-        "fg": [255, 255, 255],
-        "bg": [24, 29, 34]
-   }
+    }
 ]
