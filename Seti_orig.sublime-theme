@@ -46,7 +46,7 @@
          "class": "title_bar",
          "settings": ["!Seti_use_system_title_bar"],
          "fg": [255, 255, 255],
-         "bg": [13, 16, 17]
+         "bg": [13, 16, 17,0.8]
     },
 
     // Tab element
@@ -1642,7 +1642,7 @@
          "class": "title_bar",
          "settings": ["!Seti_use_system_title_bar", "Seti_accent_yellow"],
          "fg": [255, 255, 255],
-         "bg": [255,143,0]
+         "bg": [255,143,0,0.9]
     },
     {
         "class": "tab_control",
@@ -1972,7 +1972,7 @@
          "class": "title_bar",
          "settings": ["!Seti_use_system_title_bar", "Seti_accent_red"],
          "fg": [255, 255, 255],
-         "bg": [229,57,53]
+         "bg": [229,57,53,0.9]
     },
     {
         "class": "tab_control",
@@ -2302,7 +2302,7 @@
          "class": "title_bar",
          "settings": ["!Seti_use_system_title_bar", "Seti_accent_purple"],
          "fg": [255, 255, 255],
-         "bg": [156,39,176]
+         "bg": [156,39,176,0.9]
     },
     {
         "class": "tab_control",
@@ -2632,7 +2632,7 @@
          "class": "title_bar",
          "settings": ["!Seti_use_system_title_bar", "Seti_accent_lime"],
          "fg": [255, 255, 255],
-         "bg": [104,159,56]
+         "bg": [104,159,56,0.9]
     },
     {
         "class": "tab_control",
@@ -2962,7 +2962,7 @@
          "class": "title_bar",
          "settings": ["!Seti_use_system_title_bar", "Seti_accent_indigo"],
          "fg": [255, 255, 255],
-         "bg": [57,73,171]
+         "bg": [57,73,171,0.9]
     },
     {
         "class": "tab_control",
@@ -3292,7 +3292,7 @@
          "class": "title_bar",
          "settings": ["!Seti_use_system_title_bar", "Seti_accent_teal"],
          "fg": [255, 255, 255],
-         "bg": [0,137,123]
+         "bg": [0,137,123,0.9]
     },
     {
         "class": "tab_control",
@@ -3622,7 +3622,7 @@
          "class": "title_bar",
          "settings": ["!Seti_use_system_title_bar", "Seti_accent_seablue"],
          "fg": [255, 255, 255],
-         "bg": [0,113,242]
+         "bg": [0,113,242,0.9]
     },
     {
         "class": "tab_control",
