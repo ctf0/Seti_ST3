@@ -194,7 +194,7 @@
     // Tab dropdown
     {
         "class": "show_tabs_dropdown_button",
-        "content_margin": [18,14],
+        "content_margin": [16,12],
         "layer0.texture": "Seti_UI/Main/tabset-list@2x.png",
         "layer0.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" },
         "layer1.texture": "Seti_UI/Main/tabset-list-hover@2x.png",
