@@ -1377,17 +1377,6 @@
         "settings": ["Seti_pad_5"],
         "row_padding": [5,8]
     },
-    {
-        "class": "fold_button_control",
-        "settings": ["Seti_pad_5"],
-        "layer0.texture": "Seti_UI/Main/fold-closed-5@2x.png"
-    },
-    {
-        "class": "fold_button_control",
-        "settings": ["Seti_pad_5"],
-        "attributes": ["expanded"],
-        "layer0.texture": "Seti_UI/Main/fold-open-5@2x.png"
-    },
     // 3
     {
         "class": "text_line_control",
@@ -1419,17 +1408,6 @@
         "class": "auto_complete",
         "settings": ["Seti_pad_3"],
         "row_padding": [5,5]
-    },
-    {
-        "class": "fold_button_control",
-        "settings": ["Seti_pad_3"],
-        "layer0.texture": "Seti_UI/Main/fold-closed-3@2x.png"
-    },
-    {
-        "class": "fold_button_control",
-        "settings": ["Seti_pad_3"],
-        "attributes": ["expanded"],
-        "layer0.texture": "Seti_UI/Main/fold-open-3@2x.png"
     },
     //
 
