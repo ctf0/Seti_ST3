@@ -485,13 +485,13 @@
 
     {
         "class": "progress_bar_control",  // = sheet_container_control
-        "layer0.tint": [94,235,184],
+        "layer0.tint": [25,31,33],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
         "class": "progress_gauge_control",
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "layer0.tint": [110, 29, 186],
+        "layer0.tint": [79, 153, 211],
         "content_margin": [0, 6]
     },
 
@@ -543,7 +543,6 @@
     {
         "class": "status_bar",
         "layer0.tint": [13,16,17],
-        // "layer0.tint": [15, 19, 23],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "content_margin": [20, 10, 10, 10]
     },
@@ -2268,6 +2267,12 @@
         "attributes": ["horizontal"],
         "layer0.tint":[244,67,54]
     },
+    // progress bar
+    {
+        "class": "progress_gauge_control",
+        "settings": ["Seti_accent_red"],
+        "layer0.tint":[244,67,54]
+    },
 
     // purple
     // ////////////////////////////////////////////////////////
@@ -2598,6 +2603,12 @@
         "attributes": ["horizontal"],
         "layer0.tint":[171,71,188]
     },
+    // progress bar
+    {
+        "class": "progress_gauge_control",
+        "settings": ["Seti_accent_red"],
+        "layer0.tint":[171,71,188],
+    },
 
     // lime
     // ////////////////////////////////////////////////////////
@@ -2926,6 +2937,12 @@
         "class": "puck_control",
         "settings": ["Seti_lime_scrollbar"],
         "attributes": ["horizontal"],
+        "layer0.tint":[124,179,76]
+    },
+    // progress bar
+    {
+        "class": "progress_gauge_control",
+        "settings": ["Seti_accent_red"],
         "layer0.tint":[124,179,76]
     },
 
@@ -3258,6 +3275,12 @@
         "attributes": ["horizontal"],
         "layer0.tint":[63,81,181]
     },
+    // progress bar
+    {
+        "class": "progress_gauge_control",
+        "settings": ["Seti_accent_red"],
+        "layer0.tint":[63,81,181]
+    },
 
     // teal
     // ////////////////////////////////////////////////////////
@@ -3588,6 +3611,12 @@
         "attributes": ["horizontal"],
         "layer0.tint":[0,150,136]
     },
+    // progress bar
+    {
+        "class": "progress_gauge_control",
+        "settings": ["Seti_accent_red"],
+        "layer0.tint":[0,150,136]
+    },
 
     // seablue
     // ////////////////////////////////////////////////////////
@@ -3892,6 +3921,12 @@
         "class": "puck_control",
         "settings": ["Seti_seablue_scrollbar"],
         "attributes": ["horizontal"],
+        "layer0.tint":[0,118,255]
+    },
+    // progress bar
+    {
+        "class": "progress_gauge_control",
+        "settings": ["Seti_accent_red"],
         "layer0.tint":[0,118,255]
     },
 

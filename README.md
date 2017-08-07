@@ -97,10 +97,14 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_seablue_scrollbar"
 
 // sidebar
+  // icons
   "Seti_ClosedFolder_same"         // same icon as the "Opened folder"
   "Seti_ClosedFolder_remove"       // remove closed_folder icon
   "Seti_ClosedFolder_dots"         // change closed_folder icon to dot
   "Seti_ClosedFolder_anim"         // animate sidebar folder icons
+  "Seti_sb_no_icons"               // (issues/133)
+  "Seti_sb_blank"                  // (issues/133)
+  // padding
   "Seti_sb_small_padding"          // sidebar entries padding = 3
   "Seti_sb_big_padding"            // sidebar entries padding = 10
   "Seti_sb_tree_med"               // sidebar tree padding = 15
@@ -108,8 +112,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_sb_tree_tiny"              // (issues/88)
   "Seti_sb_tree_miny"              // (issues/88)
   "Seti_show_group_arrows"         // show the folder/group arrows in sidebar
-  "Seti_sb_no_icons"               // (issues/133)
-  "Seti_sb_blank"                  // (issues/133)
+  // labels
   "Seti_bold_slctdfile_labels"     // make the sidebar selected file text in bold
   "Seti_sidebar_font_size_12"      // (issues/115)
   "Seti_sidebar_font_size_13"      // (issues/115)
@@ -119,6 +122,7 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_sidebar_font_Hack"         // (issues/115)
   "Seti_sidebar_font_Source"       // (issues/115)
   "Seti_heading_font_12"           // heading font size = 12
+  // heading
   "Seti_bold_heading"              // make heading font in bold
   "Seti_no_heading"                // remove the "folder,group 1,etc.."
   "Seti_top_heading_big"           // sidebar top header img big

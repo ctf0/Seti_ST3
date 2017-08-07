@@ -1,0 +1,4 @@
+v17.1 (08-07-2017)
+-------------------
+
+1- fix progress bar gauge coloring
