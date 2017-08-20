@@ -17,32 +17,15 @@
 
 ## Install
 
-### Via Package Control
-
 Theme is listed as [Seti_UI](https://packagecontrol.io/packages/Seti_UI) on Will Bond's [Sublime Package Control](https://packagecontrol.io).
-
-### Manual
-
-1. [Download the .zip](https://github.com/ctf0/Seti_ST3/archive/master.zip).
-2. Unzip and rename the folder to `Seti_UI`.
-3. Copy the folder into `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text.
-4. copy the (Resource/fold.png) "or edit it to ur liking" to `Packages/Theme - Default` to override the default code folding icon.
 
 ## Setup
 
-Activate the `Theme` by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in Sublime Text or use [Schemr](https://packagecontrol.io/packages/Schemr) & [Themr](https://packagecontrol.io/packages/Themr) by **Ben Weier**.
-
-### Example settings
-
-```json
-{
-    "theme": "Seti_orig.sublime-theme"
-}
-```
+Activate the `Theme` by calling `UI: Select Theme` from Sublime Text quick menu.
 
 #### Options
 
-`Themr` have an option call ``Themr: Toggle Theme Settings`` to change theme settings on-the-fly , or manually add what you need from below.
+open your Sublime Text "user settings" and add what you need from below.
 * note that not all the settings are available in both themes.
 
 ```js
@@ -164,14 +147,6 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_accent_lime"
   "Seti_accent_seablue"
 ```
-
-## Credits
-
-* Ported based on `Glacier` by [joeyfigaro](https://github.com/joeyfigaro/glacier-theme) among many others.
-* Special thanx for [Anthony Garand](https://github.com/garand) for the widget files (took me 2 days to understand what they actually do :unamused: and fix the god dame text input thing).
-* `ScopeHunter` by [facelessuser](https://github.com/facelessuser) "YOU ROCK".
-* `ColorSchemeEditor` by [Borislav Peev](https://github.com/bobef) "HOF".
-* `Cyanide` by [lefoy](https://github.com/lefoy/cyanide-theme) "HOF".
 
 ## Differences from the original
 
