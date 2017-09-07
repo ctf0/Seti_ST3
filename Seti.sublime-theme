@@ -1888,6 +1888,12 @@
         "attributes": ["horizontal"],
         "layer0.tint":[255,160,0]
     },
+    // progress bar
+    {
+        "class": "progress_gauge_control",
+        "settings": ["Seti_accent_yellow"],
+        "layer0.tint":[255,160,0]
+    },
 
     // red
     // ////////////////////////////////////////////////////////
@@ -2379,7 +2385,7 @@
     // progress bar
     {
         "class": "progress_gauge_control",
-        "settings": ["Seti_accent_red"],
+        "settings": ["Seti_accent_purple"],
         "layer0.tint":[171,71,188],
     },
 
@@ -2626,7 +2632,7 @@
     // progress bar
     {
         "class": "progress_gauge_control",
-        "settings": ["Seti_accent_red"],
+        "settings": ["Seti_accent_lime"],
         "layer0.tint":[124,179,76]
     },
 
@@ -2873,7 +2879,7 @@
     // progress bar
     {
         "class": "progress_gauge_control",
-        "settings": ["Seti_accent_red"],
+        "settings": ["Seti_accent_indigo"],
         "layer0.tint":[63,81,181]
     },
 
@@ -3120,7 +3126,7 @@
     // progress bar
     {
         "class": "progress_gauge_control",
-        "settings": ["Seti_accent_red"],
+        "settings": ["Seti_accent_teal"],
         "layer0.tint":[0,150,136]
     },
 
@@ -3374,6 +3380,12 @@
         "class": "puck_control",
         "settings": ["Seti_seablue_scrollbar"],
         "attributes": ["horizontal"],
+        "layer0.tint":[0,118,255]
+    },
+    // progress bar
+    {
+        "class": "progress_gauge_control",
+        "settings": ["Seti_accent_seablue"],
         "layer0.tint":[0,118,255]
     },
 
