@@ -152,9 +152,3 @@ open your Sublime Text "user settings" and add what you need from below.
 
 * No file icon in the opened tabs, ST lacks this.
 * Current line number highlight color, ST lacks this.
-
-## Issue A Ticket
-
-1. What version of ST are you using? (nothing lower than 3103).
-2. Have you restarted ST after you installed the theme?
-3. If you still have bad render, have you removed the cache folder (found right next to the packages folder)?
