@@ -774,7 +774,7 @@
         "class": "icon_folder_dup",
         "layer0.texture": "Seti_UI/Main/folder_dup@2x.png",
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": [8, 8]
+        "content_margin": 8
     },
     // Sidebar open files entry selected
     {
@@ -998,7 +998,7 @@
         "layer0.texture": "Seti_UI/Main/folder@2x.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "content_margin": 7
+        "content_margin": 8
     },
     // Options
     {
