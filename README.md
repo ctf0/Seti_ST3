@@ -39,7 +39,7 @@ open your Sublime Text "user settings" and add what you need from below.
   "Seti_no_scroll_icons"              // remove the l/r arrows, effective when ("enable_tab_scrolling": true)
   "Seti_no_under_bar"                 // remove the small colored bar under the un-saved tabs "not available with accents"
   "Seti_bold_slctdtab_labels"         // make active tab label font in bold
-  "Seti_use_system_title_bar": false, // use the new tabset feature (>=3127)
+  "Seti_use_system_title_bar"         // use the new tabset feature (>=3127)
 
 // tabs unsaved bar ("Seti_accent_*": false)
   "Seti_yellow_tab"
