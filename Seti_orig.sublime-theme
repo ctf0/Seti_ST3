@@ -98,13 +98,16 @@
     //========================================================
     //  TAB BUTTONS
     //--------------------------------------------------------
+
     // Tab close button
     {
         "class": "tab_close_button",
         "content_margin": 0,
+        // Normal
         "layer0.texture": "Seti_UI/Main/close@2x.png",
         "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
+        // Hover
         "layer1.texture": "Seti_UI/Main/close@2x.png",
         "layer1.tint": [138,157,166],
         "layer1.opacity": 0
@@ -209,7 +212,7 @@
     // Tab scroll left
     {
         "class": "scroll_tabs_left_button",
-        "content_margin": [9, 10],
+        "content_margin": [9,10],
         "layer0.texture": "Seti_UI/Main/tabset-left@2x.png",
         "layer0.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" },
         "layer1.texture": "Seti_UI/Main/tabset-left-hover@2x.png",
@@ -224,7 +227,7 @@
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
-        "content_margin": [9, 10],
+        "content_margin": [9,10],
         "layer0.texture": "Seti_UI/Main/tabset-right@2x.png",
         "layer0.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" },
         "layer1.texture": "Seti_UI/Main/tabset-right-hover@2x.png",
@@ -470,7 +473,7 @@
     },
 
     //========================================================
-    //  DIALOG
+    //  DIALOG / About
     //--------------------------------------------------------
 
     {
@@ -727,7 +730,7 @@
         "class": "icon_folder_dup",
         "layer0.texture": "Seti_UI/Main/folder_dup@2x.png",
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": [8, 8]
+        "content_margin": 8
     },
     // Sidebar open files entry selected
     {
@@ -742,7 +745,6 @@
         "settings": ["Seti_bold_slctdfile_labels"],
         "font.bold": true
     },
-
     // options
     {
         "class": "sidebar_heading",
@@ -962,7 +964,6 @@
         "layer0.opacity": 0.5,
         "layer0.inner_margin": -2
     },
-
     // Sidebar folder opened
     {
         "class": "icon_folder",

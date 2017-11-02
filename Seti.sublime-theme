@@ -14,7 +14,7 @@
         "tab_overlap": 17,
         "tab_width": 190,
         "tab_min_width": 100,
-        "tab_height": 35,
+        "tab_height": 40,
         "mouse_wheel_switch": false
     },
     // options
@@ -68,12 +68,12 @@
         "content_margin": 0,
         // Normal
         "layer0.texture": "Seti_UI/Main/close@2x.png",
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
         // Hover
         "layer1.texture": "Seti_UI/Main/close@2x.png",
         "layer1.tint": [138,157,166],
-        "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer1.opacity": 0
     },
     {
         "class": "tab_close_button",
@@ -84,15 +84,15 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Seti_UI/Main/circle@2x.png",
-        "layer0.tint":[0,137,244],
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer0.tint": [0,137,244],
+        "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
         "settings": ["!show_tab_close_buttons"],
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "content_margin": 8,
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
@@ -166,27 +166,26 @@
         "class": "tab_close_button",
         "attributes": ["hover"],
         "parents": [{"class": "tab_control", "attributes": ["file_medium"]}],
-        "layer0.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "layer1.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer0.opacity": 0,
+        "layer1.opacity": 1
     },
     {
         "class": "tab_close_button",
         "attributes": ["hover", "dirty"],
         "parents": [{"class": "tab_control", "attributes": ["file_medium"]}],
-        "layer0.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "layer1.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer0.opacity": 0,
+        "layer1.opacity": 1
     },
 
     //========================================================
     //  TAB LABELS
     //--------------------------------------------------------
-
     {
         "class": "tab_label",
         "fade": true,
         "font.size": 11,
         "font.bold": false,
-        "fg": [255, 255, 255, 160]
+        "fg": [212,215,214]
     },
     {
         "class": "tab_label",
@@ -244,39 +243,39 @@
         "class": "show_tabs_dropdown_button",
         "content_margin": [16,12],
         "layer0.texture": "Seti_UI/Main/tabset-list@2x.png",
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" },
         "layer1.texture": "Seti_UI/Main/tabset-list-hover@2x.png",
-        "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "layer1.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer0.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
+        "layer1.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" }
     },
     // Tab scroll left
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [9,10],
         "layer0.texture": "Seti_UI/Main/tabset-left@2x.png",
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" },
         "layer1.texture": "Seti_UI/Main/tabset-left-hover@2x.png",
-        "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer0.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "layer1.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer0.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
+        "layer1.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" }
     },
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [9,10],
         "layer0.texture": "Seti_UI/Main/tabset-right@2x.png",
-        "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer0.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" },
         "layer1.texture": "Seti_UI/Main/tabset-right-hover@2x.png",
-        "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
     },
     {
         "class": "scroll_tabs_right_button",
@@ -518,12 +517,12 @@
     },
 
     //========================================================
-    //  DIALOG
+    //  DIALOG / About
     //--------------------------------------------------------
 
     {
         "class": "dialog",
-        "layer0.tint": [238, 238, 238],
+        "layer0.tint": [13,16,17],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
 
@@ -727,7 +726,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [55,72,74],
+        "color": [200,200,200],
         "font.bold": false,
         "font.size": 11
     },
@@ -927,7 +926,7 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "layer0.texture": "Seti_UI/Main/circle@2x.png",
-        "layer0.tint":[0,137,244],
+        "layer0.tint": [0,137,244],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
@@ -935,14 +934,14 @@
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.texture": "Seti_UI/Main/circle@2x.png",
-        "layer0.tint":[0,137,244]
+        "layer0.tint": [0,137,244]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.texture": "Seti_UI/Main/circle@2x.png",
-        "layer0.tint":[0,137,244],
+        "layer0.tint": [0,137,244],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     // Sidebar file close hover
@@ -971,7 +970,7 @@
         "layer0.texture": "Seti_UI/Main/group-closed@2x.png",
         "layer0.inner_margin": 0,
         "layer0.tint": [200, 200, 200],
-        "layer0.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "layer0.opacity": 0 // hide sidebar arrows by default
     },
     // Sidebar group open
     {
@@ -1123,7 +1122,6 @@
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "content_margin": 8
     },
-
     // remove all sidebar icons
     {
         "class": "icon_file_type",
@@ -1692,7 +1690,7 @@
         "layer2.texture": "Seti_UI/Main/accent/yellow/folder@2x.png",
         "layer2.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer3.texture": "Seti_UI/Main/folder_opened@2x.png",
-        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
         "class": "icon_folder",
@@ -1724,7 +1722,7 @@
         "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer2.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer2.tint": [255,160,0],
-        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
         "class": "icon_folder",
@@ -1760,7 +1758,7 @@
         "settings": ["Seti_accent_yellow"],
         "layer0.tint": [255,160,0],
     },
-     {
+    {
         "class": "icon_regex",
         "settings": ["Seti_accent_yellow"],
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
@@ -1939,7 +1937,7 @@
         "layer2.texture": "Seti_UI/Main/accent/red/folder@2x.png",
         "layer2.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer3.texture": "Seti_UI/Main/folder_opened@2x.png",
-        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
         "class": "icon_folder",
@@ -1971,7 +1969,7 @@
         "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer2.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer2.tint": [229,57,53],
-        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
         "class": "icon_folder",
@@ -2149,7 +2147,7 @@
         "settings": ["Seti_accent_purple"],
         "layer0.tint": [156,39,176],
     },
-     {
+    {
          "class": "title_bar",
          "settings": ["!Seti_use_system_title_bar", "Seti_accent_purple"],
          "fg": [255, 255, 255],
@@ -2186,7 +2184,7 @@
         "layer2.texture": "Seti_UI/Main/accent/purple/folder@2x.png",
         "layer2.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer3.texture": "Seti_UI/Main/folder_opened@2x.png",
-        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
         "class": "icon_folder",
@@ -2218,7 +2216,7 @@
         "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer2.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer2.tint": [156,39,176],
-        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
         "class": "icon_folder",
@@ -2433,7 +2431,7 @@
         "layer2.texture": "Seti_UI/Main/accent/lime/folder@2x.png",
         "layer2.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer3.texture": "Seti_UI/Main/folder_opened@2x.png",
-        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
         "class": "icon_folder",
@@ -2465,7 +2463,7 @@
         "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer2.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer2.tint": [104,159,56],
-        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
         "class": "icon_folder",
@@ -2680,7 +2678,7 @@
         "layer2.texture": "Seti_UI/Main/accent/indigo/folder@2x.png",
         "layer2.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer3.texture": "Seti_UI/Main/folder_opened@2x.png",
-        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
         "class": "icon_folder",
@@ -2712,7 +2710,7 @@
         "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer2.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer2.tint": [57,73,171],
-        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
         "class": "icon_folder",
@@ -2927,7 +2925,7 @@
         "layer2.texture": "Seti_UI/Main/accent/teal/folder@2x.png",
         "layer2.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer3.texture": "Seti_UI/Main/folder_opened@2x.png",
-        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
         "class": "icon_folder",
@@ -2959,7 +2957,7 @@
         "layer1.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer2.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer2.tint": [0,137,123],
-        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+        "layer3.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
         "class": "icon_folder",
@@ -3398,5 +3396,12 @@
         "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Seti_UI/Main/folder@2x.png",
         "content_margin": 8
-    }
+    },
+    {
+        "class": "sidebar_heading",
+        "settings": ["Seti_accent"],
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "color": [255,255,255]
+    },
+
 ]
