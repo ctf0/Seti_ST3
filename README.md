@@ -32,7 +32,7 @@ open your Sublime Text "user settings" and add what you need from below.
 // tabs
   "Seti_tabs_small"                   // tabs height = 35
   "Seti_tabs_med"                     // tabs height = 40
-  "Seti_tabs_big"                     // tabs height = 54
+  "Seti_tabs_big"                     // tabs height = "seti=45" / "seti_orig=54"
   "Seti_tabs_no_min_width"            // (issues/223)
   "Seti_tab_font_12"                  // tab font size = 12
   "mouse_wheel_tabswitch"             // scroll through opened tabs

@@ -14,10 +14,20 @@
         "tab_overlap": 17,
         "tab_width": 190,
         "tab_min_width": 100,
-        "tab_height": 40,
+        "tab_height": 35,
         "mouse_wheel_switch": false
     },
     // options
+    {
+        "class": "tabset_control",
+        "settings": ["Seti_tabs_med"],
+        "tab_height": 40
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["Seti_tabs_big"],
+        "tab_height": 45
+    },
     {
         "class": "tabset_control",
         "settings": ["mouse_wheel_tabswitch"],
