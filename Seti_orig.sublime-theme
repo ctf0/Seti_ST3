@@ -245,12 +245,12 @@
         "settings": ["Seti_no_scroll_icons"],
         "content_margin": 0
     },
-    // {
-    //     "class": "show_tabs_dropdown_button",
-    //     "settings": ["Seti_no_scroll_icons"],
-    //     "content_margin": 0,
-    //     "layer0.inner_margin": 0
-    // },
+    {
+        "class": "show_tabs_dropdown_button",
+        "settings": ["Seti_no_scroll_icons"],
+        "content_margin": 0,
+        "layer0.inner_margin": 0
+    },
     {
         "class": "scroll_tabs_right_button",
         "settings": ["Seti_no_scroll_icons"],
