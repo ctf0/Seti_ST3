@@ -3997,7 +3997,6 @@
     {
         "class": "icon_folder",
         "settings": ["Seti_accent"],
-        "layer0.inner_margin": [-3,-3,-5,-3],
         "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Seti_UI/Main/folder@2x.png",
         "content_margin": 8
