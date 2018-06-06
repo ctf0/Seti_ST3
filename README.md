@@ -1,7 +1,6 @@
 # Seti
 
-[![Packagecontrol total downloads](https://img.shields.io/packagecontrol/dt/Seti_UI.svg)](https://packagecontrol.io/packages/Seti_UI/)
-[![Donate with Bitcoin](https://en.cryptobadges.io/badge/micro/16ri7Hh848bw7vxbEevKHFuHXLmsV8Vc9L)](https://en.cryptobadges.io/donate/16ri7Hh848bw7vxbEevKHFuHXLmsV8Vc9L)
+[![Packagecontrol total downloads](https://img.shields.io/packagecontrol/dt/Seti_UI.svg)](https://packagecontrol.io/packages/Seti_UI/) [![Donate with Bitcoin](https://en.cryptobadges.io/badge/micro/16ri7Hh848bw7vxbEevKHFuHXLmsV8Vc9L)](https://en.cryptobadges.io/donate/16ri7Hh848bw7vxbEevKHFuHXLmsV8Vc9L)
 
 `SublimeText 3 Theme` Port of Seti_UI by [jesseweed](https://github.com/jesseweed/seti-ui)
 
