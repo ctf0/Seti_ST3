@@ -1,6 +1,8 @@
-# Seti
-
-[![Packagecontrol total downloads](https://img.shields.io/packagecontrol/dt/Seti_UI.svg)](https://packagecontrol.io/packages/Seti_UI/)
+<h1 align="center">
+  Seti
+  <br>
+  <a href="https://packagecontrol.io/packages/Seti_UI/"><img src="https://img.shields.io/packagecontrol/dt/Seti_UI.svg" alt="Packagecontrol total downloads" /></a>
+</h1>
 
 `SublimeText 3 Theme` Port of Seti_UI by [jesseweed](https://github.com/jesseweed/seti-ui)
 
