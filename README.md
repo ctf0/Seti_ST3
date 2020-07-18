@@ -80,5 +80,5 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ## Issue A Ticket
  1. what version of ST are you using ? (nothing lower than 3062);
  2. have you restarted ST after you installed the theme ?
- 3. if you still have bad render ,have you removed the cashe folder ? (found right next to the packages folder)
+ 3. if you still have bad render ,have you removed the cashe folder ? (found right next to the packages folder);
  4. have you copied the files from the "Ext" folder to your User folder ?
