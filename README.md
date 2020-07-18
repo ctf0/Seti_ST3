@@ -71,7 +71,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 - Everything else is basically the same as the original except for a couple of UI colors.
 
 
-## TODO
+## TODOS
 
 1. Make the search input field shorter or "slimier" (depend on which side of the earth you are living).
 2. haven't tested on Retina ,so anyone with Retina Mac plz test and report any found bugs.
